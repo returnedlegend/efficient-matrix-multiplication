@@ -1,0 +1,469 @@
+{
+  "dictionary": {
+    "dictionary93-diversify": {
+      "rank_bound": 93,
+      "status": "SAT",
+      "control_status": "SAT",
+      "dictionary_size": 903
+    },
+    "dictionary-preprocessed-expanded": {
+      "rank_bound": 92,
+      "status": "UNKNOWN",
+      "control_status": "SAT",
+      "dictionary_size": 1091
+    },
+    "dictionary93-sampler": {
+      "rank_bound": 93,
+      "status": "NO_SAVED_RESULT",
+      "control_status": null,
+      "dictionary_size": 903
+    },
+    "dictionary-preprocessed903-smoke": {
+      "rank_bound": 92,
+      "status": "UNKNOWN",
+      "control_status": "SAT",
+      "dictionary_size": 903
+    },
+    "dictionary-loop": {
+      "rank_bound": null,
+      "status": "NO_SAVED_RESULT",
+      "control_status": null,
+      "dictionary_size": null
+    },
+    "dictionary-gl-expanded": {
+      "rank_bound": 92,
+      "status": "UNKNOWN",
+      "control_status": "SAT",
+      "dictionary_size": 1812
+    },
+    "dictionary-final-loop": {
+      "rank_bound": null,
+      "status": "NO_SAVED_RESULT",
+      "control_status": null,
+      "dictionary_size": null
+    },
+    "dictionary903": {
+      "rank_bound": 92,
+      "status": "UNSAT",
+      "control_status": "SAT",
+      "dictionary_size": 903
+    }
+  },
+  "utc": "2026-11-02T18:41:50.551727+00:00",
+  "native_steps": 5064066009,
+  "best_exact_rank": 93,
+  "native": [
+    {
+      "branch": "cyclic",
+      "phase": "phase-000",
+      "steps": 148481024,
+      "best_rank": 93,
+      "current_rank": 96,
+      "elapsed_seconds": 600.003,
+      "archive_size": 256
+    },
+    {
+      "branch": "cyclic",
+      "phase": "phase-001",
+      "steps": 148979456,
+      "best_rank": 93,
+      "current_rank": 95,
+      "elapsed_seconds": 600.002,
+      "archive_size": 256
+    },
+    {
+      "branch": "cyclic",
+      "phase": "phase-002",
+      "steps": 8494394,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 31.0138,
+      "archive_size": 26
+    },
+    {
+      "branch": "satseed-flips",
+      "phase": "phase-000",
+      "steps": 222401280,
+      "best_rank": 93,
+      "current_rank": 94,
+      "elapsed_seconds": 300.002,
+      "archive_size": 256
+    },
+    {
+      "branch": "satseed-flips",
+      "phase": "phase-001",
+      "steps": 221322752,
+      "best_rank": 93,
+      "current_rank": 94,
+      "elapsed_seconds": 300.003,
+      "archive_size": 256
+    },
+    {
+      "branch": "satseed-flips",
+      "phase": "phase-002",
+      "steps": 220569088,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 300.003,
+      "archive_size": 256
+    },
+    {
+      "branch": "satseed-flips",
+      "phase": "phase-003",
+      "steps": 218203136,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 300.002,
+      "archive_size": 256
+    },
+    {
+      "branch": "satseed-flips",
+      "phase": "phase-004",
+      "steps": 227699456,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 300.003,
+      "archive_size": 256
+    },
+    {
+      "branch": "satseed-flips",
+      "phase": "phase-005",
+      "steps": 220916480,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 300.004,
+      "archive_size": 256
+    },
+    {
+      "branch": "satseed-flips",
+      "phase": "phase-006",
+      "steps": 231383040,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 300.003,
+      "archive_size": 256
+    },
+    {
+      "branch": "satseed-flips",
+      "phase": "phase-007",
+      "steps": 233393152,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 300.003,
+      "archive_size": 256
+    },
+    {
+      "branch": "satseed-flips",
+      "phase": "phase-008",
+      "steps": 77746432,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 97.0027,
+      "archive_size": 243
+    },
+    {
+      "branch": "satseed-flips",
+      "phase": "phase-009",
+      "steps": 766720,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 1.00075,
+      "archive_size": 3
+    },
+    {
+      "branch": "unrestricted",
+      "phase": "phase-000",
+      "steps": 435797248,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 600.004,
+      "archive_size": 256
+    },
+    {
+      "branch": "unrestricted",
+      "phase": "phase-001",
+      "steps": 436328960,
+      "best_rank": 93,
+      "current_rank": 94,
+      "elapsed_seconds": 600.005,
+      "archive_size": 256
+    },
+    {
+      "branch": "unrestricted",
+      "phase": "phase-002",
+      "steps": 427618816,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 600.004,
+      "archive_size": 256
+    },
+    {
+      "branch": "unrestricted",
+      "phase": "phase-003",
+      "steps": 438034432,
+      "best_rank": 93,
+      "current_rank": 95,
+      "elapsed_seconds": 600.004,
+      "archive_size": 256
+    },
+    {
+      "branch": "unrestricted",
+      "phase": "phase-004",
+      "steps": 455185664,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 600.003,
+      "archive_size": 256
+    },
+    {
+      "branch": "unrestricted",
+      "phase": "phase-005",
+      "steps": 441061120,
+      "best_rank": 93,
+      "current_rank": 93,
+      "elapsed_seconds": 600.005,
+      "archive_size": 256
+    },
+    {
+      "branch": "unrestricted",
+      "phase": "phase-006",
+      "steps": 249683359,
+      "best_rank": 93,
+      "current_rank": 94,
+      "elapsed_seconds": 361.219,
+      "archive_size": 256
+    }
+  ],
+  "sat": {
+    "compact-lex": {
+      "attempts": 204,
+      "counters": {
+        "UNKNOWN": 122,
+        "UNSAT": 82,
+        "duplicate_cnfs": 68,
+        "flattening_rejected": 725,
+        "proposals": 997
+      },
+      "sources": 546,
+      "found": null
+    },
+    "compact-lex-wide": {
+      "attempts": 194,
+      "counters": {
+        "UNKNOWN": 191,
+        "UNSAT": 3,
+        "duplicate_cnfs": 52,
+        "flattening_rejected": 396,
+        "proposals": 642
+      },
+      "sources": 546,
+      "found": null
+    },
+    "compact-plain": {
+      "attempts": 51,
+      "counters": {
+        "UNKNOWN": 51,
+        "duplicate_cnfs": 10,
+        "flattening_rejected": 283,
+        "proposals": 344
+      },
+      "sources": 546,
+      "found": null
+    },
+    "koszul-cadical": {
+      "attempts": 77,
+      "counters": {
+        "UNKNOWN": 77,
+        "duplicate_cnfs": 23,
+        "flattening_rejected": 603,
+        "koszul_checked": 517,
+        "koszul_passed": 100,
+        "koszul_preprocessing_seconds": 9.245271927996782,
+        "koszul_rejected": 417,
+        "proposals": 1120
+      },
+      "sources": 546,
+      "found": null
+    },
+    "koszul-p2-cadical": {
+      "attempts": 269,
+      "counters": {
+        "UNKNOWN": 269,
+        "duplicate_cnfs": 33,
+        "flattening_rejected": 699,
+        "koszul_checked": 1357,
+        "koszul_passed": 302,
+        "koszul_preprocessing_seconds": 25.920465094002793,
+        "koszul_rejected": 1055,
+        "p2_all_modes_skipped": 0,
+        "p2_evaluations": 765,
+        "p2_rejections": 463,
+        "p2_seconds": 1.2700403399981042,
+        "p2_skipped_after_p1": 592,
+        "proposals": 2056
+      },
+      "sources": 547,
+      "found": null
+    },
+    "koszul-p2-xor": {
+      "attempts": 274,
+      "counters": {
+        "UNKNOWN": 274,
+        "duplicate_cnfs": 23,
+        "flattening_rejected": 666,
+        "koszul_checked": 1272,
+        "koszul_passed": 297,
+        "koszul_preprocessing_seconds": 24.02408440398267,
+        "koszul_rejected": 975,
+        "p2_all_modes_skipped": 0,
+        "p2_evaluations": 707,
+        "p2_rejections": 422,
+        "p2_seconds": 1.1760070100035591,
+        "p2_skipped_after_p1": 553,
+        "proposals": 1893
+      },
+      "sources": 562,
+      "found": null
+    },
+    "koszul-wide": {
+      "attempts": 202,
+      "counters": {
+        "UNKNOWN": 202,
+        "duplicate_cnfs": 99,
+        "flattening_rejected": 170,
+        "koszul_checked": 425,
+        "koszul_passed": 301,
+        "koszul_preprocessing_seconds": 8.488404105004065,
+        "koszul_rejected": 124,
+        "proposals": 595
+      },
+      "sources": 546,
+      "found": null
+    },
+    "koszul-xor": {
+      "attempts": 127,
+      "counters": {
+        "UNKNOWN": 127,
+        "duplicate_cnfs": 33,
+        "flattening_rejected": 676,
+        "koszul_checked": 639,
+        "koszul_passed": 160,
+        "koszul_preprocessing_seconds": 11.298761844998353,
+        "koszul_rejected": 479,
+        "proposals": 1315
+      },
+      "sources": 546,
+      "found": null
+    },
+    "oriented-cadical": {
+      "attempts": 53,
+      "counters": {
+        "UNKNOWN": 53,
+        "duplicate_cnfs": 3,
+        "flattening_rejected": 266,
+        "koszul_checked": 466,
+        "koszul_passed": 56,
+        "koszul_preprocessing_seconds": 9.053216075993987,
+        "koszul_rejected": 410,
+        "orientation_evaluations": 96,
+        "orientation_rejections": 40,
+        "orientation_seconds": 0.23632767699655233,
+        "orientation_skipped_after_original": 370,
+        "p2_all_modes_skipped": 0,
+        "p2_evaluations": 230,
+        "p2_rejections": 134,
+        "p2_seconds": 0.2510795579964906,
+        "p2_skipped_after_p1": 236,
+        "proposals": 724
+      },
+      "sources": 690,
+      "found": null
+    },
+    "oriented-xor": {
+      "attempts": 66,
+      "counters": {
+        "UNKNOWN": 66,
+        "duplicate_cnfs": 3,
+        "flattening_rejected": 301,
+        "koszul_checked": 543,
+        "koszul_passed": 69,
+        "koszul_preprocessing_seconds": 10.879939610988913,
+        "koszul_rejected": 474,
+        "orientation_evaluations": 119,
+        "orientation_rejections": 50,
+        "orientation_seconds": 0.28391343600469554,
+        "orientation_skipped_after_original": 424,
+        "p2_all_modes_skipped": 0,
+        "p2_evaluations": 285,
+        "p2_rejections": 166,
+        "p2_seconds": 0.34097608701085846,
+        "p2_skipped_after_p1": 258,
+        "proposals": 833
+      },
+      "sources": 690,
+      "found": null
+    },
+    "sat": {
+      "attempts": 48,
+      "counters": {
+        "UNKNOWN": 21,
+        "UNSAT": 27,
+        "duplicate_cnfs": 2,
+        "flattening_rejected": 519,
+        "proposals": 563
+      },
+      "sources": 546,
+      "found": null
+    },
+    "xor-lex": {
+      "attempts": 95,
+      "counters": {
+        "UNKNOWN": 95,
+        "duplicate_cnfs": 19,
+        "flattening_rejected": 169,
+        "proposals": 283
+      },
+      "sources": 546,
+      "found": null
+    }
+  },
+  "resources": {
+    "utc": "2026-11-02T18:41:39.292488+00:00",
+    "rss_bytes": 0,
+    "maximum_observed_rss_bytes": 1805250560,
+    "processes": 0,
+    "groups": [],
+    "measurement": "ps-based summed RSS including child processes and launchers"
+  },
+  "validated_target_files": [],
+  "completed_jobs": [
+    "dictionary-gl-job.result.json",
+    "sampler93-job.result.json",
+    "native-satseed-job.result.json",
+    "oriented-cadical-job.result.json",
+    "merge-terms-job.result.json",
+    "koszul-p2-cadical-job.result.json",
+    "dictionary903-job.result.json",
+    "xor-lex-job.result.json",
+    "recombine-job.result.json",
+    "als-seed0-job.result.json",
+    "compact-lex-wide-job.result.json",
+    "oriented-xor-job.result.json",
+    "sat-baseline-job.result.json",
+    "native0-job.result.json",
+    "dictionary-expanded-job.result.json",
+    "compact-lex-job.result.json",
+    "compact-plain-job.result.json",
+    "koszul-xor-job.result.json",
+    "diversify93-job.result.json",
+    "dictionary-loop-job.result.json",
+    "koszul-wide-job.result.json",
+    "koszul-cadical-job.result.json",
+    "targeted-repair-job.result.json",
+    "native1-job.result.json",
+    "dictionary-final-job.result.json",
+    "koszul-p2-xor-job.result.json",
+    "native-terms-job.result.json"
+  ],
+  "native_portfolio_size": 401
+}

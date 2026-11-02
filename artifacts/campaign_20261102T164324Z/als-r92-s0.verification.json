@@ -1,0 +1,32 @@
+{
+  "valid": false,
+  "field_valid": false,
+  "integer_valid": false,
+  "dimension": 5,
+  "field": 2,
+  "rank": 92,
+  "exact_entries_checked": 15625,
+  "errors": [
+    "exact tensor equality failed at 1 coefficients",
+    "supplementary random multiplication test failed"
+  ],
+  "mismatch_count": 1,
+  "mismatch_examples": [
+    {
+      "indices": [
+        12,
+        12,
+        12
+      ],
+      "expected": 1,
+      "observed": 0
+    }
+  ],
+  "integer_mismatch_count": 2278,
+  "random_multiplication": {
+    "passed": false,
+    "trials": 7,
+    "seed": 0,
+    "failed_trial": 6
+  }
+}

@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.tmp
+.xor-deps/
+
+# Full historical outputs are preserved in research-results-20261102.tar.xz.
+/artifacts/campaign/
+/artifacts/campaign_20261102T164324Z/*/
+/artifacts/campaign_20261102T164324Z/*.log
+!/artifacts/campaign_20261102T164324Z/test_suite_final.log
+!/artifacts/campaign_20261102T164324Z/lean_baseline93.log
+/artifacts/**/*.cnf
+/research/campaign/compact-smoke/
+/research/campaign/koszul-smoke/
+/research/campaign/koszul-p2-smoke/
+/research/campaign/sat-smoke/
+/research/campaign/oriented-smoke/
+# Detailed audit payloads and interim drafts are retained in the archive.
+/research/campaign/sat_audit_*.json
+!/research/campaign/sat_audit_final_replay_check.json
+/research/campaign/report_draft.json
+/research/campaign/REPORT_DRAFT.md

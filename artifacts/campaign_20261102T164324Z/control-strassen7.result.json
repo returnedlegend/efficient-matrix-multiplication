@@ -1,0 +1,31 @@
+{
+  "status": "SAT",
+  "statistics": {
+    "restarts": 3,
+    "conflicts": 1162,
+    "decisions": 1458,
+    "propagations": 112446
+  },
+  "solver": "CaDiCaL195",
+  "elapsed_seconds": 0.044431632000168975,
+  "conflict_budget": 100000,
+  "wall_budget_seconds": 10,
+  "verification": {
+    "valid": true,
+    "field_valid": true,
+    "integer_valid": false,
+    "dimension": 2,
+    "field": 2,
+    "rank": 7,
+    "exact_entries_checked": 64,
+    "errors": [],
+    "mismatch_count": 0,
+    "mismatch_examples": [],
+    "integer_mismatch_count": 19,
+    "random_multiplication": {
+      "passed": true,
+      "trials": 16,
+      "seed": 0
+    }
+  }
+}

@@ -1,0 +1,2936 @@
+{
+  "recorded_utc": "2026-11-02T17:43:04Z",
+  "records": [
+    {
+      "K": 8,
+      "active_terms": [
+        6,
+        7,
+        8,
+        31,
+        63,
+        78,
+        89,
+        90
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 48,
+            "exterior_degree": 1,
+            "matrix_rank": 41,
+            "matrix_sha256": "e1109109af39111e4b3bc11ccf70403fd875324b495f60567438f176a85ca941",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 5,
+            "rows": 105,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9,
+            "transposed_core_sha256": "55259c14cfe8d5e63dc39ce0b9b4ebae9d2a34198dbc005aeadf1e8dec78fc4c"
+          }
+        ],
+        "decisive": {
+          "columns": 48,
+          "exterior_degree": 1,
+          "matrix_rank": 41,
+          "matrix_sha256": "e1109109af39111e4b3bc11ccf70403fd875324b495f60567438f176a85ca941",
+          "mode": 0,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 5,
+          "rows": 105,
+          "status": "COMPUTED",
+          "tensor_rank_lower_bound": 9,
+          "transposed_core_sha256": "55259c14cfe8d5e63dc39ce0b9b4ebae9d2a34198dbc005aeadf1e8dec78fc4c"
+        },
+        "elapsed_seconds": 0.000564971000130754,
+        "field": 2,
+        "image_shape": [
+          6,
+          7,
+          8
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": true,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "core_reconstruction_seconds": 0.033680753000226105,
+      "core_sha256": "a9e140774c59dbc22b7cc4de1319fbcb5c5a3a25f16e1cf804ccf2d859c06c87",
+      "drop_term": 3,
+      "original_solver_elapsed_seconds": 3.5994811479999953,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "a7b5d324026714a78e9c8b28504b9dba3f0d52196fe972dfa490dc5f625c9ff6",
+      "shape": [
+        6,
+        7,
+        8
+      ],
+      "source_sha256": "9dc001cab8cda9251997ed5751fcc784b67433fb8d06fe5aa0e9a28fc597bd1b"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        58,
+        61,
+        62,
+        63,
+        80,
+        81,
+        85,
+        89
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "e352486815e6fb86bd324258f2d4d3154ce747ba32c419e62b552eb75d1a17c7",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "4f0670dac40801d86c04ba2c69b8c0720f9950f4a1f8a46ebe24796e5b5a965d"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 117,
+            "matrix_sha256": "2deb449b4c6e043e56ab083598e01f9d3ca746777fb1a2495791841a8c434f4d",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "4f0670dac40801d86c04ba2c69b8c0720f9950f4a1f8a46ebe24796e5b5a965d"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "b615435477ddaf1845091c183d1994b233987bf27369dda4e2b28fd387ab0a1b",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "a777ebf51c2b4d333aaff562dcc6406dd603368a7b2c7b3041a5ed38cb5c3d83"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 118,
+            "matrix_sha256": "7f2d9a8ef6659af8be6868119ff919f72c09f20a88acdad288ca6943b9d31d76",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "a777ebf51c2b4d333aaff562dcc6406dd603368a7b2c7b3041a5ed38cb5c3d83"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "ce5871325382895e6acb139e6cfd916dedb07dedc34f37b83ac8d17b34dca059",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "8820ec8506d7f6d687cbcba02b18839256206d13efeb1abfb29bbffc6f8af2aa"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 118,
+            "matrix_sha256": "855a8abbc565049a15a315428a8e61239b3a4205fc18de76e67ecc6e4ff1ea1e",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "8820ec8506d7f6d687cbcba02b18839256206d13efeb1abfb29bbffc6f8af2aa"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.007107643999916036,
+        "field": 2,
+        "image_shape": [
+          7,
+          7,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.035412999999607564,
+      "core_sha256": "923f5a21269d19b8e2217fb8e76673046f50c0ef3a456b06c14968c3f7c605fd",
+      "drop_term": 92,
+      "original_solver_elapsed_seconds": 4.227780191999955,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "974a9171895ccde284d2658a4b93b6f0f571a381ba71365f9662a0f0a7ac6c4a",
+      "shape": [
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "6a6667915227e27485bcdf407465691ec2cbbb1b0b174b25eeab8e4d382be165"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        6,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25,
+        37
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "77054171bab508adff373c0a2222961d4ef62d3c3b6698476a950254dcb6b1f8",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "d620cc8dd78b21f7fde96a7dd863e24ada5ebc7769053caac476387e1738dba3"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 119,
+            "matrix_sha256": "da20a04b090e8c0ee9b78897e71695cf3668d691dd515668861803d4e4cbc0cf",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "d620cc8dd78b21f7fde96a7dd863e24ada5ebc7769053caac476387e1738dba3"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "81fe801ddaa4feadaf7b1b6e1c7760bfeda8c7a27ce5620a8efa8562c85f73b9",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "7adfea9fd4e3c885bbfdba1bf3d6f63498e1bad96af9af736af9571f949cb549"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 119,
+            "matrix_sha256": "8ba753fe8f54358b0194243afb678b4b9dd4f566300e4c64320fd5176b038e98",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "7adfea9fd4e3c885bbfdba1bf3d6f63498e1bad96af9af736af9571f949cb549"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "b8d00d9ec564270a97f1152017b104d8d3690a001d10d3613cb794b683bd9da5",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "e15748312e042a1d6f227efe1ecb2f902db1d1e8c4e20ee203f1b06bbe6cc245"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 119,
+            "matrix_sha256": "92a41e26f098eede52d3dba0937477726409e8a8d38a2c5aeb6cc96ba2a5ebcc",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "e15748312e042a1d6f227efe1ecb2f902db1d1e8c4e20ee203f1b06bbe6cc245"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.002700721999644884,
+        "field": 2,
+        "image_shape": [
+          7,
+          7,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.037085480999849096,
+      "core_sha256": "03b966a3f70f4b6b60432ecc9a1f269ccd827d04055b994a21224ed8a3347f62",
+      "drop_term": 5,
+      "original_solver_elapsed_seconds": 4.442443701000229,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "fbbf421474c025b30b1f8d55de18758c02b8ed83c0eb1b4f23e5cbaa9617cf1f",
+      "shape": [
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "66975279ee2afbd72625dfb99ded2ca29bc3d5a3b4e72a55342f6502ff158f39"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        6,
+        8,
+        18,
+        19,
+        21,
+        22,
+        29,
+        92
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "a9e1a09f551d26683e6211da4f6f7aca2679542b476c9455dd15685da1c17502",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "1f094e6c1efbf4272121e0b327977da9f6161036d75e176c42a933a6bf07f85d"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 119,
+            "matrix_sha256": "76a40da036c3c54eefa0369cc97e7156932790be8eb391f8e09983ccfa5e0a29",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "1f094e6c1efbf4272121e0b327977da9f6161036d75e176c42a933a6bf07f85d"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "0acde6e9fcd52aa096a558b1ed4cb798865b8e018a8b2f0aead92c0a9e42f065",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "0eef3f1cc89564fc84f53e048bd338921a80e0f6a7dc160d0e759eae1ae3bcd8"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 119,
+            "matrix_sha256": "2713583564a2330176aef22008488c6c8d4681c47619956db1dc93fa33da24d9",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "0eef3f1cc89564fc84f53e048bd338921a80e0f6a7dc160d0e759eae1ae3bcd8"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "1b823030682329bbe1289e6b75f0264815f09005d46da4e68e6bc3a45f25c816",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "20fc912fa84e3e7c97fbeec1696d01cb53312ef1b828a6c4863804f4e8ff1567"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 117,
+            "matrix_sha256": "b8675aa8203de14352bd801e96cf1127fb4d060ef6157113f447c69cd1ae296a",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "20fc912fa84e3e7c97fbeec1696d01cb53312ef1b828a6c4863804f4e8ff1567"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.004394092000438832,
+        "field": 2,
+        "image_shape": [
+          7,
+          7,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.039012713999909465,
+      "core_sha256": "be5e127aaf66d9aee86b391cecd65a8b3aa1fe580b180aad91f2d8a57a291b49",
+      "drop_term": 5,
+      "original_solver_elapsed_seconds": 3.7238646629994037,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "484b6d80baef653b8048a215ea272b38262b6445ddfab5fcda4ff1f8d4ebe605",
+      "shape": [
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "4a4cadfb2bcfe9293624435679d57e9c9238f2c6e2606f75335a6b9ce7608bfd"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        6,
+        7,
+        28,
+        38,
+        63,
+        64,
+        76,
+        88
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 56,
+            "exterior_degree": 1,
+            "matrix_rank": 49,
+            "matrix_sha256": "3c7177bf37bdddbc27ae27660913284171001c99ea45a353e7682f944ae4a9b7",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 126,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9,
+            "transposed_core_sha256": "1545eb4ea749255f1d535b530d2c0e6f2eee00b48f76b7896d92d8f7f96368fc"
+          }
+        ],
+        "decisive": {
+          "columns": 56,
+          "exterior_degree": 1,
+          "matrix_rank": 49,
+          "matrix_sha256": "3c7177bf37bdddbc27ae27660913284171001c99ea45a353e7682f944ae4a9b7",
+          "mode": 0,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 6,
+          "rows": 126,
+          "status": "COMPUTED",
+          "tensor_rank_lower_bound": 9,
+          "transposed_core_sha256": "1545eb4ea749255f1d535b530d2c0e6f2eee00b48f76b7896d92d8f7f96368fc"
+        },
+        "elapsed_seconds": 0.0003166449996570009,
+        "field": 2,
+        "image_shape": [
+          7,
+          6,
+          8
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": true,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "core_reconstruction_seconds": 0.024426262000815768,
+      "core_sha256": "bc4ffeb93e12531af9997cea9943becf7fae6e9949792a90a4a525df54cffc83",
+      "drop_term": 5,
+      "original_solver_elapsed_seconds": 3.4541804970003795,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "b86390ad2e581af6a60ab20bd1c60c883ceffc79940d2c2044ac642285585a5a",
+      "shape": [
+        7,
+        6,
+        8
+      ],
+      "source_sha256": "0a18cd06710892598bb7d665752856471a5de9f84ebe93285a804d701031a614"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        14,
+        25,
+        26,
+        27,
+        29,
+        31,
+        49,
+        57
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 48,
+            "exterior_degree": 1,
+            "matrix_rank": 41,
+            "matrix_sha256": "2af45d30dcd83344afc2b914b6536935f4185094eb9e0de3c4e54d2e02f88bf9",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 5,
+            "rows": 105,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9,
+            "transposed_core_sha256": "520812bfa0ca1b9a008b0486dca30137eeb7d4d8fd2c718c90d104fcba619437"
+          }
+        ],
+        "decisive": {
+          "columns": 48,
+          "exterior_degree": 1,
+          "matrix_rank": 41,
+          "matrix_sha256": "2af45d30dcd83344afc2b914b6536935f4185094eb9e0de3c4e54d2e02f88bf9",
+          "mode": 0,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 5,
+          "rows": 105,
+          "status": "COMPUTED",
+          "tensor_rank_lower_bound": 9,
+          "transposed_core_sha256": "520812bfa0ca1b9a008b0486dca30137eeb7d4d8fd2c718c90d104fcba619437"
+        },
+        "elapsed_seconds": 0.00036066000029677525,
+        "field": 2,
+        "image_shape": [
+          6,
+          7,
+          8
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": true,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "core_reconstruction_seconds": 0.024236944999756815,
+      "core_sha256": "739edb27f09823d94ea0dc6576249acc6b9e146606e78c3b49cfed2e7057ff71",
+      "drop_term": 23,
+      "original_solver_elapsed_seconds": 3.7921739569992496,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "a926b60020eee641716a514c4137fc6c4a39d5daf2e470df8947384d06ce47f2",
+      "shape": [
+        6,
+        7,
+        8
+      ],
+      "source_sha256": "4d41da5dbbf3e0e64bfbd65bb23a37d8beee74179198e5ed2b01c0e1e7648216"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        7,
+        61,
+        62,
+        79,
+        80,
+        85,
+        87,
+        88
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 42,
+            "exterior_degree": 1,
+            "matrix_rank": 37,
+            "matrix_sha256": "86e1be1b7ed88dcc40d7187426683c7d5e576f54aadb9129180cbdbd02e66f2c",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 5,
+            "rows": 120,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "8366148ec6943145f8af1e106b10a80a085ecae09239d277b2173cebe2e2eb80"
+          },
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 77,
+            "matrix_sha256": "3b17ecadb30ad8e8785bac10c887f63b13c1287adaaaa288bb4ea948091c7a1d",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 10,
+            "rows": 160,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "8366148ec6943145f8af1e106b10a80a085ecae09239d277b2173cebe2e2eb80"
+          },
+          {
+            "columns": 56,
+            "exterior_degree": 1,
+            "matrix_rank": 51,
+            "matrix_sha256": "c30e1a3698a73c0f6a3ded7ecc324eb9984007863d013041dd63f10cb41fddc4",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 7,
+            "rows": 168,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "ad27ca082a0b82bbd77cfa906c46a79af8b8ab7f152b161b7b7917c2572a80d7"
+          },
+          {
+            "columns": 196,
+            "exterior_degree": 2,
+            "matrix_rank": 156,
+            "matrix_sha256": "ee59556a1c692ef62ea23a26594ebb6687eb2aed4756532f1f88607a60fa5491",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 21,
+            "rows": 336,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "ad27ca082a0b82bbd77cfa906c46a79af8b8ab7f152b161b7b7917c2572a80d7"
+          },
+          {
+            "columns": 56,
+            "exterior_degree": 1,
+            "matrix_rank": 49,
+            "matrix_sha256": "27e0457d240a95fa0764654cbad9e2d3beae23aebde6516223a16f3326af05c8",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 126,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9,
+            "transposed_core_sha256": "3feea9c4f4f2d7fdcb8aed84160ad1a0736a827ecd10195debc0caece69a749e"
+          }
+        ],
+        "decisive": {
+          "columns": 56,
+          "exterior_degree": 1,
+          "matrix_rank": 49,
+          "matrix_sha256": "27e0457d240a95fa0764654cbad9e2d3beae23aebde6516223a16f3326af05c8",
+          "mode": 0,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 6,
+          "rows": 126,
+          "status": "COMPUTED",
+          "tensor_rank_lower_bound": 9,
+          "transposed_core_sha256": "3feea9c4f4f2d7fdcb8aed84160ad1a0736a827ecd10195debc0caece69a749e"
+        },
+        "elapsed_seconds": 0.005476343999362143,
+        "field": 2,
+        "image_shape": [
+          6,
+          8,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": true,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "core_reconstruction_seconds": 0.02445012700081861,
+      "core_sha256": "03b8d4ac1e34c05fbc6df4f4e76bad15c800b5293063108ad26024941f67fd34",
+      "drop_term": 86,
+      "original_solver_elapsed_seconds": 3.8500782649998655,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "452c3bd2ee91c49b7d092cf30893265b310bcb7c675d0c7a59f87b2166b56390",
+      "shape": [
+        6,
+        8,
+        7
+      ],
+      "source_sha256": "64b5bd5dd3b7d2051e8f616618e44f2ac3a0d5166cdc97f7781645d350334a7d"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        2,
+        4,
+        16,
+        17,
+        25,
+        26,
+        28,
+        30
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 42,
+            "exterior_degree": 1,
+            "matrix_rank": 38,
+            "matrix_sha256": "a57bade62c2fa6e479fc4c13b28ac8cf21cdb94ac2266604b6a9d8cf1a04a0e8",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 5,
+            "rows": 105,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "0db33539904a98b3c453a37262b790f66451e5adf698055848189f3f79307c3c"
+          },
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 80,
+            "matrix_sha256": "22749cc4cbe2d4a79b67cb35767179294c2ad2fded09d6f518e3f1dee0627afa",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "0db33539904a98b3c453a37262b790f66451e5adf698055848189f3f79307c3c"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "6c520b07611cab1040de823fa217a0e51aab76608a7b22ef2d083eb9c081a530",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 126,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "4092f45d058b42e2339551f4ccdeca8e165f853f0b36dfe1d0940f7abfa95cf1"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 117,
+            "matrix_sha256": "0de0469c9812dc633850e3390a67c9a2390089a2b8ba007864d612cb77072e88",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "4092f45d058b42e2339551f4ccdeca8e165f853f0b36dfe1d0940f7abfa95cf1"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "0199615fc77e9c1a52e30e9b89b128a70cc0c14e9141578afb4dd666f9f16141",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 126,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "f50ccf17f98a7966849c1b31bf9cc73b4372adf157ea203fbc4fbaa9c078c771"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 117,
+            "matrix_sha256": "8237a24e9d80cbd8f1045907e00b2a954d3c43253707e1cb6659703ae0933376",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "f50ccf17f98a7966849c1b31bf9cc73b4372adf157ea203fbc4fbaa9c078c771"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.0017832029998317012,
+        "field": 2,
+        "image_shape": [
+          6,
+          7,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.02307937200021115,
+      "core_sha256": "21d9efa155da50597cbfba6293128a9b1fbb3fd1a2dec80dfd893ac41cc4486c",
+      "drop_term": 27,
+      "original_solver_elapsed_seconds": 3.8416141309999148,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "765df3e941e443d5f93540a61cfc590183e9aaa9141eaf74bfdaa95b59688873",
+      "shape": [
+        6,
+        7,
+        7
+      ],
+      "source_sha256": "07a48094659d9e9f7d36494634f1cc1a650051d3b0f4699752ee433507b9bb3d"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        6,
+        16,
+        18,
+        19,
+        21,
+        22,
+        52,
+        59
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "c1aa94596f5309c93e530cc3e37a8ae9ba175bf6d456a9b1232020a68fe877b0",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "1fc720f1d48d68b523852e886b022beb5e9dd942e623491c40d0a6c12d1d4428"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 118,
+            "matrix_sha256": "cdff51532e0400ee497082659b00e3601aedbe7d1397470dc9d132e78ac633a1",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "1fc720f1d48d68b523852e886b022beb5e9dd942e623491c40d0a6c12d1d4428"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "de2f42b31c2c64abec88fe6472c7ad0a2eca0fdd5a2d284679ef8762fde98070",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "c2dddc39aef7a31f961eff54d3a83e4a400d61e534f5594be6971dd07f102481"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 118,
+            "matrix_sha256": "8d7b0d978506b32e824a717c2069d571f216e3f12361e653ed01a1faf6ac7fdb",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "c2dddc39aef7a31f961eff54d3a83e4a400d61e534f5594be6971dd07f102481"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "39b264a0f89d52b81525431dd85baa6919a8f5755ead40e7037bf99a8ffbb68f",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "a7e3aa97d7791509a5263c0551a6e6c6aa50284ddf662173ea673adbff9e32e4"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 120,
+            "matrix_sha256": "56c14c95ee5cb9a43f612a665020bebb74b6dc860b9ac26340dc27a41ba7829f",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "a7e3aa97d7791509a5263c0551a6e6c6aa50284ddf662173ea673adbff9e32e4"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.0016865109992068028,
+        "field": 2,
+        "image_shape": [
+          7,
+          7,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.03027478300009534,
+      "core_sha256": "bc9eb9961a5f46681733df66ce7921db3503dfa344d2c58c545fa2de0b6c1236",
+      "drop_term": 5,
+      "original_solver_elapsed_seconds": 4.162696238000535,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "7f353ad37ff4d0c4e12ef2615436805b3700a74b31b0fa65784bb3c8a584db77",
+      "shape": [
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "6b4f93b21e42a635cda3fcb7038a9751e299356f1a77d0051d6584d6552409e1"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        32,
+        43,
+        44,
+        59,
+        71,
+        75,
+        78,
+        90
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 43,
+            "matrix_sha256": "5b4a7fab7abeb5f721b8ba020a8cfd80886830dd9d899812954f66172583989c",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "3c3abeb5d7891263f4430d8f3814db784dcbf96ca48ddbed7dae5a4d74bd6956"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 110,
+            "matrix_sha256": "13b0f51b722bd4791b0be5bea4e94043d4492b90bb1f04db6e9a25fd87a87a9a",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "3c3abeb5d7891263f4430d8f3814db784dcbf96ca48ddbed7dae5a4d74bd6956"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 43,
+            "matrix_sha256": "dd692d9f27958677fcd695998b19fda08ea4fa2faeea7a12c2d643465bb47f75",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "5d2c63d669b31aa0ee826f7b4c197da3bd0a836ea00fd37346fc3ef833a24f65"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 111,
+            "matrix_sha256": "b551be48b6aa37650122f76f49919d066c9eafc0061b12422ce5a586911a5e9a",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "5d2c63d669b31aa0ee826f7b4c197da3bd0a836ea00fd37346fc3ef833a24f65"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 44,
+            "matrix_sha256": "ea37f8df91370cfb8e7ca859816c94748d125de61ddbc3d767e329efee43d57f",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "c3109dcf8416ca88bbdee83a3018c93a96f545565199b48611fc2b6415c00059"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 115,
+            "matrix_sha256": "d6e398ff7280009c11f48c008aefdf7e31a24a9e4a991d01672e96e5268cde01",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "c3109dcf8416ca88bbdee83a3018c93a96f545565199b48611fc2b6415c00059"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.0022225490001801518,
+        "field": 2,
+        "image_shape": [
+          7,
+          7,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.024372763999963354,
+      "core_sha256": "dc6cf2871e8256beedd632774b9705d9add2119f29621649514c32636ca15c96",
+      "drop_term": 45,
+      "original_solver_elapsed_seconds": 4.771323905999452,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "61b4477c6062975d5e11d126b70ff2bcca90bff1fa740b49ec1cc1a5a087673e",
+      "shape": [
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "26b0ab8d960a38f225c480b93ae9d0abe9ba63ded4d57d2161f6105b430cef85"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        21,
+        39,
+        55,
+        64,
+        70,
+        73,
+        80,
+        83
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 42,
+            "exterior_degree": 1,
+            "matrix_rank": 38,
+            "matrix_sha256": "749da8cfb71d6f79f028f4607bc1ba19da3c2d85f634a60f1ee6c0676cae6770",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 168,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "3e3ff24f07914420ae0bfee2a2506961d83bd10ffcb5a944515e4a71c12f4fdf"
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 101,
+            "matrix_sha256": "0e0a107709c30586b74ddda5af01d9ad1378156f881040e59ceee35578acd445",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 15,
+            "rows": 280,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "3e3ff24f07914420ae0bfee2a2506961d83bd10ffcb5a944515e4a71c12f4fdf"
+          },
+          {
+            "columns": 48,
+            "exterior_degree": 1,
+            "matrix_rank": 44,
+            "matrix_sha256": "8e4ffa7d90457edf2b3adb80b13812a803b7dd471ec817e2f827d4ed895030a0",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 7,
+            "rows": 196,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "2278257c75fd4b3b94ebb5bb1ddbd20119ff18f3dce86e01b5cb64c1218c32c4"
+          },
+          {
+            "columns": 168,
+            "exterior_degree": 2,
+            "matrix_rank": 139,
+            "matrix_sha256": "86c4e66d4507f9937d9c8a439c4f638880d12e50bc6b018b9037564edb5ff149",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 21,
+            "rows": 392,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "2278257c75fd4b3b94ebb5bb1ddbd20119ff18f3dce86e01b5cb64c1218c32c4"
+          },
+          {
+            "columns": 48,
+            "exterior_degree": 1,
+            "matrix_rank": 41,
+            "matrix_sha256": "b7885fda6fbc16715ce800af7f2ada8729754ee1e268ee96fb5ee0b475553d20",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 5,
+            "rows": 105,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9,
+            "transposed_core_sha256": "427a37e6a8f00203837945094fc05c0e4e9e315654782d3699107c91dd0adcec"
+          }
+        ],
+        "decisive": {
+          "columns": 48,
+          "exterior_degree": 1,
+          "matrix_rank": 41,
+          "matrix_sha256": "b7885fda6fbc16715ce800af7f2ada8729754ee1e268ee96fb5ee0b475553d20",
+          "mode": 0,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 5,
+          "rows": 105,
+          "status": "COMPUTED",
+          "tensor_rank_lower_bound": 9,
+          "transposed_core_sha256": "427a37e6a8f00203837945094fc05c0e4e9e315654782d3699107c91dd0adcec"
+        },
+        "elapsed_seconds": 0.0015329839998230455,
+        "field": 2,
+        "image_shape": [
+          7,
+          8,
+          6
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": true,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "core_reconstruction_seconds": 0.02009278900004574,
+      "core_sha256": "8a06a509ab61c1bae005af8d4f4a2c9bf6ce48ae527507e35bd35d2dbab09c2d",
+      "drop_term": 85,
+      "original_solver_elapsed_seconds": 4.222452796999278,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "cdf61b95533429658d1355cb80b7607a7abe2f7e7dfa61989bc8447fe21593df",
+      "shape": [
+        7,
+        8,
+        6
+      ],
+      "source_sha256": "f889177587b5ff88fc8e91f136bbf79aab7ee1e49de48da348fe410b1a8b360d"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        7,
+        63,
+        64,
+        65,
+        81,
+        82,
+        89,
+        92
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "1a70fb65af586b4866c26515693ec5a38ce4af01851f6a14f057cc3e12afce49",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 168,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "e73f247990226a1555868e2403b20149e6c4b650b35ba9402fca974c22c89c25"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 117,
+            "matrix_sha256": "0b8a3bac19f537d2a61718cf2620f721bac2ddb57704100c149fdb31e57a7ee6",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 15,
+            "rows": 280,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "e73f247990226a1555868e2403b20149e6c4b650b35ba9402fca974c22c89c25"
+          },
+          {
+            "columns": 56,
+            "exterior_degree": 1,
+            "matrix_rank": 52,
+            "matrix_sha256": "89162a321c52264b9ee23f5affe1b0f1ea9cbb0154840e980e0525cb99846e27",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 7,
+            "rows": 196,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "3d5d1e41e86a34c7a2c7b8ff5f2b0939141bec2e3caf3f0de16d36463f135cc2"
+          },
+          {
+            "columns": 196,
+            "exterior_degree": 2,
+            "matrix_rank": 162,
+            "matrix_sha256": "4d45278c7cc23aa2e4844357ffd3205d77cbbb254908e3bdb889b966f364c7e0",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 21,
+            "rows": 392,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "3d5d1e41e86a34c7a2c7b8ff5f2b0939141bec2e3caf3f0de16d36463f135cc2"
+          },
+          {
+            "columns": 56,
+            "exterior_degree": 1,
+            "matrix_rank": 49,
+            "matrix_sha256": "0f096c902f6f7f07e6b823a710c3aab286e5582b1f162a9474e501c50547f645",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9,
+            "transposed_core_sha256": "e4b9101d318897666f69e66518afcab97fe3505be9755ca0c80e718b9690e3d9"
+          }
+        ],
+        "decisive": {
+          "columns": 56,
+          "exterior_degree": 1,
+          "matrix_rank": 49,
+          "matrix_sha256": "0f096c902f6f7f07e6b823a710c3aab286e5582b1f162a9474e501c50547f645",
+          "mode": 0,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 6,
+          "rows": 147,
+          "status": "COMPUTED",
+          "tensor_rank_lower_bound": 9,
+          "transposed_core_sha256": "e4b9101d318897666f69e66518afcab97fe3505be9755ca0c80e718b9690e3d9"
+        },
+        "elapsed_seconds": 0.0062226019999798154,
+        "field": 2,
+        "image_shape": [
+          7,
+          8,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": true,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "core_reconstruction_seconds": 0.02419461199951911,
+      "core_sha256": "161825bfbee545d69d9c325fcfedbd779ed41084145e7bbf60b3b17b6bc89fb9",
+      "drop_term": 88,
+      "original_solver_elapsed_seconds": 3.270165108000583,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "9b4507b12faa0dd47fcafa2c6a2c28412fcfe4957bea2d32d10b03239f8d714e",
+      "shape": [
+        7,
+        8,
+        7
+      ],
+      "source_sha256": "e91a5c78a59cc59195279c0e7b1bca48d89437e4d0c0eff49aaa4f646df6df0a"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        3,
+        5,
+        6,
+        7,
+        63,
+        64,
+        88,
+        91
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 35,
+            "exterior_degree": 1,
+            "matrix_rank": 30,
+            "matrix_sha256": "75701b2909d341a48506553b963a52db67100e46c77f797f66cbf2505e2d8be2",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 4,
+            "rows": 70,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "7b8302264b48c01312a016b0ed6d9745272a64966d6a2e7a7de1b4ce2609a294"
+          },
+          {
+            "columns": 70,
+            "exterior_degree": 2,
+            "matrix_rank": 45,
+            "matrix_sha256": "09f942fdf6b83d8a5b6123ea65742a62475ba621fdc5ad586fc0cb025a4ab103",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 70,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "7b8302264b48c01312a016b0ed6d9745272a64966d6a2e7a7de1b4ce2609a294"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "9aa0cc9f3dd651d0a21e76e74bb2b7746e00250df2178235416cb9650a65e54c",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 105,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "09cb1b1592cefb748a39ebfb5914e101faa62037f15af6858e7fd4067d363a4b"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 113,
+            "matrix_sha256": "4ca05193d311b1b3da1c4f4ff0c8da1f345fdd76dde17fcd729bb91b165f4059",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 175,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "09cb1b1592cefb748a39ebfb5914e101faa62037f15af6858e7fd4067d363a4b"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 42,
+            "matrix_sha256": "44ed466272d1c7ac75db8fb3cda6e21dcab7a04ab1a7bea3603617749b0bbf0f",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 105,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "c5e72a663aee3fb64418eafd772d5189cf511992b87d592f147cef82e5f54ea9"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 104,
+            "matrix_sha256": "a76e1328114042fb2a501ad57f9d1909a8476741d2c1b62f045a25e2a1f484a5",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 175,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "c5e72a663aee3fb64418eafd772d5189cf511992b87d592f147cef82e5f54ea9"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.005905334999624756,
+        "field": 2,
+        "image_shape": [
+          5,
+          7,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.029048420000435726,
+      "core_sha256": "e0d4dd4edcf8cc9023fca68bb6adc6a0b247f9711ffaf97e36619c7cf7a6ecde",
+      "drop_term": 8,
+      "original_solver_elapsed_seconds": 3.477150699000049,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "bbed27acde90dc304b5d7576ea37246e688be3a0300144c647d591e6c338423f",
+      "shape": [
+        5,
+        7,
+        7
+      ],
+      "source_sha256": "a7648d9659098501b3a26c615a6eb343ae03236c8dcb0f093ef94a6d2fe3518a"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        10,
+        11,
+        12,
+        25,
+        39,
+        40,
+        41,
+        86
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 48,
+            "exterior_degree": 1,
+            "matrix_rank": 39,
+            "matrix_sha256": "0e9129c8723709f6a395928847464ed4ebae3661bf9bec301d07de3bb4f9fffa",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 5,
+            "rows": 105,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "1d04a9bcbb78ced524e2ff678fd183255f006300bde5cdb475298ecfe30019e1"
+          },
+          {
+            "columns": 120,
+            "exterior_degree": 2,
+            "matrix_rank": 76,
+            "matrix_sha256": "a3d34dc445ee4d3206e2df931527b4aa14b097b15d0f557f88e1be175f1df820",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "1d04a9bcbb78ced524e2ff678fd183255f006300bde5cdb475298ecfe30019e1"
+          },
+          {
+            "columns": 56,
+            "exterior_degree": 1,
+            "matrix_rank": 50,
+            "matrix_sha256": "d436a50765117c7fdb1c99b6406db202fc2e03bca889c4223daf778468fd3427",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 126,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9,
+            "transposed_core_sha256": "f46124fb222932fc9fed5fe1d23b05a81fd9743fb20272da11805df05506bde3"
+          }
+        ],
+        "decisive": {
+          "columns": 56,
+          "exterior_degree": 1,
+          "matrix_rank": 50,
+          "matrix_sha256": "d436a50765117c7fdb1c99b6406db202fc2e03bca889c4223daf778468fd3427",
+          "mode": 0,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 6,
+          "rows": 126,
+          "status": "COMPUTED",
+          "tensor_rank_lower_bound": 9,
+          "transposed_core_sha256": "f46124fb222932fc9fed5fe1d23b05a81fd9743fb20272da11805df05506bde3"
+        },
+        "elapsed_seconds": 0.0008154389997798717,
+        "field": 2,
+        "image_shape": [
+          6,
+          7,
+          8
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": true,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "core_reconstruction_seconds": 0.03259251300005417,
+      "core_sha256": "c9aec0db94110a2304cf5f285ddb149a369a62f052a493a6a62fc49b3b3a48b5",
+      "drop_term": 85,
+      "original_solver_elapsed_seconds": 4.030725067999811,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "4d30491255039648aa3571d578a28ce2a3e9a9a3b49b8531fbd57fdaacf272cc",
+      "shape": [
+        6,
+        7,
+        8
+      ],
+      "source_sha256": "d4df9f17085a41553997e670675aa24b232b5f9fbf1f5fa880525eb1de62378a"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        9,
+        16,
+        24,
+        25,
+        38,
+        39,
+        41,
+        51
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 56,
+            "exterior_degree": 1,
+            "matrix_rank": 48,
+            "matrix_sha256": "55b0167c92abda4eb6f3301bd98460a83cc05ca58c442f4c2ca397874abb2724",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 126,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "bf8265a172c01804c8b81e7be6e19c2b5ea39b9508e46b7c2c3a68a187ad5a2a"
+          },
+          {
+            "columns": 168,
+            "exterior_degree": 2,
+            "matrix_rank": 115,
+            "matrix_sha256": "085c29ce9accdba0e92419017c36af44088af11e4fba5e4db374f1fa4b40cd6d",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "bf8265a172c01804c8b81e7be6e19c2b5ea39b9508e46b7c2c3a68a187ad5a2a"
+          },
+          {
+            "columns": 48,
+            "exterior_degree": 1,
+            "matrix_rank": 41,
+            "matrix_sha256": "000ad1089eacc5ca9c0f8ff07d5ac7e5a35f0c95e8c72ad3dd3eab26ab8f8062",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 5,
+            "rows": 105,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9,
+            "transposed_core_sha256": "b42d7998a0c05b1f8e2dc1726d1ef2580abad62232e1993f449e99770a6dca4a"
+          }
+        ],
+        "decisive": {
+          "columns": 48,
+          "exterior_degree": 1,
+          "matrix_rank": 41,
+          "matrix_sha256": "000ad1089eacc5ca9c0f8ff07d5ac7e5a35f0c95e8c72ad3dd3eab26ab8f8062",
+          "mode": 0,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 5,
+          "rows": 105,
+          "status": "COMPUTED",
+          "tensor_rank_lower_bound": 9,
+          "transposed_core_sha256": "b42d7998a0c05b1f8e2dc1726d1ef2580abad62232e1993f449e99770a6dca4a"
+        },
+        "elapsed_seconds": 0.000954122999246465,
+        "field": 2,
+        "image_shape": [
+          7,
+          6,
+          8
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": true,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "core_reconstruction_seconds": 0.023930372999529936,
+      "core_sha256": "675bf54758ddd8570eb1c8508f168f7be13c77e70963ff73d9cea7fa2d6ece28",
+      "drop_term": 10,
+      "original_solver_elapsed_seconds": 4.546002700999452,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "31c456c0100b435f28b0c84033833d025241531f6c2cc702a9ce40a7ecd2dd80",
+      "shape": [
+        7,
+        6,
+        8
+      ],
+      "source_sha256": "b5f3868ced6cc97afe3d7a8cf849e49d7ae4afefa77e67ebcf507d3d73824daf"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        2,
+        70,
+        73,
+        82,
+        84,
+        90,
+        91,
+        92
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 43,
+            "matrix_sha256": "6d865f33f2b637655bc025f3e9ece6e70f757d997e80f20c9186f5301c3f84f8",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "1ff748e7b04d7d45bb252733f7d2ed61db928280278378a71e3e86eab124e29c"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 111,
+            "matrix_sha256": "c5c5c843d1d71a195a0026207dfe49774f33a2a4e1d07b67d3ee4a95dee23fcd",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "1ff748e7b04d7d45bb252733f7d2ed61db928280278378a71e3e86eab124e29c"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 43,
+            "matrix_sha256": "dd48d7a90d44c3ab29597f96ace27dcad3f79aca44b7310e4a57830de79848fc",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "361b750bddfe8e8009b9bb4ab8d1ab0534d0ff7ddfeedff06b97235f2577f931"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 111,
+            "matrix_sha256": "c43ed95bce8ee441ecabf0c4ab4d081f3a86bb087a44cf03c7630af704440bb0",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "361b750bddfe8e8009b9bb4ab8d1ab0534d0ff7ddfeedff06b97235f2577f931"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "60cc718207ebba571c706cee7cae031c977ba29f8286de0a4791cf134ed19723",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "1c931dfa31783d1494989e7758d56a57c35fe315fde20ed67cf7963303e357bd"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 117,
+            "matrix_sha256": "80d2cd47fb1df9cc65489974647ebcc2ab31fd77218c6f48300ebd3bb2743834",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "1c931dfa31783d1494989e7758d56a57c35fe315fde20ed67cf7963303e357bd"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.0017073409999284195,
+        "field": 2,
+        "image_shape": [
+          7,
+          7,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.023929482999847096,
+      "core_sha256": "6f8f094fa9fdc13b23bfd6b993643f63ed12dad059d53001f7887216e61868f2",
+      "drop_term": 66,
+      "original_solver_elapsed_seconds": 3.7242193660003977,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "3126501220616c65c5a3c1658c5089b16745cd840a73b59b4d7aea450c243d8c",
+      "shape": [
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "614b1cf541678b9c1daa8451e92b7cb352c010db37c1b4f6c48da934fcb88ab6"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        2,
+        69,
+        73,
+        80,
+        83,
+        89,
+        91,
+        92
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 43,
+            "matrix_sha256": "906bbcdd253fcfe8ff9e842905626ba4c1157b75bdb530ad818faa20183a285c",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "d2bef9403aadbcd183e926acc319f630346eed1dcfe292c94884f29863b56c44"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 111,
+            "matrix_sha256": "4c324c46d69f1ce692e0758ea88267f2f3ce5fb1de7e8cdc597e1e11e51befab",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "d2bef9403aadbcd183e926acc319f630346eed1dcfe292c94884f29863b56c44"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 43,
+            "matrix_sha256": "6a3bfd15abbe3e15062d53f34a0821311e19aca1fd3277975af0b752cc0d92f8",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "bbac302862120ab7d52b707afb13549eb7961baccaf6c1d66962e37d7c74ba32"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 111,
+            "matrix_sha256": "3da8f75a94f3f146e2a781253e6c5c26c968360e2126ac0ad6cb35357148330c",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "bbac302862120ab7d52b707afb13549eb7961baccaf6c1d66962e37d7c74ba32"
+          },
+          {
+            "columns": 49,
+            "exterior_degree": 1,
+            "matrix_rank": 45,
+            "matrix_sha256": "52ef478af3a436e2b450c97204bb754c29cd686ca525dcf511e53ed489b7c9f8",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 147,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "e7afcebb3697d4689d7c061749c7c49fdfed4c4ebf073d4ddd7b7e8624139fbd"
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 117,
+            "matrix_sha256": "6e4ac2d437df7659e19ddeee39bbf8ef2392829fee3f5dabfea8584a921db049",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "e7afcebb3697d4689d7c061749c7c49fdfed4c4ebf073d4ddd7b7e8624139fbd"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.005787951999991492,
+        "field": 2,
+        "image_shape": [
+          7,
+          7,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.026260560999617155,
+      "core_sha256": "77ec6ee726c71ca748a7e76c6b0a36bb19dcf52a1a872359b23be78742483077",
+      "drop_term": 66,
+      "original_solver_elapsed_seconds": 4.042769818000124,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "a251e86bebb680cfb107eb41f3b987b8e0956590d11aba9ab38488a7cad97012",
+      "shape": [
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "69300110c590ae23a35b6ce80a48a9bad6dea85daefa05bb891cc5e808b340d2"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        10,
+        20,
+        22,
+        23,
+        24,
+        65,
+        91,
+        92
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 56,
+            "exterior_degree": 1,
+            "matrix_rank": 52,
+            "matrix_sha256": "1b4fb075c270507ab00e9d5f6f276979c17104f0b52ceea4778add2e9c543996",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 7,
+            "rows": 168,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "d79f9a7643f3d22cf1cff70e0b7895256e66d68c0af1666f5e6b24253a1a158f"
+          },
+          {
+            "columns": 196,
+            "exterior_degree": 2,
+            "matrix_rank": 161,
+            "matrix_sha256": "d7c1602bd48fc93410ea60e9acaca7e78f43f2db5de7bda3049d64fc05641cb5",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 21,
+            "rows": 336,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "d79f9a7643f3d22cf1cff70e0b7895256e66d68c0af1666f5e6b24253a1a158f"
+          },
+          {
+            "columns": 42,
+            "exterior_degree": 1,
+            "matrix_rank": 37,
+            "matrix_sha256": "f0e990823f8327499aa7ce9f1306d9e065fbfc8446feaf3cc264ca285046f69c",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 5,
+            "rows": 120,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "5bfac3f37d25617e2bae3f6de5f02afdf0bacd73851c0b673b1fc3a5b6258219"
+          },
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 77,
+            "matrix_sha256": "3e4a2a734adb99f82f43b5ca86a37df56f2995a86dabb3c90e146445df33dcd4",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 10,
+            "rows": 160,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "5bfac3f37d25617e2bae3f6de5f02afdf0bacd73851c0b673b1fc3a5b6258219"
+          },
+          {
+            "columns": 42,
+            "exterior_degree": 1,
+            "matrix_rank": 40,
+            "matrix_sha256": "b980eca73eafb37a052ac0a6c3945818f918cc1effddd6a56033fad833e6956a",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 168,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "7d78dfd9003094a053a04d8078466403ce50c6c4bc012088da4af8504818b837"
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 108,
+            "matrix_sha256": "69bddca91b65bb5c4865ecb03b5ecb3b9301c7a1d8ff7ba69552170bcdae7adb",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 280,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "7d78dfd9003094a053a04d8078466403ce50c6c4bc012088da4af8504818b837"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.0016765050004323712,
+        "field": 2,
+        "image_shape": [
+          8,
+          6,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.022945435000110592,
+      "core_sha256": "8a4a6bb6dba46db67089b2afcb929a26d37491ac206ec0254e1979f75009eb41",
+      "drop_term": 19,
+      "original_solver_elapsed_seconds": 4.229824727999585,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "e30140c43eabada30d055014d9aca1040b5069a9f2dc8c3a9cccb52e3975666b",
+      "shape": [
+        8,
+        6,
+        7
+      ],
+      "source_sha256": "e8eb654bb7f1eefd960552bf5c98026cb5c666f37cc89ae8982f250d5da49f1e"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        3,
+        6,
+        8,
+        18,
+        20,
+        21,
+        22,
+        25
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 36,
+            "exterior_degree": 1,
+            "matrix_rank": 34,
+            "matrix_sha256": "dbbfd8bce1f60b8bad49a3841f2f8d2fd65060faf1845c7868cd004f40d53ce8",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 5,
+            "rows": 105,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "ba8bcd49fadc3eb6185bb81d4c561c87e5053c9ab5e85341a620e1ecdbb41d85"
+          },
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 75,
+            "matrix_sha256": "ee96e9834c0fa4b4e05c3d7cfd5fc5401a8d1218feeda76dd078559bf3e632d8",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "ba8bcd49fadc3eb6185bb81d4c561c87e5053c9ab5e85341a620e1ecdbb41d85"
+          },
+          {
+            "columns": 42,
+            "exterior_degree": 1,
+            "matrix_rank": 40,
+            "matrix_sha256": "54481048e880bd2c246a06de40211bf7c0fdd3e0876dead065fafe48529e104c",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 126,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "796c27e57c13ef789080338fcddc029a6fd08a0f8525235c752edfff22a96b57"
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 109,
+            "matrix_sha256": "11f60f1efc62937ce1226058f58eee60f54d081a5fb898cd619fef327f3832df",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "796c27e57c13ef789080338fcddc029a6fd08a0f8525235c752edfff22a96b57"
+          },
+          {
+            "columns": 42,
+            "exterior_degree": 1,
+            "matrix_rank": 38,
+            "matrix_sha256": "1ea0b00b75817b562e6afaaec17f1d5e163ed7160229bed94073f8d33d59812a",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 5,
+            "rows": 90,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "839c23d3f9436c75d71069d9be5a2450feaf16000fc2691f5872ee3f200e331a"
+          },
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 80,
+            "matrix_sha256": "598da9eb4b2a879177e02f8e91ebdece7f4759605938daf555159524a6d49411",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 10,
+            "rows": 120,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "839c23d3f9436c75d71069d9be5a2450feaf16000fc2691f5872ee3f200e331a"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.005662467999172804,
+        "field": 2,
+        "image_shape": [
+          6,
+          7,
+          6
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.024601525999969454,
+      "core_sha256": "1088e50f6fd641ef51df5d813f51ce17099a41da4433822b0341f11b3373ecc9",
+      "drop_term": 5,
+      "original_solver_elapsed_seconds": 3.6788123959995573,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "f6c885c087b4ef7fa92a32dcb2594df37c0bbe27c244c972a0fbb1436e38749a",
+      "shape": [
+        6,
+        7,
+        6
+      ],
+      "source_sha256": "34653f41a10d9f01179b6497fe3e8d464cc9db4b1aeece3b2555db267e72df83"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        9,
+        10,
+        20,
+        23,
+        38,
+        66,
+        81,
+        85
+      ],
+      "additional_orientations": {
+        "bounds": [
+          {
+            "columns": 56,
+            "exterior_degree": 1,
+            "matrix_rank": 51,
+            "matrix_sha256": "ffecfca3552f12b331dd99fc0786b10aaec4d017a104153455c81c2aa8b74546",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 7,
+            "rows": 168,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "ded3933eb81cf7c124c2d9046261b8554e63fe3ba38d3b76da8175fd24c1df7d"
+          },
+          {
+            "columns": 196,
+            "exterior_degree": 2,
+            "matrix_rank": 154,
+            "matrix_sha256": "d537d651d07eaf67045d9972ecdc6b35f856514063ac07142714f3e80da4e71c",
+            "mode": 0,
+            "orientation": [
+              0,
+              2,
+              1
+            ],
+            "rank_one_contribution": 21,
+            "rows": 336,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "ded3933eb81cf7c124c2d9046261b8554e63fe3ba38d3b76da8175fd24c1df7d"
+          },
+          {
+            "columns": 42,
+            "exterior_degree": 1,
+            "matrix_rank": 37,
+            "matrix_sha256": "2388a5007e0dfbf0b73b91a4dc173e37b96bcc5e85d9facf0e8842985b01c66f",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 5,
+            "rows": 120,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "895428f583e0855767aa774d85940f1518a8a287ea4c19f1f71fd5c0d3a37489"
+          },
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 77,
+            "matrix_sha256": "2cc7ec8653df0d91df57bfec814c88c337f55e9d9bdd20e7116c8b1bb5bfffaa",
+            "mode": 0,
+            "orientation": [
+              1,
+              2,
+              0
+            ],
+            "rank_one_contribution": 10,
+            "rows": 160,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8,
+            "transposed_core_sha256": "895428f583e0855767aa774d85940f1518a8a287ea4c19f1f71fd5c0d3a37489"
+          },
+          {
+            "columns": 42,
+            "exterior_degree": 1,
+            "matrix_rank": 39,
+            "matrix_sha256": "0e30e905f36673beb00eba43c763cb224cc48a4910c8b320489ff2e31dda5e78",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 6,
+            "rows": 168,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "dfd3d3650500eced53f5806b6d74d5c1befdd0c8f1086cbb5248f576536d139b"
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 105,
+            "matrix_sha256": "a1351f79852ddc7a04538c9c4f290071c6f9e8524855a82b37115bc1e664134a",
+            "mode": 0,
+            "orientation": [
+              2,
+              1,
+              0
+            ],
+            "rank_one_contribution": 15,
+            "rows": 280,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7,
+            "transposed_core_sha256": "dfd3d3650500eced53f5806b6d74d5c1befdd0c8f1086cbb5248f576536d139b"
+          }
+        ],
+        "decisive": null,
+        "elapsed_seconds": 0.0016654389992254437,
+        "field": 2,
+        "image_shape": [
+          8,
+          6,
+          7
+        ],
+        "orientations_requested": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "rejected": false,
+        "scope": "ordered-mode Koszul lower bounds on this local residual only; skipped p2 bounds imply no rejection",
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "core_reconstruction_seconds": 0.029271549000441155,
+      "core_sha256": "7651f18a2fa86dacaa446bfdbac81332c20ed6ad81c6d539fddbce268b0c966f",
+      "drop_term": 19,
+      "original_solver_elapsed_seconds": 4.951557549999961,
+      "original_solver_status": "UNKNOWN",
+      "patch_id": "3d4aaada45cd3529f735a4c9db54aa81fecdbd8ba949f4d26efc061fbeb23f3d",
+      "shape": [
+        8,
+        6,
+        7
+      ],
+      "source_sha256": "a5a1b638f74d5ade864e7d9e28d9f50f50b813b3cc64e20d334a8f7b49107f91"
+    }
+  ],
+  "scope": "local selected residuals only, not a global rank lower bound",
+  "selection": "fixed first20 completed p1+p2-passing solve records in koszul-p2-cadical",
+  "summary": {
+    "additional_orientation_rejections": 8,
+    "additional_seconds": 0.058543528995869565,
+    "core_reconstruction_seconds": 0.5528994620008234,
+    "elapsed_seconds": 0.6573533270002372,
+    "original_solver_elapsed_seconds": 80.03931692899778,
+    "p1_p2_surviving_patches": 20
+  },
+  "timing": "additional stage includes transposition, both enabled degrees, all enabled swapped orientations until a proof; excludes cached core construction, separately reported offline"
+}

@@ -1,0 +1,36 @@
+{
+  "contradictions": 0,
+  "p2_workers": [
+    {
+      "attempts": 256,
+      "errors": 0,
+      "orientation_evaluations": null,
+      "orientation_rejections": null,
+      "p2_evaluations": 744,
+      "p2_rejections": 457,
+      "p2_seconds": 1.2077829529976043,
+      "worker": "koszul-p2-cadical"
+    },
+    {
+      "attempts": 233,
+      "errors": 0,
+      "orientation_evaluations": null,
+      "orientation_rejections": null,
+      "p2_evaluations": 645,
+      "p2_rejections": 397,
+      "p2_seconds": 0.9606044660022235,
+      "worker": "koszul-p2-xor"
+    }
+  ],
+  "raw_work_counts": {
+    "BOUND": 3000,
+    "UNKNOWN": 1280,
+    "UNSAT": 112
+  },
+  "scope": "canonical-source plus selected-term identity; distinct frozen neighborhoods, not isomorphism classes or a global rank lower bound",
+  "unique_bound_rejected": 1639,
+  "unique_local_neighborhoods": 2660,
+  "unique_solver_unsat": 112,
+  "unique_unknown_only": 909,
+  "utc": "2026-11-02T17:51:44Z"
+}

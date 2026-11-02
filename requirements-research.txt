@@ -1,0 +1,4 @@
+# Optional: only the published-data importer and .npy tensor export need NumPy.
+# Flip/ALS searches and exact verification use Python's standard library.
+# The optional SAT extension has its own requirements-sat.txt.
+numpy==2.3.5

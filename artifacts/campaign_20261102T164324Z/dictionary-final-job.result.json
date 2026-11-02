@@ -1,0 +1,29 @@
+{
+  "command": [
+    "env",
+    "PYTHONPATH=.xor-deps:.",
+    "python3",
+    "scripts/campaign_dictionary_loop.py",
+    "--dictionary",
+    "artifacts/campaign_20261102T164324Z/recombine-full/dictionary.json",
+    "--baseline",
+    "artifacts/campaign_20261102T164324Z/recombine-full/best.json",
+    "--extra-terms",
+    "artifacts/campaign_20261102T164324Z/combined-gl-terms/terms.txt",
+    "--output-dir",
+    "artifacts/campaign_20261102T164324Z/dictionary-final-loop",
+    "--seconds",
+    "1200"
+  ],
+  "started_utc": "2026-11-02T18:34:01.954767+00:00",
+  "pid": 19388,
+  "cpu": 1,
+  "memory_mb": 1536,
+  "wall_seconds": 562,
+  "exit_code": 0,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 319.07285634599975,
+  "cpu_seconds": 318.361336,
+  "max_rss_kib": 239228
+}

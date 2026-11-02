@@ -1,0 +1,118 @@
+{
+  "seed": 0,
+  "attempt_budget": 30000,
+  "seconds_budget": 30.0,
+  "attempts_completed": 54,
+  "distinct_patches_checked": 54,
+  "flattening_rejections": 50,
+  "patches": [
+    {
+      "drop_term": 72,
+      "active_terms": [
+        1,
+        5,
+        14,
+        21,
+        65
+      ],
+      "selected_source_terms": [
+        1,
+        5,
+        14,
+        21,
+        65,
+        72
+      ],
+      "flattening_ranks": [
+        5,
+        5,
+        5
+      ],
+      "active_count": 5
+    },
+    {
+      "drop_term": 1,
+      "active_terms": [
+        17,
+        19,
+        21,
+        23,
+        81
+      ],
+      "selected_source_terms": [
+        1,
+        17,
+        19,
+        21,
+        23,
+        81
+      ],
+      "flattening_ranks": [
+        5,
+        5,
+        5
+      ],
+      "active_count": 5
+    },
+    {
+      "drop_term": 74,
+      "active_terms": [
+        2,
+        8,
+        9,
+        10,
+        11,
+        13,
+        55
+      ],
+      "selected_source_terms": [
+        2,
+        8,
+        9,
+        10,
+        11,
+        13,
+        55,
+        74
+      ],
+      "flattening_ranks": [
+        7,
+        7,
+        7
+      ],
+      "active_count": 7
+    },
+    {
+      "drop_term": 35,
+      "active_terms": [
+        26,
+        47,
+        58,
+        61,
+        73,
+        78,
+        84,
+        86
+      ],
+      "selected_source_terms": [
+        26,
+        35,
+        47,
+        58,
+        61,
+        73,
+        78,
+        84,
+        86
+      ],
+      "flattening_ranks": [
+        8,
+        6,
+        8
+      ],
+      "active_count": 8
+    }
+  ],
+  "elapsed_seconds": 0.003744051000012405,
+  "scope": "passing flattening bounds is necessary, not sufficient; bounded local selection only"
+}

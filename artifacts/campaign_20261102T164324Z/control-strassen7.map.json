@@ -1,0 +1,559 @@
+{
+  "dimension": 2,
+  "field": 2,
+  "rank": 7,
+  "source_term_count": 8,
+  "coefficient_domain": [
+    -1,
+    0,
+    1
+  ],
+  "canonical_field_representatives": [
+    0,
+    1
+  ],
+  "sign_identification": "-1 = 1 in characteristic 2",
+  "drop_term": 0,
+  "active_terms": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "frozen_terms": [],
+  "support_mode": "full",
+  "support": {
+    "u": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "v": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "w": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "tensor_equations": 64,
+  "variables": 916,
+  "factor_variables": 84,
+  "clauses": 3392,
+  "scope": "local frozen-neighborhood; UNSAT does not imply rank94 nonexistence",
+  "factor_variable_map": [
+    {
+      "variable": 1,
+      "source_term": 1,
+      "axis": "u",
+      "coordinate": 0
+    },
+    {
+      "variable": 2,
+      "source_term": 1,
+      "axis": "u",
+      "coordinate": 1
+    },
+    {
+      "variable": 3,
+      "source_term": 1,
+      "axis": "u",
+      "coordinate": 2
+    },
+    {
+      "variable": 4,
+      "source_term": 1,
+      "axis": "u",
+      "coordinate": 3
+    },
+    {
+      "variable": 5,
+      "source_term": 1,
+      "axis": "v",
+      "coordinate": 0
+    },
+    {
+      "variable": 6,
+      "source_term": 1,
+      "axis": "v",
+      "coordinate": 1
+    },
+    {
+      "variable": 7,
+      "source_term": 1,
+      "axis": "v",
+      "coordinate": 2
+    },
+    {
+      "variable": 8,
+      "source_term": 1,
+      "axis": "v",
+      "coordinate": 3
+    },
+    {
+      "variable": 9,
+      "source_term": 1,
+      "axis": "w",
+      "coordinate": 0
+    },
+    {
+      "variable": 10,
+      "source_term": 1,
+      "axis": "w",
+      "coordinate": 1
+    },
+    {
+      "variable": 11,
+      "source_term": 1,
+      "axis": "w",
+      "coordinate": 2
+    },
+    {
+      "variable": 12,
+      "source_term": 1,
+      "axis": "w",
+      "coordinate": 3
+    },
+    {
+      "variable": 13,
+      "source_term": 2,
+      "axis": "u",
+      "coordinate": 0
+    },
+    {
+      "variable": 14,
+      "source_term": 2,
+      "axis": "u",
+      "coordinate": 1
+    },
+    {
+      "variable": 15,
+      "source_term": 2,
+      "axis": "u",
+      "coordinate": 2
+    },
+    {
+      "variable": 16,
+      "source_term": 2,
+      "axis": "u",
+      "coordinate": 3
+    },
+    {
+      "variable": 17,
+      "source_term": 2,
+      "axis": "v",
+      "coordinate": 0
+    },
+    {
+      "variable": 18,
+      "source_term": 2,
+      "axis": "v",
+      "coordinate": 1
+    },
+    {
+      "variable": 19,
+      "source_term": 2,
+      "axis": "v",
+      "coordinate": 2
+    },
+    {
+      "variable": 20,
+      "source_term": 2,
+      "axis": "v",
+      "coordinate": 3
+    },
+    {
+      "variable": 21,
+      "source_term": 2,
+      "axis": "w",
+      "coordinate": 0
+    },
+    {
+      "variable": 22,
+      "source_term": 2,
+      "axis": "w",
+      "coordinate": 1
+    },
+    {
+      "variable": 23,
+      "source_term": 2,
+      "axis": "w",
+      "coordinate": 2
+    },
+    {
+      "variable": 24,
+      "source_term": 2,
+      "axis": "w",
+      "coordinate": 3
+    },
+    {
+      "variable": 25,
+      "source_term": 3,
+      "axis": "u",
+      "coordinate": 0
+    },
+    {
+      "variable": 26,
+      "source_term": 3,
+      "axis": "u",
+      "coordinate": 1
+    },
+    {
+      "variable": 27,
+      "source_term": 3,
+      "axis": "u",
+      "coordinate": 2
+    },
+    {
+      "variable": 28,
+      "source_term": 3,
+      "axis": "u",
+      "coordinate": 3
+    },
+    {
+      "variable": 29,
+      "source_term": 3,
+      "axis": "v",
+      "coordinate": 0
+    },
+    {
+      "variable": 30,
+      "source_term": 3,
+      "axis": "v",
+      "coordinate": 1
+    },
+    {
+      "variable": 31,
+      "source_term": 3,
+      "axis": "v",
+      "coordinate": 2
+    },
+    {
+      "variable": 32,
+      "source_term": 3,
+      "axis": "v",
+      "coordinate": 3
+    },
+    {
+      "variable": 33,
+      "source_term": 3,
+      "axis": "w",
+      "coordinate": 0
+    },
+    {
+      "variable": 34,
+      "source_term": 3,
+      "axis": "w",
+      "coordinate": 1
+    },
+    {
+      "variable": 35,
+      "source_term": 3,
+      "axis": "w",
+      "coordinate": 2
+    },
+    {
+      "variable": 36,
+      "source_term": 3,
+      "axis": "w",
+      "coordinate": 3
+    },
+    {
+      "variable": 37,
+      "source_term": 4,
+      "axis": "u",
+      "coordinate": 0
+    },
+    {
+      "variable": 38,
+      "source_term": 4,
+      "axis": "u",
+      "coordinate": 1
+    },
+    {
+      "variable": 39,
+      "source_term": 4,
+      "axis": "u",
+      "coordinate": 2
+    },
+    {
+      "variable": 40,
+      "source_term": 4,
+      "axis": "u",
+      "coordinate": 3
+    },
+    {
+      "variable": 41,
+      "source_term": 4,
+      "axis": "v",
+      "coordinate": 0
+    },
+    {
+      "variable": 42,
+      "source_term": 4,
+      "axis": "v",
+      "coordinate": 1
+    },
+    {
+      "variable": 43,
+      "source_term": 4,
+      "axis": "v",
+      "coordinate": 2
+    },
+    {
+      "variable": 44,
+      "source_term": 4,
+      "axis": "v",
+      "coordinate": 3
+    },
+    {
+      "variable": 45,
+      "source_term": 4,
+      "axis": "w",
+      "coordinate": 0
+    },
+    {
+      "variable": 46,
+      "source_term": 4,
+      "axis": "w",
+      "coordinate": 1
+    },
+    {
+      "variable": 47,
+      "source_term": 4,
+      "axis": "w",
+      "coordinate": 2
+    },
+    {
+      "variable": 48,
+      "source_term": 4,
+      "axis": "w",
+      "coordinate": 3
+    },
+    {
+      "variable": 49,
+      "source_term": 5,
+      "axis": "u",
+      "coordinate": 0
+    },
+    {
+      "variable": 50,
+      "source_term": 5,
+      "axis": "u",
+      "coordinate": 1
+    },
+    {
+      "variable": 51,
+      "source_term": 5,
+      "axis": "u",
+      "coordinate": 2
+    },
+    {
+      "variable": 52,
+      "source_term": 5,
+      "axis": "u",
+      "coordinate": 3
+    },
+    {
+      "variable": 53,
+      "source_term": 5,
+      "axis": "v",
+      "coordinate": 0
+    },
+    {
+      "variable": 54,
+      "source_term": 5,
+      "axis": "v",
+      "coordinate": 1
+    },
+    {
+      "variable": 55,
+      "source_term": 5,
+      "axis": "v",
+      "coordinate": 2
+    },
+    {
+      "variable": 56,
+      "source_term": 5,
+      "axis": "v",
+      "coordinate": 3
+    },
+    {
+      "variable": 57,
+      "source_term": 5,
+      "axis": "w",
+      "coordinate": 0
+    },
+    {
+      "variable": 58,
+      "source_term": 5,
+      "axis": "w",
+      "coordinate": 1
+    },
+    {
+      "variable": 59,
+      "source_term": 5,
+      "axis": "w",
+      "coordinate": 2
+    },
+    {
+      "variable": 60,
+      "source_term": 5,
+      "axis": "w",
+      "coordinate": 3
+    },
+    {
+      "variable": 61,
+      "source_term": 6,
+      "axis": "u",
+      "coordinate": 0
+    },
+    {
+      "variable": 62,
+      "source_term": 6,
+      "axis": "u",
+      "coordinate": 1
+    },
+    {
+      "variable": 63,
+      "source_term": 6,
+      "axis": "u",
+      "coordinate": 2
+    },
+    {
+      "variable": 64,
+      "source_term": 6,
+      "axis": "u",
+      "coordinate": 3
+    },
+    {
+      "variable": 65,
+      "source_term": 6,
+      "axis": "v",
+      "coordinate": 0
+    },
+    {
+      "variable": 66,
+      "source_term": 6,
+      "axis": "v",
+      "coordinate": 1
+    },
+    {
+      "variable": 67,
+      "source_term": 6,
+      "axis": "v",
+      "coordinate": 2
+    },
+    {
+      "variable": 68,
+      "source_term": 6,
+      "axis": "v",
+      "coordinate": 3
+    },
+    {
+      "variable": 69,
+      "source_term": 6,
+      "axis": "w",
+      "coordinate": 0
+    },
+    {
+      "variable": 70,
+      "source_term": 6,
+      "axis": "w",
+      "coordinate": 1
+    },
+    {
+      "variable": 71,
+      "source_term": 6,
+      "axis": "w",
+      "coordinate": 2
+    },
+    {
+      "variable": 72,
+      "source_term": 6,
+      "axis": "w",
+      "coordinate": 3
+    },
+    {
+      "variable": 73,
+      "source_term": 7,
+      "axis": "u",
+      "coordinate": 0
+    },
+    {
+      "variable": 74,
+      "source_term": 7,
+      "axis": "u",
+      "coordinate": 1
+    },
+    {
+      "variable": 75,
+      "source_term": 7,
+      "axis": "u",
+      "coordinate": 2
+    },
+    {
+      "variable": 76,
+      "source_term": 7,
+      "axis": "u",
+      "coordinate": 3
+    },
+    {
+      "variable": 77,
+      "source_term": 7,
+      "axis": "v",
+      "coordinate": 0
+    },
+    {
+      "variable": 78,
+      "source_term": 7,
+      "axis": "v",
+      "coordinate": 1
+    },
+    {
+      "variable": 79,
+      "source_term": 7,
+      "axis": "v",
+      "coordinate": 2
+    },
+    {
+      "variable": 80,
+      "source_term": 7,
+      "axis": "v",
+      "coordinate": 3
+    },
+    {
+      "variable": 81,
+      "source_term": 7,
+      "axis": "w",
+      "coordinate": 0
+    },
+    {
+      "variable": 82,
+      "source_term": 7,
+      "axis": "w",
+      "coordinate": 1
+    },
+    {
+      "variable": 83,
+      "source_term": 7,
+      "axis": "w",
+      "coordinate": 2
+    },
+    {
+      "variable": 84,
+      "source_term": 7,
+      "axis": "w",
+      "coordinate": 3
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "command": [
+    "python3",
+    "scripts/campaign_targeted_repair.py",
+    "--seed-dir",
+    "artifacts/campaign/public-seeds/fastmatrix-f2/seeds",
+    "--output-dir",
+    "artifacts/campaign_20261102T164324Z/targeted-repair",
+    "--rank",
+    "92",
+    "--dimension",
+    "5",
+    "--seconds",
+    "600",
+    "--slice-seconds",
+    "5",
+    "--seed",
+    "1729",
+    "--max-excess",
+    "64"
+  ],
+  "started_utc": "2026-11-02T17:05:43.388756+00:00",
+  "pid": 7299,
+  "cpu": 3,
+  "memory_mb": 1024,
+  "wall_seconds": 615,
+  "exit_code": 0,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 600.15263946,
+  "cpu_seconds": 597.345967,
+  "max_rss_kib": 14488
+}

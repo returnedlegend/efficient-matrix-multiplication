@@ -1,0 +1,6 @@
+{"rank": 94, "residual_weight": 5, "iteration": 0, "restarts": 0}
+{"rank": 94, "residual_weight": 4, "iteration": 1, "restarts": 0}
+{"rank": 94, "residual_weight": 3, "iteration": 912, "restarts": 219}
+{"rank": 94, "residual_weight": 2, "iteration": 6705, "restarts": 1701}
+{"rank": 94, "residual_weight": 2, "iteration": 9835, "restarts": 2499}
+{"valid": false, "rank": 94, "residual_weight": 2, "output": "artifacts/als_rank94.json"}

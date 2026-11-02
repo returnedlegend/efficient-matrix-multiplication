@@ -1,0 +1,48 @@
+{
+  "status": "UNKNOWN",
+  "model": null,
+  "statistics": {
+    "restarts": 132,
+    "conflicts": 5000,
+    "decisions": 10144,
+    "propagations": 7738991
+  },
+  "solver": "CaDiCaL195",
+  "elapsed_seconds": 0.8846797169999263,
+  "conflict_budget": 5000,
+  "wall_budget_seconds": 2,
+  "patch": {
+    "drop_term": 74,
+    "active_terms": [
+      2,
+      8,
+      9,
+      10,
+      11,
+      13,
+      55
+    ],
+    "selected_source_terms": [
+      2,
+      8,
+      9,
+      10,
+      11,
+      13,
+      55,
+      74
+    ],
+    "flattening_ranks": [
+      7,
+      7,
+      7
+    ],
+    "active_count": 7
+  },
+  "encoding": {
+    "variables": 22106,
+    "factor_variables": 266,
+    "clauses": 89040,
+    "tensor_equations": 15625
+  }
+}

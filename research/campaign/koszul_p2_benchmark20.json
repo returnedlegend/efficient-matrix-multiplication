@@ -1,0 +1,1360 @@
+{
+  "code_sha256": {
+    "mmsearch/koszul_p2.py": "1a08015f463d19f01d89bcccd6205103a2f82c90b58fa1f8f8dcb49a2bc7723f",
+    "scripts/campaign_koszul_p2_sat.py": "1d41378e7767d34dd35e0bb691997752b780d8217cd6166bff091f178b72ea5d"
+  },
+  "recorded_utc": "2026-11-02T17:21:02Z",
+  "records": [
+    {
+      "K": 7,
+      "active_terms": [
+        34,
+        40,
+        46,
+        51,
+        56,
+        73,
+        80
+      ],
+      "core_reconstruction_seconds": 0.033649661999788805,
+      "core_sha256": "c2ecd52dafb070651171d75fedd45cf624672af776c4d40a679097cd984f2760",
+      "drop_term": 45,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.7442944970002827,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 68,
+            "matrix_sha256": "6f262ee2bcd2b6797d02d63431ba4f57a0c83c1360ff09e22bc314cf96a0428a",
+            "mode": 0,
+            "rank_one_contribution": 10,
+            "rows": 120,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 71,
+            "matrix_sha256": "0c8fd804f4d7ae918a0d1dda5171f410371f2421cce287f6e7b1d5fd0c90fb68",
+            "mode": 1,
+            "rank_one_contribution": 10,
+            "rows": 120,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          }
+        ],
+        "computed_modes": 2,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0005000040000595618,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          6,
+          6
+        ],
+        "rejected": true,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 8
+      },
+      "patch_id": "0aaaefc995ea192f48f046510ab10864be091b286ee927056f7865052ddcc4a2",
+      "source_sha256": "511056b7232d5683a7934ba67876dcbc86c7dbe65e4a3617f485712da2b77780",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/511056b7232d5683a7934ba67876dcbc86c7dbe65e4a3617f485712da2b77780.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        45,
+        46,
+        57,
+        62,
+        71,
+        74,
+        91
+      ],
+      "core_reconstruction_seconds": 0.032182457000089926,
+      "core_sha256": "5ba5ac8f8d56e36f6968bb3f558f2c60d6c6781ce2a87c45f5567452dc1405e8",
+      "drop_term": 15,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.3984310219998406,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 60,
+            "exterior_degree": 2,
+            "matrix_rank": 43,
+            "matrix_sha256": "6df28822b4e284dc7c556d3a7aeb82c26d6b4014c2309a874c007ff0fe2a778a",
+            "mode": 2,
+            "rank_one_contribution": 6,
+            "rows": 70,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          }
+        ],
+        "computed_modes": 1,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0001985019998755888,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          7,
+          5
+        ],
+        "rejected": true,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 8
+      },
+      "patch_id": "32fad20e68ba2817f7acb1303fa10bc4898c2c1d02e3f2a8f054c8e7e4a5d51a",
+      "source_sha256": "f417ad5f4c6917904ac2dc6cf58706d2ccdbdb054ed70dcfe7ad22615ba4781e",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/f417ad5f4c6917904ac2dc6cf58706d2ccdbdb054ed70dcfe7ad22615ba4781e.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        10,
+        11,
+        26,
+        40,
+        41,
+        42,
+        63
+      ],
+      "core_reconstruction_seconds": 0.036965791000056925,
+      "core_sha256": "a1ea0d06040ebf312d38875c4ab0f416cb92627f370dd0aa982103b21fa5a6a7",
+      "drop_term": 39,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.3659017449999737,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 60,
+            "exterior_degree": 2,
+            "matrix_rank": 40,
+            "matrix_sha256": "67b9f9cc4d9fb332039f8cd631ef42f10fa1d756e1514fa32d33fe90abaa11d5",
+            "mode": 0,
+            "rank_one_contribution": 6,
+            "rows": 70,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 75,
+            "exterior_degree": 2,
+            "matrix_rank": 63,
+            "matrix_sha256": "080a53f13ac41a360ec714a51500de5eb27d4acfab191d08b94761e0255a239e",
+            "mode": 1,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 91,
+            "matrix_sha256": "7ca48baa7b614d0e4c94670398705fe7261db993031a2d5d07ef65c18e1e8c43",
+            "mode": 2,
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          }
+        ],
+        "computed_modes": 3,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0007635209999534709,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          5,
+          6,
+          7
+        ],
+        "rejected": false,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 7
+      },
+      "patch_id": "cc0bfe87fae66dd542eef2b3b2fbc521b78ef983a5bbe3577f6a4c603379cf5f",
+      "source_sha256": "0ec72018e3a0a231a75652074ecd78b1e62711a4d97faea4621d7dbe02c913d7",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/0ec72018e3a0a231a75652074ecd78b1e62711a4d97faea4621d7dbe02c913d7.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        58,
+        62,
+        63,
+        64,
+        80,
+        81,
+        87
+      ],
+      "core_reconstruction_seconds": 0.03374372000007497,
+      "core_sha256": "f2e5449bab97f29c88b52fb92877a13fb8e9727ae01b23887b831fd32afa1708",
+      "drop_term": 88,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.8083791779999956,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 70,
+            "matrix_sha256": "3591ddf12b756f0259f5f00f33799904259007048771ab66c3c4b6980ea8aaa8",
+            "mode": 0,
+            "rank_one_contribution": 10,
+            "rows": 120,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 70,
+            "matrix_sha256": "3a953814c757062acaa2a3fd7f2fe75e31d0d7cdaff0782cebec4e4e25d4dc35",
+            "mode": 2,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 102,
+            "matrix_sha256": "00e460df829f6f9e1cbf4f805f0f5d6d8d5147cf9149d21298d26e1cea0d4a20",
+            "mode": 1,
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          }
+        ],
+        "computed_modes": 3,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.004927826000312052,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          7,
+          6
+        ],
+        "rejected": false,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 7
+      },
+      "patch_id": "d3ffbe894942601d8e143c113c758d515bc370c170d2225ecd3a54bcfee85301",
+      "source_sha256": "aa9c17520fa8e503c25e259d0dab6989e2d0df2e0b3652ea5ccd8562e86e1b0b",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/aa9c17520fa8e503c25e259d0dab6989e2d0df2e0b3652ea5ccd8562e86e1b0b.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        11,
+        12,
+        39,
+        40,
+        41,
+        42,
+        86
+      ],
+      "core_reconstruction_seconds": 0.0374570029998722,
+      "core_sha256": "cfdfefafa1807aaa55c09393e937d0b245ce2b3441ff1a1b0580cf0e2bf4afc1",
+      "drop_term": 10,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.367559028999949,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 64,
+            "matrix_sha256": "18682abeeb8b8e5c86077857381d1d7079b2ee2f76beb1f7f04c41cfe368655e",
+            "mode": 0,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 69,
+            "matrix_sha256": "66c921c1991ca5df52cda53217f3255957aa891a20a62d947cbca67ee5cddc87",
+            "mode": 1,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 96,
+            "matrix_sha256": "5085cca5c24cfe430e1d48bbf6647cc4bfde63b2168f4490c8003bd6914bb955",
+            "mode": 2,
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          }
+        ],
+        "computed_modes": 3,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.004885243999979139,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          6,
+          7
+        ],
+        "rejected": false,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 7
+      },
+      "patch_id": "cd95b9d83bf30567d088a5e0bc904ef61d0fe64186db42bdbe7992b95d2b0981",
+      "source_sha256": "fd865978acfc9854310b0b46982036f6ce200a5e97ef0c577954848d590e8232",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/fd865978acfc9854310b0b46982036f6ce200a5e97ef0c577954848d590e8232.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        9,
+        16,
+        25,
+        36,
+        37,
+        40,
+        60
+      ],
+      "core_reconstruction_seconds": 0.03395485100008955,
+      "core_sha256": "850e541056089e85279976518aa7d79c8600d830f689988960e8d7ef7f640c9b",
+      "drop_term": 10,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.647901814999841,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 65,
+            "matrix_sha256": "6f3a4d63e5fe273867e41cdc3597841f5c3507e73812196d95451a72c815752d",
+            "mode": 0,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 70,
+            "matrix_sha256": "2968dfe078e26658dc07ae162919a466031ea8bd956a692072bb4905bdab47c6",
+            "mode": 1,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 101,
+            "matrix_sha256": "6c353204424d50f1abe757ae1b6ab52755a6431fa7210ce6a293de377fb2cb16",
+            "mode": 2,
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          }
+        ],
+        "computed_modes": 3,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0008226680001826026,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          6,
+          7
+        ],
+        "rejected": false,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 7
+      },
+      "patch_id": "a39d8cf05da672289334abe3dd6eeb7b46a29046cbe1b2cb252f693c251ba4a9",
+      "source_sha256": "79fc125e87192909685e2273fa7556771fa01b7758b770aefdcac79780a0fc3e",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/79fc125e87192909685e2273fa7556771fa01b7758b770aefdcac79780a0fc3e.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        3,
+        7,
+        8,
+        37,
+        62,
+        75,
+        87
+      ],
+      "core_reconstruction_seconds": 0.03346986799988372,
+      "core_sha256": "7d003366fff8b83b7f78a96662d9e8a2942c904c605dd6a2aa32a837db5b391e",
+      "drop_term": 6,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.661226309000085,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 70,
+            "matrix_sha256": "fe82a7f3efb9dd63860ea52f15b431dc13661e98a305fd218303cc4515bfdf98",
+            "mode": 0,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 65,
+            "matrix_sha256": "995b4c30c99108f15afc5347764d32826a5fdadb1e8eacc4a81eff9f1a3bb1c8",
+            "mode": 1,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 96,
+            "matrix_sha256": "6800d954cc32f9754fc8b1b9944027a52bd6ed7f32f502689675f64ef44e6e0d",
+            "mode": 2,
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          }
+        ],
+        "computed_modes": 3,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0007595349998155143,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          6,
+          7
+        ],
+        "rejected": false,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 7
+      },
+      "patch_id": "dc4c3aec35eefbecd38050fedec937bf26b6d54c9ffaec49778a90c554989b90",
+      "source_sha256": "ce2d7fe4cf3b03bb8ea37b366d786fd7f6d1c0a328933cc54091e199983bbc17",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/ce2d7fe4cf3b03bb8ea37b366d786fd7f6d1c0a328933cc54091e199983bbc17.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        2,
+        16,
+        19,
+        29,
+        47,
+        56,
+        57
+      ],
+      "core_reconstruction_seconds": 0.03381790999992518,
+      "core_sha256": "fef2910e51578e970ea8b3d94e7c29a9634a617982ed57b123b973f684f9f172",
+      "drop_term": 48,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.1449086209995585,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 75,
+            "matrix_sha256": "559861c4a5c16a5cb198b741067221880cc6557a5a0b498507c84ec916e97b05",
+            "mode": 0,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          }
+        ],
+        "computed_modes": 1,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0002995899999405083,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          6,
+          7
+        ],
+        "rejected": true,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 8
+      },
+      "patch_id": "446908722e759e6305309235a0784e72e098f05d00591dec688d17b8e933899a",
+      "source_sha256": "9ded08f137a4f558a8ed2db7f87e74ad7f62125ec352a1bd2b9576e1a29014a6",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/9ded08f137a4f558a8ed2db7f87e74ad7f62125ec352a1bd2b9576e1a29014a6.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        10,
+        20,
+        23,
+        24,
+        65,
+        79,
+        80
+      ],
+      "core_reconstruction_seconds": 0.037681011999666225,
+      "core_sha256": "73e491ae34c5975aa936347bcb38a9b7765fff8cc3147290e50c5b37a2a6fcb7",
+      "drop_term": 19,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.4400100720004048,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 70,
+            "exterior_degree": 2,
+            "matrix_rank": 41,
+            "matrix_sha256": "41f0513703517cb197469dbcc382d80b38612bc8e2859257061a44e4a70da887",
+            "mode": 1,
+            "rank_one_contribution": 6,
+            "rows": 60,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 68,
+            "matrix_sha256": "4f7e2235c123c55f6cea6f844d2662c979b1452954a43215a04f6956b4e854bd",
+            "mode": 2,
+            "rank_one_contribution": 10,
+            "rows": 100,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 94,
+            "matrix_sha256": "3c0aa1728283f98df612e32609e9df22de89a4f7e86355b272ee7bd2b5824d5a",
+            "mode": 0,
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          }
+        ],
+        "computed_modes": 3,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0006162040003800939,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          7,
+          5,
+          6
+        ],
+        "rejected": false,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 7
+      },
+      "patch_id": "f8807ccd3ac5e070982f16f1cde93a46648de7a76b0e6a8d6dd32299b0c841b5",
+      "source_sha256": "ad0f35b3e7edf41f1a3b7151da8b45404c58f8976d36887ea9b7eb9e57495e1f",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/ad0f35b3e7edf41f1a3b7151da8b45404c58f8976d36887ea9b7eb9e57495e1f.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        4,
+        24,
+        38,
+        39,
+        41,
+        42,
+        62
+      ],
+      "core_reconstruction_seconds": 0.032113116000346054,
+      "core_sha256": "09232c88fe23d293a4b34e9ddae02f6d7a302a94aefd732a7345837bfd95ba24",
+      "drop_term": 10,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 4.0109165210001265,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 65,
+            "matrix_sha256": "373534ac3c417d56e36212916f6dc241b9ed9b8b56fbcb05ce8d0b0cbc6c0e55",
+            "mode": 0,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 70,
+            "matrix_sha256": "1b1b89d6e00a081eea8c87ff926ec213c875e58082c13cfa14cc0979f3108e9f",
+            "mode": 1,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 101,
+            "matrix_sha256": "bde8d99ed0cfa1596acf8b85d9314c24dcce430cf65a55205605b529b6a20aba",
+            "mode": 2,
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          }
+        ],
+        "computed_modes": 3,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.00489382600017052,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          6,
+          7
+        ],
+        "rejected": false,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 7
+      },
+      "patch_id": "e657da21c424e0032ed8604b47e8ed526e1a779052e631a876bac068eb3faf97",
+      "source_sha256": "c364087323b1261d3dedd5ef1c8627f01a98ae7acd73b5d3bd776e7c58437bc5",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/c364087323b1261d3dedd5ef1c8627f01a98ae7acd73b5d3bd776e7c58437bc5.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        10,
+        17,
+        26,
+        38,
+        39,
+        42,
+        63
+      ],
+      "core_reconstruction_seconds": 0.03315007899982447,
+      "core_sha256": "774708da1a6d170852aee98b8e028b22b17bca1c95c638da060d8cf72e77d628",
+      "drop_term": 11,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.52243183399969,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 60,
+            "exterior_degree": 2,
+            "matrix_rank": 43,
+            "matrix_sha256": "9ddbf51fdcd26dad3b1b598c804a1fb4f49f878814b9e01e65440c7f240b041a",
+            "mode": 1,
+            "rank_one_contribution": 6,
+            "rows": 70,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          }
+        ],
+        "computed_modes": 1,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.00020653299998230068,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          5,
+          7
+        ],
+        "rejected": true,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 8
+      },
+      "patch_id": "52c00dece6c9ee0d256cb847d49478e013f15d1e729dd8708bad044a63dfa93b",
+      "source_sha256": "17f7348d4eef02fa4c1c9173ddb239c4698fb8a51618b7186e574f765bb65282",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/17f7348d4eef02fa4c1c9173ddb239c4698fb8a51618b7186e574f765bb65282.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        16,
+        17,
+        19,
+        26,
+        29,
+        48,
+        57
+      ],
+      "core_reconstruction_seconds": 0.03749220500003503,
+      "core_sha256": "b94ac8e3b577551b3e3b5c280685fffdc152d10ca6aa9fc7791333235b5ce197",
+      "drop_term": 11,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.401162435999595,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 72,
+            "matrix_sha256": "cc332011d6a3d5c7a8d74c5f6e4d89210dddd79da70634915ebfbb9aa98e4541",
+            "mode": 0,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          }
+        ],
+        "computed_modes": 1,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.00030342599984578555,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          6,
+          7
+        ],
+        "rejected": true,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 8
+      },
+      "patch_id": "7c478725fdae685b34ff6568354566caae8fd668cef6ca8493e0a63deea88b8b",
+      "source_sha256": "f378b2be4c67a414ac69a99b34d687df6fc397e46e06344e9a7dca67f622e8bf",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/f378b2be4c67a414ac69a99b34d687df6fc397e46e06344e9a7dca67f622e8bf.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        5,
+        6,
+        19,
+        21,
+        22,
+        25,
+        84
+      ],
+      "core_reconstruction_seconds": 0.037020312000095146,
+      "core_sha256": "b0bbda5fb6b1a012dd8001f7458ec4413de73cbd435402dbe3df4a4cba0a04bf",
+      "drop_term": 4,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.560113852000086,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 90,
+            "exterior_degree": 2,
+            "matrix_rank": 73,
+            "matrix_sha256": "55133110eb3ec8c09c8e6cfcb951c36feca9d649f3fcf5f7f2fe9815abc44a08",
+            "mode": 0,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          }
+        ],
+        "computed_modes": 1,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0002840269999069278,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          6,
+          7
+        ],
+        "rejected": true,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 8
+      },
+      "patch_id": "4f676f3ba8685352fcc1163c20b007d454cbbbfd52b64c1ba6da960cbe25fa3a",
+      "source_sha256": "b634b6784ef8d1d85985eb787c8d901c8759e89ec5d4561be97bdfb6a1a3091b",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/b634b6784ef8d1d85985eb787c8d901c8759e89ec5d4561be97bdfb6a1a3091b.json"
+    },
+    {
+      "K": 7,
+      "active_terms": [
+        4,
+        10,
+        21,
+        23,
+        24,
+        25,
+        26
+      ],
+      "core_reconstruction_seconds": 0.03360977400006959,
+      "core_sha256": "0c0095faf7f688b73db02740ec36743d70d15efa049bd5888c60a715258e1724",
+      "drop_term": 38,
+      "p1_lower_bound": 7,
+      "p1_solver_elapsed_seconds": 3.9181487910000214,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 68,
+            "matrix_sha256": "a5cef7e82e513a8bd6fed48d0d520ef3ce213b995408f6fe51f4b92b5a174580",
+            "mode": 1,
+            "rank_one_contribution": 10,
+            "rows": 120,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 68,
+            "matrix_sha256": "fa6e3b3db8c52ffa17e80ca4e95b951d04afdca274cdddaf20333b8a42598d3b",
+            "mode": 2,
+            "rank_one_contribution": 10,
+            "rows": 120,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 91,
+            "matrix_sha256": "450779f13409188d9e27fb95ae5a3adf218101db905df933a72aef5361fe2721",
+            "mode": 0,
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 7
+          }
+        ],
+        "computed_modes": 3,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0007938260000628361,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          7,
+          6,
+          6
+        ],
+        "rejected": false,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 7,
+        "tensor_rank_lower_bound": 7
+      },
+      "patch_id": "6090bc8e89e2c9d1542aa527fb7d7fb32cbb8be594d031b9282ec508e6846990",
+      "source_sha256": "af4c2dcacf60caed7625ed4fcb75c17e3fb2005c08d9033fff439197c430e2cc",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/af4c2dcacf60caed7625ed4fcb75c17e3fb2005c08d9033fff439197c430e2cc.json"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        50,
+        53,
+        57,
+        59,
+        60,
+        61,
+        65,
+        91
+      ],
+      "core_reconstruction_seconds": 0.03319799900009457,
+      "core_sha256": "bbb4f83232affa1621d49f28f7e4e7b85ec29d94d68640312e2ce452d99ab059",
+      "drop_term": 92,
+      "p1_lower_bound": 8,
+      "p1_solver_elapsed_seconds": 3.9292769710000357,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 85,
+            "matrix_sha256": "8d75bf317311351a16d499c1eb84e3c933fc10aa38a599439a81678c74222379",
+            "mode": 1,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9
+          }
+        ],
+        "computed_modes": 1,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0003370949998497963,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          7,
+          6,
+          7
+        ],
+        "rejected": true,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "patch_id": "8b3f285ce84c97188a827cb371cd82c29198f967b09f75cd2aa039339267dacf",
+      "source_sha256": "d6f21cfe38a1c03d6f4bc27464fc6ed74c2fa6b422a551bd7e8bb4c2f027383e",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/d6f21cfe38a1c03d6f4bc27464fc6ed74c2fa6b422a551bd7e8bb4c2f027383e.json"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        51,
+        55,
+        57,
+        58,
+        59,
+        63,
+        87,
+        91
+      ],
+      "core_reconstruction_seconds": 0.03804798100009066,
+      "core_sha256": "de7b36323fc2d4e936ab405619548220f376656c81b6887ff9c53ab53d4fde8e",
+      "drop_term": 48,
+      "p1_lower_bound": 8,
+      "p1_solver_elapsed_seconds": 4.650162098000237,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 85,
+            "matrix_sha256": "21619c6584cf4e685c5d4c66bdaa949e49bc9b96ed388194cb76440b3aed43d7",
+            "mode": 1,
+            "rank_one_contribution": 10,
+            "rows": 160,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9
+          }
+        ],
+        "computed_modes": 1,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0003580049997253809,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          7,
+          6,
+          8
+        ],
+        "rejected": true,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "patch_id": "3a63a25aa474109f17797f2e64e55c7b61d384acd6333ada22edde546fd4ae9b",
+      "source_sha256": "ef1896aa21df7ad55cd80511fb933c7e5d7d22020093cf11cfbb79988d7b7ed5",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/ef1896aa21df7ad55cd80511fb933c7e5d7d22020093cf11cfbb79988d7b7ed5.json"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        6,
+        7,
+        17,
+        19,
+        20,
+        21,
+        36,
+        37
+      ],
+      "core_reconstruction_seconds": 0.037217431999579276,
+      "core_sha256": "1d88547eae4bfd8c29defba335485d54f74c11577c85925e5e11d9383c7707d4",
+      "drop_term": 5,
+      "p1_lower_bound": 8,
+      "p1_solver_elapsed_seconds": 3.9742683980002766,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 80,
+            "matrix_sha256": "90cff1e8f3301de44229d8c0e2fd4dce2dac38b75f65fa9bd492f63e58f9b230",
+            "mode": 0,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 111,
+            "matrix_sha256": "71b182f333ea31c6e5c30f79e46a3d3da6f1e72edb1ba26a184fb964b79b394a",
+            "mode": 1,
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 110,
+            "matrix_sha256": "c9568c97c8761e51e2373290f27b37e147a91200cf2b103e174a6d7b0b72e562",
+            "mode": 2,
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          }
+        ],
+        "computed_modes": 3,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0010153610000998015,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          6,
+          7,
+          7
+        ],
+        "rejected": false,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "patch_id": "0182e14f3bd0a56096ecc87363476adaace4bef02ac30c6e31a730d1b772b464",
+      "source_sha256": "9ffd273aa2190a72372063e708da87f1c64bc50dc47aec7f737ab155a5d1f62d",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/9ffd273aa2190a72372063e708da87f1c64bc50dc47aec7f737ab155a5d1f62d.json"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        33,
+        44,
+        67,
+        73,
+        74,
+        75,
+        77,
+        81
+      ],
+      "core_reconstruction_seconds": 0.033750711000266165,
+      "core_sha256": "735db8c9e19bff7845d13c055ad733777784b81b416f32063f911f4f6c3a3e9c",
+      "drop_term": 71,
+      "p1_lower_bound": 8,
+      "p1_solver_elapsed_seconds": 3.849667650000356,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 124,
+            "matrix_sha256": "2c38720126cee791bec04b9331673a902200a6ec462151f1c08110b4b90ad6b6",
+            "mode": 0,
+            "rank_one_contribution": 15,
+            "rows": 280,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9
+          }
+        ],
+        "computed_modes": 1,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0005404730000009295,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          7,
+          7,
+          8
+        ],
+        "rejected": true,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "patch_id": "96133820583014ae918b25a1e95b031a985bd467ce5dbba0b9e5af74238c51a5",
+      "source_sha256": "dc785b5f6b61dd430e7b5a283db8c16558b9a7b8977924fc9c45edc8f2546692",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/dc785b5f6b61dd430e7b5a283db8c16558b9a7b8977924fc9c45edc8f2546692.json"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        6,
+        7,
+        18,
+        20,
+        21,
+        24,
+        38,
+        85
+      ],
+      "core_reconstruction_seconds": 0.03317474499999662,
+      "core_sha256": "3a327a264da33077595423dc2b477ae0ddb371f49ae201de3c238e6dbf9f0357",
+      "drop_term": 5,
+      "p1_lower_bound": 8,
+      "p1_solver_elapsed_seconds": 3.56673330600006,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 80,
+            "matrix_sha256": "16d41cb47355edd59f01fbae7004a04d02b248486f2dcb915701e68bddf15f74",
+            "mode": 1,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          },
+          {
+            "columns": 147,
+            "exterior_degree": 2,
+            "matrix_rank": 116,
+            "matrix_sha256": "28c908ce62d493f7bb19c55848e579a7db6edd6e043e485dab5dee9df1404956",
+            "mode": 2,
+            "rank_one_contribution": 15,
+            "rows": 210,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          },
+          {
+            "columns": 126,
+            "exterior_degree": 2,
+            "matrix_rank": 111,
+            "matrix_sha256": "6e53e918d0ee3f171bc474174966f242bbf63f0eb339d051c0e873332e69ef84",
+            "mode": 0,
+            "rank_one_contribution": 15,
+            "rows": 245,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 8
+          }
+        ],
+        "computed_modes": 3,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.000960169999871141,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          7,
+          6,
+          7
+        ],
+        "rejected": false,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 8,
+        "tensor_rank_lower_bound": 8
+      },
+      "patch_id": "ae0c783e67b79de22dcd4fa1eea30ef2ebe046e1a080b29579887f49d76e7f05",
+      "source_sha256": "9e69df9176aa257fc6b360a9e35f7b4354316b7e69fae3905852a685827c792e",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/9e69df9176aa257fc6b360a9e35f7b4354316b7e69fae3905852a685827c792e.json"
+    },
+    {
+      "K": 8,
+      "active_terms": [
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        33
+      ],
+      "core_reconstruction_seconds": 0.03336940200006211,
+      "core_sha256": "8527fa646c6352e6c0b2f300f9593757e5dd12abeb8308508c09ff8ba6bcaa24",
+      "drop_term": 26,
+      "p1_lower_bound": 8,
+      "p1_solver_elapsed_seconds": 4.1558833989997765,
+      "p1_solver_status": "UNKNOWN",
+      "p2": {
+        "bounds": [
+          {
+            "columns": 105,
+            "exterior_degree": 2,
+            "matrix_rank": 85,
+            "matrix_sha256": "78dc52201abd01a615f8b3384d6a81022efdfba158885a8c987cd39f320f9636",
+            "mode": 2,
+            "rank_one_contribution": 10,
+            "rows": 140,
+            "status": "COMPUTED",
+            "tensor_rank_lower_bound": 9
+          }
+        ],
+        "computed_modes": 1,
+        "cost_caps": {
+          "max_columns": 5000,
+          "max_dimension": 14,
+          "max_rows": 5000
+        },
+        "elapsed_seconds": 0.0003188379996572621,
+        "exterior_degree": 2,
+        "field": 2,
+        "image_shape": [
+          7,
+          7,
+          6
+        ],
+        "rejected": true,
+        "scope": "p2 lower bound on this selected residual only; skipped modes imply no rejection",
+        "skipped_modes": 0,
+        "target": 8,
+        "tensor_rank_lower_bound": 9
+      },
+      "patch_id": "cd1ec905889b3353e0f55b855cdba1beb30ef8b77c2230a4dabc5ca163188e63",
+      "source_sha256": "1c8cda239510965d70f6c15e155d7aa842a6564bcd48e1aa42952aedc086304d",
+      "source_snapshot": "artifacts/campaign_20261102T164324Z/koszul-cadical/sources/1c8cda239510965d70f6c15e155d7aa842a6564bcd48e1aa42952aedc086304d.json"
+    }
+  ],
+  "scope": "exact local residual lower bounds only; no global matrix-multiplication nonexistence conclusion",
+  "selection": "first20 completed p1-passing solve records in koszul-cadical phase; fixed before computing p2",
+  "summary": {
+    "core_reconstruction_seconds": 0.6950660299999072,
+    "elapsed_seconds": 0.7666881639997882,
+    "original_solver_elapsed_seconds": 74.11737754400019,
+    "p1_passing_patches": 20,
+    "p2_max_seconds": 0.004927826000312052,
+    "p2_median_seconds": 0.0005783385001905117,
+    "p2_rejections": 10,
+    "p2_seconds": 0.023784673999671213,
+    "rejection_fraction": 0.5
+  },
+  "timing": "p2 timings exclude core reconstruction; live HigherCoreCache reuses the p1 core. Offline reconstruction cost is recorded separately. One pinned CPU2 shared with the running campaign."
+}

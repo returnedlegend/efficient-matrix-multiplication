@@ -1,0 +1,25 @@
+{
+  "command": [
+    "python3",
+    "scripts/merge_term_streams.py",
+    "--input",
+    "artifacts/campaign_20261102T164324Z/native-terms/terms.txt",
+    "--input",
+    "artifacts/campaign_20261102T164324Z/native/group93/group_terms.txt",
+    "--output",
+    "artifacts/campaign_20261102T164324Z/combined-gl-terms/terms.txt",
+    "--seconds",
+    "1000"
+  ],
+  "started_utc": "2026-11-02T18:23:49.517051+00:00",
+  "pid": 18139,
+  "cpu": 0,
+  "memory_mb": 128,
+  "wall_seconds": 1050,
+  "exit_code": 0,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 995.170982444999,
+  "cpu_seconds": 0.428828,
+  "max_rss_kib": 11392
+}
