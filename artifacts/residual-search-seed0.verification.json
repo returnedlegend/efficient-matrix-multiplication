@@ -1,0 +1,95 @@
+{
+  "valid": false,
+  "field_valid": false,
+  "integer_valid": false,
+  "dimension": 5,
+  "field": 2,
+  "rank": 94,
+  "exact_entries_checked": 15625,
+  "errors": [
+    "exact tensor equality failed at 12 coefficients",
+    "supplementary random multiplication test failed"
+  ],
+  "mismatch_count": 12,
+  "mismatch_examples": [
+    {
+      "indices": [
+        4,
+        20,
+        0
+      ],
+      "expected": 1,
+      "observed": 0
+    },
+    {
+      "indices": [
+        6,
+        6,
+        6
+      ],
+      "expected": 1,
+      "observed": 0
+    },
+    {
+      "indices": [
+        11,
+        6,
+        7
+      ],
+      "expected": 1,
+      "observed": 0
+    },
+    {
+      "indices": [
+        16,
+        6,
+        8
+      ],
+      "expected": 1,
+      "observed": 0
+    },
+    {
+      "indices": [
+        19,
+        20,
+        3
+      ],
+      "expected": 1,
+      "observed": 0
+    },
+    {
+      "indices": [
+        19,
+        22,
+        13
+      ],
+      "expected": 1,
+      "observed": 0
+    },
+    {
+      "indices": [
+        24,
+        21,
+        7
+      ],
+      "expected": 0,
+      "observed": 1
+    },
+    {
+      "indices": [
+        24,
+        21,
+        9
+      ],
+      "expected": 1,
+      "observed": 0
+    }
+  ],
+  "integer_mismatch_count": 959,
+  "random_multiplication": {
+    "passed": false,
+    "trials": 1,
+    "seed": 0,
+    "failed_trial": 0
+  }
+}

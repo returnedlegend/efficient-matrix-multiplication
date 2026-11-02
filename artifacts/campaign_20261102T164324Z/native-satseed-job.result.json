@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "scripts/campaign_native.py",
+    "--binary",
+    "artifacts/campaign_20261102T164324Z/frozen/flip_worker_v2",
+    "--input",
+    "artifacts/campaign_20261102T164324Z/native/satseed-inputs/02091e2ae58af101102dbcfcbf179533eef39eda2faa7e926258da048ccbc632.json",
+    "--pool",
+    "artifacts/campaign_20261102T164324Z/native/satseed-inputs",
+    "--output-dir",
+    "artifacts/campaign_20261102T164324Z/native/satseed-flips",
+    "--seconds",
+    "2500",
+    "--phase-seconds",
+    "300",
+    "--seed",
+    "31"
+  ],
+  "started_utc": "2026-11-02T17:56:27.693323+00:00",
+  "pid": 14810,
+  "cpu": 0,
+  "memory_mb": 512,
+  "wall_seconds": 2515,
+  "exit_code": 0,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 2502.586048743,
+  "cpu_seconds": 2478.488507,
+  "max_rss_kib": 19708
+}

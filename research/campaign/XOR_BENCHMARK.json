@@ -1,0 +1,156 @@
+{
+  "utc": "2026-11-02T17:00:40Z",
+  "cpu_affinity": 2,
+  "conflicts": 10000,
+  "seconds": 5,
+  "symmetry": "none",
+  "source_sha256": "497e827c4896fb8a8f9a4a495b66b8d788e1341f834dea9ba2e0ae0c8b7e64e2",
+  "versions": {
+    "pycryptosat": "5.17.0",
+    "python-sat": "1.8.dev24"
+  },
+  "pycryptosat_path": "/workspace/efficient-matrix-multiplication/.xor-deps/pycryptosat.cpython-312-x86_64-linux-gnu.so",
+  "pycryptosat_binary_sha256": "16ea39fac9399cd0d143fab7b1c78e42daf6c308639696c2abe4e0c1412f2f5e",
+  "code_sha256": {
+    "mmsearch/xor_sat.py": "09b6ab5f67024a4839e0a468f759c49c34886414d596124f1dc08056fb39eb9e",
+    "scripts/campaign_xor_sat.py": "a44a9c5c22e8f612aaba357ad93f6a979d973fc50114a75d7577d19f2fd4bc6a",
+    "tests/test_xor_sat.py": "589e52ace079a31e344f236eb11b7344413442b61077e668e64f1fe82ca23063",
+    "mmsearch/compact_sat.py": "169e16228d6aac8cf6752d7b4630173c566de4851532974e0d71eb6ff394e09c",
+    "mmsearch/sat.py": "1f0718b2238340f5eb10958d0823d7845e03a4e9f96be7d5d7342f73d17aa3d6"
+  },
+  "attempts": [
+    {
+      "k": 7,
+      "active_terms": [
+        21,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29
+      ],
+      "drop_term": 4,
+      "flattening_ranks": [
+        7,
+        7,
+        6
+      ],
+      "solvers": {
+        "compact-cadical195": {
+          "encoding_seconds": 0.0721703740000521,
+          "variables": 4354,
+          "clauses": 16835,
+          "xors": 0,
+          "image_shape": [
+            7,
+            7,
+            6
+          ],
+          "result": {
+            "status": "UNKNOWN",
+            "model": null,
+            "statistics": {
+              "restarts": 17,
+              "conflicts": 10000,
+              "decisions": 12156,
+              "propagations": 2500990
+            },
+            "solver": "CaDiCaL195",
+            "elapsed_seconds": 0.8510674570002266,
+            "conflict_budget": 10000,
+            "wall_budget_seconds": 5
+          }
+        },
+        "native-xor-cryptominisat": {
+          "encoding_seconds": 0.07314916099994662,
+          "variables": 2303,
+          "clauses": 8232,
+          "xors": 399,
+          "image_shape": [
+            7,
+            7,
+            6
+          ],
+          "result": {
+            "status": "UNKNOWN",
+            "solver": "CryptoMiniSat",
+            "pycryptosat_version": "5.17.0",
+            "solver_threads": 1,
+            "elapsed_seconds": 0.5176483679997546,
+            "conflict_budget": 10000,
+            "wall_budget_seconds": 5
+          }
+        }
+      }
+    },
+    {
+      "k": 9,
+      "active_terms": [
+        41,
+        50,
+        52,
+        53,
+        61,
+        62,
+        77,
+        79,
+        86
+      ],
+      "drop_term": 1,
+      "flattening_ranks": [
+        9,
+        9,
+        7
+      ],
+      "solvers": {
+        "compact-cadical195": {
+          "encoding_seconds": 0.11609293099991191,
+          "variables": 10449,
+          "clauses": 40977,
+          "xors": 0,
+          "image_shape": [
+            9,
+            9,
+            7
+          ],
+          "result": {
+            "status": "UNKNOWN",
+            "model": null,
+            "statistics": {
+              "restarts": 31,
+              "conflicts": 10000,
+              "decisions": 13762,
+              "propagations": 4204249
+            },
+            "solver": "CaDiCaL195",
+            "elapsed_seconds": 1.3555791119997593,
+            "conflict_budget": 10000,
+            "wall_budget_seconds": 5
+          }
+        },
+        "native-xor-cryptominisat": {
+          "encoding_seconds": 0.07421338400035893,
+          "variables": 5490,
+          "clauses": 20412,
+          "xors": 729,
+          "image_shape": [
+            9,
+            9,
+            7
+          ],
+          "result": {
+            "status": "UNKNOWN",
+            "solver": "CryptoMiniSat",
+            "pycryptosat_version": "5.17.0",
+            "solver_threads": 1,
+            "elapsed_seconds": 0.5530909849999261,
+            "conflict_budget": 10000,
+            "wall_budget_seconds": 5
+          }
+        }
+      }
+    }
+  ],
+  "validation": "21 tests: tests.test_xor_sat and tests.test_compact_sat; native XOR includes exhaustive parity and AND truth tables, full planted/nontrivial 2x2 rank7 SAT, exact small UNSAT, accepted 5x5 verifies all15625 entries, corrupt decoding rejection, hard timeout UNKNOWN"
+}

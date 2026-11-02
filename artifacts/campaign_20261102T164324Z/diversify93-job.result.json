@@ -1,0 +1,33 @@
+{
+  "command": [
+    "env",
+    "PYTHONPATH=.xor-deps:.",
+    "python3",
+    "scripts/campaign_dictionary_preprocessed.py",
+    "--dictionary",
+    "artifacts/campaign_20261102T164324Z/recombine-full/dictionary.json",
+    "--baseline",
+    "artifacts/campaign_20261102T164324Z/recombine-full/best.json",
+    "--output-dir",
+    "artifacts/campaign_20261102T164324Z/dictionary93-diversify",
+    "--rank",
+    "93",
+    "--seconds",
+    "60",
+    "--conflicts",
+    "1000000",
+    "--memory-mb",
+    "1024"
+  ],
+  "started_utc": "2026-11-02T17:49:03.128908+00:00",
+  "pid": 13969,
+  "cpu": 0,
+  "memory_mb": 1024,
+  "wall_seconds": 75,
+  "exit_code": 0,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 21.008241215999988,
+  "cpu_seconds": 10.443258,
+  "max_rss_kib": 50964
+}

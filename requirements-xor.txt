@@ -1,0 +1,3 @@
+# Optional native XOR backend; python-sat is required by the shared campaign scheduler.
+-r requirements-sat.txt
+pycryptosat==5.17.0

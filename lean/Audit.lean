@@ -1,0 +1,4 @@
+import Certificate
+#print axioms MatrixCertificate.certificate_correct
+#print axioms MatrixCertificate.contraction_target
+#print axioms MatrixCertificate.matrix_multiplication_correct

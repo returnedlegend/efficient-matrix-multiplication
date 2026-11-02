@@ -1,0 +1,2 @@
+'ExplicitCertificate.coefficient_certificate' depends on axioms: [propext, Lean.ofReduceBool]
+'ExplicitCertificate.multiplication_correct' depends on axioms: [propext, Lean.ofReduceBool, Quot.sound]

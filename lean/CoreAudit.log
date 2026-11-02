@@ -1,0 +1,5 @@
+'MatrixCertificate.certificate_correct' depends on axioms: [propext, Quot.sound]
+'MatrixCertificate.contraction_target' depends on axioms: [propext, Quot.sound]
+'MatrixCertificate.matrix_multiplication_correct' depends on axioms: [propext, Quot.sound]
+
+Compiler exit code: 0

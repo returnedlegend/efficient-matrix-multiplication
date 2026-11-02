@@ -1,0 +1,10 @@
+{
+  "candidates_checked": 401,
+  "unique_termsets": 398,
+  "exact_coefficients_checked": 6265625,
+  "ranks": {
+    "93": 401
+  },
+  "invalid": [],
+  "report_sha256": "dcb83dc4f608f49bad84539528f5225a0dc020f31576db6ac7746ec87c9a6c18"
+}

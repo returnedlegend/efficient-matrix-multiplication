@@ -1,0 +1,6 @@
+Command: bash lean/check.sh lean/Rank95Native.lean
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+'ExplicitCertificate.coefficient_certificate' depends on axioms: [propext, Lean.ofReduceBool]
+'ExplicitCertificate.multiplication_correct' depends on axioms: [propext, Lean.ofReduceBool, Quot.sound]
+
+Compiler exit code: 0

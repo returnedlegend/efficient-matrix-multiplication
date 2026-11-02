@@ -1,0 +1,31 @@
+{
+  "command": [
+    "env",
+    "PYTHONPATH=.xor-deps:.",
+    "python3",
+    "scripts/campaign_recombine_sat.py",
+    "--dictionary",
+    "artifacts/campaign_20261102T164324Z/recombine-full/dictionary.json",
+    "--baseline",
+    "artifacts/campaign_20261102T164324Z/recombine-full/best.json",
+    "--output-dir",
+    "artifacts/campaign_20261102T164324Z/dictionary903",
+    "--seconds",
+    "600",
+    "--conflicts",
+    "10000000",
+    "--memory-mb",
+    "1536"
+  ],
+  "started_utc": "2026-11-02T17:33:27.524849+00:00",
+  "pid": 11820,
+  "cpu": 1,
+  "memory_mb": 1536,
+  "wall_seconds": 615,
+  "exit_code": 0,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 56.01431302099991,
+  "cpu_seconds": 55.061757,
+  "max_rss_kib": 68284
+}

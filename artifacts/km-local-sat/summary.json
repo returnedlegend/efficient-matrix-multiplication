@@ -1,0 +1,346 @@
+{
+  "input": "artifacts/km95_f2.json",
+  "input_sha256": "4878ee0435e12b135ab6a59eb1443981a066a10d730a68fc4f649e330ab8bb42",
+  "domain": [
+    -1,
+    0,
+    1
+  ],
+  "canonical_representatives": [
+    0,
+    1
+  ],
+  "flip": {
+    "engine": "flips",
+    "steps": 89159,
+    "accepted_moves": 89159,
+    "plus_attempts": 356,
+    "restarts": 17,
+    "history": [
+      {
+        "step": 0,
+        "rank": 95
+      }
+    ],
+    "elapsed_seconds": 20.000598476999812,
+    "residual_weight": 0,
+    "seed": 0,
+    "target_rank": 94,
+    "rank": 95,
+    "cyclic": false,
+    "orbit_counts": null,
+    "exact": true,
+    "target_reached": false,
+    "status": "research_checkpoint",
+    "source_metadata": {
+      "method": "published-kauers-moosbauer-baseline",
+      "novel": false,
+      "source": "https://github.com/jakobmoosbauer/flips/blob/e31a0a0f0d2577cee5da047ca7dcae0c61992e40/solutions/555-95-mod2.exp",
+      "source_sha256": "b40354f5ee16172665e9f60a8fa92777f9993ae824aad69d0321c4b11021e13f",
+      "source_commit": "e31a0a0f0d2577cee5da047ca7dcae0c61992e40",
+      "attribution": "Manuel Kauers and Jakob Moosbauer; author-published scheme",
+      "upstream_license_notice": "GPL-3.0-or-later; see research/KM_SOURCE.md",
+      "third_factor": "trace: w[k*5+i] contributes to output[i][k]"
+    },
+    "source_sha256": "4878ee0435e12b135ab6a59eb1443981a066a10d730a68fc4f649e330ab8bb42"
+  },
+  "runs": [
+    {
+      "patch": "patch-00",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.025010195999811913,
+      "source": "seed.json",
+      "drop_term": 0,
+      "active_count": 3,
+      "support": "union",
+      "variables": 2721,
+      "clauses": 11088,
+      "factor_variables": 81,
+      "statistics": {
+        "restarts": 0,
+        "conflicts": 122,
+        "decisions": 144,
+        "propagations": 46055
+      }
+    },
+    {
+      "patch": "patch-01",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.1938179039998431,
+      "source": "seed.json",
+      "drop_term": 0,
+      "active_count": 4,
+      "support": "union",
+      "variables": 5121,
+      "clauses": 20735,
+      "factor_variables": 116,
+      "statistics": {
+        "restarts": 17,
+        "conflicts": 3684,
+        "decisions": 4104,
+        "propagations": 1823123
+      }
+    },
+    {
+      "patch": "patch-02",
+      "status": "UNKNOWN",
+      "elapsed_seconds": 0.34303900999998405,
+      "source": "seed.json",
+      "drop_term": 0,
+      "active_count": 5,
+      "support": "union",
+      "variables": 8471,
+      "clauses": 34188,
+      "factor_variables": 155,
+      "statistics": {
+        "restarts": 20,
+        "conflicts": 5003,
+        "decisions": 6042,
+        "propagations": 4209539
+      }
+    },
+    {
+      "patch": "patch-03",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.046922966000011,
+      "source": "seed.json",
+      "drop_term": 4,
+      "active_count": 3,
+      "support": "union",
+      "variables": 9471,
+      "clauses": 39312,
+      "factor_variables": 111,
+      "statistics": {
+        "restarts": 0,
+        "conflicts": 135,
+        "decisions": 163,
+        "propagations": 164168
+      }
+    },
+    {
+      "patch": "patch-04",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.24457298500010438,
+      "source": "seed.json",
+      "drop_term": 4,
+      "active_count": 4,
+      "support": "union",
+      "variables": 15444,
+      "clauses": 63336,
+      "factor_variables": 156,
+      "statistics": {
+        "restarts": 1,
+        "conflicts": 2353,
+        "decisions": 2638,
+        "propagations": 2704360
+      }
+    },
+    {
+      "patch": "patch-05",
+      "status": "UNKNOWN",
+      "elapsed_seconds": 0.767873451000014,
+      "source": "seed.json",
+      "drop_term": 4,
+      "active_count": 5,
+      "support": "union",
+      "variables": 21494,
+      "clauses": 87542,
+      "factor_variables": 200,
+      "statistics": {
+        "restarts": 25,
+        "conflicts": 5001,
+        "decisions": 5976,
+        "propagations": 10360050
+      }
+    },
+    {
+      "patch": "patch-06",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.05141791699998066,
+      "source": "flip.json",
+      "drop_term": 4,
+      "active_count": 3,
+      "support": "union",
+      "variables": 9471,
+      "clauses": 39312,
+      "factor_variables": 111,
+      "statistics": {
+        "restarts": 0,
+        "conflicts": 143,
+        "decisions": 160,
+        "propagations": 167386
+      }
+    },
+    {
+      "patch": "patch-07",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.2391905009999391,
+      "source": "flip.json",
+      "drop_term": 4,
+      "active_count": 4,
+      "support": "union",
+      "variables": 14348,
+      "clauses": 58812,
+      "factor_variables": 152,
+      "statistics": {
+        "restarts": 8,
+        "conflicts": 2670,
+        "decisions": 3073,
+        "propagations": 2819616
+      }
+    },
+    {
+      "patch": "patch-08",
+      "status": "UNKNOWN",
+      "elapsed_seconds": 0.6238173960000495,
+      "source": "flip.json",
+      "drop_term": 4,
+      "active_count": 5,
+      "support": "union",
+      "variables": 19851,
+      "clauses": 80808,
+      "factor_variables": 195,
+      "statistics": {
+        "restarts": 4,
+        "conflicts": 5002,
+        "decisions": 6130,
+        "propagations": 7954551
+      }
+    },
+    {
+      "patch": "patch-09",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.024922051999965333,
+      "source": "flip.json",
+      "drop_term": 5,
+      "active_count": 3,
+      "support": "union",
+      "variables": 2721,
+      "clauses": 11088,
+      "factor_variables": 81,
+      "statistics": {
+        "restarts": 0,
+        "conflicts": 120,
+        "decisions": 139,
+        "propagations": 43949
+      }
+    },
+    {
+      "patch": "patch-10",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.12024515500002053,
+      "source": "flip.json",
+      "drop_term": 5,
+      "active_count": 4,
+      "support": "union",
+      "variables": 5121,
+      "clauses": 20735,
+      "factor_variables": 116,
+      "statistics": {
+        "restarts": 3,
+        "conflicts": 2589,
+        "decisions": 2846,
+        "propagations": 1300935
+      }
+    },
+    {
+      "patch": "patch-11",
+      "status": "UNKNOWN",
+      "elapsed_seconds": 0.36898006199999145,
+      "source": "flip.json",
+      "drop_term": 5,
+      "active_count": 5,
+      "support": "union",
+      "variables": 8579,
+      "clauses": 34632,
+      "factor_variables": 155,
+      "statistics": {
+        "restarts": 43,
+        "conflicts": 5000,
+        "decisions": 6495,
+        "propagations": 4382690
+      }
+    },
+    {
+      "patch": "patch-12",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.13300679700000728,
+      "source": "seed.json",
+      "drop_term": 0,
+      "active_count": 2,
+      "support": "full",
+      "variables": 47025,
+      "clauses": 203125,
+      "factor_variables": 150,
+      "statistics": {
+        "restarts": 0,
+        "conflicts": 12,
+        "decisions": 62,
+        "propagations": 98155
+      }
+    },
+    {
+      "patch": "patch-13",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.14488762099995256,
+      "source": "seed.json",
+      "drop_term": 4,
+      "active_count": 2,
+      "support": "full",
+      "variables": 47025,
+      "clauses": 203125,
+      "factor_variables": 150,
+      "statistics": {
+        "restarts": 0,
+        "conflicts": 12,
+        "decisions": 63,
+        "propagations": 132175
+      }
+    },
+    {
+      "patch": "patch-14",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.15804655700003423,
+      "source": "flip.json",
+      "drop_term": 4,
+      "active_count": 2,
+      "support": "full",
+      "variables": 47025,
+      "clauses": 203125,
+      "factor_variables": 150,
+      "statistics": {
+        "restarts": 0,
+        "conflicts": 12,
+        "decisions": 63,
+        "propagations": 112886
+      }
+    },
+    {
+      "patch": "patch-15",
+      "status": "UNSAT",
+      "elapsed_seconds": 0.14921122599980663,
+      "source": "flip.json",
+      "drop_term": 5,
+      "active_count": 2,
+      "support": "full",
+      "variables": 47025,
+      "clauses": 203125,
+      "factor_variables": 150,
+      "statistics": {
+        "restarts": 0,
+        "conflicts": 12,
+        "decisions": 62,
+        "propagations": 98155
+      }
+    }
+  ],
+  "target_rank": 94,
+  "exact_target_found": false,
+  "elapsed_seconds": 26.268316372000072,
+  "solver": "CaDiCaL 1.9.5 via python-sat 1.8.dev24",
+  "solver_limits": {
+    "seconds_per_patch": 2,
+    "conflicts": 5000
+  },
+  "scope": "local frozen neighborhoods only; UNSAT is not a global rank bound"
+}

@@ -1,0 +1,30 @@
+{
+  "command": [
+    "python3",
+    "scripts/campaign_native.py",
+    "--binary",
+    "artifacts/campaign_20261102T164324Z/frozen/flip_worker_v2",
+    "--pool",
+    "artifacts/campaign/public-seeds/fastmatrix-f2/seeds",
+    "--output-dir",
+    "artifacts/campaign_20261102T164324Z/native/cyclic",
+    "--seconds",
+    "6480",
+    "--phase-seconds",
+    "600",
+    "--seed",
+    "1",
+    "--cyclic"
+  ],
+  "started_utc": "2026-11-02T16:49:58.858776+00:00",
+  "pid": 4755,
+  "cpu": 1,
+  "memory_mb": 512,
+  "wall_seconds": 6500,
+  "exit_code": 0,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 1232.2900408660003,
+  "cpu_seconds": 1226.3725570000001,
+  "max_rss_kib": 13952
+}

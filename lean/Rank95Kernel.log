@@ -1,0 +1,4 @@
+Command: LEAN_PATH=lean lean/.toolchain/lean-4.19.0-linux/bin/lean lean/Rank95.lean
+Status: stopped after approximately 120 seconds (research compute budget).
+No successful compiler result is claimed for this kernel-decide certificate.
+The corresponding native-decide theorem compiled successfully; see Rank95Native.log.

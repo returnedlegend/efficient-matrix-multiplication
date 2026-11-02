@@ -1,0 +1,28 @@
+{
+  "command": [
+    "python3",
+    "-m",
+    "mmsearch.als",
+    "--input",
+    "artifacts/km93_f2.json",
+    "--rank",
+    "92",
+    "--seconds",
+    "600",
+    "--seed",
+    "0",
+    "--output",
+    "artifacts/campaign_20261102T164324Z/als-r92-s0.json"
+  ],
+  "started_utc": "2026-11-02T16:45:41.446055+00:00",
+  "pid": 4071,
+  "cpu": 3,
+  "memory_mb": 1024,
+  "wall_seconds": 615,
+  "exit_code": 1,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 600.1271734510001,
+  "cpu_seconds": 598.742971,
+  "max_rss_kib": 10880
+}

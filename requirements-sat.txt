@@ -1,0 +1,2 @@
+# Bundles the local CaDiCaL 1.9.5 solver; no remote solving service is used.
+python-sat==1.8.dev24

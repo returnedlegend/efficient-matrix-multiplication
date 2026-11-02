@@ -1,0 +1,1094 @@
+{
+  "dimension_cap": 10,
+  "recorded_utc": "2026-11-02T17:44:19Z",
+  "records": [
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 158,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0010442460006743204
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 158,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0010089749994222075
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 160,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0050425179997546365
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 160,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009828960000959341
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 160,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009375890003866516
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 160,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.005039704999944661
+        }
+      ],
+      "patch_id": "974a9171895ccde284d2658a4b93b6f0f571a381ba71365f9662a0f0a7ac6c4a",
+      "rejected": false,
+      "shape": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 162,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.0009695959997770842
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 162,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.00502401199992164
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 162,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.0009466729998166556
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 162,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.0009648000004744972
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 162,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.004999856000722502
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 162,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.000921456000469334
+        }
+      ],
+      "patch_id": "fbbf421474c025b30b1f8d55de18758c02b8ed83c0eb1b4f23e5cbaa9617cf1f",
+      "rejected": true,
+      "shape": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 161,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.0009640879998187302
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 161,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.0009354559997518663
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 161,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.0009179099997709272
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 161,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.000980712999989919
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 158,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009228070002791355
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 158,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009444790002817172
+        }
+      ],
+      "patch_id": "484b6d80baef653b8048a215ea272b38262b6445ddfab5fcda4ff1f8d4ebe605",
+      "rejected": true,
+      "shape": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 80,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 10,
+          "rejected": false,
+          "seconds": 0.0004943469994032057
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 80,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 10,
+          "rejected": false,
+          "seconds": 0.0004675680002037552
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 157,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009869119994618814
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 157,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0008786229991528671
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 156,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.005062518000158889
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 156,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0008587639995312202
+        }
+      ],
+      "patch_id": "765df3e941e443d5f93540a61cfc590183e9aaa9141eaf74bfdaa95b59688873",
+      "rejected": false,
+      "shape": [
+        6,
+        7,
+        7
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 161,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.004617204000169295
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 161,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.0005485770006998791
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 161,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.00052913899980922
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 161,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.0005318619996614871
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 164,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.0005383420002544881
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 9,
+          "map_rank": 164,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": true,
+          "seconds": 0.0005254729994703666
+        }
+      ],
+      "patch_id": "7f353ad37ff4d0c4e12ef2615436805b3700a74b31b0fa65784bb3c8a584db77",
+      "rejected": true,
+      "shape": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 150,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009655009998823516
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 150,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0008870849997038022
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 153,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009494169999015867
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 153,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.005016250000153377
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 157,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009377500000482542
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 157,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009337429992228863
+        }
+      ],
+      "patch_id": "61b4477c6062975d5e11d126b70ff2bcca90bff1fa740b49ec1cc1a5a087673e",
+      "rejected": false,
+      "shape": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 30,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 4,
+          "rejected": false,
+          "seconds": 0.00021832200036442373
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 29,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 4,
+          "rejected": false,
+          "seconds": 0.00018666400046640774
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 142,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0008919619995140238
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 142,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0006805410002925782
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 7,
+          "map_rank": 134,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.000946793000366597
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 7,
+          "map_rank": 134,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.004782195999723626
+        }
+      ],
+      "patch_id": "bbed27acde90dc304b5d7576ea37246e688be3a0300144c647d591e6c338423f",
+      "rejected": false,
+      "shape": [
+        5,
+        7,
+        7
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 153,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.005086994000521372
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 153,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009217859997079358
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 154,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009540239998386824
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 154,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009224069999618223
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 158,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.005060196000158612
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 158,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009769380003490369
+        }
+      ],
+      "patch_id": "3126501220616c65c5a3c1658c5089b16745cd840a73b59b4d7aea450c243d8c",
+      "rejected": false,
+      "shape": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 153,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.000989715999821783
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 153,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009278650004489464
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 154,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.005034057000557368
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 154,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009236689993485925
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 158,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0009428470002603717
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 158,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.005025063000175578
+        }
+      ],
+      "patch_id": "a251e86bebb680cfb107eb41f3b987b8e0956590d11aba9ab38488a7cad97012",
+      "rejected": false,
+      "shape": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 262,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 35,
+          "rejected": false,
+          "seconds": 0.005825481999636395
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 269,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 35,
+          "rejected": false,
+          "seconds": 0.001546395000332268
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 77,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 10,
+          "rejected": false,
+          "seconds": 0.0004469980003705132
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 79,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 10,
+          "rejected": false,
+          "seconds": 0.004573948999677668
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 152,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0008279590001620818
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 152,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0010139220003111404
+        }
+      ],
+      "patch_id": "e30140c43eabada30d055014d9aca1040b5069a9f2dc8c3a9cccb52e3975666b",
+      "rejected": false,
+      "shape": [
+        8,
+        6,
+        7
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 75,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 10,
+          "rejected": false,
+          "seconds": 0.00043761399956565583
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 77,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 10,
+          "rejected": false,
+          "seconds": 0.00042026899973279797
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 151,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0008190250000552624
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 151,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0007934370005386882
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 80,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 10,
+          "rejected": false,
+          "seconds": 0.0004306640003051143
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 76,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 10,
+          "rejected": false,
+          "seconds": 0.0003777150004680152
+        }
+      ],
+      "patch_id": "f6c885c087b4ef7fa92a32dcb2594df37c0bbe27c244c972a0fbb1436e38749a",
+      "rejected": false,
+      "shape": [
+        6,
+        7,
+        6
+      ]
+    },
+    {
+      "K": 8,
+      "checks": [
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 246,
+          "orientation": [
+            0,
+            1,
+            2
+          ],
+          "rank_one_contribution": 35,
+          "rejected": false,
+          "seconds": 0.0017391989995303447
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 253,
+          "orientation": [
+            0,
+            2,
+            1
+          ],
+          "rank_one_contribution": 35,
+          "rejected": false,
+          "seconds": 0.0056173659995693015
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 77,
+          "orientation": [
+            1,
+            0,
+            2
+          ],
+          "rank_one_contribution": 10,
+          "rejected": false,
+          "seconds": 0.0004790440007127472
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 79,
+          "orientation": [
+            1,
+            2,
+            0
+          ],
+          "rank_one_contribution": 10,
+          "rejected": false,
+          "seconds": 0.0004949280000801082
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 149,
+          "orientation": [
+            2,
+            0,
+            1
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0008142480000969954
+        },
+        {
+          "exterior_degree": 3,
+          "lower_bound": 8,
+          "map_rank": 149,
+          "orientation": [
+            2,
+            1,
+            0
+          ],
+          "rank_one_contribution": 20,
+          "rejected": false,
+          "seconds": 0.0050989820001632324
+        }
+      ],
+      "patch_id": "3d4aaada45cd3529f735a4c9db54aa81fecdbd8ba949f4d26efc061fbeb23f3d",
+      "rejected": false,
+      "shape": [
+        8,
+        6,
+        7
+      ]
+    }
+  ],
+  "scope": "small read-only p3 prototype on fixed first20 p2 survivors after all ordered p1/p2 filtering; no implementation or large launch",
+  "summary": {
+    "additional_p3_rejections": 3,
+    "all_orientation_survivors": 12,
+    "elapsed_seconds": 1.0553906509994704,
+    "original_p2_survivors_sampled": 20,
+    "p3_seconds": 0.12650608600142732
+  }
+}

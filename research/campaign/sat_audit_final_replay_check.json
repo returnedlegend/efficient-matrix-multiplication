@@ -1,0 +1,11 @@
+{
+  "audit_script_sha256": "8e733d67ff052354069c0683a7269d1acc2f39c6d00b6e8537077c26a6aae5f0",
+  "audit_valid": true,
+  "conditional_counts_match": true,
+  "diagnostics": [],
+  "raw_counts_match": true,
+  "replay_diagnostics": [],
+  "replay_valid": true,
+  "snapshot_sha256": "c56b8fd21b28b00ad9cd9ebb1360be4e40b2771234383691757007778486cd1b",
+  "uniform_counts_match": true
+}

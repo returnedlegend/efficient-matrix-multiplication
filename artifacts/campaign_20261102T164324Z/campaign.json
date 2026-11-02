@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-11-02T16:43:24Z",
+  "deadline_utc": "2026-11-02T18:43:24Z",
+  "max_cpu_cores": 4,
+  "max_ram_gib": 8,
+  "seed": "artifacts/km93_f2.json",
+  "target_rank": 92,
+  "field": 2,
+  "state": "completed",
+  "worker_memory_caps_mib": {
+    "native0": 512,
+    "native1": 512,
+    "sat_parent_and_child_each": 2048,
+    "rotating_als_or_cyclic": 1024
+  },
+  "note": "SAT child inherits memory and affinity limits. No paid compute/publication authorized.",
+  "best_verified_rank": 93,
+  "record_candidate_found": false,
+  "search_workers_stopped": true,
+  "stop_reason": "two-hour wall-clock research budget completed",
+  "ended_utc": "2026-11-02T18:44:00.885345+00:00"
+}

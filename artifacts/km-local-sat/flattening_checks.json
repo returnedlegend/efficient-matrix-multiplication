@@ -1,0 +1,183 @@
+{
+  "method": "OverF2, each flattening of the residual is a sum of K rank-one matrices, hence has rank at mostK. Exact source permits residual=sum of dropped+active source terms.",
+  "checks": [
+    {
+      "patch": "patch-00",
+      "solver_status": "UNSAT",
+      "active_count": 3,
+      "flattening_ranks": [
+        4,
+        4,
+        4
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-01",
+      "solver_status": "UNSAT",
+      "active_count": 4,
+      "flattening_ranks": [
+        5,
+        5,
+        5
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-02",
+      "solver_status": "UNKNOWN",
+      "active_count": 5,
+      "flattening_ranks": [
+        6,
+        5,
+        6
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-03",
+      "solver_status": "UNSAT",
+      "active_count": 3,
+      "flattening_ranks": [
+        4,
+        4,
+        4
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-04",
+      "solver_status": "UNSAT",
+      "active_count": 4,
+      "flattening_ranks": [
+        5,
+        5,
+        5
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-05",
+      "solver_status": "UNKNOWN",
+      "active_count": 5,
+      "flattening_ranks": [
+        6,
+        6,
+        6
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-06",
+      "solver_status": "UNSAT",
+      "active_count": 3,
+      "flattening_ranks": [
+        4,
+        4,
+        4
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-07",
+      "solver_status": "UNSAT",
+      "active_count": 4,
+      "flattening_ranks": [
+        5,
+        5,
+        5
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-08",
+      "solver_status": "UNKNOWN",
+      "active_count": 5,
+      "flattening_ranks": [
+        6,
+        6,
+        6
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-09",
+      "solver_status": "UNSAT",
+      "active_count": 3,
+      "flattening_ranks": [
+        4,
+        4,
+        4
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-10",
+      "solver_status": "UNSAT",
+      "active_count": 4,
+      "flattening_ranks": [
+        5,
+        5,
+        5
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-11",
+      "solver_status": "UNKNOWN",
+      "active_count": 5,
+      "flattening_ranks": [
+        6,
+        6,
+        6
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-12",
+      "solver_status": "UNSAT",
+      "active_count": 2,
+      "flattening_ranks": [
+        3,
+        3,
+        3
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-13",
+      "solver_status": "UNSAT",
+      "active_count": 2,
+      "flattening_ranks": [
+        3,
+        3,
+        3
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-14",
+      "solver_status": "UNSAT",
+      "active_count": 2,
+      "flattening_ranks": [
+        3,
+        3,
+        3
+      ],
+      "local_impossibility_by_bound": true
+    },
+    {
+      "patch": "patch-15",
+      "solver_status": "UNSAT",
+      "active_count": 2,
+      "flattening_ranks": [
+        3,
+        3,
+        3
+      ],
+      "local_impossibility_by_bound": true
+    }
+  ],
+  "all_ruled_out": true,
+  "scope": "Only the specified frozen local neighborhoods. This is not a global rank bound."
+}

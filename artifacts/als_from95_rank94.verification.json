@@ -1,0 +1,41 @@
+{
+  "valid": false,
+  "field_valid": false,
+  "integer_valid": false,
+  "dimension": 5,
+  "field": 2,
+  "rank": 94,
+  "exact_entries_checked": 15625,
+  "errors": [
+    "exact tensor equality failed at 2 coefficients",
+    "supplementary random multiplication test failed"
+  ],
+  "mismatch_count": 2,
+  "mismatch_examples": [
+    {
+      "indices": [
+        21,
+        7,
+        14
+      ],
+      "expected": 1,
+      "observed": 0
+    },
+    {
+      "indices": [
+        22,
+        10,
+        4
+      ],
+      "expected": 1,
+      "observed": 0
+    }
+  ],
+  "integer_mismatch_count": 1498,
+  "random_multiplication": {
+    "passed": false,
+    "trials": 1,
+    "seed": 0,
+    "failed_trial": 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-02T17:40:30.463050+00:00",
+  "command": [
+    "lean/.toolchain/lean-4.19.0-linux/bin/lean",
+    "lean/CampaignBaseline93.lean"
+  ],
+  "exit_code": 0,
+  "source_sha256": "ced86efa2dd2717b67184d30c6425896a75c5228c5fa765066d055bae1aaa7bb",
+  "certificate_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+  "scope": "PUBLISHED93baselinecontrol, NOTrecorddiscovery; native_decide trusted evaluator"
+}

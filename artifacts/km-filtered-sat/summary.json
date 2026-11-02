@@ -1,0 +1,208 @@
+{
+  "source": "artifacts/km95_f2.json",
+  "source_sha256": "4878ee0435e12b135ab6a59eb1443981a066a10d730a68fc4f649e330ab8bb42",
+  "coefficient_domain": [
+    -1,
+    0,
+    1
+  ],
+  "canonical_representatives": [
+    0,
+    1
+  ],
+  "rank": 94,
+  "patches": [
+    {
+      "status": "UNKNOWN",
+      "model": null,
+      "statistics": {
+        "restarts": 45,
+        "conflicts": 5002,
+        "decisions": 6178,
+        "propagations": 6697856
+      },
+      "solver": "CaDiCaL195",
+      "elapsed_seconds": 0.6153970160000881,
+      "conflict_budget": 5000,
+      "wall_budget_seconds": 2,
+      "patch": {
+        "drop_term": 72,
+        "active_terms": [
+          1,
+          5,
+          14,
+          21,
+          65
+        ],
+        "selected_source_terms": [
+          1,
+          5,
+          14,
+          21,
+          65,
+          72
+        ],
+        "flattening_ranks": [
+          5,
+          5,
+          5
+        ],
+        "active_count": 5
+      },
+      "encoding": {
+        "variables": 12460,
+        "factor_variables": 175,
+        "clauses": 50505,
+        "tensor_equations": 15625
+      }
+    },
+    {
+      "status": "UNKNOWN",
+      "model": null,
+      "statistics": {
+        "restarts": 80,
+        "conflicts": 5004,
+        "decisions": 7074,
+        "propagations": 7679589
+      },
+      "solver": "CaDiCaL195",
+      "elapsed_seconds": 0.7617785449999701,
+      "conflict_budget": 5000,
+      "wall_budget_seconds": 2,
+      "patch": {
+        "drop_term": 1,
+        "active_terms": [
+          17,
+          19,
+          21,
+          23,
+          81
+        ],
+        "selected_source_terms": [
+          1,
+          17,
+          19,
+          21,
+          23,
+          81
+        ],
+        "flattening_ranks": [
+          5,
+          5,
+          5
+        ],
+        "active_count": 5
+      },
+      "encoding": {
+        "variables": 14220,
+        "factor_variables": 180,
+        "clauses": 57720,
+        "tensor_equations": 15625
+      }
+    },
+    {
+      "status": "UNKNOWN",
+      "model": null,
+      "statistics": {
+        "restarts": 132,
+        "conflicts": 5000,
+        "decisions": 10144,
+        "propagations": 7738991
+      },
+      "solver": "CaDiCaL195",
+      "elapsed_seconds": 0.8846797169999263,
+      "conflict_budget": 5000,
+      "wall_budget_seconds": 2,
+      "patch": {
+        "drop_term": 74,
+        "active_terms": [
+          2,
+          8,
+          9,
+          10,
+          11,
+          13,
+          55
+        ],
+        "selected_source_terms": [
+          2,
+          8,
+          9,
+          10,
+          11,
+          13,
+          55,
+          74
+        ],
+        "flattening_ranks": [
+          7,
+          7,
+          7
+        ],
+        "active_count": 7
+      },
+      "encoding": {
+        "variables": 22106,
+        "factor_variables": 266,
+        "clauses": 89040,
+        "tensor_equations": 15625
+      }
+    },
+    {
+      "status": "UNKNOWN",
+      "model": null,
+      "statistics": {
+        "restarts": 37,
+        "conflicts": 5000,
+        "decisions": 8271,
+        "propagations": 5278240
+      },
+      "solver": "CaDiCaL195",
+      "elapsed_seconds": 0.6329204429998754,
+      "conflict_budget": 5000,
+      "wall_budget_seconds": 2,
+      "patch": {
+        "drop_term": 35,
+        "active_terms": [
+          26,
+          47,
+          58,
+          61,
+          73,
+          78,
+          84,
+          86
+        ],
+        "selected_source_terms": [
+          26,
+          35,
+          47,
+          58,
+          61,
+          73,
+          78,
+          84,
+          86
+        ],
+        "flattening_ranks": [
+          8,
+          6,
+          8
+        ],
+        "active_count": 8
+      },
+      "encoding": {
+        "variables": 20064,
+        "factor_variables": 264,
+        "clauses": 80520,
+        "tensor_equations": 15625
+      }
+    }
+  ],
+  "statuses": {
+    "SAT": 0,
+    "UNSAT": 0,
+    "UNKNOWN": 4,
+    "ERROR": 0
+  }
+}

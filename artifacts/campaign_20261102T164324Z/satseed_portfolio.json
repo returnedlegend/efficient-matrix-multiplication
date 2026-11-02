@@ -1,0 +1,22 @@
+{
+  "new_term_sets": 16,
+  "scope": "termsetdistinctness,notinequivalence ornovelty",
+  "sources": [
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/ac5f57512049468910cf2fb09ad0915242b9b07b023819d5f60281878c4f773d.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/086f5b6b3be8ab5d495d4c96804048fb3ee5e29f29d8dee021b0a070a1f8b56c.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/18df573bcce15398b08c4bf5033acb9351542e0253a9a3e97eb0cb371d0d9d1f.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/53eb0cd2717e3f0037197d2b2e1399d85c7a7db224678da2aabaa75271452e0f.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/b2e90d84eeeb3a70a20eb426382e40e809b42a8a761ef57135a356b8045e76f7.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/b7abec1ebbf693530216d3e937d1cc2e178578db9565a4d2a4943a3c3b62b5cc.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/a9c1beec2bd372e3bebad62aa928b1abcacc8e7eae19f1651d29178fdf450ecd.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/c0499ced3d6469f5d60df177ed6f1848a3c924124874ae18978aa89684363107.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/5f09f7f88075ce4781b2ba16783de956b8644546c68ec7193b8c8924bf41ed32.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/c6a45635cea5c9a0d17f01d69649d6dabc1ebb794c9aea3ba9b6d1c7fae40ea9.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/a3b9633a855cd331bec6acde4eeb58fa616858f163a72768215be28f453c2385.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/ce74162a3a6303819e45ed57a8b41e4c5235c1d226e6d7ad707bdd406ed15dd5.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/86f006a9bfbec8c76c6aaf5b8318126b6ba912ab8e91b18a9a77855522e5ebab.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/a36003bb4be8c894cfac3d3eb127cfeed59684031ee83638a3f4558d8bcc68d6.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/37016e43d2f106c0d8e91a4fd02d9d09822b79a2582c3121d3f3182be29ae0b8.json",
+    "artifacts/campaign_20261102T164324Z/native/sat93/verified/ff13fef284e6734a5a5357219ce886183ea2744459655e6d004f99981cdc0264.json"
+  ]
+}
