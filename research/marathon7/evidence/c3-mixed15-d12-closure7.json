@@ -1,0 +1,37 @@
+{
+  "branch_counts": {
+    "all_repeated_pair_extensions_negative": 109
+  },
+  "bulk_plan_sha256": "74760bd93e05192583586f996133d9e5e3eeb10b2f9a54352af1ca4e53d9f6d1",
+  "candidates": 0,
+  "claim": "Finite literal15-to14 repairs of one approved93 source withoutside78fixed. All112d12retired;9d11remainunresolved. No global rank lower bound or result<=92.",
+  "decoder_calls": 109,
+  "errors": 0,
+  "exact_local_CP14_negatives": 109,
+  "filter_evidence_sha256": "41a8ec75bc285f17b3f32eb8825b7054b29e32b09261dbfdb58b6241116791fb",
+  "flattening_excluded": 22103,
+  "format": "c3-mixed15-d12-closure-v1",
+  "large_module_sha256": "5de4db4c192b303c049061a1d156616b6e90e640d9fed15acf30df2446ce4b4a",
+  "logical_output_bytes": 2642202,
+  "necessary_bound_excluded": 3,
+  "old_d13_d14_negatives": 5181,
+  "passed_plan_sha256": "01e263117d4fb3e86748035d7509ee380dda65ff8d6d51f4bee55c0baca68c64",
+  "queries_unique": true,
+  "resources": {
+    "jobs": 12,
+    "max_rss_kib": 30224,
+    "maximum_case_wall_seconds": 1.4624392539990367,
+    "search_cpu_seconds": 101.79971,
+    "sum_outer_wall_seconds": 109.1681226870005
+  },
+  "result_pins_sha256": "c0205bb3d2661980ff9045be46882115ca5059687b1d8fdad8fc7e5bbf3a167e",
+  "seal_sha256": "9106c4b11448abceb89ed30a32b4cc71facff7925bdd06bdad956932593d2986",
+  "source_and_serialized_core_pins_match_filter_plan": true,
+  "source_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+  "status": "ALL112_D12_LITERAL_PACKETS_RETIRED",
+  "summary_sha256": "0738ee56663f042f7af7a73528cf18b9492cc06ed550f031a04709e86079e58d",
+  "total_mixed15_family": 27405,
+  "total_mixed15_retired": 27396,
+  "unknown": 0,
+  "unresolved_d11": 9
+}

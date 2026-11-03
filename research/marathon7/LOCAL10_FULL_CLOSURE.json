@@ -1,0 +1,156 @@
+{
+  "categories": {
+    "historical_campaign_exact_negatives": 10706,
+    "old_exact_pilot": 12,
+    "v5_exact_negative": 100887
+  },
+  "dimension": 5,
+  "duplicate_exact_proof_keys": 0,
+  "evidence": {
+    "audit_inputs_sha256": "6ded0ef5a1964f462955b8ad311bd2e0a21b65cf502fbafb3bd865175e5b3eb7",
+    "exact_closure_registry_sha256": "e722087dec560c38aa00e93e2f77b783fc427ce9aa95e3b9103db89d1f0c00f6",
+    "remaining_batch_audit_sha256": "d7c200ba98c03ff4ffdf67b1391c448892447b22334dd6bf45a2270ac9b11c3c",
+    "replay_archive": "research/marathon7/evidence/local10_full_closure_replay_inputs.tar.gz",
+    "replay_archive_bytes": 1319556,
+    "replay_archive_sha256": "e9cbde0fd3b32924a47710ed23d32eb0539199d46f2e9b655e92bfd9f85417c8",
+    "retirement_manifest_sha256": "f1a9b35ac8a29cbc34f840cb98137d73993c028941a15bd9b939a8d56e54c5db",
+    "retirement_report_sha256": "8a02752ee897f9efd91bc8b21358530e69288f5cdeea851d91e17a5d02cae24c"
+  },
+  "exact_negative_keys": 111605,
+  "field": 2,
+  "free_image_rank": 8,
+  "input_decoder_calls": 111607,
+  "local_products": 10,
+  "measured": {
+    "C7_phase_elapsed_seconds_including_dispatch_and_prep_gaps": 12231.187091,
+    "accounting": "Each distinct timed launcher attempt counted once, including the two incomplete attempts. Nested runner times are reference only and are not added to launcher wall. Configured wall_seconds budgets are never treated as elapsed time.",
+    "cpu_seconds": 3973.866576000001,
+    "launcher_attempts": 226,
+    "sum_actual_launcher_wall_seconds": 5521.151351600023
+  },
+  "no_further_source_expansion": true,
+  "original_input_catalogue_sha256": "7b3e20616715a835d01003fd9b5a7af3141fbeef15afde9afa05f585d580fa8b",
+  "phases": [
+    {
+      "cpu_seconds": 2.5625269999999998,
+      "exact_masks_newly_closed": 12,
+      "input_decoder_calls": 12,
+      "launch_manifest_sha256": "e2c727de850a0a90790b875b4da08c706683dcb6777284655196b27568d697eb",
+      "launcher_runs": 1,
+      "output_runs": 1,
+      "phase": "legacy_exact_pilot",
+      "runner_wall_seconds_for_reference_only": 2.5003373409999767,
+      "snapshot_manifest_sha256": "7605547e3a29c61930252f1214d4da0e1ae80c1e1be9bb92f72cb953d8b73d74",
+      "snapshot_path": "artifacts/rl_campaign42_20261103T033116Z/local-ten43-ready-v3",
+      "sum_actual_launcher_wall_seconds": 3.0100208500007284,
+      "unknown_attempts": 0
+    },
+    {
+      "cpu_seconds": 1304.988019,
+      "exact_masks_newly_closed": 10205,
+      "input_decoder_calls": 10206,
+      "launch_manifest_sha256": "b81c8571d49611f3db667876ac0b187260f8a8c6b99be57ddae2373bf8c4a4a9",
+      "launcher_runs": 21,
+      "output_runs": 21,
+      "phase": "C7_v2",
+      "runner_wall_seconds_for_reference_only": 1537.1550466880003,
+      "snapshot_manifest_sha256": "224d6a052b3253edd11077da6edbe8f2ec20856fde6a16ab131531d7b8c462af",
+      "snapshot_path": "artifacts/marathon7_20261103T122417Z/marathon7-local-local10-ready-v2",
+      "sum_actual_launcher_wall_seconds": 1550.7350247600007,
+      "unknown_attempts": 1
+    },
+    {
+      "cpu_seconds": 3.921998,
+      "exact_masks_newly_closed": 1,
+      "input_decoder_calls": 2,
+      "launch_manifest_sha256": "a4a86e7f94c9fa9faf6580a3c22e9ee3e741d93b977180b2f8ec2087ae3fe5b1",
+      "launcher_runs": 1,
+      "output_runs": 1,
+      "phase": "C7_v3",
+      "runner_wall_seconds_for_reference_only": 4.01518686000054,
+      "snapshot_manifest_sha256": "3501d7ce5041fe95b3ec6712848c1a5bf86e63c3c9ff1bfe6127459b54a47a77",
+      "snapshot_path": "artifacts/marathon7_20261103T122417Z/marathon7-local-local10-ready-v3",
+      "sum_actual_launcher_wall_seconds": 5.002375318000304,
+      "unknown_attempts": 1
+    },
+    {
+      "cpu_seconds": 161.833374,
+      "exact_masks_newly_closed": 500,
+      "input_decoder_calls": 500,
+      "launch_manifest_sha256": "5c638322dfa93566ea3c399c1819524ffe2560363487dd0c4af112f8e25a647c",
+      "launcher_runs": 1,
+      "output_runs": 1,
+      "phase": "C7_v4",
+      "runner_wall_seconds_for_reference_only": 197.82918770200013,
+      "snapshot_manifest_sha256": "45fe7e6ee6a6418c869618235220f1f7239526c4679ae3c34aa3f378ba0a015d",
+      "snapshot_path": "artifacts/marathon7_20261103T122417Z/marathon7-local-local10-ready-v4",
+      "sum_actual_launcher_wall_seconds": 198.08672690799995,
+      "unknown_attempts": 0
+    },
+    {
+      "cpu_seconds": 2500.560658000001,
+      "exact_masks_newly_closed": 100887,
+      "input_decoder_calls": 100887,
+      "launch_manifest_sha256": "818f383bde96e039820a5c00dc852f7279f8970169d0eec3271252cda8f5f02f",
+      "launcher_runs": 202,
+      "output_runs": 202,
+      "phase": "C7_v5",
+      "runner_wall_seconds_for_reference_only": 3624.1869874340027,
+      "snapshot_manifest_sha256": "2733f3da19eef3b845817d7d0f94ccefa1398592fc23f13d20fa3ff6307d0b7b",
+      "snapshot_path": "artifacts/marathon7_20261103T122417Z/marathon7-local-local10-ready-v5",
+      "sum_actual_launcher_wall_seconds": 3764.3172037640215,
+      "unknown_attempts": 0
+    }
+  ],
+  "prior_unknown_attempts": 2,
+  "prior_unknown_now_resolved": 2,
+  "retired": true,
+  "scope": "Only the recorded 111605 necessary-survivor fixed-source/mask residuals. No unrestricted/global rank lower bound, no new 92-product construction.",
+  "snapshots": {
+    "guard_sha256": "09ac03c4ac1123eeb2ddba8a72653cc299aca052df9ad6c82ad618ed5cbd5cd9",
+    "poller_sha256": "f96027d9bf8e7ef9489378d71c107924cab94180bcf63cfc7e8a8db6f904b07b",
+    "rank2_decoder_sha256": "40ef2057d481b712040575b663b31585460b2e5addc58a24a5cbf94aa0f686a7",
+    "runtime_file_set_sha256": "419306b02197fe360c2ef774e3a89f8e3b86115542b4c9ad4d6cae88bba01565",
+    "v5_launch_manifest_sha256": "818f383bde96e039820a5c00dc852f7279f8970169d0eec3271252cda8f5f02f",
+    "v5_manifest_sha256": "2733f3da19eef3b845817d7d0f94ccefa1398592fc23f13d20fa3ff6307d0b7b"
+  },
+  "source_counts": {
+    "0": 20611,
+    "1": 18240,
+    "2": 38825,
+    "3": 33929
+  },
+  "source_products": 93,
+  "source_sha256": {
+    "0": "02d6769f115ff39bb643471136040f8cead647b3044ee0bad46b8fbaffa28556",
+    "1": "7dd20f3c513414dbdc4b514697f15364f2fc25c255914bbc0dd8b4f4e4d6eb11",
+    "2": "f7e30159957d562febdcee8a952615ad2c33584ea0ea523aa5047aa4a391fd59",
+    "3": "21bf2af55bf1e9e18a70e03d46664b0d93385b9f9a0d76b726955156e66d2766"
+  },
+  "status": "RETIRED_EXACT_FIXED_FAMILY_ALL111605_NEGATIVE",
+  "target_products": 9,
+  "unique_source_mask_keys": 111605,
+  "unknown_attempts": [
+    {
+      "case": "s1-07000f800000000001000040",
+      "mask_hi_hex": "0x7000f80",
+      "mask_lo_hex": "0x1000040",
+      "original_artifact_preserved": true,
+      "phase": "C7_v2",
+      "resolved_by_later_exact_proof": true,
+      "result_sha256": "e1732712150ad0f0fa867d76dd0cc6c3a8c340bc7fdb7d147d869ba8343dbb75",
+      "source_id": 1
+    },
+    {
+      "case": "s2-04a000000060900000110100",
+      "mask_hi_hex": "0x4a00000",
+      "mask_lo_hex": "0x60900000110100",
+      "original_artifact_preserved": true,
+      "phase": "C7_v3",
+      "resolved_by_later_exact_proof": true,
+      "result_sha256": "263b59d8573e51fce9acd94364fbfa5f6f380137298f4a7653b6a167d54a82c3",
+      "source_id": 2
+    }
+  ],
+  "unresolved_unknown_keys": 0
+}

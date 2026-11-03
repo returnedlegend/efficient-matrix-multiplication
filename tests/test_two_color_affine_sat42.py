@@ -1,5 +1,6 @@
 import importlib.util
 import itertools
+from pathlib import Path
 import unittest
 from unittest.mock import patch
 
@@ -21,6 +22,17 @@ def profiles(q):return [(a,b,q-a-b) for a in range(q+1) for b in range(q-a+1)]
 
 @unittest.skipUnless(CMS,'pycryptosat unavailable')
 class TwoColorTests(unittest.TestCase):
+    def test_256mb_worker_does_not_inherit_large_parent_heap(self):
+        import pycryptosat  # Match the broad runner's preloaded native extension.
+        ballast=bytearray(280*1024**2)
+        status=Path('/proc/self/status').read_text()
+        virtual_kib=int(next(line.split()[1] for line in status.splitlines() if line.startswith('VmSize:')))
+        self.assertGreater(virtual_kib,256*1024)
+        result=solve(build_coupled_problem([0,0],[],1,(0,0,1)),seconds=2,memory_mb=256)
+        self.assertEqual(result['status'],'SAT',result)
+        self.assertEqual(result['memory_mb'],256);self.assertTrue(result['worker_reaped']);self.assertEqual(result['worker_exitcode'],0)
+        self.assertEqual(len(ballast),280*1024**2)
+
     def test_exhaustive_width1_all_profiles_q0_q1_q2(self):
         checked=0
         for matrices in itertools.product(range(2),repeat=2):

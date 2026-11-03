@@ -8,6 +8,12 @@ import time
 import unittest
 from unittest.mock import patch
 
+
+def stall_ignoring_sigterm(*args):
+    """Top-level so the deliberately unresponsive worker is spawn-pickleable."""
+    signal.signal(signal.SIGTERM,signal.SIG_IGN)
+    time.sleep(10)
+
 from mmsearch.free_factor_sat import build_problem as global_problem,build_system,solve as global_solve
 from mmsearch.local_eliminated42sat import baseline_assumptions,build_problem,solve,validate_decode
 from mmsearch.local_free_factor_sat import local_assumptions
@@ -94,10 +100,7 @@ class Eliminated42Tests(unittest.TestCase):
     def test_hard_timeout_and_inherited_signal_handler(self):
         system,free = self.planted()
         problem = build_problem(system,free,7)
-        def stall(*args):
-            signal.signal(signal.SIGTERM,signal.SIG_IGN)
-            time.sleep(10)
-        with patch('mmsearch.local_eliminated42sat._worker',stall):
+        with patch('mmsearch.local_eliminated42sat._worker',stall_ignoring_sigterm):
             result = solve(problem,seconds=.02,memory_mb=512)
         self.assertEqual(result['status'],'UNKNOWN')
         self.assertTrue(result['worker_reaped'])

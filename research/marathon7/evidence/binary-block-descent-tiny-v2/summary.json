@@ -1,0 +1,55 @@
+{
+  "status": "TINY_PLANTED_AND_SYNTHETIC_ONLY",
+  "elapsed_seconds": 0.5806148390001908,
+  "cpu_affinity": [
+    1
+  ],
+  "nice": 10,
+  "address_space_limit_bytes": 536870912,
+  "max_rss_kib": 11904,
+  "runs": 109,
+  "raw_exact_compact_observations": 87,
+  "random_rank7_trials": 12,
+  "random_rank7_exact": 0,
+  "random_rank7_unknown": 12,
+  "random_rank7_best_losses": [
+    7,
+    8,
+    6,
+    7,
+    5,
+    5,
+    6,
+    4,
+    6,
+    6,
+    7,
+    3
+  ],
+  "fixed_axis_single_bit_trials": 84,
+  "fixed_axis_single_bit_exact": 84,
+  "fixed_axis_single_bit_unknown": 0,
+  "drop_one_source_trials": 8,
+  "drop_one_source_exact": 0,
+  "drop_one_source_best_losses": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "synthetic_block_codewords": 16384,
+  "synthetic_block_wall_seconds": 0.03836874300031923,
+  "synthetic_block_losses": [
+    357,
+    203
+  ],
+  "raw_only": true,
+  "ambient_verification_performed": false,
+  "production_n5_target_search": false,
+  "known_fixture_no_novelty_claim": true,
+  "module_sha256": "91ab85c2b61b0e914e117b501ed1cc16a0b6a5e2579ebe283c81f941317eb190"
+}

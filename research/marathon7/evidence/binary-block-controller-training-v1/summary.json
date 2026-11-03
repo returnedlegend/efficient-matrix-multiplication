@@ -1,0 +1,121 @@
+{
+  "status": "TINY_TRAINING_AND_FROZEN_SEED_EVALUATION",
+  "training_episodes": 96,
+  "heldout_planted_episodes_per_policy": 32,
+  "training_seed_range": [
+    10000,
+    10095
+  ],
+  "heldout_planted_seed_range": [
+    20000,
+    20031
+  ],
+  "policy_seed": 71701,
+  "frozen_policy_unchanged": true,
+  "metrics": {
+    "fixed": {
+      "episodes": 32,
+      "exact": 15,
+      "total_best_loss": 47,
+      "total_actions": 424,
+      "total_blocks": 1255,
+      "total_seconds": 0.430125433997091,
+      "by_fixture": {
+        "one_bit": {
+          "episodes": 8,
+          "exact": 8,
+          "total_best_loss": 0
+        },
+        "two_bits": {
+          "episodes": 8,
+          "exact": 7,
+          "total_best_loss": 2
+        },
+        "drop_schoolbook": {
+          "episodes": 8,
+          "exact": 0,
+          "total_best_loss": 8
+        },
+        "cold_start": {
+          "episodes": 8,
+          "exact": 0,
+          "total_best_loss": 37
+        }
+      }
+    },
+    "uniform": {
+      "episodes": 32,
+      "exact": 11,
+      "total_best_loss": 61,
+      "total_actions": 525,
+      "total_blocks": 1565,
+      "total_seconds": 0.5297924189999321,
+      "by_fixture": {
+        "one_bit": {
+          "episodes": 8,
+          "exact": 7,
+          "total_best_loss": 4
+        },
+        "two_bits": {
+          "episodes": 8,
+          "exact": 4,
+          "total_best_loss": 7
+        },
+        "drop_schoolbook": {
+          "episodes": 8,
+          "exact": 0,
+          "total_best_loss": 8
+        },
+        "cold_start": {
+          "episodes": 8,
+          "exact": 0,
+          "total_best_loss": 42
+        }
+      }
+    },
+    "bandit": {
+      "episodes": 32,
+      "exact": 14,
+      "total_best_loss": 52,
+      "total_actions": 447,
+      "total_blocks": 1324,
+      "total_seconds": 0.47001580799769727,
+      "by_fixture": {
+        "one_bit": {
+          "episodes": 8,
+          "exact": 8,
+          "total_best_loss": 0
+        },
+        "two_bits": {
+          "episodes": 8,
+          "exact": 6,
+          "total_best_loss": 7
+        },
+        "drop_schoolbook": {
+          "episodes": 8,
+          "exact": 0,
+          "total_best_loss": 8
+        },
+        "cold_start": {
+          "episodes": 8,
+          "exact": 0,
+          "total_best_loss": 37
+        }
+      }
+    }
+  },
+  "selected_policy": "fixed",
+  "decision_rule": "Promote bandit only if all32 comparisons finish and its(exact,-total_loss) strictly beats BOTH controls; ties preferfixed",
+  "learned_advantage_over_both_controls": false,
+  "full_comparison": true,
+  "elapsed_seconds": 2.6905505860013363,
+  "cpu_affinity": [
+    1
+  ],
+  "nice": 10,
+  "address_space_limit_bytes": 536870912,
+  "raw_only": true,
+  "production_n5_inputs_read": false,
+  "no_private_evaluation_data": true,
+  "policy_checkpoint_sha256": "608bde7a2e6d8209297a6d777052e25178ff938833eec880106d22ade868aa4a"
+}

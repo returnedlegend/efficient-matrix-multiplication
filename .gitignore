@@ -42,3 +42,10 @@ __pycache__/
 /native/free_factor_triple_block_worker_wide_v2
 /native/kernel_quartet_catalog_sampler
 /native/kernel_quartet_math_driver
+
+# Full small-experiment trials are preserved in the milestone4 compressed archive.
+/research/marathon7/evidence/binary-block-controller-training-v1/evaluation-results.json
+/research/marathon7/evidence/binary-block-controller-training-v1/training-results.json
+/research/marathon7/evidence/binary-block-descent-tiny-v1/results.json
+/research/marathon7/evidence/binary-block-descent-tiny-v2/results.json
+/research/marathon7/evidence/binary-small-slot-tiny-v1/results.json

@@ -179,7 +179,10 @@ def solve(problem, seconds=180, conflicts=100000000, memory_mb=1536,
     options = {} if options is None else dict(options)
     if any(not isinstance(k,str) or not isinstance(v,str) for k,v in options.items()):
         raise ValueError('solver options must be string pairs')
-    context = mp.get_context('fork')
+    # A fork inherits the parent's full address space before the worker applies
+    # RLIMIT_AS. A large caller can otherwise make even a tiny native formula
+    # abort under a valid256MiB child budget. Spawn keeps that budget meaningful.
+    context = mp.get_context('spawn')
     receiver,sender = context.Pipe(duplex=False)
     child = context.Process(target=_worker,args=(problem,seconds,conflicts,memory_mb,
         assumptions,options,str(log_path) if log_path else None,sender))

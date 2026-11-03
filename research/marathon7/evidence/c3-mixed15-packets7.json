@@ -1,0 +1,123 @@
+{
+  "actual_core_checks": 37,
+  "branch_counts": {
+    "CP(d)": 3859,
+    "CP(d+1)": 1322,
+    "FLATTENING_EXCLUDED": 22103,
+    "RETAIN_DEFER_HIGHER_SURPLUS": 121
+  },
+  "core_checks_by_d": {
+    "11": 3,
+    "12": 3,
+    "13": 25,
+    "14": 3,
+    "15": 3
+  },
+  "decoder_calls": 0,
+  "dimension_counts": {
+    "11": 9,
+    "12": 112,
+    "13": 1322,
+    "14": 3859,
+    "15": 22103
+  },
+  "family": {
+    "combinations": 27405,
+    "global_product_target": 92,
+    "local_products": 15,
+    "outside_products": 78,
+    "selected_nonfixed_orbits": 4,
+    "source_cubes": 3,
+    "target_local_products": 14,
+    "target_queries_authorized": false,
+    "total_nonfixed_orbits": 30
+  },
+  "format": "c3-mixed15-preparation-evidence-v1",
+  "hashes": {
+    "COMPLETE.json": "c054a84e9f8ff55c82857e98b9b807595cb79840ba0f58cbfb066a21f41750a1",
+    "catalog.json.gz": "b6df6ab005954168bf9a656d5f0c7e4d78fd3c5029a32dfb74f281ea836dc7c5",
+    "manifest.json": "9257959660cc1ec2ebaed56fc73cf9810d274fcfe15eb7293ef1a7b074eff2bc",
+    "pilot-proposal.json": "735a60bb293275df2f939bb7dec1ac582360d8e3888f72da925c26b915f2558e"
+  },
+  "next_proposal": {
+    "exact_first25": {
+      "backend": "unchanged compact_rank2_edges43 CP(d+1)",
+      "cases": 25,
+      "cpu": 3,
+      "dimension": 13,
+      "enabled": false,
+      "inner_seconds": 500,
+      "memory_mib": 1024,
+      "outer_seconds": 530,
+      "per_case_seconds": 20,
+      "requires_root_authorization": true,
+      "target_local_products": 14
+    },
+    "higher_surplus": {
+      "backend": "binary block prototype only after separate review/authorization",
+      "d11_count": 9,
+      "d12_count": 112,
+      "existing_exact_decoder_status": "UNSUPPORTED_RETAINED_NOT_NEGATIVE"
+    }
+  },
+  "pair_column_ranks": [
+    93,
+    93,
+    93
+  ],
+  "private_eval_payloads_read": 0,
+  "query_authorization": false,
+  "rank2_filter_calls": 0,
+  "resources": {
+    "cpu": 3,
+    "decoder_calls": 0,
+    "elapsed_seconds": 16.432354905000466,
+    "exit_code": 0,
+    "inner_seconds": 120,
+    "max_rss_kib": 157384,
+    "memory_mib": 512,
+    "nice": 10,
+    "outer_seconds": 150,
+    "solver_calls": 0,
+    "total_cpu_seconds": 16.309133
+  },
+  "runtime_code_sha256": {
+    "mmsearch/__init__.py": "9738090d64922b0fc198277dc63654f3ac420cef984947916b4e74da3b13a08a",
+    "mmsearch/common_delta42.py": "5b2acf466bc561ff3df7df860ea8d270b3afa03c995bf3b0ca9819f9779fe409",
+    "mmsearch/compact_coset43.py": "3a8ba640784695e1d08f4327e5eaa013f6174a4aa44a5cb319ae31255c0a507a",
+    "mmsearch/compact_eight43.py": "6ca48ecc2904aaed86209395c9785c2493b5fc8448d05b62900ee5ee791fe3e3",
+    "mmsearch/compact_sat.py": "169e16228d6aac8cf6752d7b4630173c566de4851532974e0d71eb6ff394e09c",
+    "mmsearch/extend_eight_bulk43.py": "34c937996c033a7b7905a58471da8d30b21fa0e716022d97a8c4594991c21452",
+    "mmsearch/free_factor_sat.py": "2f7456f11b2d194f33a61ca5c41d99e3a5b4e1378790910ebbca8f5550569761",
+    "mmsearch/local_guard43.py": "0f1d86be46be0990e17f745a5a54336c5ea4117cf9a4d792bc0a2011d3af3657",
+    "mmsearch/marathon7_local.py": "94834fe263b3bb3f62145a3415e520f8918c366b2f608138df29fb918435ac53",
+    "mmsearch/observed_plane42.py": "3f245ee62a4fe0079df898d3644dae027c9cd45878981a00f37c5d4d4c8664a8",
+    "mmsearch/observed_rank342.py": "6869a3633d67e56322560a9ea80e8c44f131ff9cf1a219c9e58d822e7afa2ea3",
+    "mmsearch/observed_rank3_bounded42.py": "6ff4784db2a9aa3954aa0c11ebdcc4b569ee1fc946baaee5a0aa117ad4763b01",
+    "mmsearch/observed_rank3_lazy42.py": "253a083d1f0051164d579341ba48e5a661ab68bf32de5c9ac5919090c0dc12af",
+    "mmsearch/observed_weight442.py": "f21b9fd7c1ba0bcc864cc8dde00db37de032894a5c0028ac8c29b1f31c569324",
+    "mmsearch/recombine.py": "3b453d2c50405beb73000a22c82990f7332f8be740a93445634170b0630f94ee",
+    "mmsearch/recombine_sat.py": "433731a586d0833f891817e9aa8e49c74d5cfa539e19a207936cdcaaa16389df",
+    "mmsearch/sat.py": "1f0718b2238340f5eb10958d0823d7845e03a4e9f96be7d5d7342f73d17aa3d6",
+    "mmsearch/sat_neighborhoods.py": "59540cda1b5afc11dfe2a11b36977062a871450ebcf67c59e9985339b9c01421",
+    "mmsearch/search.py": "0317550a543d696b4e669f55a15781ed37c5d87ca4bca0420f805351f5558267",
+    "mmsearch/tensor.py": "c4b4a7aaa245f09d84d3216af2475c7602473061b7cfbbd9cb4d48d486506198",
+    "mmsearch/tensor_code7.py": "e5fa2a84c00ee5e10076ff3902963cf27dfe86b43fc4d4ad885cef8f3f7291e1",
+    "mmsearch/verify.py": "491282f4e940b9969b2a94ee51994d71ceefd9dc5a19167b779b9d2a6098f46f",
+    "research/tensor_code7.md": "96af2e0e541cd054858dbf2037177811e7bb353f9eb06d7374cea828872045bf",
+    "scripts/prepare_c3_mixed12_packets7.py": "b9db1f147d3056c92b56eea0f67a1a9d6df9f1e268286de3f3c223c5693c8a7b",
+    "scripts/prepare_c3_mixed15_packets7.py": "12e48755981768dcba0f6e3060831dccadb785c6ebb2ccb4a96591e65c12f097",
+    "scripts/prepare_c3_mixed_packets7.py": "0cf0e0e5458b1d522fe21205058f57cd2947c30f49520dc6f1bfc121519fb759",
+    "scripts/tensor_code7.py": "8f40b6c0b1b58a8efa4a57583dc99c68aa79b7c56965ce93fc3374e95822e2da",
+    "scripts/tensor_code7.schema.json": "b826534eb2c6577b43904071505a7f3e1895de40e370473d704248a8d9bfdfaa",
+    "scripts/verify_record42_independent.py": "499a1409c755d4a551ab6efe0e0520e14aa20a44081cedccc403c9cb7f74e7c6",
+    "tests/test_prepare_c3_mixed12_packets7.py": "e9df90468a7e0cf53904380b7d963650e062302e1958f67d264a042d44ba19a8",
+    "tests/test_prepare_c3_mixed15_packets7.py": "048172d0919583f3aac022997abf924a27f271a7f1f1b3c2e381e3a4d92d253b",
+    "tests/test_tensor_code7.py": "16b1c28df8d5294972395b11865eddfc0875803af2550ea70071563c72cf680b",
+    "tests/test_tensor_code7_lifecycle.py": "563727a4d35af6913feee097e6103495b0d5de1f99ffdc915329a91bb9acf56a",
+    "tests/test_tensor_code7_sources.py": "a2dd46317fe51c39903ee779e900e0367bfa1badde0f5a018d1164baabeab787"
+  },
+  "scope": "Approved source56e2dc only, literal15 products/outside78 frozen. No source-family expansion or decoder launch.",
+  "solver_calls": 0,
+  "status": "PREPARED_METADATA_NO_TARGET_QUERIES"
+}

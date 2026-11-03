@@ -1,0 +1,51 @@
+{
+  "caps": {
+    "max_extensions": 24573,
+    "max_mode_rank": 12,
+    "max_vectors": 8191
+  },
+  "dimension_extension_proof": "d<=12 has at most4095 nonzero slice-space vectors. Each rank-one extension has dimension<=13, at most8191 nonzero vectors. Original rank-two-difference/one-dimensional-extension algorithm unchanged.",
+  "format": "surplus-two-large7-prototype-v1",
+  "late_and_cap_controls": "AllUNKNOWN/incomplete; hiddenraw/no canonicalcandidate",
+  "manifest_sha256": "7a65f7a13d38a0a5b62ee34eda2d9d666e1493e30ba9a7f51eb0c35a0059fa4f",
+  "module_sha256": "5de4db4c192b303c049061a1d156616b6e90e640d9fed15acf30df2446ce4b4a",
+  "n5_decoder_calls": 0,
+  "old_module_sha256": "3fb2d76b3297b0f5962175af9054b8c33ae02a351bab8f603d88f29e71d31107",
+  "production_eligibility": false,
+  "review_status": "SENT_TO_VERIFY_NO_N5_AUTHORIZATION",
+  "runtime": {
+    "cpu": 3,
+    "cpu_seconds": 5.809713,
+    "elapsed_seconds": 5.810602341000049,
+    "max_rss_kib": 212816,
+    "nice": 10
+  },
+  "seal_sha256": "05c63542307fa6a0146228a132ac9180a457cad67f4aeb9b66ad9870f4947abc",
+  "status": "PREPARED_TINY_CONTROLS_PASS_NO_N5_QUERIES",
+  "strong_positive": {
+    "ambient_dimension": 4,
+    "global_products_after": 63,
+    "global_products_before": 64,
+    "independent_entries": 4096,
+    "primary_entries": 4096,
+    "shape": [
+      12,
+      12,
+      12
+    ],
+    "source_local_products": 15,
+    "target_local_products": 14,
+    "true_surplus_two": true
+  },
+  "tiny_exhaustive": {
+    "budgets": 17285,
+    "spaces": 2892
+  },
+  "worst_case_cost": {
+    "max_child_vectors": 8191,
+    "max_distinct_seed_cosets_by_three_splits": 12285,
+    "note": "Worstcase can be expensive; tiny controls are not N5 throughput evidence. Any future production probe needs fresh bounded percase/overall/UTC guards; caps/late returns remainUNKNOWN.",
+    "outer_vectors": 4095,
+    "rank_tests_upper_scale": 100626435
+  }
+}

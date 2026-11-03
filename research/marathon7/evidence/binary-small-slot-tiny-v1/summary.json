@@ -1,0 +1,28 @@
+{
+  "status": "KNOWN_N2_TINY_SLOT_LANDSCAPE",
+  "source_products": 8,
+  "approximation_slots": 7,
+  "original_missing_source_index": 0,
+  "initial_loss": 1,
+  "calls": 77,
+  "counts_by_selected_slots": {
+    "3": {
+      "REPAIR_EXCLUDED": 35
+    },
+    "4": {
+      "REPAIR_EXCLUDED": 35
+    },
+    "6": {
+      "RAW_EXACT_COMPACT": 7
+    }
+  },
+  "elapsed_seconds": 0.0595153449994541,
+  "cpu_affinity": [
+    1
+  ],
+  "nice": 10,
+  "address_space_limit_bytes": 536870912,
+  "publication_eligible": false,
+  "production_n5_slot_calls": 0,
+  "no_new_matrix_multiplication_claim": true
+}

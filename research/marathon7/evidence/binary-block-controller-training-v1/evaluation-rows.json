@@ -1,0 +1,962 @@
+[
+  {
+    "episode": 0,
+    "fixture": "one_bit",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 2,
+    "seconds": 0.0007532380004704464
+  },
+  {
+    "episode": 0,
+    "fixture": "one_bit",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0011995639997621765
+  },
+  {
+    "episode": 0,
+    "fixture": "one_bit",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 2,
+    "seconds": 0.0008194839992938796
+  },
+  {
+    "episode": 1,
+    "fixture": "two_bits",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 2,
+    "seconds": 0.000608094000199344
+  },
+  {
+    "episode": 1,
+    "fixture": "two_bits",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.020080639000298106
+  },
+  {
+    "episode": 1,
+    "fixture": "two_bits",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 2,
+    "seconds": 0.0008662739983265055
+  },
+  {
+    "episode": 2,
+    "fixture": "drop_schoolbook",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02819785000065167
+  },
+  {
+    "episode": 2,
+    "fixture": "drop_schoolbook",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02910871899985068
+  },
+  {
+    "episode": 2,
+    "fixture": "drop_schoolbook",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02660533900052542
+  },
+  {
+    "episode": 3,
+    "fixture": "cold_start",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 5,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.020133645999521832
+  },
+  {
+    "episode": 3,
+    "fixture": "cold_start",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 4,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02749119200052519
+  },
+  {
+    "episode": 3,
+    "fixture": "cold_start",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 5,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02526291600042896
+  },
+  {
+    "episode": 4,
+    "fixture": "one_bit",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0019027470007131342
+  },
+  {
+    "episode": 4,
+    "fixture": "one_bit",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.00043697200089809485
+  },
+  {
+    "episode": 4,
+    "fixture": "one_bit",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0004780330000357935
+  },
+  {
+    "episode": 5,
+    "fixture": "two_bits",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 2,
+    "seconds": 0.0006599810003535822
+  },
+  {
+    "episode": 5,
+    "fixture": "two_bits",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0008627980005257996
+  },
+  {
+    "episode": 5,
+    "fixture": "two_bits",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0014233519996196264
+  },
+  {
+    "episode": 6,
+    "fixture": "drop_schoolbook",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025789364999582176
+  },
+  {
+    "episode": 6,
+    "fixture": "drop_schoolbook",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025393657000677194
+  },
+  {
+    "episode": 6,
+    "fixture": "drop_schoolbook",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025131352000244078
+  },
+  {
+    "episode": 7,
+    "fixture": "cold_start",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 4,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02486101599970425
+  },
+  {
+    "episode": 7,
+    "fixture": "cold_start",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 5,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.024534445999961463
+  },
+  {
+    "episode": 7,
+    "fixture": "cold_start",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 6,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02450448099989444
+  },
+  {
+    "episode": 8,
+    "fixture": "one_bit",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0005837580010847887
+  },
+  {
+    "episode": 8,
+    "fixture": "one_bit",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0012364569993223995
+  },
+  {
+    "episode": 8,
+    "fixture": "one_bit",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0005881550005142344
+  },
+  {
+    "episode": 9,
+    "fixture": "two_bits",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0011686979996738955
+  },
+  {
+    "episode": 9,
+    "fixture": "two_bits",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0005563779996009544
+  },
+  {
+    "episode": 9,
+    "fixture": "two_bits",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.001212511999256094
+  },
+  {
+    "episode": 10,
+    "fixture": "drop_schoolbook",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025325758000690257
+  },
+  {
+    "episode": 10,
+    "fixture": "drop_schoolbook",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02445460699891555
+  },
+  {
+    "episode": 10,
+    "fixture": "drop_schoolbook",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.024598959000286413
+  },
+  {
+    "episode": 11,
+    "fixture": "cold_start",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 4,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.024768178998783696
+  },
+  {
+    "episode": 11,
+    "fixture": "cold_start",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 5,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02995035599997209
+  },
+  {
+    "episode": 11,
+    "fixture": "cold_start",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 3,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025290175999543862
+  },
+  {
+    "episode": 12,
+    "fixture": "one_bit",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0005455219998111716
+  },
+  {
+    "episode": 12,
+    "fixture": "one_bit",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.000569718000406283
+  },
+  {
+    "episode": 12,
+    "fixture": "one_bit",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0006266410000534961
+  },
+  {
+    "episode": 13,
+    "fixture": "two_bits",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 2,
+    "blocks": 4,
+    "seconds": 0.0015793820002727443
+  },
+  {
+    "episode": 13,
+    "fixture": "two_bits",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 2,
+    "blocks": 4,
+    "seconds": 0.0015903479998087278
+  },
+  {
+    "episode": 13,
+    "fixture": "two_bits",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 2,
+    "blocks": 4,
+    "seconds": 0.001609154998732265
+  },
+  {
+    "episode": 14,
+    "fixture": "drop_schoolbook",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.024593782000010833
+  },
+  {
+    "episode": 14,
+    "fixture": "drop_schoolbook",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025206893000358832
+  },
+  {
+    "episode": 14,
+    "fixture": "drop_schoolbook",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025606982000681455
+  },
+  {
+    "episode": 15,
+    "fixture": "cold_start",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 5,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.027985388000161038
+  },
+  {
+    "episode": 15,
+    "fixture": "cold_start",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 6,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02474595599960594
+  },
+  {
+    "episode": 15,
+    "fixture": "cold_start",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 6,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.028965587998754927
+  },
+  {
+    "episode": 16,
+    "fixture": "one_bit",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0005474849986057961
+  },
+  {
+    "episode": 16,
+    "fixture": "one_bit",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0011693589985952713
+  },
+  {
+    "episode": 16,
+    "fixture": "one_bit",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0005572390000452287
+  },
+  {
+    "episode": 17,
+    "fixture": "two_bits",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 2,
+    "seconds": 0.0009283349991164869
+  },
+  {
+    "episode": 17,
+    "fixture": "two_bits",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 2,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.024536629000067478
+  },
+  {
+    "episode": 17,
+    "fixture": "two_bits",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 2,
+    "seconds": 0.0009484540005360032
+  },
+  {
+    "episode": 18,
+    "fixture": "drop_schoolbook",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.021595525000520865
+  },
+  {
+    "episode": 18,
+    "fixture": "drop_schoolbook",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.017810351000662195
+  },
+  {
+    "episode": 18,
+    "fixture": "drop_schoolbook",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.026101645000380813
+  },
+  {
+    "episode": 19,
+    "fixture": "cold_start",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 5,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02455406400076754
+  },
+  {
+    "episode": 19,
+    "fixture": "cold_start",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 6,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025047708999409224
+  },
+  {
+    "episode": 19,
+    "fixture": "cold_start",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 4,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025187695000568056
+  },
+  {
+    "episode": 20,
+    "fixture": "one_bit",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0011833790013042744
+  },
+  {
+    "episode": 20,
+    "fixture": "one_bit",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.00065127699963341
+  },
+  {
+    "episode": 20,
+    "fixture": "one_bit",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0005533429994102335
+  },
+  {
+    "episode": 21,
+    "fixture": "two_bits",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0011765590006689308
+  },
+  {
+    "episode": 21,
+    "fixture": "two_bits",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 10,
+    "blocks": 30,
+    "seconds": 0.010334171000067727
+  },
+  {
+    "episode": 21,
+    "fixture": "two_bits",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0014034329997230088
+  },
+  {
+    "episode": 22,
+    "fixture": "drop_schoolbook",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02441106399965065
+  },
+  {
+    "episode": 22,
+    "fixture": "drop_schoolbook",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02417027999945276
+  },
+  {
+    "episode": 22,
+    "fixture": "drop_schoolbook",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025395300001036958
+  },
+  {
+    "episode": 23,
+    "fixture": "cold_start",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 5,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02534459599883121
+  },
+  {
+    "episode": 23,
+    "fixture": "cold_start",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 5,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.024153525000656373
+  },
+  {
+    "episode": 23,
+    "fixture": "cold_start",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 3,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.024790270999801578
+  },
+  {
+    "episode": 24,
+    "fixture": "one_bit",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0011641919991234317
+  },
+  {
+    "episode": 24,
+    "fixture": "one_bit",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 4,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.021415380000689765
+  },
+  {
+    "episode": 24,
+    "fixture": "one_bit",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.001063933999830624
+  },
+  {
+    "episode": 25,
+    "fixture": "two_bits",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 2,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02171005299896933
+  },
+  {
+    "episode": 25,
+    "fixture": "two_bits",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 2,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02180950100046175
+  },
+  {
+    "episode": 25,
+    "fixture": "two_bits",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 5,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.021711625999159878
+  },
+  {
+    "episode": 26,
+    "fixture": "drop_schoolbook",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.019774477999817464
+  },
+  {
+    "episode": 26,
+    "fixture": "drop_schoolbook",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.021602820999760297
+  },
+  {
+    "episode": 26,
+    "fixture": "drop_schoolbook",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.024816225000904524
+  },
+  {
+    "episode": 27,
+    "fixture": "cold_start",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 4,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025816077999479603
+  },
+  {
+    "episode": 27,
+    "fixture": "cold_start",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 4,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025620152000556118
+  },
+  {
+    "episode": 27,
+    "fixture": "cold_start",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 6,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025367901000208803
+  },
+  {
+    "episode": 28,
+    "fixture": "one_bit",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0005700879992218688
+  },
+  {
+    "episode": 28,
+    "fixture": "one_bit",
+    "mode": "uniform",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 3,
+    "seconds": 0.0011772509988077218
+  },
+  {
+    "episode": 28,
+    "fixture": "one_bit",
+    "mode": "bandit",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 1,
+    "seconds": 0.0005763569988630479
+  },
+  {
+    "episode": 29,
+    "fixture": "two_bits",
+    "mode": "fixed",
+    "exact": 1,
+    "best_loss": 0,
+    "actions": 1,
+    "blocks": 2,
+    "seconds": 0.0009018359996844083
+  },
+  {
+    "episode": 29,
+    "fixture": "two_bits",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 2,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02483828100048413
+  },
+  {
+    "episode": 29,
+    "fixture": "two_bits",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 2,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.027810056000816985
+  },
+  {
+    "episode": 30,
+    "fixture": "drop_schoolbook",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.026203749999694992
+  },
+  {
+    "episode": 30,
+    "fixture": "drop_schoolbook",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02487379299964232
+  },
+  {
+    "episode": 30,
+    "fixture": "drop_schoolbook",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 1,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.025421059001018875
+  },
+  {
+    "episode": 31,
+    "fixture": "cold_start",
+    "mode": "fixed",
+    "exact": 0,
+    "best_loss": 5,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.02478754799994931
+  },
+  {
+    "episode": 31,
+    "fixture": "cold_start",
+    "mode": "uniform",
+    "exact": 0,
+    "best_loss": 7,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.023163239000496105
+  },
+  {
+    "episode": 31,
+    "fixture": "cold_start",
+    "mode": "bandit",
+    "exact": 0,
+    "best_loss": 4,
+    "actions": 24,
+    "blocks": 72,
+    "seconds": 0.0247218709992012
+  }
+]

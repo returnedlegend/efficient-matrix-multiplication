@@ -1,0 +1,85 @@
+{
+  "candidates": 0,
+  "catalog_sha256": "5262849890715c75042d282fcae02d69103b33b51dbe58d54c6b30eceb1d235a",
+  "error": 0,
+  "family_count": 4060,
+  "flattening_excluded": 3744,
+  "format": "c3-mixed12-finite-family-retirement-v1",
+  "independent_control_runner_sha256": "1e8f86f3df9bcd6f5212837a51d59e1a754a504098653b9a5f08329d0cca8364",
+  "independent_controls": "True-c2 wholeN4 d8/k11 to10 andd9/k12 to11 through actual adapter; global64 to63, primary+independent4096. Seven late barriers UNKNOWN/no canonical.",
+  "queried_once": 316,
+  "resources": {
+    "c3-mixed12-packets7-pilot025-001": {
+      "command": [
+        "python3",
+        "-B",
+        "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/c3-mixed12-pilot7-ready-v1/code/scripts/run_c3_mixed12_pilot7.py",
+        "--config",
+        "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/c3-mixed12-pilot7-ready-v1/config.json",
+        "--expected-config-sha256",
+        "f390a25eeab727151facc18d328059d2dddb2d8de4a7a3ea12ac764929155cd1",
+        "--output-dir",
+        "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-pilot025-001"
+      ],
+      "cpu": 3,
+      "cpu_seconds": 1.437243,
+      "elapsed_seconds": 2.002333799000553,
+      "exit_code": 0,
+      "interrupted": false,
+      "max_rss_kib": 26908,
+      "memory_mb": 1024,
+      "pid": 31291,
+      "started_utc": "2026-11-03T15:24:04.886036+00:00",
+      "timed_out": false,
+      "wall_seconds": 530
+    },
+    "c3-mixed12-packets7-remaining291-001": {
+      "command": [
+        "python3",
+        "-B",
+        "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/c3-mixed12-remaining7-ready-v1/code/scripts/run_c3_mixed12_remaining7.py",
+        "--config",
+        "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/c3-mixed12-remaining7-ready-v1/config.json",
+        "--expected-config-sha256",
+        "bb14436f9c305f50a2183f023a581fe785f85df6b686b4df50aa946921b94d8e",
+        "--output-dir",
+        "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-remaining291-001"
+      ],
+      "cpu": 3,
+      "cpu_seconds": 10.242511,
+      "elapsed_seconds": 11.007775165999192,
+      "exit_code": 0,
+      "interrupted": false,
+      "max_rss_kib": 26996,
+      "memory_mb": 1024,
+      "pid": 31757,
+      "started_utc": "2026-11-03T15:25:30.890698+00:00",
+      "timed_out": false,
+      "wall_seconds": 530
+    }
+  },
+  "results": {
+    "c3-mixed12-packets7-pilot025-001": {
+      "result-manifest.json": "b3ce6770469553bed940bb5085b841edb0e3747c31b90f6766036dbe8dcf23d9",
+      "summary.json": "c6f0ee900a9817595bd6338322fc506a1280ed996f5c2c71848ca817685cf5c6"
+    },
+    "c3-mixed12-packets7-remaining291-001": {
+      "result-manifest.json": "79ff765cd738639cbd477b865928d9e1cd7ae0373e49cb4efd21093320e25b2f",
+      "summary.json": "94df0c7e3299db9044b323b334e2ff2e98caac93918e3e08294216c1fa02daf9"
+    }
+  },
+  "retained": 316,
+  "scope": "Exact finite literal12 packet family from this one approved93 source with outside81 frozen. No global lower bound; no unqueried cases in this family; no continuation authorized by this evidence.",
+  "source_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+  "status": "ALL4060_LITERAL_PACKETS_RETIRED",
+  "status_counts": {
+    "LOCAL_UNSAT": 316
+  },
+  "union_audit": {
+    "all4060_partition": true,
+    "prior25_remaining291_disjoint": true,
+    "queried_ids_sha256": "31bc9df601179acab90eb82996617e7df4f43a52a1c16df6b267fbef766bd544",
+    "union_equals_all316_retained": true
+  },
+  "unknown": 0
+}

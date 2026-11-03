@@ -1,0 +1,33 @@
+{
+  "archive": "research/marathon7/bundles/small-experiment-raw-trials-milestone4.tar.xz",
+  "sha256": "66dfe0ad0355c6c67eb7c1162cbe0dedcceeb170f414b6b9b5019ebe1c2e74ff",
+  "compressed_bytes": 549544,
+  "members": [
+    {
+      "path": "research/marathon7/evidence/binary-block-controller-training-v1/evaluation-results.json",
+      "bytes": 3017935,
+      "sha256": "895c6a98d64e854082d908cbad23a1498b007ce2bd115c2afa20cb3626c7e062"
+    },
+    {
+      "path": "research/marathon7/evidence/binary-block-controller-training-v1/training-results.json",
+      "bytes": 4461930,
+      "sha256": "435caae2fcca59e5a0d150d4e141043c22afdc2676cb41742c58e10648c382ba"
+    },
+    {
+      "path": "research/marathon7/evidence/binary-block-descent-tiny-v1/results.json",
+      "bytes": 245125,
+      "sha256": "19b2e1197ab2bcbee014e94bfc1cf7c48a9699f12c8bbaa2876d3e11e8f75691"
+    },
+    {
+      "path": "research/marathon7/evidence/binary-block-descent-tiny-v2/results.json",
+      "bytes": 618844,
+      "sha256": "ac3886a9afe9f74823740ac04dd2a058250655d7a2e371d2536eaeea61416755"
+    },
+    {
+      "path": "research/marathon7/evidence/binary-small-slot-tiny-v1/results.json",
+      "bytes": 107047,
+      "sha256": "f314d1c4eec8e0053c25fe468aa4dd72f9ef396cd3d18654aeaa8ab8f8734165"
+    }
+  ],
+  "scope": "Original full trial JSON bytes, compressed to keep textual diffs reviewable. Summaries, policy, exact inputs and curves remain directly readable."
+}

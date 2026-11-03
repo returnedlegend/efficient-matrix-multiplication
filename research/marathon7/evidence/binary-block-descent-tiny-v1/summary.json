@@ -1,0 +1,40 @@
+{
+  "status": "TINY_PLANTED_AND_SYNTHETIC_ONLY",
+  "elapsed_seconds": 0.19711998099955963,
+  "cpu_affinity": [
+    1
+  ],
+  "nice": 10,
+  "address_space_limit_bytes": 536870912,
+  "max_rss_kib": 11264,
+  "runs": 17,
+  "raw_exact_compact_observations": 3,
+  "random_rank7_trials": 12,
+  "random_rank7_exact": 0,
+  "random_rank7_unknown": 12,
+  "random_rank7_best_losses": [
+    7,
+    8,
+    6,
+    7,
+    5,
+    5,
+    6,
+    4,
+    6,
+    6,
+    7,
+    3
+  ],
+  "synthetic_block_codewords": 16384,
+  "synthetic_block_wall_seconds": 0.023151096998844878,
+  "synthetic_block_losses": [
+    357,
+    203
+  ],
+  "raw_only": true,
+  "ambient_verification_performed": false,
+  "production_n5_target_search": false,
+  "known_fixture_no_novelty_claim": true,
+  "module_sha256": "91ab85c2b61b0e914e117b501ed1cc16a0b6a5e2579ebe283c81f941317eb190"
+}

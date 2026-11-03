@@ -1,2 +1,5 @@
 # Preserve historical CSV bytes while recognizing their standard CRLF endings.
 *.csv whitespace=cr-at-eol
+
+# Keep generated Matplotlib SVG bytes and hashes intact.
+research/marathon7/evidence/binary-block-controller-training-v1/training-curves.svg -whitespace

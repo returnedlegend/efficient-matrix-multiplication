@@ -1,0 +1,11 @@
+# Larger-mode surplus-two preparation
+
+`mmsearch/surplus_two_large7.py` is a separate protocol prototype for the 112 deferred mixed15 rank-12 packets, target 14. The frozen old `surplus_two7.py` is unchanged. No N5 decoder query was made and no production eligibility is granted here.
+
+The new defaults are maximum mode rank 12, 8,191 vectors and 24,573 extensions. Inverting six documented text substitutions exactly recovers the old source: only those three caps, the protocol docstring, identity and error strings differ. The dimension-independent algorithm and all guard/completeness logic are identical. An outer rank-12 slice space has 4,095 nonzero vectors; a one-dimensional extension has rank at most 13 and therefore at most 8,191 vectors, within the new cap.
+
+All ten frozen controls pass: 2,892 independently enumerated tiny matrix spaces across 17,285 budgets; a genuine surplus-two rank-12 control; complete original-core reconstruction; timeout, mode, vector and extension caps returning `UNKNOWN`; and late positive returns remaining hidden/`UNKNOWN`. The strong control is seven of eight naive N2 products plus eight isolated Latin-coordinate products in a full naive N4 source. Its packet has 15 products and all three images have dimension 12. The complete old CP(13) path rejects it, while the new path finds 14 products. Lifting replaces the packet in the full source, reducing 64 products to 63; primary and independent verifiers each check all 4,096 coefficients.
+
+The frozen suite finished in 5.353 seconds wall time on CPU 3 at nice 10. This is not N5 throughput evidence. In the worst case, up to 12,285 distinct seed cosets can each trigger 8,191 child-space rank tests—about 100.6 million rank tests per case. The requested extension cap exceeds this rank-12 combinatorial seed bound. A small, separately authorized N5 calibration with strict per-case guards is appropriate before any expansion; expensive or capped cases must remain `UNKNOWN`.
+
+Independent review has been requested from Verify. Frozen package: `surplus-two-large7-prototype-v1`; module pin `5de4db4c192b303c049061a1d156616b6e90e640d9fed15acf30df2446ce4b4a`; manifest `7a65f7a13d38a0a5b62ee34eda2d9d666e1493e30ba9a7f51eb0c35a0059fa4f`; seal `05c63542307fa6a0146228a132ac9180a457cad67f4aeb9b66ad9870f4947abc`. Small evidence is in `evidence/surplus-two-large7-prep.json`.

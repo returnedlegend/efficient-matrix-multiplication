@@ -1,0 +1,39 @@
+{
+  "after_sha256": "e495a0e2122a53a3f6c01dcc7805ad46b8072eb7aeda5e2e89071cde712550ec",
+  "archive": "research/marathon7/evidence/m4_frozen_regression_v1.tar.gz",
+  "archive_bytes": 1823598,
+  "archive_sha256": "7caf4583887fb2a33dd13ac291e2634a843460b7a4f57b23958483d0adf2d209",
+  "before_after_source_changes": 0,
+  "before_sha256": "e495a0e2122a53a3f6c01dcc7805ad46b8072eb7aeda5e2e89071cde712550ec",
+  "errors": 0,
+  "external_asset_symlinks_require_existing_repository": true,
+  "failures": 0,
+  "launcher": {
+    "cpu": 3,
+    "cpu_seconds": 80.868211,
+    "elapsed_seconds": 91.03121807200114,
+    "exit_code": 0,
+    "max_rss_kib": 542060,
+    "memory_mb": 3072,
+    "timed_out": false,
+    "wall_cap_seconds": 300
+  },
+  "launcher_result_sha256": "2c5cf5736deadcffcb5b6ebb390b21ed2be2ca1d79a273517407ecaa079e414a",
+  "live_delta_count_after": 4,
+  "log_sha256": "f453686fa86629534a60c65e3ad23e8b02f37fd53482560227ed081cbe0c23a1",
+  "new_N5_search_queries": 0,
+  "passes": 1128,
+  "portable_source_bytes": true,
+  "python_ast_parsed": 570,
+  "runner_sha256": "23bb935bcea7cee268c4b238f68d8e0cae9f6bcfcd5f96b1b4a42fdda05f5f90",
+  "scope": "Only the byte-isolated archived source set was tested. Later live source additions or edits are outside this result. Existing assets and frozen native dependencies were referenced without production queue mutation.",
+  "skips": 0,
+  "snapshot_files": 626,
+  "snapshot_manifest_sha256": "bcaa0fbaa8aa8d74ff3331d0462358217e99e7ab7db2d25ff59306bacd86e7c0",
+  "source_exclusions": [
+    "__pycache__ directories and .pyc/.pyo only; no source/test/fixture exclusions"
+  ],
+  "status": "FROZEN_FULL_M4_REGRESSION_ALL_PASS",
+  "summary_sha256": "b54927cd06aabfba82cb4b0481d4b6511ae34869be3f7664e734aabd0f42f82c",
+  "tests_run": 1128
+}

@@ -1,0 +1,64 @@
+{
+  "advancer_sha256": "8847b7c6f59dbede6f6953469ccdcbc276696a0bdac2f6faeb13a3444aa096de",
+  "branch_counts": {
+    "d13:no_single_rank2_edge_coset_spans": 1322,
+    "d14:inside_rankone_deficiency": 3859
+  },
+  "bulk_plan_sha256": "53e816b757cc711a55a6d947bb66dc37a67d2b27962874e30013ddc10da3f4ef",
+  "by_dimension": {
+    "13": 1322,
+    "14": 3859
+  },
+  "candidates": 0,
+  "claim": "Only supported literal15-to14 residuals from one approved93 source, outside78 frozen. All121 unsupported remain deferred. No global rank lower bound, no result <=92, no continuation.",
+  "closure_seal_sha256": "e00e851bc5977617532e634c723adf2d6a58ba2af32bc274b5c8314e8ea29ca4",
+  "closure_summary_sha256": "c0ebebcd4ed4de4cc5132b7d5d3c43ee346a57217fafc74e108b9ac451562b7d",
+  "config_source_indices_masks_and_shapes_match_catalog": true,
+  "deferred": {
+    "11": 9,
+    "12": 112
+  },
+  "deferred_total": 121,
+  "errors": 0,
+  "flattening_excluded": 22103,
+  "format": "c3-mixed15-supported-closure-v1",
+  "logical_output_bytes": 48077352,
+  "metadata_pins": {
+    "COMPLETE.json": "c054a84e9f8ff55c82857e98b9b807595cb79840ba0f58cbfb066a21f41750a1",
+    "catalog.json.gz": "b6df6ab005954168bf9a656d5f0c7e4d78fd3c5029a32dfb74f281ea836dc7c5",
+    "manifest.json": "9257959660cc1ec2ebaed56fc73cf9810d274fcfe15eb7293ef1a7b074eff2bc"
+  },
+  "queried_unique": 5181,
+  "reproduction_sha256": "6239dc16f81cd37d643d00692b85f295396f025876aa551931b09a3e7cd6d9c5",
+  "resources": {
+    "controller_last_observed": {
+      "completed_advancer_children_cpu_seconds": 166.71,
+      "controller_self_cpu_seconds": 0.17,
+      "observed_unix": 1793720845.462902,
+      "pid": 33634,
+      "sample_period_seconds": 0.2,
+      "semantics": "Last observed process counters before exit; not an exact final CPU total. Includes scope/result audit helper subprocesses; excludes queued search jobs."
+    },
+    "jobs": 22,
+    "max_rss_kib": 36220,
+    "search_job_cpu_seconds": 497.208255,
+    "sum_outer_elapsed_seconds": 522.6130772589986
+  },
+  "result_pins_sha256": "ff2a9235475424d02fabd6cac1930a2b5ac381b1050ae23fcbe92bde6fe4d13a",
+  "runner_sha256": "317faa179a97d9569674164ce03d64e06702c15e0bbad9a74f5dfb0cb2ad2d2e",
+  "scope_partition_verified": true,
+  "source": {
+    "anchor_manifest_sha256": "26d95607f6379c182b96aa9beaf451d419c7abb20b6185ebf0abf3b9f54eabe8",
+    "eligibility": "ROOT_APPROVED_KNOWN_C3_TRAIN_INPUT",
+    "private_eval_payloads_read": 0,
+    "root_eligibility_sha256": "7354183ab6e9c89f76110e1c916738ced4856499632a2f317508b1d6bea7bb55",
+    "source_audit_sha256": "c9d02876c0dc803c3e8447ece4e6c9120c92e9fa52657a28111519c0f531c90d",
+    "source_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b"
+  },
+  "source_bundle_bytes": 1725480,
+  "source_bundle_sha256": "8ce4c79bee64c59eff437d1ea27f3c4ed972168f109249c898ec9937966e6319",
+  "status": "ALL5181_SUPPORTED_CASES_EXACT_LOCAL_UNSAT",
+  "supported_exact_local_unsat": 5181,
+  "total_literal_family": 27405,
+  "unknown": 0
+}
