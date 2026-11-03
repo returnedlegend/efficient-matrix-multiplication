@@ -1,0 +1,6918 @@
+{
+  "constraints": {
+    "absolute_max_rank": 106,
+    "archive_size": 16,
+    "canonical_source_rank_max": 100,
+    "canonical_source_rank_min": 93,
+    "cyclic": false,
+    "dimension": 5,
+    "field": 2,
+    "fixed_cubes_constraint": false,
+    "headroom": 6,
+    "limiter_seconds": 915,
+    "phase_seconds": 300,
+    "phase_source_cycling": "Initial selected input then deterministically shuffled remaining sources, one source per phase;900 seconds usually reaches about3 source phases, not all16.",
+    "plus_every": 50000,
+    "restart_every": 100000000,
+    "selected_max_rank": 103,
+    "target_rank": 92,
+    "wrapper_seconds": 900
+  },
+  "cpu_seconds": 0.358334249,
+  "created_utc": "2026-11-03T01:55:03.888700+00:00",
+  "discovered_source_files": 65,
+  "eligible_sources": 65,
+  "exact_entries_per_check": 15625,
+  "excluded": {},
+  "format": "onecube-unrestricted-ready-v1",
+  "hashes": {
+    "frozen_wrapper_sha256": "df14d5501d094e990d1cd38133628970ff2c90cb1bcb12f0ec8a55d46f55e2be",
+    "generator_sha256": "539d3f4f5b9ea911a37aa68314cd89ba79fa6894ed6c2a2575c4575a0e252370",
+    "job_sha256": "d928b065a850b1f0a82c79defddb46f5e19c109089983535bfb632099e5cfd0d",
+    "standard_native_sha256": "5f24facddefaeac03436dba1fc85bdfbb4273f676f946bfbe43661fb12a5e7cb",
+    "wrapper_sha256": "df14d5501d094e990d1cd38133628970ff2c90cb1bcb12f0ec8a55d46f55e2be"
+  },
+  "independent_checks": 32,
+  "justification": "Starting decompositions descend from a one-fixed-cube C3 branch. Removing C3/fixed-cube restrictions permits rank92, whereas exact-one-cube C3 ranks remain1mod3 and would need rank91. This is a portfolio continuation, not a novelty or gain claim.",
+  "launch_performed": false,
+  "selected": [
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 12,
+        "1,1,2": 48,
+        "1,2,3": 3,
+        "2,2,2": 30,
+        "2,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/0082bb2e2b16949e335ce9976a66f3adc8a97f587a6704354988f192d43bcf09.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              1,
+              16777232,
+              27033600
+            ],
+            [
+              4,
+              16384,
+              6186009
+            ],
+            [
+              4,
+              4214788,
+              844825
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              2162688,
+              26407100
+            ],
+            [
+              10,
+              2163520,
+              26240025
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              320,
+              27033600,
+              65600
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              16777217,
+              16781313
+            ],
+            [
+              5124,
+              16384,
+              30277632
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65602,
+              524800,
+              28506142
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              66402,
+              524800,
+              31488030
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              262208,
+              17043521,
+              16781313
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "598b82896268e60763fd708bc66899496b2e5e63b972da069615e8a73f884341"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/598b82896268e60763fd708bc66899496b2e5e63b972da069615e8a73f884341.json",
+      "source_sha256": "0082bb2e2b16949e335ce9976a66f3adc8a97f587a6704354988f192d43bcf09",
+      "supplied_rank": 97,
+      "term_set_sha256": "598b82896268e60763fd708bc66899496b2e5e63b972da069615e8a73f884341"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 30,
+        "1,1,2": 30,
+        "2,2,2": 30,
+        "2,3,3": 6,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/424f0ae4d8efa9c04d1e31a79a5290d78de28bc11c0267d30f604b85c04f7e1e.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              4199236,
+              26240025
+            ],
+            [
+              4,
+              20992020,
+              27033600
+            ],
+            [
+              5,
+              16777232,
+              27033600
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              2162688,
+              169125
+            ],
+            [
+              14,
+              832,
+              26240025
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              320,
+              27033600,
+              65600
+            ],
+            [
+              800,
+              524800,
+              31488030
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              5120,
+              16384,
+              30277632
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65602,
+              524800,
+              5406720
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              262208,
+              266304,
+              16781313
+            ],
+            [
+              266304,
+              16777217,
+              16781313
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "2b62c6a747887fad19681a61d21804454791d80355c7fc45536c3d0520c91dcd"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/2b62c6a747887fad19681a61d21804454791d80355c7fc45536c3d0520c91dcd.json",
+      "source_sha256": "424f0ae4d8efa9c04d1e31a79a5290d78de28bc11c0267d30f604b85c04f7e1e",
+      "supplied_rank": 97,
+      "term_set_sha256": "2b62c6a747887fad19681a61d21804454791d80355c7fc45536c3d0520c91dcd"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 15,
+        "1,1,2": 39,
+        "1,1,3": 6,
+        "2,2,2": 30,
+        "2,3,3": 6,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/1904c971142df02e6e2c753008e05a7f42bc20f119a5f4965bf7c8e52b37d6a8.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              6361924,
+              844825
+            ],
+            [
+              4,
+              18957136,
+              27033600
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              2162688,
+              26407100
+            ],
+            [
+              14,
+              2163520,
+              26240025
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              800,
+              524800,
+              31488030
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              5120,
+              16384,
+              30277632
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65600,
+              16777552,
+              27033600
+            ],
+            [
+              65602,
+              524800,
+              5406720
+            ],
+            [
+              65605,
+              16777232,
+              27033600
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              262208,
+              16781313,
+              266304
+            ],
+            [
+              266304,
+              16781313,
+              16777217
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "3d2f032d0d4b7c389aa870e54b0a0d88f30edfd55612a5725664df79d232921a"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/3d2f032d0d4b7c389aa870e54b0a0d88f30edfd55612a5725664df79d232921a.json",
+      "source_sha256": "1904c971142df02e6e2c753008e05a7f42bc20f119a5f4965bf7c8e52b37d6a8",
+      "supplied_rank": 97,
+      "term_set_sha256": "3d2f032d0d4b7c389aa870e54b0a0d88f30edfd55612a5725664df79d232921a"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 15,
+        "1,1,2": 33,
+        "1,1,3": 3,
+        "1,2,2": 6,
+        "1,2,3": 6,
+        "2,2,2": 30,
+        "2,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/25b5510ebcc9fd1203d08db5d1971fed8c133593709b7a323b0a5cdc2232d4f6.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              4198404,
+              844825
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              832,
+              26240025
+            ],
+            [
+              10,
+              2162688,
+              169125
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              800,
+              524800,
+              28506142
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              262208,
+              266304
+            ],
+            [
+              16384,
+              5406720,
+              71522
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              16704,
+              27033600,
+              65601
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              66402,
+              541184,
+              5406720
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              70724,
+              16777552,
+              27033600
+            ],
+            [
+              70725,
+              16793936,
+              27033600
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              266304,
+              16777217,
+              17043521
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "c3fc5d4be393613d750d7350d41865857fa9239991acf75a8c7f1718f30d0adb"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/c3fc5d4be393613d750d7350d41865857fa9239991acf75a8c7f1718f30d0adb.json",
+      "source_sha256": "25b5510ebcc9fd1203d08db5d1971fed8c133593709b7a323b0a5cdc2232d4f6",
+      "supplied_rank": 97,
+      "term_set_sha256": "c3fc5d4be393613d750d7350d41865857fa9239991acf75a8c7f1718f30d0adb"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 18,
+        "1,1,2": 42,
+        "1,3,3": 3,
+        "2,2,2": 30,
+        "3,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/169ace6cec28f43314ecfbc2dd40b75e2420e3e662cc655501318333e8f699b8.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              4198404,
+              844825
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              832,
+              26240025
+            ],
+            [
+              10,
+              2162688,
+              169125
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              266304,
+              16781313
+            ],
+            [
+              5120,
+              16384,
+              30277632
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              16704,
+              27033600,
+              65600
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65602,
+              524800,
+              28506142
+            ],
+            [
+              65604,
+              16793616,
+              27033600
+            ],
+            [
+              65605,
+              16777232,
+              27033600
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              66402,
+              524800,
+              31488030
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              266304,
+              17043521,
+              16781313
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "5b8ffc156a4350c2ac3b6f9d62715d91a43c2acf518637727316bd0028073996"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/5b8ffc156a4350c2ac3b6f9d62715d91a43c2acf518637727316bd0028073996.json",
+      "source_sha256": "169ace6cec28f43314ecfbc2dd40b75e2420e3e662cc655501318333e8f699b8",
+      "supplied_rank": 97,
+      "term_set_sha256": "5b8ffc156a4350c2ac3b6f9d62715d91a43c2acf518637727316bd0028073996"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 24,
+        "1,1,2": 36,
+        "1,2,3": 3,
+        "2,2,2": 30,
+        "2,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/2a9b39356bb45ecb02e13e05ba936cd0509366c25f7f6e930c7a17155819e794.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              1,
+              16794448,
+              27033600
+            ],
+            [
+              4,
+              4199236,
+              844825
+            ],
+            [
+              5,
+              17216,
+              27033600
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              2162688,
+              169125
+            ],
+            [
+              14,
+              832,
+              26240025
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              320,
+              27033600,
+              65600
+            ],
+            [
+              800,
+              524800,
+              31488030
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              266304,
+              262208
+            ],
+            [
+              5120,
+              16384,
+              30277632
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65602,
+              524800,
+              5406720
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              266304,
+              17043521,
+              16777217
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "0c81121712527f418f57d312cc5ca43c8cf9e37bfb416ed576d1dd711e3449b6"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/0c81121712527f418f57d312cc5ca43c8cf9e37bfb416ed576d1dd711e3449b6.json",
+      "source_sha256": "2a9b39356bb45ecb02e13e05ba936cd0509366c25f7f6e930c7a17155819e794",
+      "supplied_rank": 97,
+      "term_set_sha256": "0c81121712527f418f57d312cc5ca43c8cf9e37bfb416ed576d1dd711e3449b6"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 24,
+        "1,1,2": 30,
+        "1,1,3": 3,
+        "1,2,2": 3,
+        "1,3,3": 3,
+        "2,2,2": 30,
+        "3,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/ae40603a8f1737364ece7597cdb506af64edf1de3846f7171eef33d5326491d9.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              4198404,
+              844825
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              832,
+              26240025
+            ],
+            [
+              10,
+              2162688,
+              169125
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              800,
+              524800,
+              31488030
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              266304,
+              16781313
+            ],
+            [
+              5120,
+              16384,
+              5406720
+            ],
+            [
+              5125,
+              16704,
+              27033600
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65602,
+              524800,
+              5406720
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              70724,
+              16793616,
+              27033600
+            ],
+            [
+              70725,
+              16793936,
+              27033600
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              266304,
+              17043521,
+              16781313
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "b882caf439b0593a1b5058e6024b5e7945e069ccb6f823f6856c57c3cd32a0cb"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/b882caf439b0593a1b5058e6024b5e7945e069ccb6f823f6856c57c3cd32a0cb.json",
+      "source_sha256": "ae40603a8f1737364ece7597cdb506af64edf1de3846f7171eef33d5326491d9",
+      "supplied_rank": 97,
+      "term_set_sha256": "b882caf439b0593a1b5058e6024b5e7945e069ccb6f823f6856c57c3cd32a0cb"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 6,
+        "1,1,2": 54,
+        "1,3,3": 3,
+        "2,2,2": 30,
+        "3,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/c935a4e96f120c227cdf8b473f49a8924cbcf0b2d35e330a3270c82216d7d59f.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              4198404,
+              6186009
+            ],
+            [
+              4,
+              4214788,
+              5406720
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              832,
+              26407100
+            ],
+            [
+              10,
+              2163520,
+              169125
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              266304,
+              16781313
+            ],
+            [
+              5124,
+              16384,
+              30277632
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65600,
+              16777552,
+              27033600
+            ],
+            [
+              65601,
+              16777232,
+              27033600
+            ],
+            [
+              65602,
+              524800,
+              28506142
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              66402,
+              524800,
+              31488030
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              266304,
+              17043521,
+              16781313
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "34d7173a144179c5bb0d57f726eac144353fe5314edfc51caba966f5e3648c78"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/34d7173a144179c5bb0d57f726eac144353fe5314edfc51caba966f5e3648c78.json",
+      "source_sha256": "c935a4e96f120c227cdf8b473f49a8924cbcf0b2d35e330a3270c82216d7d59f",
+      "supplied_rank": 97,
+      "term_set_sha256": "34d7173a144179c5bb0d57f726eac144353fe5314edfc51caba966f5e3648c78"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 12,
+        "1,1,2": 39,
+        "1,1,3": 9,
+        "1,2,3": 3,
+        "2,2,2": 30,
+        "2,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/0f58795ece0124752c8cc866e280bc1ba746306eb4582e3f71f22201b38d41cf.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              4198404,
+              844825
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              2162688,
+              26407100
+            ],
+            [
+              10,
+              2163520,
+              26240025
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              320,
+              27033600,
+              65600
+            ],
+            [
+              800,
+              524800,
+              28506142
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              16781313,
+              16777217
+            ],
+            [
+              16384,
+              30277632,
+              71522
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              66402,
+              541184,
+              5406720
+            ],
+            [
+              66406,
+              16793616,
+              27033600
+            ],
+            [
+              66407,
+              16777232,
+              27033600
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              262208,
+              16781313,
+              17043521
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "e343c4269f2167492c77b830f4fdd9d2c889ff6b37fcd43b6040e55919f1dc2a"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/e343c4269f2167492c77b830f4fdd9d2c889ff6b37fcd43b6040e55919f1dc2a.json",
+      "source_sha256": "0f58795ece0124752c8cc866e280bc1ba746306eb4582e3f71f22201b38d41cf",
+      "supplied_rank": 97,
+      "term_set_sha256": "e343c4269f2167492c77b830f4fdd9d2c889ff6b37fcd43b6040e55919f1dc2a"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 18,
+        "1,1,2": 30,
+        "1,1,3": 3,
+        "1,2,2": 6,
+        "1,2,3": 3,
+        "2,2,2": 30,
+        "2,3,3": 6,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/4cb8c802b4014593404df33ed44124c74c7557c9be89cce7d5b63d70586a6db8.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              4198404,
+              844825
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              832,
+              26240025
+            ],
+            [
+              10,
+              2162688,
+              169125
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              5120,
+              541184,
+              5406720
+            ],
+            [
+              5124,
+              16793936,
+              27033600
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65601,
+              16777232,
+              27033600
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              70722,
+              524800,
+              28506142
+            ],
+            [
+              70724,
+              16777552,
+              27033600
+            ],
+            [
+              71522,
+              524800,
+              31488030
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              262208,
+              266304,
+              16781313
+            ],
+            [
+              266304,
+              16777217,
+              16781313
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "134e7af2f584511ee914ba6ffc7db47fdf81ee762e937a79de0c5a32e44b0542"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/134e7af2f584511ee914ba6ffc7db47fdf81ee762e937a79de0c5a32e44b0542.json",
+      "source_sha256": "4cb8c802b4014593404df33ed44124c74c7557c9be89cce7d5b63d70586a6db8",
+      "supplied_rank": 97,
+      "term_set_sha256": "134e7af2f584511ee914ba6ffc7db47fdf81ee762e937a79de0c5a32e44b0542"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 15,
+        "1,1,2": 36,
+        "1,2,2": 6,
+        "1,2,3": 3,
+        "1,3,3": 3,
+        "2,2,2": 30,
+        "3,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/6c83d7c7674f4c476d0ed9709624eba376e15e98782a2a66344808fbc90507b0.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              4199236,
+              26240025
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              2162688,
+              169125
+            ],
+            [
+              14,
+              832,
+              26240025
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              800,
+              524800,
+              28506142
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              16781313,
+              266304
+            ],
+            [
+              5120,
+              16384,
+              30277632
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65601,
+              4215108,
+              27033600
+            ],
+            [
+              65604,
+              16777552,
+              27033600
+            ],
+            [
+              65605,
+              20992340,
+              27033600
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              66402,
+              524800,
+              5406720
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              266304,
+              16781313,
+              17043521
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "195f9491f0663668f923a87058173e388cd71e43d18497586ce73e95a5e8cc14"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/195f9491f0663668f923a87058173e388cd71e43d18497586ce73e95a5e8cc14.json",
+      "source_sha256": "6c83d7c7674f4c476d0ed9709624eba376e15e98782a2a66344808fbc90507b0",
+      "supplied_rank": 97,
+      "term_set_sha256": "195f9491f0663668f923a87058173e388cd71e43d18497586ce73e95a5e8cc14"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 12,
+        "1,1,2": 45,
+        "1,2,2": 3,
+        "2,2,2": 30,
+        "2,3,3": 6,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/7f7a0af3aaf0b874095199b96a625b3d3a6ef1169239b438fe0a88cd26ac27e5.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              4198404,
+              844825
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              832,
+              26407100
+            ],
+            [
+              10,
+              2163520,
+              169125
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              800,
+              524800,
+              28506142
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              5120,
+              16384,
+              5406720
+            ],
+            [
+              5125,
+              16777552,
+              27033600
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65601,
+              16793616,
+              27033600
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              66402,
+              524800,
+              5406720
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              70725,
+              16793936,
+              27033600
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              262208,
+              16781313,
+              266304
+            ],
+            [
+              266304,
+              16781313,
+              16777217
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "9151882256ab1811a7f2bbf6756c09815e6f70164b2730eb560a821f3e3e196f"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/9151882256ab1811a7f2bbf6756c09815e6f70164b2730eb560a821f3e3e196f.json",
+      "source_sha256": "7f7a0af3aaf0b874095199b96a625b3d3a6ef1169239b438fe0a88cd26ac27e5",
+      "supplied_rank": 97,
+      "term_set_sha256": "9151882256ab1811a7f2bbf6756c09815e6f70164b2730eb560a821f3e3e196f"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 18,
+        "1,1,2": 39,
+        "1,1,3": 3,
+        "1,2,3": 3,
+        "2,2,2": 30,
+        "2,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/14d74246e396436fbcc09373528462ebb9c79d22e5020023cd23f45215ba11dd.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              4,
+              6361924,
+              26240025
+            ],
+            [
+              4,
+              20992020,
+              27033600
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              2162688,
+              26407100
+            ],
+            [
+              14,
+              2163520,
+              26240025
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              800,
+              524800,
+              31488030
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              262208,
+              266304
+            ],
+            [
+              5120,
+              16384,
+              30277632
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65600,
+              16777552,
+              27033600
+            ],
+            [
+              65602,
+              524800,
+              5406720
+            ],
+            [
+              65605,
+              16777232,
+              27033600
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              266304,
+              16777217,
+              17043521
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "a1c0d8c02b2b4bfbf702437d9ded44a44feb8da76ef6b59d4888b7eb3adf9756"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a1c0d8c02b2b4bfbf702437d9ded44a44feb8da76ef6b59d4888b7eb3adf9756.json",
+      "source_sha256": "14d74246e396436fbcc09373528462ebb9c79d22e5020023cd23f45215ba11dd",
+      "supplied_rank": 97,
+      "term_set_sha256": "a1c0d8c02b2b4bfbf702437d9ded44a44feb8da76ef6b59d4888b7eb3adf9756"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 27,
+        "1,1,2": 33,
+        "1,3,3": 3,
+        "2,2,2": 30,
+        "3,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/2f0ae50689ee86cf8b6af4be90e1fe16d96f750fe8407416aa74ae5ae5aad007.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              1,
+              16793616,
+              27033600
+            ],
+            [
+              4,
+              4198404,
+              844825
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              832,
+              26240025
+            ],
+            [
+              10,
+              2162688,
+              169125
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              320,
+              27033600,
+              65600
+            ],
+            [
+              800,
+              524800,
+              28506142
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              266304,
+              16781313
+            ],
+            [
+              5120,
+              16384,
+              5406720
+            ],
+            [
+              5125,
+              16384,
+              27033600
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              66402,
+              524800,
+              5406720
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              266304,
+              17043521,
+              16781313
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "a719f962fd6be855ed48ee37720ce5507883cf672d1185fc51dd329027d7cde5"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a719f962fd6be855ed48ee37720ce5507883cf672d1185fc51dd329027d7cde5.json",
+      "source_sha256": "2f0ae50689ee86cf8b6af4be90e1fe16d96f750fe8407416aa74ae5ae5aad007",
+      "supplied_rank": 97,
+      "term_set_sha256": "a719f962fd6be855ed48ee37720ce5507883cf672d1185fc51dd329027d7cde5"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 21,
+        "1,1,2": 39,
+        "2,2,2": 30,
+        "2,3,3": 6,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/32e9caff7be6ccd3750d1698850a9e9b068179b4870ff3f0d9f6571a4484f33d.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              1,
+              16777552,
+              27033600
+            ],
+            [
+              4,
+              16384,
+              27033600
+            ],
+            [
+              4,
+              4198404,
+              844825
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              832,
+              26240025
+            ],
+            [
+              10,
+              2162688,
+              169125
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              320,
+              27033600,
+              65601
+            ],
+            [
+              800,
+              524800,
+              28506142
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              5120,
+              16384,
+              30277632
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              66402,
+              524800,
+              5406720
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              262208,
+              16781313,
+              266304
+            ],
+            [
+              266304,
+              16781313,
+              16777217
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "2e4043ed8f45dc0af904c3b97f3be22421a5d4853e6c16213721ab5ed969d433"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/2e4043ed8f45dc0af904c3b97f3be22421a5d4853e6c16213721ab5ed969d433.json",
+      "source_sha256": "32e9caff7be6ccd3750d1698850a9e9b068179b4870ff3f0d9f6571a4484f33d",
+      "supplied_rank": 97,
+      "term_set_sha256": "2e4043ed8f45dc0af904c3b97f3be22421a5d4853e6c16213721ab5ed969d433"
+    },
+    {
+      "canonical_rank": 97,
+      "cyclic": true,
+      "exact_entries_each": 15625,
+      "factor_matrix_rank_histogram": {
+        "1,1,1": 6,
+        "1,1,2": 51,
+        "1,1,3": 3,
+        "1,2,3": 3,
+        "2,2,2": 30,
+        "2,3,5": 3,
+        "5,5,5": 1
+      },
+      "independent_canonical_valid": true,
+      "independent_original_valid": true,
+      "orbit_profile": {
+        "fixed_cubes": 1,
+        "three_cycles": 32
+      },
+      "pool_path": "artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/478d4ae6ab268cb0c112f513cf19e1508dafd35a64a200eb5d27ffaa2bc82380.json",
+      "source_metadata": {
+        "method": "fixed-one-cube-native-cyclic-checkpoint",
+        "orbit_inventory": {
+          "fixed_cube_masks": [
+            17043521
+          ],
+          "three_cycle_representatives": [
+            [
+              1,
+              16777552,
+              27033600
+            ],
+            [
+              4,
+              4214788,
+              844825
+            ],
+            [
+              8,
+              11338560,
+              168965
+            ],
+            [
+              10,
+              2162688,
+              26407100
+            ],
+            [
+              10,
+              2179904,
+              26240025
+            ],
+            [
+              17,
+              16777216,
+              5248005
+            ],
+            [
+              64,
+              262400,
+              327680
+            ],
+            [
+              320,
+              27033600,
+              65601
+            ],
+            [
+              800,
+              524800,
+              28506142
+            ],
+            [
+              864,
+              524824,
+              10485760
+            ],
+            [
+              960,
+              159876,
+              10250
+            ],
+            [
+              1024,
+              16404,
+              4194308
+            ],
+            [
+              4096,
+              16777217,
+              16781313
+            ],
+            [
+              5120,
+              16384,
+              6186009
+            ],
+            [
+              5134,
+              16384,
+              26240025
+            ],
+            [
+              16392,
+              11469760,
+              136196
+            ],
+            [
+              16394,
+              2163648,
+              136324
+            ],
+            [
+              16401,
+              16777220,
+              4199428
+            ],
+            [
+              24576,
+              994250,
+              131076
+            ],
+            [
+              26624,
+              68546,
+              131204
+            ],
+            [
+              65610,
+              525120,
+              26406940
+            ],
+            [
+              66402,
+              524800,
+              5406720
+            ],
+            [
+              67650,
+              656000,
+              161796
+            ],
+            [
+              68450,
+              524804,
+              4225028
+            ],
+            [
+              75850,
+              656320,
+              159748
+            ],
+            [
+              262208,
+              17043521,
+              16781313
+            ],
+            [
+              524288,
+              29388828,
+              885610
+            ],
+            [
+              524289,
+              16777240,
+              11371360
+            ],
+            [
+              524292,
+              4222980,
+              895850
+            ],
+            [
+              524312,
+              10551360,
+              557920
+            ],
+            [
+              524314,
+              2162752,
+              557600
+            ],
+            [
+              524801,
+              16777242,
+              2163552
+            ]
+          ]
+        },
+        "orbit_profile": {
+          "fixed_cubes": 1,
+          "three_cycles": 32
+        },
+        "parent": {
+          "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+          "command": [
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+            "--input",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/input.txt",
+            "--output",
+            "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/phase-000/walk",
+            "--n",
+            "5",
+            "--target",
+            "92",
+            "--max-rank",
+            "109",
+            "--seed",
+            "314159",
+            "--steps",
+            "1000000000000",
+            "--seconds",
+            "150.0",
+            "--checkpoint-seconds",
+            "15",
+            "--archive-size",
+            "16",
+            "--archive-every",
+            "1000",
+            "--plus-every",
+            "50000",
+            "--restart-every",
+            "100000000",
+            "--cyclic",
+            "--fixed-cubes",
+            "1"
+          ],
+          "deadline_utc": "2026-11-03T03:07:35Z",
+          "effective_target_rank": 91,
+          "headroom": 9,
+          "initial_inventory": {
+            "fixed_cube_masks": [
+              17043521
+            ],
+            "three_cycle_representatives": [
+              [
+                1,
+                16793616,
+                27033600
+              ],
+              [
+                4,
+                4198404,
+                844825
+              ],
+              [
+                8,
+                11338560,
+                168965
+              ],
+              [
+                10,
+                832,
+                26240025
+              ],
+              [
+                10,
+                2162688,
+                169125
+              ],
+              [
+                17,
+                16777216,
+                5248005
+              ],
+              [
+                64,
+                262400,
+                327680
+              ],
+              [
+                800,
+                524800,
+                31488030
+              ],
+              [
+                864,
+                524824,
+                10485760
+              ],
+              [
+                960,
+                159876,
+                10250
+              ],
+              [
+                1024,
+                16404,
+                4194308
+              ],
+              [
+                4096,
+                266304,
+                262208
+              ],
+              [
+                16384,
+                5406720,
+                65605
+              ],
+              [
+                16384,
+                30277632,
+                70725
+              ],
+              [
+                16392,
+                11469760,
+                136196
+              ],
+              [
+                16394,
+                2163648,
+                136324
+              ],
+              [
+                16401,
+                16777220,
+                4199428
+              ],
+              [
+                16704,
+                27033600,
+                65600
+              ],
+              [
+                24576,
+                994250,
+                131076
+              ],
+              [
+                26624,
+                68546,
+                131204
+              ],
+              [
+                65602,
+                524800,
+                5406720
+              ],
+              [
+                65610,
+                525120,
+                26406940
+              ],
+              [
+                67650,
+                656000,
+                161796
+              ],
+              [
+                68450,
+                524804,
+                4225028
+              ],
+              [
+                75850,
+                656320,
+                159748
+              ],
+              [
+                266304,
+                266304,
+                16777217
+              ],
+              [
+                266304,
+                16777217,
+                16777217
+              ],
+              [
+                524288,
+                29388828,
+                885610
+              ],
+              [
+                524289,
+                16777240,
+                11371360
+              ],
+              [
+                524292,
+                4222980,
+                895850
+              ],
+              [
+                524312,
+                10551360,
+                557920
+              ],
+              [
+                524314,
+                2162752,
+                557600
+              ],
+              [
+                524801,
+                16777242,
+                2163552
+              ]
+            ]
+          },
+          "initial_profile": {
+            "fixed_cubes": 1,
+            "three_cycles": 33
+          },
+          "initial_rank": 100,
+          "max_rank": 109,
+          "note": "C3 closure and exactly one fixed cube enforced; cube factors may change",
+          "phase": 0,
+          "plus_every": 50000,
+          "profile": "fixed-one-cube-v1",
+          "required_fixed_cubes": 1,
+          "restart_every": 100000000,
+          "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-ready-v1/seeds/f9ba9f1b312b4a309684abf7bfa7cbe0f21ca19d5e56cae036b179aed2ac6d95.json",
+          "source_sha256": "3e177ee8db6903c595641ae105bf82f842ac9f3c7fee2e7ea026135d37273c10",
+          "wrapper_sha256": "a92acef18b5fae05b2894ad630f032e117b79a5daddc3c73b6ed970d3af58c4a"
+        },
+        "status": "branch_progress",
+        "term_set_sha256": "a00897a6344c64d2b3b30addb3d199914bee3e98dad7b6e6917021122c9f9b10"
+      },
+      "source_path": "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a00897a6344c64d2b3b30addb3d199914bee3e98dad7b6e6917021122c9f9b10.json",
+      "source_sha256": "478d4ae6ab268cb0c112f513cf19e1508dafd35a64a200eb5d27ffaa2bc82380",
+      "supplied_rank": 97,
+      "term_set_sha256": "a00897a6344c64d2b3b30addb3d199914bee3e98dad7b6e6917021122c9f9b10"
+    }
+  ],
+  "selection": "Rank ascending; within each rank greedily maximize minimum L1 distance between sorted factor-matrix-rank triple histograms; SHA256 tie break; distinct canonical term sets only.",
+  "source_branch": "fixed1-1",
+  "source_hashes": {
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/048051e499398df9ed3e5bcd83ab99d6761278c332f11f182e5a287cee4a7192.json": "9954d5fc451fb8cefd8cc73969602657c2c7307d7570557917edaa319ce83fcd",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/0b3f20b63818416efc8f780769e46950acf7ca04865218262a902878e7eb7145.json": "50e60d710b40122d82eef2d843c83feb6dd30f43e92638cbae91053fbc8ab2cf",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/0c81121712527f418f57d312cc5ca43c8cf9e37bfb416ed576d1dd711e3449b6.json": "2a9b39356bb45ecb02e13e05ba936cd0509366c25f7f6e930c7a17155819e794",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/134e7af2f584511ee914ba6ffc7db47fdf81ee762e937a79de0c5a32e44b0542.json": "4cb8c802b4014593404df33ed44124c74c7557c9be89cce7d5b63d70586a6db8",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/159ceb2fae6b05bb8fb446371d8c8fbb2d763354d5705e611c9f628f0c7f80c2.json": "2c079beb9ef698199bfbfb8714bf5a6d3d8d2a6220138009f5b5d1328d6cfc3c",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/195f9491f0663668f923a87058173e388cd71e43d18497586ce73e95a5e8cc14.json": "6c83d7c7674f4c476d0ed9709624eba376e15e98782a2a66344808fbc90507b0",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/19f9497d069ff2189f1e547eeffd8c01021ed94a0ee530fe88173123a2704071.json": "718388372bcf3fe244fa678ea34dfece515ba71335bcf31d67b5e85e87f14ab5",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/24bcbf1da20f6782232653b0890e8a865d752ba54576d58cac2d3b83ac9de1f6.json": "fb0bce1802245b60b75a6a652651fe4bd95ed76f8e87057225ae9b90d307a905",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/2521948faa010ba6417eedc8428b0f6343940013912ee3a2b7c17c635ad2dc8d.json": "54725c66647dd0011e73c15b074e6bc7dec53966d034b1494b72a897bb3f2428",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/2b62c6a747887fad19681a61d21804454791d80355c7fc45536c3d0520c91dcd.json": "424f0ae4d8efa9c04d1e31a79a5290d78de28bc11c0267d30f604b85c04f7e1e",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/2e4043ed8f45dc0af904c3b97f3be22421a5d4853e6c16213721ab5ed969d433.json": "32e9caff7be6ccd3750d1698850a9e9b068179b4870ff3f0d9f6571a4484f33d",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/30fb69d3d167897889a4c821fef63a1b72156d1c3da0774a5eab51552cb58d38.json": "a0754e3b549e79e1482cb51655680201cf69ee3c1973d01c8527cd733edebaa6",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/34d7173a144179c5bb0d57f726eac144353fe5314edfc51caba966f5e3648c78.json": "c935a4e96f120c227cdf8b473f49a8924cbcf0b2d35e330a3270c82216d7d59f",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/37b1a16fe853fc53202e957f9416e5f1989a173d84215d623b347cc4589c2088.json": "3a9a8cb7da964810b0f6ad99a85e783c551b4f5ba230fb9d1dab6b32b61cdc30",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/37feb4b92cb8e1f73cd48d3406a57d9d14fad28981d6eb7507b1d6f7bf4e1769.json": "fbc8e0877daef31713a2053106771f038aa698973f92b65900d17dbb693e48f5",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/3d2f032d0d4b7c389aa870e54b0a0d88f30edfd55612a5725664df79d232921a.json": "1904c971142df02e6e2c753008e05a7f42bc20f119a5f4965bf7c8e52b37d6a8",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/419a71037e43b9deaa059dda6255bf863779a40636d3e4b85c5ea1d6999e4540.json": "8be28e945ec4c9f8ab3b7959d8b570a8531ff654563173ed749e846544aee656",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/4393e4806a962a31de1bea595194c6806423957bafb40935e866b17b5f823f08.json": "6cbf10a193f39318483dde46ec435c78850d6a7d58b07683ed3a3dee54d9d719",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/45638f4b448292fe14849289ca7656c706a94a7c44b17f10cca93bc390ae83e1.json": "f8ee92b00d5e784ef2889c4ad815104d9f110357c887a6dd512e0ae85dad58e4",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/4dd83becae0ce773b1bb202f9850dca4af71e6196d2955107fa403ebad8e8aef.json": "2372b5b61907ed7e51b0152b2d37ad775e48c24f0d9fd2e205240904a61ea01e",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/51b7e5a62cb9463d765b157aff9c6e6b87c2d722646801daea970e88be93ed8b.json": "fe30289ae3ca0b5e48d009eac6f96a380b3e9f767843d4374ee0392f8897c456",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/52ff812c68db396b8964e2c6d6b8636bb88e20b25edc00f08e644cb2a56621ce.json": "55a04abcab9a99fb859781322eb196ff1a82d8954b8f6b60b70d4650952a4762",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/585383c0a5efc9e5e3a20104f4f153192e7808b20107bc6abd4e07475bd987b3.json": "12bdff80a1c366a0949c0b646d5710c84ad3560770021dc0874ed7fb08ce6264",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/58cf6f5eded5dfc8c5f23d8e9222083a754d1622b209a4f38d365605e97a728c.json": "c8d35b9946b0c52cb2faa536aaa8c75f3019687e3b05b5fd0266e1677605e0ae",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/598b82896268e60763fd708bc66899496b2e5e63b972da069615e8a73f884341.json": "0082bb2e2b16949e335ce9976a66f3adc8a97f587a6704354988f192d43bcf09",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/5b8ffc156a4350c2ac3b6f9d62715d91a43c2acf518637727316bd0028073996.json": "169ace6cec28f43314ecfbc2dd40b75e2420e3e662cc655501318333e8f699b8",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/61b8fca69d8c1865620dd5d4e3d10a35c22f4b004433aa83cc34ab4d78a04d7e.json": "5bc5e5468834ee4e189f41e6dcd01efdfa227cd88d4efe64bde0d4ed83d640e3",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/6213808feceff3ed61333e9497b43250ec17172e8429e1923067caa41f3b3e36.json": "3c522d55b0a2a3c25d7bba6977bb03a0ae981bf0b9dae4d82a8eb84bdb3bac7a",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/6291da4f9284d0e1d90c85f977dfe9462608f670b9e3e6229e6f6af28def3e12.json": "34041c844779945b95e24749d070bf4468c6201a1985c5b947cd882003dd2400",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/648d69af6e1ef9c7f70fd5639291b18782605453c8c58ac10b0b8080040c4098.json": "308d2707aa89394ec21ce2c7be7d569a473a5d3ee4e1d1eb4c2245f9c8d1ba1c",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/65ffb7236452b34d79aeeb18f6ab66d44119fbc518338d3aab166ec7a9943294.json": "9aa1610eaea9518da900540713c70de8b3291a4df874bf8c30080def4782eced",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/67cc9180e452b9a57078d2fb9e2b69f0307cd14fc4121fa8aeb9a26ee6453d38.json": "c5c569674cf1a8f268eaf873850064f46a5378cc65cf96b9f2f031936248653c",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/67f2495262c9e133008638554b374f6c5d849c53200e8da85e7ea75c35536dfe.json": "ddfc2407da80d0b2b30475fcaf3c16f1b418f2a44ac68488e72f2c61627ca622",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/69bb45f005c3a6ab93c9094ef18c4a70601a36a90727758a0e247049446b0302.json": "9994507379c555539d13c892de7d5d73d9203d97c07167539ca54486de4344b6",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/6e0b1f53774a3c44c49f665d8ca747642294ae21c488cbb0ada9ea7868f733ce.json": "2d3127005ca7e9ada906a19d9617baf74b8fda9fe618ba48857d0b37f5e60b29",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/783879062606cae932437bf0c09130680033a2e05937a1f2bcea04790b5a6456.json": "de0a6d99ba33be05c7755c27e34c8a8d9912e0f30e6f2bb8ab16e7fdda44f35c",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/7ac77197854241cd254cd38f9e163bb9e687b85dd33a253476273ede6a0c5120.json": "3e63c9119bc5f93a40e43279d33ced4ad1bad5159b067f6d8311cddd5dbedd33",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/871cb7241cd09045260c9d527f69e0711236e398578223bc7dc2d1ba94c90699.json": "ed4a10b9d125caeda5dfac64c9ae71689d32c10ee7088d34dbc6f42082eff9bb",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/8b307272cd701431cf04abe915b7505637ec6abfb4f22e50728562251ce7e18c.json": "a8a865a867ae6aef491e2039a1fae619172e41232428f37a4855be0ad2320ce2",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/9151882256ab1811a7f2bbf6756c09815e6f70164b2730eb560a821f3e3e196f.json": "7f7a0af3aaf0b874095199b96a625b3d3a6ef1169239b438fe0a88cd26ac27e5",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/93b77694a31e96fe4828938e4c1cffc6845b264e3d8165ca33fd673d3ef67484.json": "2092e41a86e5bd9295e02c8813b75f597104f52d743e6ed9fd1c1c2897ee70a7",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/99c361abb0656ecc54f26e063c7552a630fa4d3bd087b5ddcadcb19023fd617f.json": "e8d9c71cfabf2fd22de5111a5d9fb9fc5c12077812be5695f5248b758d5caf72",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/99e4ac29328b6243549db902fe9b36ad8249621740a5075ac493bd1e5c7e1ab7.json": "08ccf18d2e3641a8f44d3c31a1643f141608822336c6bc38770d11af862ce8c9",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/9d5a123c9c617a1d8fcd0bf7135893ef2e50b0b1420e8620e08ae2f8e4fde483.json": "cc574f19d6d14b1454fa0f074837d61c3a6172c04c6be70f2442aae74341194c",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a00897a6344c64d2b3b30addb3d199914bee3e98dad7b6e6917021122c9f9b10.json": "478d4ae6ab268cb0c112f513cf19e1508dafd35a64a200eb5d27ffaa2bc82380",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a0d748d5892eeb1a9d4f358288d4244ec58f4ea619feac99e218563cc389d5e2.json": "307b60ada4230c9485fc05ee68d4396983d0be915b796be420a04d87d8b9c14b",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a1c0d8c02b2b4bfbf702437d9ded44a44feb8da76ef6b59d4888b7eb3adf9756.json": "14d74246e396436fbcc09373528462ebb9c79d22e5020023cd23f45215ba11dd",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a719f962fd6be855ed48ee37720ce5507883cf672d1185fc51dd329027d7cde5.json": "2f0ae50689ee86cf8b6af4be90e1fe16d96f750fe8407416aa74ae5ae5aad007",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a91f0f04cf4cc5b31a07868ed13cabc70053fb26f4f3884224bd0b6b70f82112.json": "b93f78bdbbef528e748bc5a3a3cd1e9638317f6ce31297b289c934e7139a05d9",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/ae4e8355939c80de8bcdaa61ec455f1af12be108b38c8c2b920c320c12abb11c.json": "9fa7c3c6ef2625f1c0db350adbc70be1cc3ddaefda391d6ab841eb6484a4ea10",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/b592801e3209264fcc9d09d60e47949b38a4a59e60af4c5f501b7ba2247e9e3c.json": "b8a8a759314fe6736509cbc7991bbbd64e07e18eda56912ede48dade673065ac",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/b79dfbb586da47497b010fb3582e2463b758ce0220ba729e3f6b0819ff0c6d68.json": "b68110d8f97a909c9aead4f1dce6202b662a5af16132efbe9519a1d16fe24462",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/b882caf439b0593a1b5058e6024b5e7945e069ccb6f823f6856c57c3cd32a0cb.json": "ae40603a8f1737364ece7597cdb506af64edf1de3846f7171eef33d5326491d9",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/c3e00ddcafd60a9c7f5d6946eb83f05b5778b6dd403472830cac64795f4811fb.json": "5840351d6ecd6821d6d138e8bd57a4fabbd6e2c3f13cc55a65e15cb4fd4fa4fd",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/c3fc5d4be393613d750d7350d41865857fa9239991acf75a8c7f1718f30d0adb.json": "25b5510ebcc9fd1203d08db5d1971fed8c133593709b7a323b0a5cdc2232d4f6",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/cee0fbb616ce60d8fd28a2fd636be42ba518140923039300b1c2e2f97680d10f.json": "e7e0ae592daefffcd89e33005c52e530b89c7a237af3b5e7433a7d7297dfb9b0",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/dabed5fcfb0d529aba1880f7dc45d3d9b0b9e0460a94d823a586096de6448f14.json": "df16bb9aab444877a4196cedfcfa871e6a69b38b852dd7044c7e5c3703cabce7",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/db397208b811f876ee00cf3ba8af53d05c0125f3772e2bfdd498ae36f50767c5.json": "bd5d70bfa06e7d4b2a6a7f71817e1e269b2567dc11818dad03a06f4eea58c36c",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/db561d370a777b464f6ddad2421d55ae4c4c4abd926e3f903d640bf30df62a63.json": "76cd90707a9cf55975a2e81dd426b6045027e5339fbd080d6496171a38273a04",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/df1539554a2188a34033f0b33e499eee3a83cb752f7607c8191d9f748b0537a5.json": "48c97eb73dffe72bf4d6104a8104ae0236e2a18330a654bec74e02e11ef4f1e4",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/e343c4269f2167492c77b830f4fdd9d2c889ff6b37fcd43b6040e55919f1dc2a.json": "0f58795ece0124752c8cc866e280bc1ba746306eb4582e3f71f22201b38d41cf",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/e3581d81799822c12e0b22d4391e8c5aa62a4791cc9da1123ec7b1be621182eb.json": "20c564a876944923b7936ee13ea3b2180ee58bc45a76212f7c05f4f3ffc55665",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/e6e8cd1574aefd29ff183849b4bb0952b984f7519f7cac216dbb5d27c576ea3b.json": "978d2dec178b32a6685f4da6a4c049e20b010b7a631dd980c7fd18b8950284ab",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/f2ae4e598f2e4cd5b95751303efde2bfc186e70aa82a6ab40a0c731f36426737.json": "13d522ec47802820a572e817d1cc750c5774bb91f3f8f51a77c1a2044a792e20",
+    "artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/f447a4889c1c9e7d29430e96845c13129d78d51c1d4df149776019e467212fd0.json": "6ad5f8e095a38915c1ec9b646e7c6b10ce34712edb1c4559ad187db1fc084c11"
+  }
+}

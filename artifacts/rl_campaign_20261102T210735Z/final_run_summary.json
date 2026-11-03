@@ -1,0 +1,69 @@
+{
+  "completed_utc": "2026-11-03T03:08:38.311173+00:00",
+  "deadline_utc": "2026-11-03T03:07:35Z",
+  "stop_reason": "budget_exhausted",
+  "best_verified_products": 93,
+  "record_beating_candidate_found": false,
+  "queue_stop_reason": "global campaign deadline reached",
+  "guard": {
+    "reason": "global wall-clock deadline",
+    "maximum_observed_rss_bytes": 680140800,
+    "utc": "2026-11-03T03:07:35.972347+00:00"
+  },
+  "remaining_registrations": 0,
+  "last_jobs": {
+    "learned-v4-10": {
+      "pid": 159341,
+      "exit_code": 0,
+      "timed_out": true,
+      "interrupted": false,
+      "elapsed_seconds": 462.42681861899473,
+      "cpu_seconds": 457.32285900000005
+    },
+    "new93-core2-final": {
+      "pid": 157945,
+      "exit_code": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "elapsed_seconds": 701.3660415710037,
+      "cpu_seconds": 398.773414
+    },
+    "new93-core1-final": {
+      "pid": 160660,
+      "exit_code": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "elapsed_seconds": 214.0656764890009,
+      "cpu_seconds": 212.441443
+    },
+    "coordinate-native-new93-uv-final": {
+      "pid": 159520,
+      "exit_code": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "elapsed_seconds": 359.12401103099546,
+      "cpu_seconds": 356.276281
+    }
+  },
+  "final_learner": {
+    "path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/learned-v4-10/checkpoint.json",
+    "sha256": "12c12313fe37e18226a0cbc11b4ec4381ea319828cb7ce732864659ef87f6e8c",
+    "steps": 6881,
+    "updates": 23790,
+    "best_rank": 93
+  },
+  "auxiliary": {
+    "state": "stopped",
+    "stop_reason": "global deadline reached",
+    "processed": 1035
+  },
+  "final_checkpoint_schedule_coherent": true,
+  "final_checkpoint_schedule_sha256": "faaa884339ba447cc0d7fdb4a232e87ffa3d73a351d4fa93fa180093409285b9",
+  "post_search_best_verification": "final-best-certificates/verification.json",
+  "regression_tests": {
+    "count": 390,
+    "passed": true,
+    "log": "final-unit-suite-v2-job.log"
+  },
+  "final_evaluation_analysis": "eval-final-analysis.json"
+}

@@ -1,0 +1,8 @@
+{
+  "meets_campaign_target": false,
+  "path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-core2-final/verified/3cbb62e8f1cc3dca5b3e883126c07eea22fe76622ca25c1eb929bbeabbfca182.json",
+  "rank": 93,
+  "sha256": "e90b1af851258f639d0e26f950f5e3c845aa67dae9f08c68aae586155e1d2536",
+  "source_essential_rank": 93,
+  "verification_path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-core2-final/verification/3cbb62e8f1cc3dca5b3e883126c07eea22fe76622ca25c1eb929bbeabbfca182.verification.json"
+}

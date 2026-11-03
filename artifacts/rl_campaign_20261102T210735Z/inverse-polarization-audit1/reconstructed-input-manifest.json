@@ -1,0 +1,537 @@
+{
+  "code_sha256": {
+    "mmsearch/recombine.py": "3b453d2c50405beb73000a22c82990f7332f8be740a93445634170b0630f94ee",
+    "mmsearch/search.py": "0317550a543d696b4e669f55a15781ed37c5d87ca4bca0420f805351f5558267",
+    "mmsearch/verify.py": "491282f4e940b9969b2a94ee51994d71ceefd9dc5a19167b779b9d2a6098f46f"
+  },
+  "hash_collection_unix": 1793671228.716085,
+  "historical_input_selection_not_independently_proven": true,
+  "inputs": [
+    {
+      "bytes": 94962,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.1296377,
+      "raw_sha256": "9954d5fc451fb8cefd8cc73969602657c2c7307d7570557917edaa319ce83fcd",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/048051e499398df9ed3e5bcd83ab99d6761278c332f11f182e5a287cee4a7192.json"
+    },
+    {
+      "bytes": 94948,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.114418,
+      "raw_sha256": "50e60d710b40122d82eef2d843c83feb6dd30f43e92638cbae91053fbc8ab2cf",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/0b3f20b63818416efc8f780769e46950acf7ca04865218262a902878e7eb7145.json"
+    },
+    {
+      "bytes": 94936,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.053318,
+      "raw_sha256": "2a9b39356bb45ecb02e13e05ba936cd0509366c25f7f6e930c7a17155819e794",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/0c81121712527f418f57d312cc5ca43c8cf9e37bfb416ed576d1dd711e3449b6.json"
+    },
+    {
+      "bytes": 94958,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.0211325,
+      "raw_sha256": "4cb8c802b4014593404df33ed44124c74c7557c9be89cce7d5b63d70586a6db8",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/134e7af2f584511ee914ba6ffc7db47fdf81ee762e937a79de0c5a32e44b0542.json"
+    },
+    {
+      "bytes": 94944,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.2266138,
+      "raw_sha256": "2c079beb9ef698199bfbfb8714bf5a6d3d8d2a6220138009f5b5d1328d6cfc3c",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/159ceb2fae6b05bb8fb446371d8c8fbb2d763354d5705e611c9f628f0c7f80c2.json"
+    },
+    {
+      "bytes": 94955,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.3770008,
+      "raw_sha256": "6c83d7c7674f4c476d0ed9709624eba376e15e98782a2a66344808fbc90507b0",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/195f9491f0663668f923a87058173e388cd71e43d18497586ce73e95a5e8cc14.json"
+    },
+    {
+      "bytes": 94942,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.3224738,
+      "raw_sha256": "718388372bcf3fe244fa678ea34dfece515ba71335bcf31d67b5e85e87f14ab5",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/19f9497d069ff2189f1e547eeffd8c01021ed94a0ee530fe88173123a2704071.json"
+    },
+    {
+      "bytes": 94942,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.2754653,
+      "raw_sha256": "fb0bce1802245b60b75a6a652651fe4bd95ed76f8e87057225ae9b90d307a905",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/24bcbf1da20f6782232653b0890e8a865d752ba54576d58cac2d3b83ac9de1f6.json"
+    },
+    {
+      "bytes": 94956,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.1609845,
+      "raw_sha256": "54725c66647dd0011e73c15b074e6bc7dec53966d034b1494b72a897bb3f2428",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/2521948faa010ba6417eedc8428b0f6343940013912ee3a2b7c17c635ad2dc8d.json"
+    },
+    {
+      "bytes": 94945,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.4030938,
+      "raw_sha256": "424f0ae4d8efa9c04d1e31a79a5290d78de28bc11c0267d30f604b85c04f7e1e",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/2b62c6a747887fad19681a61d21804454791d80355c7fc45536c3d0520c91dcd.json"
+    },
+    {
+      "bytes": 94940,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670688.0007343,
+      "raw_sha256": "32e9caff7be6ccd3750d1698850a9e9b068179b4870ff3f0d9f6571a4484f33d",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/2e4043ed8f45dc0af904c3b97f3be22421a5d4853e6c16213721ab5ed969d433.json"
+    },
+    {
+      "bytes": 94948,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.264095,
+      "raw_sha256": "a0754e3b549e79e1482cb51655680201cf69ee3c1973d01c8527cd733edebaa6",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/30fb69d3d167897889a4c821fef63a1b72156d1c3da0774a5eab51552cb58d38.json"
+    },
+    {
+      "bytes": 94952,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670702.958061,
+      "raw_sha256": "c935a4e96f120c227cdf8b473f49a8924cbcf0b2d35e330a3270c82216d7d59f",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/34d7173a144179c5bb0d57f726eac144353fe5314edfc51caba966f5e3648c78.json"
+    },
+    {
+      "bytes": 94960,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.9843862,
+      "raw_sha256": "3a9a8cb7da964810b0f6ad99a85e783c551b4f5ba230fb9d1dab6b32b61cdc30",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/37b1a16fe853fc53202e957f9416e5f1989a173d84215d623b347cc4589c2088.json"
+    },
+    {
+      "bytes": 94951,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.1806946,
+      "raw_sha256": "fbc8e0877daef31713a2053106771f038aa698973f92b65900d17dbb693e48f5",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/37feb4b92cb8e1f73cd48d3406a57d9d14fad28981d6eb7507b1d6f7bf4e1769.json"
+    },
+    {
+      "bytes": 94958,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.2098343,
+      "raw_sha256": "1904c971142df02e6e2c753008e05a7f42bc20f119a5f4965bf7c8e52b37d6a8",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/3d2f032d0d4b7c389aa870e54b0a0d88f30edfd55612a5725664df79d232921a.json"
+    },
+    {
+      "bytes": 94939,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.8750908,
+      "raw_sha256": "8be28e945ec4c9f8ab3b7959d8b570a8531ff654563173ed749e846544aee656",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/419a71037e43b9deaa059dda6255bf863779a40636d3e4b85c5ea1d6999e4540.json"
+    },
+    {
+      "bytes": 94956,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.3452377,
+      "raw_sha256": "6cbf10a193f39318483dde46ec435c78850d6a7d58b07683ed3a3dee54d9d719",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/4393e4806a962a31de1bea595194c6806423957bafb40935e866b17b5f823f08.json"
+    },
+    {
+      "bytes": 94941,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.1453788,
+      "raw_sha256": "f8ee92b00d5e784ef2889c4ad815104d9f110357c887a6dd512e0ae85dad58e4",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/45638f4b448292fe14849289ca7656c706a94a7c44b17f10cca93bc390ae83e1.json"
+    },
+    {
+      "bytes": 94944,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.9371457,
+      "raw_sha256": "2372b5b61907ed7e51b0152b2d37ad775e48c24f0d9fd2e205240904a61ea01e",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/4dd83becae0ce773b1bb202f9850dca4af71e6196d2955107fa403ebad8e8aef.json"
+    },
+    {
+      "bytes": 94949,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.2910998,
+      "raw_sha256": "fe30289ae3ca0b5e48d009eac6f96a380b3e9f767843d4374ee0392f8897c456",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/51b7e5a62cb9463d765b157aff9c6e6b87c2d722646801daea970e88be93ed8b.json"
+    },
+    {
+      "bytes": 94942,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.0656557,
+      "raw_sha256": "55a04abcab9a99fb859781322eb196ff1a82d8954b8f6b60b70d4650952a4762",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/52ff812c68db396b8964e2c6d6b8636bb88e20b25edc00f08e644cb2a56621ce.json"
+    },
+    {
+      "bytes": 94948,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.8325696,
+      "raw_sha256": "12bdff80a1c366a0949c0b646d5710c84ad3560770021dc0874ed7fb08ce6264",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/585383c0a5efc9e5e3a20104f4f153192e7808b20107bc6abd4e07475bd987b3.json"
+    },
+    {
+      "bytes": 94949,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670688.0511954,
+      "raw_sha256": "c8d35b9946b0c52cb2faa536aaa8c75f3019687e3b05b5fd0266e1677605e0ae",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/58cf6f5eded5dfc8c5f23d8e9222083a754d1622b209a4f38d365605e97a728c.json"
+    },
+    {
+      "bytes": 94948,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.2490797,
+      "raw_sha256": "0082bb2e2b16949e335ce9976a66f3adc8a97f587a6704354988f192d43bcf09",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/598b82896268e60763fd708bc66899496b2e5e63b972da069615e8a73f884341.json"
+    },
+    {
+      "bytes": 94954,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.1775289,
+      "raw_sha256": "169ace6cec28f43314ecfbc2dd40b75e2420e3e662cc655501318333e8f699b8",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/5b8ffc156a4350c2ac3b6f9d62715d91a43c2acf518637727316bd0028073996.json"
+    },
+    {
+      "bytes": 94946,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.3612201,
+      "raw_sha256": "5bc5e5468834ee4e189f41e6dcd01efdfa227cd88d4efe64bde0d4ed83d640e3",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/61b8fca69d8c1865620dd5d4e3d10a35c22f4b004433aa83cc34ab4d78a04d7e.json"
+    },
+    {
+      "bytes": 94936,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.8598092,
+      "raw_sha256": "3c522d55b0a2a3c25d7bba6977bb03a0ae981bf0b9dae4d82a8eb84bdb3bac7a",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/6213808feceff3ed61333e9497b43250ec17172e8429e1923067caa41f3b3e36.json"
+    },
+    {
+      "bytes": 94951,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.816735,
+      "raw_sha256": "34041c844779945b95e24749d070bf4468c6201a1985c5b947cd882003dd2400",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/6291da4f9284d0e1d90c85f977dfe9462608f670b9e3e6229e6f6af28def3e12.json"
+    },
+    {
+      "bytes": 94946,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.8007421,
+      "raw_sha256": "308d2707aa89394ec21ce2c7be7d569a473a5d3ee4e1d1eb4c2245f9c8d1ba1c",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/648d69af6e1ef9c7f70fd5639291b18782605453c8c58ac10b0b8080040c4098.json"
+    },
+    {
+      "bytes": 94940,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.8485503,
+      "raw_sha256": "9aa1610eaea9518da900540713c70de8b3291a4df874bf8c30080def4782eced",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/65ffb7236452b34d79aeeb18f6ab66d44119fbc518338d3aab166ec7a9943294.json"
+    },
+    {
+      "bytes": 94942,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.7694516,
+      "raw_sha256": "c5c569674cf1a8f268eaf873850064f46a5378cc65cf96b9f2f031936248653c",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/67cc9180e452b9a57078d2fb9e2b69f0307cd14fc4121fa8aeb9a26ee6453d38.json"
+    },
+    {
+      "bytes": 94950,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.2192125,
+      "raw_sha256": "ddfc2407da80d0b2b30475fcaf3c16f1b418f2a44ac68488e72f2c61627ca622",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/67f2495262c9e133008638554b374f6c5d849c53200e8da85e7ea75c35536dfe.json"
+    },
+    {
+      "bytes": 94940,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.037529,
+      "raw_sha256": "9994507379c555539d13c892de7d5d73d9203d97c07167539ca54486de4344b6",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/69bb45f005c3a6ab93c9094ef18c4a70601a36a90727758a0e247049446b0302.json"
+    },
+    {
+      "bytes": 94945,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.069151,
+      "raw_sha256": "2d3127005ca7e9ada906a19d9617baf74b8fda9fe618ba48857d0b37f5e60b29",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/6e0b1f53774a3c44c49f665d8ca747642294ae21c488cbb0ada9ea7868f733ce.json"
+    },
+    {
+      "bytes": 94955,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.8910155,
+      "raw_sha256": "de0a6d99ba33be05c7755c27e34c8a8d9912e0f30e6f2bb8ab16e7fdda44f35c",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/783879062606cae932437bf0c09130680033a2e05937a1f2bcea04790b5a6456.json"
+    },
+    {
+      "bytes": 94942,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.1648054,
+      "raw_sha256": "3e63c9119bc5f93a40e43279d33ced4ad1bad5159b067f6d8311cddd5dbedd33",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/7ac77197854241cd254cd38f9e163bb9e687b85dd33a253476273ede6a0c5120.json"
+    },
+    {
+      "bytes": 94952,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.1167884,
+      "raw_sha256": "ed4a10b9d125caeda5dfac64c9ae71689d32c10ee7088d34dbc6f42082eff9bb",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/871cb7241cd09045260c9d527f69e0711236e398578223bc7dc2d1ba94c90699.json"
+    },
+    {
+      "bytes": 94946,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.2944558,
+      "raw_sha256": "a8a865a867ae6aef491e2039a1fae619172e41232428f37a4855be0ad2320ce2",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/8b307272cd701431cf04abe915b7505637ec6abfb4f22e50728562251ce7e18c.json"
+    },
+    {
+      "bytes": 94954,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.1919389,
+      "raw_sha256": "7f7a0af3aaf0b874095199b96a625b3d3a6ef1169239b438fe0a88cd26ac27e5",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/9151882256ab1811a7f2bbf6756c09815e6f70164b2730eb560a821f3e3e196f.json"
+    },
+    {
+      "bytes": 94942,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.9615757,
+      "raw_sha256": "2092e41a86e5bd9295e02c8813b75f597104f52d743e6ed9fd1c1c2897ee70a7",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/93b77694a31e96fe4828938e4c1cffc6845b264e3d8165ca33fd673d3ef67484.json"
+    },
+    {
+      "bytes": 94949,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.2039351,
+      "raw_sha256": "e8d9c71cfabf2fd22de5111a5d9fb9fc5c12077812be5695f5248b758d5caf72",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/99c361abb0656ecc54f26e063c7552a630fa4d3bd087b5ddcadcb19023fd617f.json"
+    },
+    {
+      "bytes": 94948,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670688.0166311,
+      "raw_sha256": "08ccf18d2e3641a8f44d3c31a1643f141608822336c6bc38770d11af862ce8c9",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/99e4ac29328b6243549db902fe9b36ad8249621740a5075ac493bd1e5c7e1ab7.json"
+    },
+    {
+      "bytes": 94943,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.2585804,
+      "raw_sha256": "cc574f19d6d14b1454fa0f074837d61c3a6172c04c6be70f2442aae74341194c",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/9d5a123c9c617a1d8fcd0bf7135893ef2e50b0b1420e8620e08ae2f8e4fde483.json"
+    },
+    {
+      "bytes": 94948,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670702.9898574,
+      "raw_sha256": "478d4ae6ab268cb0c112f513cf19e1508dafd35a64a200eb5d27ffaa2bc82380",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a00897a6344c64d2b3b30addb3d199914bee3e98dad7b6e6917021122c9f9b10.json"
+    },
+    {
+      "bytes": 94945,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.242879,
+      "raw_sha256": "307b60ada4230c9485fc05ee68d4396983d0be915b796be420a04d87d8b9c14b",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a0d748d5892eeb1a9d4f358288d4244ec58f4ea619feac99e218563cc389d5e2.json"
+    },
+    {
+      "bytes": 94956,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.9139054,
+      "raw_sha256": "14d74246e396436fbcc09373528462ebb9c79d22e5020023cd23f45215ba11dd",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a1c0d8c02b2b4bfbf702437d9ded44a44feb8da76ef6b59d4888b7eb3adf9756.json"
+    },
+    {
+      "bytes": 94940,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.0057492,
+      "raw_sha256": "2f0ae50689ee86cf8b6af4be90e1fe16d96f750fe8407416aa74ae5ae5aad007",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a719f962fd6be855ed48ee37720ce5507883cf672d1185fc51dd329027d7cde5.json"
+    },
+    {
+      "bytes": 94958,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.3142736,
+      "raw_sha256": "b93f78bdbbef528e748bc5a3a3cd1e9638317f6ce31297b289c934e7139a05d9",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/a91f0f04cf4cc5b31a07868ed13cabc70053fb26f4f3884224bd0b6b70f82112.json"
+    },
+    {
+      "bytes": 94952,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670702.97416,
+      "raw_sha256": "9fa7c3c6ef2625f1c0db350adbc70be1cc3ddaefda391d6ab841eb6484a4ea10",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/ae4e8355939c80de8bcdaa61ec455f1af12be108b38c8c2b920c320c12abb11c.json"
+    },
+    {
+      "bytes": 94936,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.084606,
+      "raw_sha256": "b8a8a759314fe6736509cbc7991bbbd64e07e18eda56912ede48dade673065ac",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/b592801e3209264fcc9d09d60e47949b38a4a59e60af4c5f501b7ba2247e9e3c.json"
+    },
+    {
+      "bytes": 94950,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.149529,
+      "raw_sha256": "b68110d8f97a909c9aead4f1dce6202b662a5af16132efbe9519a1d16fe24462",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/b79dfbb586da47497b010fb3582e2463b758ce0220ba729e3f6b0819ff0c6d68.json"
+    },
+    {
+      "bytes": 94949,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670688.0748458,
+      "raw_sha256": "ae40603a8f1737364ece7597cdb506af64edf1de3846f7171eef33d5326491d9",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/b882caf439b0593a1b5058e6024b5e7945e069ccb6f823f6856c57c3cd32a0cb.json"
+    },
+    {
+      "bytes": 94947,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.3065293,
+      "raw_sha256": "5840351d6ecd6821d6d138e8bd57a4fabbd6e2c3f13cc55a65e15cb4fd4fa4fd",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/c3e00ddcafd60a9c7f5d6946eb83f05b5778b6dd403472830cac64795f4811fb.json"
+    },
+    {
+      "bytes": 94949,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670702.941375,
+      "raw_sha256": "25b5510ebcc9fd1203d08db5d1971fed8c133593709b7a323b0a5cdc2232d4f6",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/c3fc5d4be393613d750d7350d41865857fa9239991acf75a8c7f1718f30d0adb.json"
+    },
+    {
+      "bytes": 94948,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.1925354,
+      "raw_sha256": "e7e0ae592daefffcd89e33005c52e530b89c7a237af3b5e7433a7d7297dfb9b0",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/cee0fbb616ce60d8fd28a2fd636be42ba518140923039300b1c2e2f97680d10f.json"
+    },
+    {
+      "bytes": 94960,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670823.12247,
+      "raw_sha256": "df16bb9aab444877a4196cedfcfa871e6a69b38b852dd7044c7e5c3703cabce7",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/dabed5fcfb0d529aba1880f7dc45d3d9b0b9e0460a94d823a586096de6448f14.json"
+    },
+    {
+      "bytes": 94943,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.2729838,
+      "raw_sha256": "bd5d70bfa06e7d4b2a6a7f71817e1e269b2567dc11818dad03a06f4eea58c36c",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/db397208b811f876ee00cf3ba8af53d05c0125f3772e2bfdd498ae36f50767c5.json"
+    },
+    {
+      "bytes": 94948,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.234204,
+      "raw_sha256": "76cd90707a9cf55975a2e81dd426b6045027e5339fbd080d6496171a38273a04",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/db561d370a777b464f6ddad2421d55ae4c4c4abd926e3f903d640bf30df62a63.json"
+    },
+    {
+      "bytes": 94950,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670718.0898738,
+      "raw_sha256": "48c97eb73dffe72bf4d6104a8104ae0236e2a18330a654bec74e02e11ef4f1e4",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/df1539554a2188a34033f0b33e499eee3a83cb752f7607c8191d9f748b0537a5.json"
+    },
+    {
+      "bytes": 94958,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670687.785267,
+      "raw_sha256": "0f58795ece0124752c8cc866e280bc1ba746306eb4582e3f71f22201b38d41cf",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/e343c4269f2167492c77b830f4fdd9d2c889ff6b37fcd43b6040e55919f1dc2a.json"
+    },
+    {
+      "bytes": 94960,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.1329558,
+      "raw_sha256": "20c564a876944923b7936ee13ea3b2180ee58bc45a76212f7c05f4f3ffc55665",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/e3581d81799822c12e0b22d4391e8c5aa62a4791cc9da1123ec7b1be621182eb.json"
+    },
+    {
+      "bytes": 94953,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670703.1004586,
+      "raw_sha256": "978d2dec178b32a6685f4da6a4c049e20b010b7a631dd980c7fd18b8950284ab",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/e6e8cd1574aefd29ff183849b4bb0952b984f7519f7cac216dbb5d27c576ea3b.json"
+    },
+    {
+      "bytes": 94953,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670733.3291616,
+      "raw_sha256": "13d522ec47802820a572e817d1cc750c5774bb91f3f8f51a77c1a2044a792e20",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/f2ae4e598f2e4cd5b95751303efde2bfc186e70aa82a6ab40a0c731f36426737.json"
+    },
+    {
+      "bytes": 94962,
+      "declared_rank": 97,
+      "mode_octal": "0o444",
+      "mtime_unix": 1793670688.0327084,
+      "raw_sha256": "6ad5f8e095a38915c1ec9b646e7c6b10ce34712edb1c4559ad187db1fc084c11",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/f447a4889c1c9e7d29430e96845c13129d78d51c1d4df149776019e467212fd0.json"
+    }
+  ],
+  "no_negative_scan_rerun": true,
+  "original_audit_end_utc": "2026-11-03T01:55:31.731723+00:00",
+  "original_result_raw_sha256": "6bd6667a70c7c510512c06acf83c0123381c54f8585db1477ca2b278d627cfed",
+  "reconstructed_after_run": true,
+  "selection_rule": "fixed1-1/verified/*.json with filesystem mtime<=original result UTC; exactly65 files match original sources_considered",
+  "source_contents_currently_immutable444": true
+}

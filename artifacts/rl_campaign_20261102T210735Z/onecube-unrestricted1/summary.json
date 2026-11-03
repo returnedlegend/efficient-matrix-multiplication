@@ -1,0 +1,317 @@
+{
+  "elapsed_seconds": 898.1808174580001,
+  "phases": [
+    {
+      "binary_sha256": "5f24facddefaeac03436dba1fc85bdfbb4273f676f946bfbe43661fb12a5e7cb",
+      "command": [
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/frozen/native-5f24facddefaeac03436dba1fc85bdfbb4273f676f946bfbe43661fb12a5e7cb",
+        "--input",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/phase-000/input.txt",
+        "--output",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/phase-000/walk",
+        "--n",
+        "5",
+        "--target",
+        "92",
+        "--max-rank",
+        "103",
+        "--seed",
+        "97092",
+        "--steps",
+        "1000000000000",
+        "--seconds",
+        "300.0",
+        "--checkpoint-seconds",
+        "15",
+        "--archive-size",
+        "16",
+        "--archive-every",
+        "1000",
+        "--plus-every",
+        "50000",
+        "--restart-every",
+        "100000000"
+      ],
+      "cyclic": false,
+      "exit_code": 0,
+      "final_stats": {
+        "accepted_moves": 156952320,
+        "archive_additions": 153663,
+        "archive_every": 1000,
+        "archive_size": 16,
+        "best_rank": 93,
+        "current_rank": 93,
+        "cyclic": false,
+        "dimension": 5,
+        "elapsed_seconds": 300.002,
+        "engine": "native_f2_flips_v1",
+        "exact": true,
+        "flip_attempts": 156946054,
+        "history": [
+          {
+            "rank": 97,
+            "step": 0
+          },
+          {
+            "rank": 96,
+            "step": 6
+          },
+          {
+            "rank": 95,
+            "step": 45
+          },
+          {
+            "rank": 94,
+            "step": 53
+          },
+          {
+            "rank": 93,
+            "step": 65
+          }
+        ],
+        "input": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/phase-000/input.txt",
+        "max_rank": 103,
+        "plus_attempts": 3139,
+        "plus_every": 50000,
+        "reduction_attempts": 3127,
+        "rejected_moves": 0,
+        "restart_every": 100000000,
+        "restarts": 1,
+        "seconds_budget": 300,
+        "seed": 97092,
+        "step_budget": 1000000000000,
+        "steps": 156952320,
+        "stopped_by_signal": false,
+        "target_rank": 92,
+        "target_reached": false,
+        "tensor_invariant_checked": true
+      },
+      "max_rank": 103,
+      "native_seed": 97092,
+      "phase": 0,
+      "source_essential_rank": 97,
+      "source_path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/0082bb2e2b16949e335ce9976a66f3adc8a97f587a6704354988f192d43bcf09.json",
+      "source_raw_sha256": "0082bb2e2b16949e335ce9976a66f3adc8a97f587a6704354988f192d43bcf09",
+      "verification": {
+        "best_record": null,
+        "independent_checks": 17,
+        "retained_per_rank": {
+          "93": 32
+        },
+        "verified_portfolio_size": 32,
+        "winner": false
+      },
+      "wrapper_sha256": "df14d5501d094e990d1cd38133628970ff2c90cb1bcb12f0ec8a55d46f55e2be"
+    },
+    {
+      "binary_sha256": "5f24facddefaeac03436dba1fc85bdfbb4273f676f946bfbe43661fb12a5e7cb",
+      "command": [
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/frozen/native-5f24facddefaeac03436dba1fc85bdfbb4273f676f946bfbe43661fb12a5e7cb",
+        "--input",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/phase-001/input.txt",
+        "--output",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/phase-001/walk",
+        "--n",
+        "5",
+        "--target",
+        "92",
+        "--max-rank",
+        "103",
+        "--seed",
+        "98101",
+        "--steps",
+        "1000000000000",
+        "--seconds",
+        "300.0",
+        "--checkpoint-seconds",
+        "15",
+        "--archive-size",
+        "16",
+        "--archive-every",
+        "1000",
+        "--plus-every",
+        "50000",
+        "--restart-every",
+        "100000000"
+      ],
+      "cyclic": false,
+      "exit_code": 0,
+      "final_stats": {
+        "accepted_moves": 151655936,
+        "archive_additions": 148365,
+        "archive_every": 1000,
+        "archive_size": 16,
+        "best_rank": 93,
+        "current_rank": 93,
+        "cyclic": false,
+        "dimension": 5,
+        "elapsed_seconds": 300.002,
+        "engine": "native_f2_flips_v1",
+        "exact": true,
+        "flip_attempts": 151649873,
+        "history": [
+          {
+            "rank": 97,
+            "step": 0
+          },
+          {
+            "rank": 96,
+            "step": 12
+          },
+          {
+            "rank": 95,
+            "step": 30
+          },
+          {
+            "rank": 94,
+            "step": 119
+          },
+          {
+            "rank": 93,
+            "step": 120
+          }
+        ],
+        "input": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/phase-001/input.txt",
+        "max_rank": 103,
+        "plus_attempts": 3033,
+        "plus_every": 50000,
+        "reduction_attempts": 3030,
+        "rejected_moves": 0,
+        "restart_every": 100000000,
+        "restarts": 1,
+        "seconds_budget": 300,
+        "seed": 98101,
+        "step_budget": 1000000000000,
+        "steps": 151655936,
+        "stopped_by_signal": false,
+        "target_rank": 92,
+        "target_reached": false,
+        "tensor_invariant_checked": true
+      },
+      "max_rank": 103,
+      "native_seed": 98101,
+      "phase": 1,
+      "source_essential_rank": 97,
+      "source_path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/6c83d7c7674f4c476d0ed9709624eba376e15e98782a2a66344808fbc90507b0.json",
+      "source_raw_sha256": "6c83d7c7674f4c476d0ed9709624eba376e15e98782a2a66344808fbc90507b0",
+      "verification": {
+        "best_record": null,
+        "independent_checks": 18,
+        "retained_per_rank": {
+          "93": 32
+        },
+        "verified_portfolio_size": 32,
+        "winner": false
+      },
+      "wrapper_sha256": "df14d5501d094e990d1cd38133628970ff2c90cb1bcb12f0ec8a55d46f55e2be"
+    },
+    {
+      "binary_sha256": "5f24facddefaeac03436dba1fc85bdfbb4273f676f946bfbe43661fb12a5e7cb",
+      "command": [
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/frozen/native-5f24facddefaeac03436dba1fc85bdfbb4273f676f946bfbe43661fb12a5e7cb",
+        "--input",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/phase-002/input.txt",
+        "--output",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/phase-002/walk",
+        "--n",
+        "5",
+        "--target",
+        "92",
+        "--max-rank",
+        "103",
+        "--seed",
+        "99110",
+        "--steps",
+        "1000000000000",
+        "--seconds",
+        "297.3320053589996",
+        "--checkpoint-seconds",
+        "15",
+        "--archive-size",
+        "16",
+        "--archive-every",
+        "1000",
+        "--plus-every",
+        "50000",
+        "--restart-every",
+        "100000000"
+      ],
+      "cyclic": false,
+      "exit_code": 0,
+      "final_stats": {
+        "accepted_moves": 152163072,
+        "archive_additions": 148959,
+        "archive_every": 1000,
+        "archive_size": 16,
+        "best_rank": 93,
+        "current_rank": 93,
+        "cyclic": false,
+        "dimension": 5,
+        "elapsed_seconds": 297.334,
+        "engine": "native_f2_flips_v1",
+        "exact": true,
+        "flip_attempts": 152156995,
+        "history": [
+          {
+            "rank": 97,
+            "step": 0
+          },
+          {
+            "rank": 96,
+            "step": 62
+          },
+          {
+            "rank": 95,
+            "step": 81
+          },
+          {
+            "rank": 94,
+            "step": 93
+          },
+          {
+            "rank": 93,
+            "step": 94
+          }
+        ],
+        "input": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted1/phase-002/input.txt",
+        "max_rank": 103,
+        "plus_attempts": 3043,
+        "plus_every": 50000,
+        "reduction_attempts": 3034,
+        "rejected_moves": 0,
+        "restart_every": 100000000,
+        "restarts": 1,
+        "seconds_budget": 297.332,
+        "seed": 99110,
+        "step_budget": 1000000000000,
+        "steps": 152163072,
+        "stopped_by_signal": false,
+        "target_rank": 92,
+        "target_reached": false,
+        "tensor_invariant_checked": true
+      },
+      "max_rank": 103,
+      "native_seed": 99110,
+      "phase": 2,
+      "source_essential_rank": 97,
+      "source_path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/onecube-unrestricted-ready-v1/pool/4cb8c802b4014593404df33ed44124c74c7557c9be89cce7d5b63d70586a6db8.json",
+      "source_raw_sha256": "4cb8c802b4014593404df33ed44124c74c7557c9be89cce7d5b63d70586a6db8",
+      "verification": {
+        "best_record": null,
+        "independent_checks": 18,
+        "retained_per_rank": {
+          "93": 32
+        },
+        "verified_portfolio_size": 32,
+        "winner": false
+      },
+      "wrapper_sha256": "df14d5501d094e990d1cd38133628970ff2c90cb1bcb12f0ec8a55d46f55e2be"
+    }
+  ],
+  "retained_per_rank": {
+    "93": 32
+  },
+  "stopped": false,
+  "verified_portfolio_size": 32,
+  "winner": false
+}

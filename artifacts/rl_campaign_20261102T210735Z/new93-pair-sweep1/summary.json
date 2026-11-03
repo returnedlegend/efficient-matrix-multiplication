@@ -1,0 +1,712 @@
+{
+  "cases": [
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "d93dc2e49c4a8208df51cc7aff88b2df5fc0035feb6d91b807e380155ca691d5",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/cb63a60e24a638e145c1b5fb1d5a36f33f097aa3ec3083d4df09ab4386c98b6e.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/00-66b727f0d6e4-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "66b727f0d6e4dc38cfe38d8ea4cd80e6bdb39762baa391c97dcd9a0be63f9792",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/00-66b727f0d6e4-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/08522db8332e9dc1d9d58e317eeef7c5413e8b59f1c5c70c564eeeff7abc86d5.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "8e816cc0250a96f18fb3e7312d396898a41d74c17e7b8247d6cf59bc531ca777",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/eb7a22fe82208e44a155a01536c5ec228095cfcc78fac45902c44e0c636e5918.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/01-21f4dbe837d2-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "21f4dbe837d2d204a689f9b037553b7929967f840f19377deb95507f13c59b1a",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/01-21f4dbe837d2-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/1d5afae81ff276267b024a488aef095986210feab5069ebd3460d1ffc2637562.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "2fa636fb06279c251154636690d2ef9f8f0b6ed9f6f6012c365edf256eaef5cb",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/563772ac2e38cfeb8e1d4bbc1869b9b4c48eb5fd68f1428bfdb3c6e18a37c2a1.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/02-4fa3430bb9dd-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "4fa3430bb9dd33a9719517982078dcf84d8c330bddb486a075daa50f3899b975",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/02-4fa3430bb9dd-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/1f6c5f8a4119bb94229980147b84ac14d2bffddbaa7f95e8872899ba700adf52.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "6593f15dcfa6cfe9c7b203fffa10794c6f77e38726149a5766a4583572fc83cb",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/0fec4128e9506a0fff52a2b48391678dac6d4fa736f245e4ed8c48d0a43c8abb.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/03-160f70ccef0c-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "160f70ccef0c59433732edc658f0c5bafd7b0bf3d6792194d910e894e06479a0",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/03-160f70ccef0c-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/2619e8e986b615334fe745c3ee8960af049d8b6e72894f5ca6040ef1434d2a52.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "canonical_rank": 93,
+      "missing_fixed_pairs": [
+        [
+          4,
+          17216
+        ]
+      ],
+      "missing_pair_count": 1,
+      "raw_sha256": "5a8141f8b1339d5cdb7f0321d9396210b507292bbe18982cfb195bcb5b9bb411",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/2f5f99aa15ee2832f6e2ba959dbf1dcd07a503baf8e1068f28d05fcf8b4acdbc.json",
+      "status": "SKIPPED_NOT_IN_FAMILY",
+      "verification": {
+        "dimension": 5,
+        "errors": [],
+        "exact_entries_checked": 15625,
+        "field": 2,
+        "field_valid": true,
+        "integer_mismatch_count": 2260,
+        "integer_valid": false,
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "random_multiplication": {
+          "passed": true,
+          "seed": 0,
+          "trials": 0
+        },
+        "rank": 93,
+        "valid": true
+      }
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "defefb7dbf0f5ca456a6b5db007fbb0ba684917a764ac119103687fad5d1c12b",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/93fc94068ccae9ffdc01c7357413da9737b61acd29e43b3a1d9b4ac86b941fbd.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/05-c3bc420cb2b2-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "c3bc420cb2b26d6dc5ba99230ae733849509c5c23f935526bb5e247868d00341",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/05-c3bc420cb2b2-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/2fb7fac3c2a48a7c3774a427a4fcc937c327503251f660aafafe152a0ad64da3.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "canonical_rank": 93,
+      "missing_fixed_pairs": [
+        [
+          10,
+          16896
+        ],
+        [
+          14,
+          16704
+        ]
+      ],
+      "missing_pair_count": 2,
+      "raw_sha256": "242f4c5b65a0a963f64111fdc587554784f06fc07cc478d23737f11dc55ea35b",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/329e85555e6a78938c7c62ccec5609842ce1b6166dd5d2d04afdd41fcd09157f.json",
+      "status": "SKIPPED_NOT_IN_FAMILY",
+      "verification": {
+        "dimension": 5,
+        "errors": [],
+        "exact_entries_checked": 15625,
+        "field": 2,
+        "field_valid": true,
+        "integer_mismatch_count": 2133,
+        "integer_valid": false,
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "random_multiplication": {
+          "passed": true,
+          "seed": 0,
+          "trials": 0
+        },
+        "rank": 93,
+        "valid": true
+      }
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "ece6a12561f46e98d162a9f60c1897dfdd272f3196d7ba7eee4368b21133010c",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/aa1ab91d6273949aec9ef09228220c5dd5cbd7c405f63fdb14a962ad6ef339b0.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/07-baa48f4165e4-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "baa48f4165e414da5366184a018300bd48b842ff33e61c2791ea6597637a9946",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/07-baa48f4165e4-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/3fbb441c753c63e4248fbda590a390c793c4512f398c6ee1758d5a8675e2c94b.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "4eb1a3f626165ebc6d4d5a26db8b2b210cb94936894d547dfb5a5904489df2c4",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/d2d40428bb1bff2482706533df5c8b8e76970542ca02ae5d173643a6cc06069b.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/08-4b36b69020b1-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "4b36b69020b1f0bd28b854bc94db93f126b55d00f851310f8c2418bdef11d5f6",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/08-4b36b69020b1-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/4b4fd632f43911ec4dab0fbbc2050c44eb9e03fb95f818fb3faf40786f11ba01.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "fcd2343803ca28546642e7c84a32d5aaf12de6e0b7cc78b317f6d378c465eeea",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/cee3032828566a39271084ec7dd6e05fbec17400cb7d5d723f9e93d40351d18c.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/09-8045aa790adf-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "8045aa790adfc3235d79c273c4ee7b99873852416603558974caa8671172db60",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/09-8045aa790adf-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/837e69673ce102ae4801ef5f6d183d95a157008abb512e3b8e0778a9035599d8.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "bd1b046416eb6d4872ba6e51bcad854b4f75597631b81b1cc18a77f1b1602d07",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/ecdbf98457eed055610f3c6d9c607f2bc1e3b850b73cde256d9feff6f384d8ab.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/10-0c02ff854421-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "0c02ff854421857f10dfce2ff28aaabb8bac703a6f24f8fff54c5e954175c58c",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/10-0c02ff854421-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/90feb0398e7ee787626aff84bdee638311e6ada128edf8023c1e7d1ef20c2514.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "85585e242dfb5ed0511351ba2d3037f1757acc7b3844d8417f3567ed3bbfa5c7",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/68f3c2b3771f0bd024833762fc1767f665cb35fef224b1ad413d4419f4b6271a.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/11-c245f48d66cc-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "c245f48d66cc0b7df7482d8d4e09a9c281e48c3824317a61ac03bbfb8f342601",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/11-c245f48d66cc-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/9d7bb6460d1502e38137eb546e03af8176bf660acd712de60f2d18dbd9c9d11b.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "b9722560f06044d47169d08c11b9342604561c284856f69841316c024d078ee2",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/8dcb4d7332ce2cfe51ecaa6f2b733fceabfb1c8ffba61e364ffe19592ff448dd.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/12-a7a37833c2f1-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "a7a37833c2f18b7cd85d6714ede76e4e6837334e02e94f58ce57e3852f8e0616",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/12-a7a37833c2f1-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/c41daecf42a32d9e3d0d8329f957f8f9a691f793b34331d891ecad217e2dba3e.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "f99a37b0ec3ae737e16ff714c511f0761c1054cfeb233fece9ae501ed54497fd",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/5d00907420246795be66f80c161025b771423423471d7a32cbc00e496aaecd41.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/13-ee656882ff62-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "ee656882ff62d4120ece1e29a58c217bacfc356f8fa811e68a4f7845f21d99e8",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/13-ee656882ff62-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/c9e4b965477f58c0113469002e84a78d7070a0dc27d1c36d6105bdeb2938081b.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    },
+    {
+      "canonical_rank": 93,
+      "missing_fixed_pairs": [
+        [
+          524288,
+          5406880
+        ],
+        [
+          2686976,
+          169125
+        ]
+      ],
+      "missing_pair_count": 2,
+      "raw_sha256": "2c5bb2d0a5a04a21f52ae30a907928bcc324b5f0dbcdaa4b6cf0953b8b5bf076",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/ddda75c0e5076b393767bdc21966e7dd8c761ccb4c3ef5eb89a2498eb76da03c.json",
+      "status": "SKIPPED_NOT_IN_FAMILY",
+      "verification": {
+        "dimension": 5,
+        "errors": [],
+        "exact_entries_checked": 15625,
+        "field": 2,
+        "field_valid": true,
+        "integer_mismatch_count": 2093,
+        "integer_valid": false,
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "random_multiplication": {
+          "passed": true,
+          "seed": 0,
+          "trials": 0
+        },
+        "rank": 93,
+        "valid": true
+      }
+    },
+    {
+      "attempt": 0,
+      "child_coverage": {
+        "contiguous_from_initial": true,
+        "full_family_completed": true,
+        "last_complete_pair": [
+          9329,
+          9330
+        ],
+        "next_pair": [
+          9330,
+          9331
+        ],
+        "pairs_completed_this_run": 43529115,
+        "pairs_total": 43529115,
+        "prefix_completed": 43529115
+      },
+      "child_summary_sha256": "6191eb09ddd7806df808a9f2e7ebb7a3b5d511dc61b4ba96b242cc17ebfb7562",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/efficient-matrix-multiplication/scripts/campaign_kernel_pair_block_wide.py",
+        "--dictionary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/dictionary.json",
+        "--baseline",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/f2d984a1aa7edb35381b67360d2499caea62ac19246e9d9994c0e460b11b2a64.json",
+        "--circuits",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/inputs/circuits.json",
+        "--orientation",
+        "wu",
+        "--binary",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/native/free_factor_pair_block_worker_wide",
+        "--seconds",
+        "30.0",
+        "--outdir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/15-2ed3554f5c72-attempt000",
+        "--deadline-utc",
+        "2026-11-03T03:07:35Z"
+      ],
+      "complete": true,
+      "exit_code": 0,
+      "identity_sha256": "2ed3554f5c727bdc30bb5a2f1070dcb35041523c4b2e516300d1272a4a839959",
+      "outdir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-pair-sweep1/cases/15-2ed3554f5c72-attempt000",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/fca6aa2e1ac82b81f64cc6839682e1fc442653c3f767b5047d366ed64fcf6f6c.json",
+      "status": "NO_TARGET",
+      "timed_out": false
+    }
+  ],
+  "counts": {
+    "NO_TARGET": 13,
+    "SKIPPED_NOT_IN_FAMILY": 3
+  },
+  "elapsed_seconds": 22.783487640001113,
+  "error": null,
+  "scope": "Exact block catalogs conditioned on each model; skipped missing pairs are not negative results.",
+  "status": "COMPLETE",
+  "winner": false
+}

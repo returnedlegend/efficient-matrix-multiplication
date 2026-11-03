@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-03T03:07:33.958331+00:00",
+  "rss_bytes": 70778880,
+  "maximum_observed_rss_bytes": 680140800,
+  "processes": 3,
+  "groups": [
+    159341
+  ],
+  "measurement": "ps-based summed RSS including child processes and launchers"
+}

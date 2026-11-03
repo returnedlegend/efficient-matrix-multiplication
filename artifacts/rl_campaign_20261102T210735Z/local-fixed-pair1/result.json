@@ -1,0 +1,14 @@
+{
+  "control_status": "SAT",
+  "counts": {
+    "LOCAL_UNSAT": 149,
+    "UNKNOWN": 21
+  },
+  "elapsed_seconds": 566.7707601170041,
+  "rank_bound": 92,
+  "scope": "Only the enumerated neighborhoods under their recorded outside-baseline assumptions; no global UNSAT claim.",
+  "solver_queries": 170,
+  "status": "UNKNOWN",
+  "stopped_by_signal": false,
+  "target_problem_builds": 1
+}

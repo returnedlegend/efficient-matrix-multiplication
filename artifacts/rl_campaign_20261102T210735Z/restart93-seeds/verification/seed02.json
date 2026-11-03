@@ -1,0 +1,38 @@
+{
+  "canonical": {
+    "dimension": 5,
+    "errors": [],
+    "exact_entries_checked": 15625,
+    "field": 2,
+    "field_valid": true,
+    "integer_mismatch_count": 2157,
+    "integer_valid": false,
+    "mismatch_count": 0,
+    "mismatch_examples": [],
+    "random_multiplication": {
+      "passed": true,
+      "seed": 0,
+      "trials": 0
+    },
+    "rank": 93,
+    "valid": true
+  },
+  "original": {
+    "dimension": 5,
+    "errors": [],
+    "exact_entries_checked": 15625,
+    "field": 2,
+    "field_valid": true,
+    "integer_mismatch_count": 2157,
+    "integer_valid": false,
+    "mismatch_count": 0,
+    "mismatch_examples": [],
+    "random_multiplication": {
+      "passed": true,
+      "seed": 0,
+      "trials": 0
+    },
+    "rank": 93,
+    "valid": true
+  }
+}

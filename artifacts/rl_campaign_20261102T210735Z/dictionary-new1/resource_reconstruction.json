@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-02T22:25:38.148196+00:00",
+  "pid": 43626,
+  "note": "Outer rusage omitted a solver descendant when its driver was terminated at the phase deadline. Zombie has no live CPU/RSS; recover its final kernel CPU counters separately.",
+  "state": "Z",
+  "user_ticks": 89007,
+  "system_ticks": 171,
+  "ticks_per_second": 100,
+  "reconstructed_cpu_seconds": 891.78
+}

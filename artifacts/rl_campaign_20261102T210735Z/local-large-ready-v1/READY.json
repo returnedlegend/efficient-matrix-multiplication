@@ -1,0 +1,195 @@
+{
+  "AE": {
+    "control_artifacts": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/local-large-ready-v1/ae93-control",
+    "control_assumptions_count": 39312,
+    "control_elapsed_seconds": 1.4206146979995538,
+    "control_rank": 93,
+    "control_status": "SAT",
+    "control_worker_reaped": true,
+    "measurements": [
+      {
+        "circuits": 8,
+        "groups": 24,
+        "lower_bound": 82,
+        "nullity": 9
+      },
+      {
+        "circuits": 16,
+        "groups": 36,
+        "lower_bound": 80,
+        "nullity": 17
+      },
+      {
+        "circuits": 32,
+        "groups": 52,
+        "lower_bound": 80,
+        "nullity": 33
+      },
+      {
+        "circuits": 64,
+        "groups": 96,
+        "lower_bound": 78,
+        "nullity": 65
+      }
+    ],
+    "preflight_scope": "First family of4 nested cases measured; runtime8-family plan is checkpointed before any target query"
+  },
+  "KM": {
+    "cases": 32,
+    "checkpoint": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/local-large-ready-v1/preflight-v2/neighborhoods.json",
+    "control_artifacts": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/local-large-ready-v1/control",
+    "control_assumptions_count": 39052,
+    "control_elapsed_seconds": 3.553355065996584,
+    "control_rank": 93,
+    "control_status": "SAT",
+    "control_worker_reaped": true,
+    "measured_by_circuit_count": {
+      "16": {
+        "cases": 8,
+        "free_groups": [
+          59,
+          72
+        ],
+        "local_nullity": [
+          16,
+          17
+        ],
+        "necessary_lower_bound": [
+          55,
+          64
+        ]
+      },
+      "32": {
+        "cases": 8,
+        "free_groups": [
+          113,
+          122
+        ],
+        "local_nullity": [
+          32,
+          34
+        ],
+        "necessary_lower_bound": [
+          36,
+          40
+        ]
+      },
+      "64": {
+        "cases": 8,
+        "free_groups": [
+          171,
+          177
+        ],
+        "local_nullity": [
+          66,
+          68
+        ],
+        "necessary_lower_bound": [
+          25,
+          27
+        ]
+      },
+      "8": {
+        "cases": 8,
+        "free_groups": [
+          34,
+          39
+        ],
+        "local_nullity": [
+          8,
+          9
+        ],
+        "necessary_lower_bound": [
+          72,
+          73
+        ]
+      }
+    },
+    "preflight_elapsed_seconds": 8.104779262001102
+  },
+  "budget_seconds": 600,
+  "circuit_union_sizes": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "circuits": 9262,
+  "code_sha256": {
+    "mmsearch/__init__.py": "9738090d64922b0fc198277dc63654f3ac420cef984947916b4e74da3b13a08a",
+    "mmsearch/compact_sat.py": "169e16228d6aac8cf6752d7b4630173c566de4851532974e0d71eb6ff394e09c",
+    "mmsearch/free_factor_sat.py": "eb6803fc5d89909fbb3d14839d5222d37f0e48e2eac664957e254b22448cc6b5",
+    "mmsearch/local_free_factor_sat.py": "d4a5d77cae89f39cf45964d3fcf2bd4ff5ac866d76c9a05c822a37868187895d",
+    "mmsearch/local_free_factor_sat_large.py": "e72d6564e30f8b7180025945ec9341c54e4cb065ab2f2551001a9e5a7547ee6f",
+    "mmsearch/recombine.py": "3b453d2c50405beb73000a22c82990f7332f8be740a93445634170b0630f94ee",
+    "mmsearch/recombine_sat.py": "433731a586d0833f891817e9aa8e49c74d5cfa539e19a207936cdcaaa16389df",
+    "mmsearch/sat.py": "1f0718b2238340f5eb10958d0823d7845e03a4e9f96be7d5d7342f73d17aa3d6",
+    "mmsearch/sat_neighborhoods.py": "59540cda1b5afc11dfe2a11b36977062a871450ebcf67c59e9985339b9c01421",
+    "mmsearch/tensor.py": "c4b4a7aaa245f09d84d3216af2475c7602473061b7cfbbd9cb4d48d486506198",
+    "mmsearch/verify.py": "491282f4e940b9969b2a94ee51994d71ceefd9dc5a19167b779b9d2a6098f46f",
+    "mmsearch/xor_sat.py": "09b6ab5f67024a4839e0a468f759c49c34886414d596124f1dc08056fb39eb9e",
+    "scripts/campaign_local_free_factor_sat_large.py": "01fddf7c1664af8d5711ba430a29c87a0ca7f3eef348bdc1843bfffc0bca303d",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_local_free_factor_sat.py": "4272b7309ff424f84c67c9e2ba51f88658a51c58b2ab576938582c134fa1b9cb",
+    "tests/test_local_free_factor_sat_large.py": "3a854d67d295fa59e63c8c0933b70813dc63d3f1e8e354c141b49f29f22af906"
+  },
+  "cpu": 3,
+  "deadline_utc": "2026-11-03T03:07:35Z",
+  "default_query_seconds_by_size": [
+    15,
+    20,
+    20,
+    30
+  ],
+  "families": 8,
+  "first_winner": "Exclusive immutable WINNER.json only after all CNF/XOR/assumptions/full15625 exact checks and rank<=92",
+  "full_tensor_entries_checked": 15625,
+  "global_pair_count": 1536,
+  "group_cap": 256,
+  "jobs": [
+    {
+      "baseline_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+      "job": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/local-large-ready-v1/km93.job.json",
+      "label": "km93",
+      "prepared_system_sha256": "f92e0a6477993f776ffb8d7c56a16b2bc224b4971df0e8057e61f9fc6d9b5bf7",
+      "seed": 161803,
+      "sha256": "f3ab67c067b31f71666147dd3626bdde23b4f5b390ec4d436113fe1df63d236b"
+    },
+    {
+      "baseline_sha256": "962b518010483e3a6491fb29a504ceb6c94e447acd804be354e1279abb97c37b",
+      "job": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/local-large-ready-v1/ae93.job.json",
+      "label": "ae93",
+      "prepared_system_sha256": "6ce96d4c21fe484603aa9f663466a322bd356e67703104a9a0c756c82f7fbe68",
+      "seed": 161804,
+      "sha256": "a03e12944034693782a51a49fd51567add96112aa6fb946ee82ed141d490950f"
+    }
+  ],
+  "large_neighborhood_module_sha256": "e72d6564e30f8b7180025945ec9341c54e4cb065ab2f2551001a9e5a7547ee6f",
+  "maximum_cases": 32,
+  "memory_mb": 1536,
+  "nice": 10,
+  "old_READY_sha256": "dad1ab83eb1c042025b0b5e7fbbc4736e6b8a6b2a1a901ef7d69cc0717d04f13",
+  "old_source_and_READY_edited": false,
+  "rank92_queries_launched": 0,
+  "scope": "Every original full tensor equation remains. Each union only chooses arbitrary free groups; all outside25-bit vectors and indicators are fixed to baseline. LOCAL_UNSAT and necessary bounds apply only to these finite neighborhoods and fixed-pair dictionary. Larger nullities do not establish existence. UNKNOWN is not UNSAT.",
+  "status": "READY_NOT_LAUNCHED",
+  "target_formula_sha256": "1160021c91ea2554bb8c8e6b134282d4f0635e7341677d612e8f01488bc1e7fa",
+  "target_problem_builds_in_control": 1,
+  "tests": {
+    "count": 7,
+    "log": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/local-large-ready-v1/tests.log",
+    "meaning": "Actual n2 kernel unions are strictly nested, expansion relaxes only outside baseline assumptions, exact rank8 control model remains valid at every larger set; old planted8to7/localbound/timeout tests also pass.",
+    "status": "PASS"
+  },
+  "threads": 1,
+  "timeouts": "Existing unchanged solve() forks, hard wall time includes formula loading, solver child1536MiB RLIMIT_AS, reaped before return; main honors campaign deadline/cleanup reserve and reports ERROR separately",
+  "unchanged_full_encoder_sha256": "eb6803fc5d89909fbb3d14839d5222d37f0e48e2eac664957e254b22448cc6b5",
+  "unchanged_old_helper_sha256": "d4a5d77cae89f39cf45964d3fcf2bd4ff5ac866d76c9a05c822a37868187895d",
+  "unchanged_old_wrapper_sha256": "2227c66d677b52c326a1ab9aceafa6010aef4f7968899c6c362583f42ecba23b",
+  "unknown_retry_seconds": [
+    15,
+    20,
+    30
+  ],
+  "wrapper_sha256": "01fddf7c1664af8d5711ba430a29c87a0ca7f3eef348bdc1843bfffc0bca303d"
+}

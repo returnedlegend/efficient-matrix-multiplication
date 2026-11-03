@@ -1,0 +1,15 @@
+{
+  "best_rank": 93,
+  "claim": "exact F2 tensor-preserving strict term-count reductions only; rank93 is not novel; no integer lift or global impossibility claim",
+  "counts": {
+    "VERIFIED": 439
+  },
+  "discovered_paths": 439,
+  "elapsed_seconds": 21.435258918001637,
+  "fresh_sources": 439,
+  "implementation_sha256": "1f1228b0c65d09440bbc572ea5e2c7c24cd9bb526866bbbaa14f360e121b22fe",
+  "recorded_paths": 439,
+  "status": "COMPLETE",
+  "stop_reason": "all discovered paths considered",
+  "winner": false
+}

@@ -1,0 +1,7 @@
+{
+  "commands_executed": 2,
+  "elapsed_seconds": 900.0069982200002,
+  "reason": "solver reached total phase deadline",
+  "stage": "solve",
+  "status": "BUDGET_EXHAUSTED"
+}

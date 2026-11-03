@@ -1,0 +1,34 @@
+{
+  "source": "https://github.com/jakobmoosbauer/symmetric-flips/blob/3e2d4dd8acf831ef65c7c6b13ed787330e1e3483/schemes/555m93_lifted.txt",
+  "source_sha256": "dee43421176b9404cb409db20447af04f0b861d8a4d4bd4ad05e9e98c718bf46",
+  "integer_verification": {
+    "valid": true,
+    "field_valid": true,
+    "integer_valid": true,
+    "dimension": 5,
+    "field": 0,
+    "rank": 93,
+    "exact_entries_checked": 15625,
+    "errors": [],
+    "mismatch_count": 0,
+    "mismatch_examples": [],
+    "integer_mismatch_count": 0,
+    "random_multiplication": {
+      "passed": true,
+      "trials": 32,
+      "seed": 0
+    }
+  },
+  "max_abs_coefficient": 2,
+  "released_start_construction": {
+    "residual_monomial_terms": 132,
+    "fixed_cubes": 3,
+    "initial_total_terms": 135
+  },
+  "binary_scheme_cyclic": true,
+  "binary_orbits": {
+    "fixed_cubes": 3,
+    "three_cycles": 30
+  },
+  "scope": "Independent verification of published coefficients; no new discovery or original-run reproduction claimed."
+}

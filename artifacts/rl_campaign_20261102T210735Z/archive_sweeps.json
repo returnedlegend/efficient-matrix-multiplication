@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-02T22:25:38.148196+00:00",
+  "archives": [
+    {
+      "arm": "learned-v3-1",
+      "manifest": "artifacts/rl_campaign_20261102T210735Z/learned-v3-1/recovery-archives/known-recovery-20261102T222153Z-b9e8cd15f2f7400e969c8963e3ecda90.manifest.json",
+      "archive": "known-recovery-20261102T222153Z-b9e8cd15f2f7400e969c8963e3ecda90.tar.gz",
+      "archive_sha256": "0205c5a6eb7f4929c2be269747a749b52a5751620c69a3404a2b5fbc6cd92b30",
+      "runs": 1000,
+      "raw_bytes": 485393136,
+      "remove_requested": true
+    },
+    {
+      "arm": "random-v3-1",
+      "manifest": "artifacts/rl_campaign_20261102T210735Z/random-v3-1/recovery-archives/known-recovery-20261102T222156Z-56db8f61d9eb4994a7309b7a80a5764f.manifest.json",
+      "archive": "known-recovery-20261102T222156Z-56db8f61d9eb4994a7309b7a80a5764f.tar.gz",
+      "archive_sha256": "dc23a3371ae7d8c417689a7e5d7be40e9ae37f36cbd49fed579994bf61380dd5",
+      "runs": 1000,
+      "raw_bytes": 486987057,
+      "remove_requested": true
+    }
+  ],
+  "utility_sha256": "a50c930208a1b3d9fc83ef6adc34cb43146d0074e59e07a57a34d52177763d4b"
+}

@@ -1,0 +1,165 @@
+{
+  "circuit_span_rank": 1009,
+  "distinct_nonzero_remainders": 282,
+  "distinct_remainders_within_max_rank": 88,
+  "elapsed_seconds": 4.612405847001355,
+  "enumeration_complete": true,
+  "full_kernel_dimension": 1165,
+  "fundamental_members": 501,
+  "fundamental_outside": 664,
+  "max_rank": 99,
+  "minimum_scored_rank": 94,
+  "outputs": [
+    {
+      "active_support": 3,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-00-rank94/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 94,
+      "raw_sha256": "d3eda639da69ca850756734d3330013aaa3ee032ae4eba8662907727d4a793cb",
+      "remainder_hex": "0x880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002020000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000",
+      "support_size": 5
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-01-rank95/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 95,
+      "raw_sha256": "6f5dfe8db5d6b93940a53b34a8d92f681ef800a69910f0fd98daaae3fd3c5f00",
+      "remainder_hex": "0x80008000000000000000200800000000000000000",
+      "support_size": 4
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-02-rank95/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 95,
+      "raw_sha256": "c876dff943789d9863ea18442574b46d65b11e330d1e5bb0f5df77cdb4327238",
+      "remainder_hex": "0x38800000000000000000000000000000000000000000000000000000000000000000000040000",
+      "support_size": 4
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-03-rank95/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 95,
+      "raw_sha256": "43039d55fa27d2666fd157cc6c9b0055d278ff9c5be59bc3b26f43dd54dbcf3d",
+      "remainder_hex": "0xa080000000000000000000000000000000000000040000000000000000000000000000000000000000000000000",
+      "support_size": 4
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-04-rank95/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 95,
+      "raw_sha256": "852823a49155f1079fc6018af18c4e5d331bf8eced72592cf9f8766e061879ea",
+      "remainder_hex": "0x3000c030c",
+      "support_size": 4
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-05-rank95/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 95,
+      "raw_sha256": "b9a96b86976b9b113e58334602332e297b389b49f45914fdc1966ca8bcad8b91",
+      "remainder_hex": "0x400000008801020000300000080001",
+      "support_size": 4
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-06-rank95/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 95,
+      "raw_sha256": "870979f6d1a359ed0d2e97595d18b64e557bca7982a041e4705b6f1f25a086cd",
+      "remainder_hex": "0x10600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000",
+      "support_size": 4
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-07-rank95/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 95,
+      "raw_sha256": "e46c6be08a2e946ded97d049c6db14d178fc0a93097d7614791fc21de58d4c41",
+      "remainder_hex": "0x80a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000208200000000000000000000000000000000000000000000000",
+      "support_size": 4
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-08-rank95/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 95,
+      "raw_sha256": "598a844f131ea3fa29b902e54788e203df68f99ec5519bdcc3d08557bb51fd15",
+      "remainder_hex": "0x50000800000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "support_size": 4
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-09-rank95/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 95,
+      "raw_sha256": "6d9c62a53d72bb6518b8ed7b984520442920c6d8c9142f06e621b6e040fc4dba",
+      "remainder_hex": "0x83c000000000000000000000000000000000000000000000000000000000000000000010000000800000000000000000000",
+      "support_size": 4
+    },
+    {
+      "active_support": 2,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-10-rank95/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 95,
+      "raw_sha256": "c825a4eb2dc1de85317f9123a9f479f6117044ad6cf9d5e926b0a340821c2283",
+      "remainder_hex": "0x504000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "support_size": 5
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-11-rank96/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 96,
+      "raw_sha256": "c7a21ef655d5a91d1c419a1623f79011816402859426b92129b63c9194c861e3",
+      "remainder_hex": "0x3000c0000",
+      "support_size": 5
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-12-rank96/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 96,
+      "raw_sha256": "4f43112d52eba0730aad99ce80d1074a18cb673329e42fb24f31c29736d995a6",
+      "remainder_hex": "0x1000000440104",
+      "support_size": 5
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-13-rank96/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 96,
+      "raw_sha256": "75dfa24def2d3c6ea842f040c7086067c7737fbe8072e654461322fbdf030cc0",
+      "remainder_hex": "0x2000000480108",
+      "support_size": 5
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-14-rank96/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 96,
+      "raw_sha256": "7b7e37b82da37d1ecabb39d2738e4f735da8d8c24563bfe5ad17a0eb52ca8a86",
+      "remainder_hex": "0x400000000000000000000200000000000000000000000000000000000000000000000000000000000000000000018400000000000000000000000000000000000",
+      "support_size": 5
+    },
+    {
+      "active_support": 1,
+      "candidate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-15-rank96/candidate.json",
+      "exact_entries_checked": 15625,
+      "rank": 96,
+      "raw_sha256": "28278c6d5dbaeb72fd081f63708bdf63e1296a558ca56aa71a45847100fd2ef7",
+      "remainder_hex": "0x63000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000",
+      "support_size": 5
+    }
+  ],
+  "outside_touching_baseline_active": 399,
+  "pair_count": 1536,
+  "quotient_dimension": 156,
+  "scope": "relative only to the exact old short-circuit span; no SAT/UNSAT or full-algorithm inequivalence claim",
+  "solver_or_search_called": false,
+  "source_rank": 93,
+  "status": "EXACT_DIVERSIFICATION_SEEDS"
+}

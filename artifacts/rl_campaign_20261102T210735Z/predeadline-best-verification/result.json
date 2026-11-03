@@ -1,0 +1,124 @@
+{
+  "utc": "2026-11-03T02:55:58.972088+00:00",
+  "best_product_count": 93,
+  "independent_verifier": "standard-library-only verifier imports no search/tensor code",
+  "verifier_sha256": "491282f4e940b9969b2a94ee51994d71ceefd9dc5a19167b779b9d2a6098f46f",
+  "certificates": [
+    {
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/km93_f2.json",
+      "snapshot": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/predeadline-best-verification/certificate-00.json",
+      "sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+      "verification": {
+        "valid": true,
+        "field_valid": true,
+        "integer_valid": false,
+        "dimension": 5,
+        "field": 2,
+        "rank": 93,
+        "exact_entries_checked": 15625,
+        "errors": [],
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "integer_mismatch_count": 2277,
+        "random_multiplication": {
+          "passed": true,
+          "trials": 64,
+          "seed": 20261103
+        }
+      }
+    },
+    {
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/public/alphaevolve93_f2.json",
+      "snapshot": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/predeadline-best-verification/certificate-01.json",
+      "sha256": "962b518010483e3a6491fb29a504ceb6c94e447acd804be354e1279abb97c37b",
+      "verification": {
+        "valid": true,
+        "field_valid": true,
+        "integer_valid": false,
+        "dimension": 5,
+        "field": 2,
+        "rank": 93,
+        "exact_entries_checked": 15625,
+        "errors": [],
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "integer_mismatch_count": 1381,
+        "random_multiplication": {
+          "passed": true,
+          "trials": 64,
+          "seed": 20261103
+        }
+      }
+    },
+    {
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/2f5f99aa15ee2832f6e2ba959dbf1dcd07a503baf8e1068f28d05fcf8b4acdbc.json",
+      "snapshot": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/predeadline-best-verification/certificate-02.json",
+      "sha256": "5a8141f8b1339d5cdb7f0321d9396210b507292bbe18982cfb195bcb5b9bb411",
+      "verification": {
+        "valid": true,
+        "field_valid": true,
+        "integer_valid": false,
+        "dimension": 5,
+        "field": 2,
+        "rank": 93,
+        "exact_entries_checked": 15625,
+        "errors": [],
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "integer_mismatch_count": 2260,
+        "random_multiplication": {
+          "passed": true,
+          "trials": 64,
+          "seed": 20261103
+        }
+      }
+    },
+    {
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/329e85555e6a78938c7c62ccec5609842ce1b6166dd5d2d04afdd41fcd09157f.json",
+      "snapshot": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/predeadline-best-verification/certificate-03.json",
+      "sha256": "242f4c5b65a0a963f64111fdc587554784f06fc07cc478d23737f11dc55ea35b",
+      "verification": {
+        "valid": true,
+        "field_valid": true,
+        "integer_valid": false,
+        "dimension": 5,
+        "field": 2,
+        "rank": 93,
+        "exact_entries_checked": 15625,
+        "errors": [],
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "integer_mismatch_count": 2133,
+        "random_multiplication": {
+          "passed": true,
+          "trials": 64,
+          "seed": 20261103
+        }
+      }
+    },
+    {
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation-ready-v1/pool/ddda75c0e5076b393767bdc21966e7dd8c761ccb4c3ef5eb89a2498eb76da03c.json",
+      "snapshot": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/predeadline-best-verification/certificate-04.json",
+      "sha256": "2c5bb2d0a5a04a21f52ae30a907928bcc324b5f0dbcdaa4b6cf0953b8b5bf076",
+      "verification": {
+        "valid": true,
+        "field_valid": true,
+        "integer_valid": false,
+        "dimension": 5,
+        "field": 2,
+        "rank": 93,
+        "exact_entries_checked": 15625,
+        "errors": [],
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "integer_mismatch_count": 2093,
+        "random_multiplication": {
+          "passed": true,
+          "trials": 64,
+          "seed": 20261103
+        }
+      }
+    }
+  ],
+  "scope": "Predeadline best certificates rechecked at all15625 coefficients and64 supplemental random matrix pairs each; no new record or integer lift"
+}

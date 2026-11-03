@@ -1,0 +1,105 @@
+{
+  "utc": "2026-11-03T03:10:44.559371+00:00",
+  "stage": "post-search checkpoint verification; no additional search",
+  "verifier_sha256": "491282f4e940b9969b2a94ee51994d71ceefd9dc5a19167b779b9d2a6098f46f",
+  "best_products": 93,
+  "all_valid": true,
+  "certificates": [
+    {
+      "id": "learned-v4-10",
+      "source": "artifacts/rl_campaign_20261102T210735Z/learned-v4-10/checkpoint.json",
+      "certificate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/final-best-certificates/learned-v4-10.json",
+      "sha256": "f6c8545596928d7ed856d03318a3376dc6f362d2864b013d894f29c5c4741192",
+      "verification": {
+        "valid": true,
+        "field_valid": true,
+        "integer_valid": false,
+        "dimension": 5,
+        "field": 2,
+        "rank": 93,
+        "exact_entries_checked": 15625,
+        "errors": [],
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "integer_mismatch_count": 2277,
+        "random_multiplication": {
+          "passed": true,
+          "trials": 64,
+          "seed": 20261103
+        }
+      }
+    },
+    {
+      "id": "new93-core2-final",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-core2-final/verified/3cbb62e8f1cc3dca5b3e883126c07eea22fe76622ca25c1eb929bbeabbfca182.json",
+      "certificate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/final-best-certificates/new93-core2-final.json",
+      "sha256": "e90b1af851258f639d0e26f950f5e3c845aa67dae9f08c68aae586155e1d2536",
+      "verification": {
+        "valid": true,
+        "field_valid": true,
+        "integer_valid": false,
+        "dimension": 5,
+        "field": 2,
+        "rank": 93,
+        "exact_entries_checked": 15625,
+        "errors": [],
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "integer_mismatch_count": 2260,
+        "random_multiplication": {
+          "passed": true,
+          "trials": 64,
+          "seed": 20261103
+        }
+      }
+    },
+    {
+      "id": "new93-core1-final",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-core1-final/verified/5d1849abc8261a59d0e547cc0c3b4c1beaed1616d22d07279d9996730d5b76f2.json",
+      "certificate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/final-best-certificates/new93-core1-final.json",
+      "sha256": "395ae84ef045a12476a2e8683d810136848b0cf7e4ab1507a223643bc5d3ccb2",
+      "verification": {
+        "valid": true,
+        "field_valid": true,
+        "integer_valid": false,
+        "dimension": 5,
+        "field": 2,
+        "rank": 93,
+        "exact_entries_checked": 15625,
+        "errors": [],
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "integer_mismatch_count": 2133,
+        "random_multiplication": {
+          "passed": true,
+          "trials": 64,
+          "seed": 20261103
+        }
+      }
+    },
+    {
+      "id": "new93-continuation1",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/new93-continuation1/verified/b1dc1c1d6279298a8da3831707389a7459b200a55cb08e9fc295b592b9f85d5f.json",
+      "certificate": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/final-best-certificates/new93-continuation1.json",
+      "sha256": "cab17dad8cc06ce051c5e232defa326294b23459436f6e7bac1458cb29705a42",
+      "verification": {
+        "valid": true,
+        "field_valid": true,
+        "integer_valid": false,
+        "dimension": 5,
+        "field": 2,
+        "rank": 93,
+        "exact_entries_checked": 15625,
+        "errors": [],
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "integer_mismatch_count": 2099,
+        "random_multiplication": {
+          "passed": true,
+          "trials": 64,
+          "seed": 20261103
+        }
+      }
+    }
+  ]
+}

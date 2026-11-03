@@ -1,0 +1,12 @@
+{
+  "applied_moves": 6,
+  "best_derived_rank": 95,
+  "cpu_seconds": 1.301653936,
+  "elapsed_seconds": 4.179580857002293,
+  "scope": "Complete inverse patterns only; no negative lower-bound, integer-lift, or novelty-at93 claim",
+  "sources_considered": 24,
+  "status": "COMPLETE",
+  "stop_reason": "all explicit sources considered",
+  "unique_inputs": 24,
+  "winner": false
+}

@@ -1,0 +1,11 @@
+{
+  "bucket": "93-95",
+  "orbit_profile": {
+    "fixed_cubes": 2,
+    "three_cycles": 31
+  },
+  "path": "artifacts/rl_campaign_20261102T210735Z/polarized-smoke/verified/e0ae3ac43832bfdea18dcf2e5c450fece70707062b3f34131d3a8f0ebe747ecf.json",
+  "rank": 95,
+  "sha256": "22c4ae53947428e5e0f09681552077843537a4d2d1674f0820d71e6873566cb9",
+  "verification_path": "artifacts/rl_campaign_20261102T210735Z/polarized-smoke/verification/e0ae3ac43832bfdea18dcf2e5c450fece70707062b3f34131d3a8f0ebe747ecf.verification.json"
+}

@@ -1,0 +1,33 @@
+{
+  "pid": 129179,
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "env",
+    "PYTHONPATH=.xor-deps:.",
+    "python3",
+    "scripts/watch_pair_compressions_v3.py",
+    "--campaign",
+    "artifacts/rl_campaign_20261102T210735Z",
+    "--cpu",
+    "2",
+    "--memory-mb",
+    "512",
+    "--interval",
+    "10",
+    "--max-new-per-cycle",
+    "4",
+    "--cycle-cpu-seconds",
+    ".25",
+    "--per-case-seconds",
+    "1"
+  ],
+  "utc": "2026-11-03T01:34:58.281365+00:00",
+  "deadline_utc": "2026-11-03T03:07:35Z",
+  "code_sha256": "58b8fa53c5f165ba84a00bfad067feacb4361e5dca80806b37ea30fab1f0624e",
+  "active_rank_cap": 109,
+  "previous_pid": 125897,
+  "previous_processed": 112,
+  "reason": "matchnew109boundedrankbranches; unchangedV2cooldown/resourcecontrol, exact109fixturefullT+boundedchildpassed, oldversionpreserved"
+}

@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "path": "artifacts/rl_campaign_20261102T210735Z/compressed-coset93-pool/seeds/270f411487d4a6b7e22380ea25cd2f26d699c3fea4095a8a9984dfb2f5d9ad2c.json",
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-coset-seeds-v1/seeds/seed-01-rank95/candidate.json",
+      "compression_output": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-compress-quick1/candidates/6f5dfe8db5d6b93940a53b34a8d92f681ef800a69910f0fd98daaae3fd3c5f00/final.json",
+      "compression_report": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-compress-quick1/candidates/6f5dfe8db5d6b93940a53b34a8d92f681ef800a69910f0fd98daaae3fd3c5f00/report.json",
+      "term_set_sha256": "270f411487d4a6b7e22380ea25cd2f26d699c3fea4095a8a9984dfb2f5d9ad2c",
+      "raw_sha256": "fc77a328b9fb0e55f52fb37fb542118569b8415a75113b3883684f745e0da7d9",
+      "rank": 93,
+      "matches_known": "artifacts/campaign/public-seeds/fastmatrix-f2/seeds/seed306.json"
+    }
+  ],
+  "claim": "Exact93productdiversificationstates; no newproductbound oralgorithmnoveltyclaim. Originalcosetnonmembershipwasbeforecompression; no correspondingpostcompressionassertion."
+}

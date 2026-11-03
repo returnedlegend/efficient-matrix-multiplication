@@ -1,0 +1,15 @@
+{
+  "code/mmsearch/search.py": "0317550a543d696b4e669f55a15781ed37c5d87ca4bca0420f805351f5558267",
+  "code/mmsearch/verify.py": "491282f4e940b9969b2a94ee51994d71ceefd9dc5a19167b779b9d2a6098f46f",
+  "code/scripts/freeze_campaign_dictionary.py": "de98e78fa872ca49e41bb284ca1f75dc2fcbbcf7c3e6fbf9919791f6f4cb24dd",
+  "code/scripts/select_diverse93_seeds.py": "039c28cd9c8ac064a52d084d7a14f7a5334174e44d435917e15512151507b6d4",
+  "manifest.json": "8e93a2073f70575e0f6220be8d447acecfcfe7a61e3b833a732d2ab79ff328dd",
+  "seeds/seed00-56e2dc2a4ce5e808.json": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+  "seeds/seed01-962b518010483e3a.json": "962b518010483e3a6491fb29a504ceb6c94e447acd804be354e1279abb97c37b",
+  "seeds/seed02-897eb861a5df9fe7.json": "897eb861a5df9fe79ca8cc875696f5b20afa23800e223e76655e8c437cab583f",
+  "seeds/seed03-590f496894897026.json": "590f4968948970268b17b6dafd6a09534c44638db97ce6d80d6c7f66a2588b73",
+  "verification/seed00.json": "3d62663c7145d9207fec50adad9ce25d9f8cb9e1fc9db4437efd1b6fe34ad1c4",
+  "verification/seed01.json": "2c6be2ad1e2c4b88b6460b8a42a34a2ddefa0ea4309321925a349d73fe9f1546",
+  "verification/seed02.json": "72ef46844dfccfe966099d28249e291ed936293190eeb394f69f5bb77c0ef139",
+  "verification/seed03.json": "97d625f023f2a8b7e7b37b2f366afdb6a168e0ea9a337830ae1f0c73e368dcda"
+}

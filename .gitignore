@@ -21,3 +21,14 @@ __pycache__/
 !/research/campaign/sat_audit_final_replay_check.json
 /research/campaign/report_draft.json
 /research/campaign/REPORT_DRAFT.md
+
+# The published RL bundle is explicitly staged; bulk local experiment outputs
+# and regenerated worker executables stay out of Git.
+/artifacts/rl_campaign_20261102T210735Z/
+/artifacts/rl_native_bridge_benchmark/
+/native/flip_worker_fixed_cubes
+/native/free_factor_kernel_worker
+/native/free_factor_kernel_worker_wide
+/native/free_factor_kernel_worker_longmixed
+/native/free_factor_pair_block_worker
+/native/free_factor_pair_block_worker_wide

@@ -1,0 +1,115 @@
+{
+  "elapsed_seconds": 0.02917574700040859,
+  "lower_bound_rejected": true,
+  "problem": {
+    "core_hex": "0x2020200000000030101010000000003010000000000000301017071000000000000807100000000000080500e10101000008040001e181d01000018",
+    "dimension": 5,
+    "field": 2,
+    "fixed_cubes_allowed": true,
+    "flattening_ranks": [
+      8,
+      8,
+      8
+    ],
+    "formula_sha256": "326bff90e793ec5aee3aeb3e7cb8eb32b41803ca5e90d604592a6767731dec78",
+    "global_nominal_rank_cap": 92,
+    "initial_verification": {
+      "dimension": 5,
+      "errors": [],
+      "exact_entries_checked": 15625,
+      "field": 2,
+      "field_valid": true,
+      "integer_mismatch_count": 2292,
+      "integer_valid": false,
+      "mismatch_count": 0,
+      "mismatch_examples": [],
+      "random_multiplication": {
+        "passed": true,
+        "seed": 0,
+        "trials": 0
+      },
+      "rank": 95,
+      "valid": true
+    },
+    "koszul": null,
+    "lower_bound_rejected": true,
+    "nominal_product_cap": 6,
+    "orbit_indices": [
+      0,
+      25,
+      27
+    ],
+    "outside_term_set_sha256": "01f75878d62cc587d3b8d1f05853c2cf7462d486683cf984b63e0e502edeb2b3",
+    "patch_term_set_sha256": "ffc4e511bf6582f9995191a606c1fb61b200a2efd67375d6cd9e7949bcef6668",
+    "patch_terms": [
+      [
+        4,
+        4198404,
+        844825
+      ],
+      [
+        524288,
+        29388828,
+        885610
+      ],
+      [
+        524292,
+        4222980,
+        895850
+      ],
+      [
+        844825,
+        4,
+        4198404
+      ],
+      [
+        885610,
+        524288,
+        29388828
+      ],
+      [
+        895850,
+        524292,
+        4222980
+      ],
+      [
+        4198404,
+        844825,
+        4
+      ],
+      [
+        4222980,
+        895850,
+        524292
+      ],
+      [
+        29388828,
+        885610,
+        524288
+      ]
+    ],
+    "scope": "Only this chosen patch with its outside terms frozen; no global rank statement.",
+    "shared_basis": [
+      4,
+      524288,
+      320537,
+      92019,
+      10240,
+      4198400,
+      18432,
+      25165848
+    ],
+    "shared_dimension": 8,
+    "slots": 2,
+    "source_profile": {
+      "fixed_cubes": 2,
+      "three_cycles": 31
+    },
+    "source_rank": 95,
+    "source_term_set_sha256": "1e517327e1a0c5a3c11e3358020c9171a72867a8aaa7ec35db9682c93cb394c1",
+    "symmetry": "U<=lexV and U<=lexW",
+    "tensor_rank_lower_bound": 8,
+    "zero_orbits_allowed": true
+  },
+  "status": "PREPARED"
+}

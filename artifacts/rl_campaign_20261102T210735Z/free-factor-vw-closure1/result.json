@@ -1,0 +1,18 @@
+{
+  "assumptions": [],
+  "conflict_limit": 20000000,
+  "control_status": "SAT",
+  "elapsed_seconds": 897.0457858180016,
+  "formula_sha256": "defbae051d47ef5c59a63c16c7f09a7d11d8da33b137f54d5606befe15c1da65",
+  "memory_mb": 1536,
+  "orientation": "vw",
+  "pairs_sha256": "ccecbdc72eaaa4b489f54b7d50ed54ac67dd1c5d9936ba702f73ac412e1091a6",
+  "rank_bound": 92,
+  "reason": "hard wall-clock limit including solver load",
+  "scope": "arbitrary free third-factor vectors on the supplied distinct fixed factor pairs; restricted UNSAT only; no integer lift claim",
+  "status": "UNKNOWN",
+  "threads": 1,
+  "total_elapsed_seconds": 898.1075365010001,
+  "wall_seconds": 896.9385584599986,
+  "worker_reaped": true
+}

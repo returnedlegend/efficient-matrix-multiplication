@@ -1,0 +1,39 @@
+{
+  "active_cap": 109,
+  "any_other_process_signaled": false,
+  "bounded_fixture_measurement": {
+    "cpu_seconds": 0.099150035,
+    "exact_entries_checked": 15625,
+    "status": "VERIFIED",
+    "verified_final_rank": 93,
+    "wall_seconds": 0.29946389500400983,
+    "worker_reaped": true
+  },
+  "fixture": {
+    "derived_rank": 93,
+    "direct_math_cpu_seconds": 0.09201243099999998,
+    "entries_checked": 15625,
+    "input_rank": 109,
+    "origin": "knownKM93 split16products into2 preservingT",
+    "research_record": false
+  },
+  "new_files": {
+    "mmsearch/auxiliary_pair_watcher_wide.py": "e5b73bdfb8ccbee9c8abecec530dcbe0b81d555a94fa1ba7ed11e46267aef7e6",
+    "scripts/watch_pair_compressions_v3.py": "58b8fa53c5f165ba84a00bfad067feacb4361e5dca80806b37ea30fab1f0624e",
+    "tests/test_auxiliary_pair_watcher_v3.py": "27787b65513ff9ddb9b8857500fedc952bb1d38b0d2d088c20255c21521c49b1"
+  },
+  "new_watcher_launched": false,
+  "old_running_files_unchanged": true,
+  "resource_targets": {
+    "cpu": 2,
+    "cpu_seconds_per10second_cycle": 0.25,
+    "memory_mb": 512,
+    "per_case_wall_seconds": 1
+  },
+  "scope": "Cap100->109 only. Cadence/signals/caches/quota math unchanged. Measured results do not establish long-run quota achievement. No native group counts or novelty claims.",
+  "status": "READY",
+  "tests": {
+    "command": "taskset -c 2 env PYTHONPATH=.xor-deps:. python -m unittest tests.test_auxiliary_pair_watcher tests.test_auxiliary_pair_watcher_v2 tests.test_auxiliary_pair_watcher_v3",
+    "passed": 14
+  }
+}

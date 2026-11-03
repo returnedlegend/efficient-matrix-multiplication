@@ -1,0 +1,97 @@
+{
+  "canonical_rank": 94,
+  "canonical_verification": {
+    "dimension": 5,
+    "errors": [],
+    "exact_entries_checked": 15625,
+    "field": 2,
+    "field_valid": true,
+    "integer_mismatch_count": 2263,
+    "integer_valid": false,
+    "mismatch_count": 0,
+    "mismatch_examples": [],
+    "random_multiplication": {
+      "passed": true,
+      "seed": 0,
+      "trials": 16
+    },
+    "rank": 94,
+    "valid": true
+  },
+  "canonicalization": {
+    "canonical_terms": 94,
+    "duplicate_pairs_cancelled": 0,
+    "input_terms": 94,
+    "zero_products_removed": 0
+  },
+  "elapsed_seconds": 0.1105505900013668,
+  "final_rank": 94,
+  "final_verification": {
+    "dimension": 5,
+    "errors": [],
+    "exact_entries_checked": 15625,
+    "field": 2,
+    "field_valid": true,
+    "integer_mismatch_count": 2263,
+    "integer_valid": false,
+    "mismatch_count": 0,
+    "mismatch_examples": [],
+    "random_multiplication": {
+      "passed": true,
+      "seed": 0,
+      "trials": 16
+    },
+    "rank": 94,
+    "valid": true
+  },
+  "fixed_point": true,
+  "max_active": 100,
+  "moves": [],
+  "orientation_checks": [
+    {
+      "active_columns": 94,
+      "orientation": "uv",
+      "pair_column_nullity": 0,
+      "pair_column_rank": 94,
+      "pass_index": 1
+    },
+    {
+      "active_columns": 94,
+      "orientation": "vw",
+      "pair_column_nullity": 0,
+      "pair_column_rank": 94,
+      "pass_index": 1
+    },
+    {
+      "active_columns": 94,
+      "orientation": "wu",
+      "pair_column_nullity": 0,
+      "pair_column_rank": 94,
+      "pass_index": 1
+    }
+  ],
+  "passes": 1,
+  "rank93_policy": "research checkpoint only",
+  "scope": "only these active pair-column factorizations; no global negative or minimality proof",
+  "source_rank": 94,
+  "source_verification": {
+    "dimension": 5,
+    "errors": [],
+    "exact_entries_checked": 15625,
+    "field": 2,
+    "field_valid": true,
+    "integer_mismatch_count": 2263,
+    "integer_valid": false,
+    "mismatch_count": 0,
+    "mismatch_examples": [],
+    "random_multiplication": {
+      "passed": true,
+      "seed": 0,
+      "trials": 16
+    },
+    "rank": 94,
+    "valid": true
+  },
+  "stop_reason": "fixed point in these three active-column factorizations",
+  "winner_eligible": false
+}

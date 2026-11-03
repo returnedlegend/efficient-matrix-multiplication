@@ -1,0 +1,62 @@
+{
+  "16": {
+    "cases": 8,
+    "free_groups": [
+      59,
+      72
+    ],
+    "local_nullity": [
+      16,
+      17
+    ],
+    "necessary_lower_bound": [
+      55,
+      64
+    ]
+  },
+  "32": {
+    "cases": 8,
+    "free_groups": [
+      113,
+      122
+    ],
+    "local_nullity": [
+      32,
+      34
+    ],
+    "necessary_lower_bound": [
+      36,
+      40
+    ]
+  },
+  "64": {
+    "cases": 8,
+    "free_groups": [
+      171,
+      177
+    ],
+    "local_nullity": [
+      66,
+      68
+    ],
+    "necessary_lower_bound": [
+      25,
+      27
+    ]
+  },
+  "8": {
+    "cases": 8,
+    "free_groups": [
+      34,
+      39
+    ],
+    "local_nullity": [
+      8,
+      9
+    ],
+    "necessary_lower_bound": [
+      72,
+      73
+    ]
+  }
+}

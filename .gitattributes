@@ -1,9 +1,2 @@
-# Preserve exact bytes of inputs and outputs covered by historical checksums.
-/artifacts/** -text
-/research/campaign/** -text
-*.tar.gz binary
-*.tar.xz binary
-# Preserve the checksummed upstream originals, including their whitespace.
-/artifacts/km93_source.txt -whitespace
-/artifacts/km_symmetric_upstream_README.md -whitespace
-/artifacts/km_upstream_README.md -whitespace
+# Preserve historical CSV bytes while recognizing their standard CRLF endings.
+*.csv whitespace=cr-at-eol

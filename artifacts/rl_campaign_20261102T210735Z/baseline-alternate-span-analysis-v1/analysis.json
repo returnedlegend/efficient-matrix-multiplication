@@ -1,0 +1,328 @@
+{
+  "alternates": [
+    {
+      "baseline_raw_sha256": "962b518010483e3a6491fb29a504ceb6c94e447acd804be354e1279abb97c37b",
+      "free_original_axis": "u",
+      "independent_verification": {
+        "dimension": 5,
+        "errors": [],
+        "exact_entries_checked": 15625,
+        "field": 2,
+        "field_valid": true,
+        "integer_mismatch_count": 1381,
+        "integer_valid": false,
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "random_multiplication": {
+          "passed": true,
+          "seed": 0,
+          "trials": 16
+        },
+        "rank": 93,
+        "valid": true
+      },
+      "ordinary_difference_rank": 25,
+      "orientation": "wu",
+      "scope": "Coordinate-wise differences within the fixed WU pair family only; no full-algorithm inequivalence, bounded-headroom connectivity, novelty, or UNSAT claim.",
+      "source": "ae93",
+      "source_rank": 93,
+      "spans": {
+        "full1165": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        },
+        "old1009": {
+          "all25_members": false,
+          "nonzero_coordinate_remainders": 25,
+          "quotient_direction_rank": 25
+        },
+        "short1096": {
+          "all25_members": false,
+          "nonzero_coordinate_remainders": 25,
+          "quotient_direction_rank": 25
+        }
+      },
+      "system_raw_sha256": "6ce96d4c21fe484603aa9f663466a322bd356e67703104a9a0c756c82f7fbe68"
+    },
+    {
+      "baseline_raw_sha256": "897eb861a5df9fe79ca8cc875696f5b20afa23800e223e76655e8c437cab583f",
+      "free_original_axis": "u",
+      "independent_verification": {
+        "dimension": 5,
+        "errors": [],
+        "exact_entries_checked": 15625,
+        "field": 2,
+        "field_valid": true,
+        "integer_mismatch_count": 2157,
+        "integer_valid": false,
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "random_multiplication": {
+          "passed": true,
+          "seed": 0,
+          "trials": 16
+        },
+        "rank": 93,
+        "valid": true
+      },
+      "ordinary_difference_rank": 11,
+      "orientation": "wu",
+      "scope": "Coordinate-wise differences within the fixed WU pair family only; no full-algorithm inequivalence, bounded-headroom connectivity, novelty, or UNSAT claim.",
+      "source": "public015",
+      "source_rank": 93,
+      "spans": {
+        "full1165": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        },
+        "old1009": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        },
+        "short1096": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        }
+      },
+      "system_raw_sha256": "82a60dec4757e8678f43cb5e1230ae4835a086f30f41d0dc673f60dbdfe2531c"
+    },
+    {
+      "baseline_raw_sha256": "590f4968948970268b17b6dafd6a09534c44638db97ce6d80d6c7f66a2588b73",
+      "free_original_axis": "u",
+      "independent_verification": {
+        "dimension": 5,
+        "errors": [],
+        "exact_entries_checked": 15625,
+        "field": 2,
+        "field_valid": true,
+        "integer_mismatch_count": 2229,
+        "integer_valid": false,
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "random_multiplication": {
+          "passed": true,
+          "seed": 0,
+          "trials": 16
+        },
+        "rank": 93,
+        "valid": true
+      },
+      "ordinary_difference_rank": 10,
+      "orientation": "wu",
+      "scope": "Coordinate-wise differences within the fixed WU pair family only; no full-algorithm inequivalence, bounded-headroom connectivity, novelty, or UNSAT claim.",
+      "source": "public095",
+      "source_rank": 93,
+      "spans": {
+        "full1165": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        },
+        "old1009": {
+          "all25_members": false,
+          "nonzero_coordinate_remainders": 6,
+          "quotient_direction_rank": 1
+        },
+        "short1096": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        }
+      },
+      "system_raw_sha256": "2d010cd0e2754458e8ed61c89b7a5470b8cea82319aba5d8d328f88bd90e39b8"
+    }
+  ],
+  "elapsed_seconds": 6.520627664998756,
+  "live_snapshots": [
+    {
+      "approximate_stats": {
+        "accepted_moves": 52166578,
+        "archive_additions": 1,
+        "archive_size": 1,
+        "best_rank": 93,
+        "circuit_count": 9262,
+        "combo_attempts": 3221994972,
+        "current_rank": 97,
+        "dimension": 5,
+        "elapsed_seconds": 555.067,
+        "engine": "native-fixed-pair-kernel-walk-v1",
+        "four_attempts": 1933250553,
+        "full_matrix_verified": false,
+        "headroom": 6,
+        "history": [
+          {
+            "rank": 93,
+            "step": 0
+          }
+        ],
+        "linear_exact": true,
+        "max_rank": 99,
+        "memory_limit_mb": 512,
+        "pair_count": 1536,
+        "plus_every": 500,
+        "profile": "wide",
+        "raw_state_kind": "free-factor-vector-model",
+        "rejected_moves": 6391937614,
+        "restart_every": 100000000,
+        "restarts": 64,
+        "seconds_budget": 597.703,
+        "seed": 1096093,
+        "step_budget": 1000000000000,
+        "steps": 6444104192,
+        "stopped_by_signal": false,
+        "target_rank": 92,
+        "target_reached": false,
+        "tensor_invariant_checked": true,
+        "three_attempts": 1288858667,
+        "uphill_moves": 947470,
+        "width": 25
+      },
+      "atomicity": "Each file is an individual atomic native snapshot; W and stats may represent different instants. Verified rank comes from W, not stats.",
+      "captured_unix": 1793669351.1312985,
+      "free_original_axis": "u",
+      "model_raw_sha256": "7b40ce3e67f6d1f6e403582b9bf7a0d02c3a9e0803b5ca8c8858ff2575967ba3",
+      "model_source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-expanded-short1/phase-000/kernel_walk.current.w.txt",
+      "ordinary_difference_rank": 15,
+      "orientation": "wu",
+      "scope": "Coordinate-wise differences within the fixed WU pair family only; no full-algorithm inequivalence, bounded-headroom connectivity, novelty, or UNSAT claim.",
+      "source": "live-00",
+      "source_rank": 97,
+      "spans": {
+        "full1165": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        },
+        "old1009": {
+          "all25_members": false,
+          "nonzero_coordinate_remainders": 6,
+          "quotient_direction_rank": 1
+        },
+        "short1096": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        }
+      },
+      "stats_raw_sha256": "e8fec95a670c1ef52c9f0e308865cf7eb89587df16183540583f89bc461b3812",
+      "verification": {
+        "dimension": 5,
+        "errors": [],
+        "exact_entries_checked": 15625,
+        "field": 2,
+        "field_valid": true,
+        "integer_mismatch_count": 2210,
+        "integer_valid": false,
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "random_multiplication": {
+          "passed": true,
+          "seed": 0,
+          "trials": 0
+        },
+        "rank": 97,
+        "valid": true
+      }
+    },
+    {
+      "approximate_stats": {
+        "accepted_moves": 52166578,
+        "archive_additions": 1,
+        "archive_size": 1,
+        "best_rank": 93,
+        "circuit_count": 9262,
+        "combo_attempts": 3221994972,
+        "current_rank": 97,
+        "dimension": 5,
+        "elapsed_seconds": 555.067,
+        "engine": "native-fixed-pair-kernel-walk-v1",
+        "four_attempts": 1933250553,
+        "full_matrix_verified": false,
+        "headroom": 6,
+        "history": [
+          {
+            "rank": 93,
+            "step": 0
+          }
+        ],
+        "linear_exact": true,
+        "max_rank": 99,
+        "memory_limit_mb": 512,
+        "pair_count": 1536,
+        "plus_every": 500,
+        "profile": "wide",
+        "raw_state_kind": "free-factor-vector-model",
+        "rejected_moves": 6391937614,
+        "restart_every": 100000000,
+        "restarts": 64,
+        "seconds_budget": 597.703,
+        "seed": 1096093,
+        "step_budget": 1000000000000,
+        "steps": 6444104192,
+        "stopped_by_signal": false,
+        "target_rank": 92,
+        "target_reached": false,
+        "tensor_invariant_checked": true,
+        "three_attempts": 1288858667,
+        "uphill_moves": 947470,
+        "width": 25
+      },
+      "atomicity": "Each file is an individual atomic native snapshot; W and stats may represent different instants. Verified rank comes from W, not stats.",
+      "captured_unix": 1793669351.2655535,
+      "free_original_axis": "u",
+      "model_raw_sha256": "f742e27f2ba892cde9750af487f6261391d9873a4ccd47f9813e07c383846ccb",
+      "model_source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-expanded-short1/phase-000/kernel_walk.archive/0.w.txt",
+      "ordinary_difference_rank": 0,
+      "orientation": "wu",
+      "scope": "Coordinate-wise differences within the fixed WU pair family only; no full-algorithm inequivalence, bounded-headroom connectivity, novelty, or UNSAT claim.",
+      "source": "live-01",
+      "source_rank": 93,
+      "spans": {
+        "full1165": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        },
+        "old1009": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        },
+        "short1096": {
+          "all25_members": true,
+          "nonzero_coordinate_remainders": 0,
+          "quotient_direction_rank": 0
+        }
+      },
+      "stats_raw_sha256": "e8fec95a670c1ef52c9f0e308865cf7eb89587df16183540583f89bc461b3812",
+      "verification": {
+        "dimension": 5,
+        "errors": [],
+        "exact_entries_checked": 15625,
+        "field": 2,
+        "field_valid": true,
+        "integer_mismatch_count": 2277,
+        "integer_valid": false,
+        "mismatch_count": 0,
+        "mismatch_examples": [],
+        "random_multiplication": {
+          "passed": true,
+          "seed": 0,
+          "trials": 0
+        },
+        "rank": 93,
+        "valid": true
+      }
+    }
+  ],
+  "scope": "Coordinate-wise differences within the fixed WU pair family only; no full-algorithm inequivalence, bounded-headroom connectivity, novelty, or UNSAT claim.",
+  "span_dimensions": {
+    "full": 1165,
+    "old": 1009,
+    "short": 1096
+  }
+}

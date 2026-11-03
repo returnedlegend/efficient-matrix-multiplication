@@ -1,0 +1,25 @@
+{
+  "bound_pruned": 1524096,
+  "coverage": {
+    "contiguous_from_initial": true,
+    "full_family_completed": true,
+    "last_complete_pair": [
+      9334,
+      9335
+    ],
+    "next_pair": [
+      9335,
+      9336
+    ],
+    "pairs_completed_this_run": 43575780,
+    "pairs_total": 43575780,
+    "prefix_completed": 43575780
+  },
+  "disjoint_pruned": 41908752,
+  "elapsed_seconds": 1.4739682959989295,
+  "exact_evaluated": 142932,
+  "reason": "finite pair suffix exhausted",
+  "scope": "One frozen feasible W model and unordered pairs of supplied kernel directions; no global UNSAT claim.",
+  "status": "NO_TARGET",
+  "winner": false
+}

@@ -1,0 +1,11 @@
+{
+  "base_source_sha256": "3441a0e889084ece9544388394efac9adc40c8f2ae04a24224bc1ec3fedbf844",
+  "build_command": "taskset -c 0 g++ -std=c++17 -O3 -DNDEBUG -Wall -Wextra -Wpedantic native/flip_worker_fixed_cubes.cpp -o native/flip_worker_fixed_cubes",
+  "native/flip_worker_fixed_cubes": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+  "native/flip_worker_fixed_cubes.cpp": "9df51dc755396bd15fd0571c064b7def74b74550f300fb97fbf024ee4c6747db",
+  "research/rl/FIXED_CUBE_NATIVE.md": "3a082382c5ebb5eb7211b24e6d2e17ff3adb71b087fc26714137889c666522b9",
+  "scripts/campaign_fixed_cubes.py": "4a3df9f82d49b96f7107e3a37c87fe87b72f1b3a345c10859706eb264e918dae",
+  "tests": "3 native tests passed; 2 wrapper final-drain tests passed; one-second wrapper smoke passed",
+  "tests/test_campaign_fixed_cubes.py": "a8490ff24e00ce8df4ab0103b4bb24a614a38e6eddf078dd0a7c53189cdd0400",
+  "tests/test_native_fixed_cubes.py": "2d662c8a7b1aed0aa15a7119983bf064b3d3d16432b6efeef31471f641e9c949"
+}

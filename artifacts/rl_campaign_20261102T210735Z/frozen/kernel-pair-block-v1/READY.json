@@ -1,0 +1,36 @@
+{
+  "code_sha256": {
+    "mmsearch/kernel_pair_block.py": "3abf8d719032dec620627ec7bdeb96f7bd7346ff3d11390be41bf34ac87812f2",
+    "native/free_factor_pair_block_worker": "699b3e7bfd5eb4492d22b1683240e081d1b226acc6f5791cba776b5daeb0bb99",
+    "native/free_factor_pair_block_worker.cpp": "0897346f1bb7d9662ec8057fcccb533a8f8d434020f69ccfe43948226ba7fe46",
+    "research/rl/KERNEL_PAIR_BLOCK.md": "0ca2e3ed656e2080f4afde37bb7c85f4e520eedeef9db94953ffe26250074aa9",
+    "scripts/campaign_kernel_pair_block.py": "2af6d1d4ce5b6e03e4dae69927e1e16f6ee4b7f0632489d4fd75cc1b8122c83f",
+    "tests/test_kernel_pair_block.py": "4052b7d003a57a97754e23096271fed578084a86da561476d3cbddff9cdca9d6"
+  },
+  "jobs": [
+    {
+      "name": "km93",
+      "path": "artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-v1/jobs/km93.json",
+      "sha256": "1eb865decc61b0ae8d70c3fb7b4d59aa867fa346ea3180bee1b09099e3960ef7"
+    },
+    {
+      "name": "ae93",
+      "path": "artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-v1/jobs/ae93.json",
+      "sha256": "4b5c2df7b4b7c1de54bd40056c7f6a32d4665679a8f1b349e30bedc2f27459cc"
+    },
+    {
+      "name": "public095",
+      "path": "artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-v1/jobs/public095.json",
+      "sha256": "316655483ca90863f509873ef913f3c661ed1ccbb54c11f40812cd57c4389cfa"
+    }
+  ],
+  "long_search_started": false,
+  "preflight_dirs": [
+    "artifacts/rl_campaign_20261102T210735Z/pair-block-preflight-km93",
+    "artifacts/rl_campaign_20261102T210735Z/pair-block-preflight-ae93",
+    "artifacts/rl_campaign_20261102T210735Z/pair-block-preflight-public095"
+  ],
+  "tests": "Four tests pass; independent exhaustive16\u00b2 reference; plantedjoint9->8 with no strictsingleimprovement; changed-label native/Python agreement; invalidPn rejection; timeout/resume; actual5x5 zero-step all15625control.",
+  "tie_harvesting_included": false,
+  "wide_circuits_supported": false
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-03T02:54:24.436787+00:00",
+  "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/learned-v4-9/checkpoint.json",
+  "snapshot": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/final-policy-evaluation-inputs/checkpoint.snapshot.json",
+  "checkpoint_sha256": "dc3ef6139dc997472bc28eb47f71406c5549617e23d1316ac8694880c7a104eb",
+  "steps": 6612,
+  "updates": 22861,
+  "best_rank": 93,
+  "purpose": "Frozen predeadline policy evaluation, training continues separately; snapshot read once from atomic current checkpoint",
+  "reference_sha256": "0374e03c8ae92edd3eaed31193d1a437a92dc3a67430550ce91cfdf04776f23b",
+  "pool_sha256": "4c407ce12d57274a150860a1ea6e4a113721a9707ebad54f12b8fd024f2b4a0e"
+}

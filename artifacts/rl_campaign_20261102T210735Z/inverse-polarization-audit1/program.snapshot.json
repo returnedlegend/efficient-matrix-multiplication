@@ -1,0 +1,14 @@
+{
+  "snapshot_created_utc": "2026-11-03T01:59:05.170564+00:00",
+  "source": "Exact Python heredoc from root execution at01:55:31 UTC; source captured after run, not rerun",
+  "program_sha256": "50797e1dd823df9eb42fe416cd72da7136d90252ae6749e5ec43a6c5c8125105",
+  "original_command_prefix": "taskset -c2 nice -n10 python3 -",
+  "working_directory": "/workspace/efficient-matrix-multiplication",
+  "git_head": "b909e8607ee31617488c6bc8acc077ef8e0cb288",
+  "resource_limits": {
+    "cpu": 2,
+    "nice": 10,
+    "elapsed_wall_seconds": 0.7,
+    "reported_command_cpu_not_collected": true
+  }
+}

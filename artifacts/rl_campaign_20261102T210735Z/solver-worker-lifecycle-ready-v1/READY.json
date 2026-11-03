@@ -1,0 +1,38 @@
+{
+  "active_solver_search_started": false,
+  "after_custom_parent_handler_measurement": {
+    "freefactor": {
+      "elapsed_seconds": 0.03247134100092808,
+      "status": "UNKNOWN"
+    },
+    "xor": {
+      "elapsed_seconds": 0.02798482599609997,
+      "status": "UNKNOWN"
+    }
+  },
+  "frozen_campaign_snapshots_modified": false,
+  "math_encoding_rref_AST_unchanged_after_removing_only_authorized_lifecycle_differences": {
+    "mmsearch/free_factor_sat.py": true,
+    "mmsearch/xor_sat.py": true
+  },
+  "prior_frozen_source_sha256": {
+    "mmsearch/free_factor_sat.py": "eb6803fc5d89909fbb3d14839d5222d37f0e48e2eac664957e254b22448cc6b5",
+    "mmsearch/xor_sat.py": "09b6ab5f67024a4839e0a468f759c49c34886414d596124f1dc08056fb39eb9e"
+  },
+  "reproduction_before_seconds": {
+    "freefactor": 1.047108653,
+    "xor": 2.030825444
+  },
+  "root_cause": "Fork inherits flag-only CLI SIGTERM/SIGINT handlers, so terminate() did not end blocked workers. New entry trampoline restores defaults before any real or patched worker; termination grace .1s then existing kill/reap.",
+  "source_sha256": {
+    "mmsearch/free_factor_sat.py": "2f7456f11b2d194f33a61ca5c41d99e3a5b4e1378790910ebbca8f5550569761",
+    "mmsearch/xor_sat.py": "f9ff3054ee8efede170c2392cff34c97b38620cfe04f209c07ee0460f7344321",
+    "tests/test_solver_worker_lifecycle.py": "4a4cff6bf3d5771e2afee4a537843a26df5c570ac622bc3772536e662740875b"
+  },
+  "status": "READY",
+  "tests": {
+    "command": "taskset -c 2 nice -n 10 env PYTHONPATH=.xor-deps:. python -m unittest tests.test_solver_worker_lifecycle tests.test_free_factor_sat.FreeFactorSatTests.test_free_groups_cardinality_and_hard_timeout_cleanup tests.test_xor_sat.NativeXorSolverTests.test_hard_wall_reports_unknown",
+    "elapsed_seconds": 0.253,
+    "passed": 5
+  }
+}

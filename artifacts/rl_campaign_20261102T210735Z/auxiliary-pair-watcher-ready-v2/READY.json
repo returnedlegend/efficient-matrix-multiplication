@@ -1,0 +1,27 @@
+{
+  "fix": "Rate-cache all policy reads for10sec; debt-aware cooldown sleeps up to10sec clipped to policy due/deadline, includes policy+heartbeatCPU, returns afterfinalsleep; cooldown status heartbeat and measured actualCPU fraction. SIGTERM interrupts Event.wait. Exact process_sources AST unchanged.",
+  "launch_example": "taskset -c 2 nice -n 10 env PYTHONPATH=.xor-deps:. python scripts/watch_pair_compressions_v2.py --campaign artifacts/rl_campaign_20261102T210735Z --cpu 2 --memory-mb 512 --interval 10 --max-new-per-cycle 4 --cycle-cpu-seconds .25 --per-case-seconds 1",
+  "new_files": {
+    "scripts/watch_pair_compressions_v2.py": "15296a8f83a79cf74efb4c737a118091832d4231791618556251ab200a153940",
+    "tests/test_auxiliary_pair_watcher_v2.py": "6b527bc3cae31d89b269a8d3a9894a7569f1eb4a0ae7c067e112380f389d9079"
+  },
+  "new_watcher_not_launched": true,
+  "old_source_unchanged": true,
+  "old_watcher_not_signaled": true,
+  "prior_observation_reported_by_root": {
+    "child_cpu_seconds": 0.73,
+    "elapsed_approx_seconds": 780,
+    "parent_cpu_seconds": 20.57,
+    "quota_achieved_not_established": true
+  },
+  "resource_limits": {
+    "cpu": 2,
+    "memory_mb_max": 512,
+    "target_cpu_fraction": 0.025
+  },
+  "status": "READY",
+  "tests": {
+    "command": "taskset -c 2 env PYTHONPATH=.xor-deps:. python -m unittest tests.test_auxiliary_pair_watcher tests.test_auxiliary_pair_watcher_v2",
+    "passed": 10
+  }
+}

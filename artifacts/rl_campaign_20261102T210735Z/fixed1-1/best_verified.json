@@ -1,0 +1,11 @@
+{
+  "bucket": "94-97",
+  "orbit_profile": {
+    "fixed_cubes": 1,
+    "three_cycles": 32
+  },
+  "path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verified/67cc9180e452b9a57078d2fb9e2b69f0307cd14fc4121fa8aeb9a26ee6453d38.json",
+  "rank": 97,
+  "sha256": "c5c569674cf1a8f268eaf873850064f46a5378cc65cf96b9f2f031936248653c",
+  "verification_path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed1-1/verification/67cc9180e452b9a57078d2fb9e2b69f0307cd14fc4121fa8aeb9a26ee6453d38.verification.json"
+}

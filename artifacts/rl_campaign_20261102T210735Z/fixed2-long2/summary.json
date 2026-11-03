@@ -1,0 +1,826 @@
+{
+  "buckets": {
+    "93-95": 66,
+    "96-98": 8
+  },
+  "phases": [
+    {
+      "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+      "command": [
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+        "--input",
+        "artifacts/rl_campaign_20261102T210735Z/fixed2-long2/phase-000/input.txt",
+        "--output",
+        "artifacts/rl_campaign_20261102T210735Z/fixed2-long2/phase-000/walk",
+        "--n",
+        "5",
+        "--target",
+        "92",
+        "--max-rank",
+        "101",
+        "--seed",
+        "202613041",
+        "--steps",
+        "1000000000000",
+        "--seconds",
+        "600.0",
+        "--checkpoint-seconds",
+        "15",
+        "--archive-size",
+        "16",
+        "--archive-every",
+        "1000",
+        "--plus-every",
+        "50000",
+        "--restart-every",
+        "100000000",
+        "--cyclic",
+        "--fixed-cubes",
+        "2"
+      ],
+      "exit_code": 0,
+      "final_stats": {
+        "accepted_moves": 87977117,
+        "archive_additions": 82207,
+        "archive_every": 1000,
+        "archive_size": 16,
+        "best_fixed_cubes": 2,
+        "best_rank": 95,
+        "current_fixed_cubes": 2,
+        "current_rank": 95,
+        "cyclic": true,
+        "dimension": 5,
+        "elapsed_seconds": 600.002,
+        "engine": "native_f2_flips_fixed_cubes_v1",
+        "exact": true,
+        "flip_attempts": 112421463,
+        "history": [
+          {
+            "rank": 98,
+            "step": 0
+          },
+          {
+            "rank": 95,
+            "step": 17232
+          }
+        ],
+        "input": "artifacts/rl_campaign_20261102T210735Z/fixed2-long2/phase-000/input.txt",
+        "max_rank": 101,
+        "plus_attempts": 2248,
+        "plus_every": 50000,
+        "reduction_attempts": 390401249,
+        "rejected_moves": 414847843,
+        "required_fixed_cubes": 2,
+        "restart_every": 100000000,
+        "restarts": 5,
+        "seconds_budget": 600,
+        "seed": 202613041,
+        "step_budget": 1000000000000,
+        "steps": 502824960,
+        "stopped_by_signal": false,
+        "target_rank": 92,
+        "target_reached": false,
+        "tensor_invariant_checked": true
+      },
+      "headroom": 3,
+      "initial_inventory": {
+        "fixed_cube_masks": [
+          4096,
+          16777217
+        ],
+        "three_cycle_representatives": [
+          [
+            1,
+            16777232,
+            27033600
+          ],
+          [
+            2,
+            15028548,
+            5406720
+          ],
+          [
+            4,
+            4198404,
+            6186009
+          ],
+          [
+            6,
+            12865540,
+            5406720
+          ],
+          [
+            8,
+            28115776,
+            5248005
+          ],
+          [
+            10,
+            2162688,
+            160
+          ],
+          [
+            10,
+            2163520,
+            5248005
+          ],
+          [
+            12,
+            8650752,
+            5406720
+          ],
+          [
+            25,
+            16777216,
+            5248005
+          ],
+          [
+            320,
+            749916,
+            65600
+          ],
+          [
+            800,
+            524800,
+            2099202
+          ],
+          [
+            864,
+            524824,
+            10485760
+          ],
+          [
+            960,
+            159876,
+            10250
+          ],
+          [
+            1024,
+            16404,
+            4194308
+          ],
+          [
+            5124,
+            16384,
+            30277632
+          ],
+          [
+            16392,
+            11469760,
+            136196
+          ],
+          [
+            16394,
+            2163648,
+            136324
+          ],
+          [
+            16401,
+            16777220,
+            4199428
+          ],
+          [
+            24576,
+            994250,
+            131076
+          ],
+          [
+            26624,
+            68546,
+            131204
+          ],
+          [
+            65792,
+            65792,
+            262208
+          ],
+          [
+            66400,
+            524800,
+            29388828
+          ],
+          [
+            67650,
+            656000,
+            161796
+          ],
+          [
+            68450,
+            524804,
+            4225028
+          ],
+          [
+            75850,
+            656320,
+            159748
+          ],
+          [
+            262400,
+            327680,
+            327936
+          ],
+          [
+            524288,
+            29388828,
+            885600
+          ],
+          [
+            524289,
+            16777240,
+            11371360
+          ],
+          [
+            524292,
+            4222980,
+            895850
+          ],
+          [
+            524312,
+            10551360,
+            557920
+          ],
+          [
+            524314,
+            2162752,
+            557600
+          ],
+          [
+            524801,
+            16777242,
+            2163552
+          ]
+        ]
+      },
+      "initial_profile": {
+        "fixed_cubes": 2,
+        "three_cycles": 32
+      },
+      "initial_rank": 98,
+      "max_rank": 101,
+      "note": "C3 closure and exactly two fixed cubes enforced; cube factors may change",
+      "phase": 0,
+      "plus_every": 50000,
+      "profile": "fixed-cubes-long-v1",
+      "required_fixed_cubes": 2,
+      "restart_every": 100000000,
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed2-profile-1-2/seeds/a124186b54e4fa007e61ffa703afacad1a7113a885ca89f801eb4ab0e804407b.json",
+      "source_sha256": "2d44de8537e49051bb0bc88466eeaffad03a8901bb222eb4b345328bfc9d74ea",
+      "verified": {
+        "best_record": null,
+        "buckets": {
+          "93-95": 64,
+          "96-98": 5
+        },
+        "verified": 69,
+        "winner": false
+      },
+      "wrapper_sha256": "d3a2a1bf2591e4672db25797c79b6091a8cf37a861ecd4e279895af5a72ee8a3"
+    },
+    {
+      "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+      "command": [
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+        "--input",
+        "artifacts/rl_campaign_20261102T210735Z/fixed2-long2/phase-001/input.txt",
+        "--output",
+        "artifacts/rl_campaign_20261102T210735Z/fixed2-long2/phase-001/walk",
+        "--n",
+        "5",
+        "--target",
+        "92",
+        "--max-rank",
+        "101",
+        "--seed",
+        "202614050",
+        "--steps",
+        "1000000000000",
+        "--seconds",
+        "600.0",
+        "--checkpoint-seconds",
+        "15",
+        "--archive-size",
+        "16",
+        "--archive-every",
+        "1000",
+        "--plus-every",
+        "50000",
+        "--restart-every",
+        "100000000",
+        "--cyclic",
+        "--fixed-cubes",
+        "2"
+      ],
+      "exit_code": 0,
+      "final_stats": {
+        "accepted_moves": 115103038,
+        "archive_additions": 107584,
+        "archive_every": 1000,
+        "archive_size": 16,
+        "best_fixed_cubes": 2,
+        "best_rank": 95,
+        "current_fixed_cubes": 2,
+        "current_rank": 95,
+        "cyclic": true,
+        "dimension": 5,
+        "elapsed_seconds": 600.006,
+        "engine": "native_f2_flips_fixed_cubes_v1",
+        "exact": true,
+        "flip_attempts": 147102355,
+        "history": [
+          {
+            "rank": 98,
+            "step": 0
+          },
+          {
+            "rank": 95,
+            "step": 12891
+          }
+        ],
+        "input": "artifacts/rl_campaign_20261102T210735Z/fixed2-long2/phase-001/input.txt",
+        "max_rank": 101,
+        "plus_attempts": 2942,
+        "plus_every": 50000,
+        "reduction_attempts": 69552367,
+        "rejected_moves": 101554626,
+        "required_fixed_cubes": 2,
+        "restart_every": 100000000,
+        "restarts": 2,
+        "seconds_budget": 600,
+        "seed": 202614050,
+        "step_budget": 1000000000000,
+        "steps": 216657664,
+        "stopped_by_signal": false,
+        "target_rank": 92,
+        "target_reached": false,
+        "tensor_invariant_checked": true
+      },
+      "headroom": 3,
+      "initial_inventory": {
+        "fixed_cube_masks": [
+          4096,
+          16777217
+        ],
+        "three_cycle_representatives": [
+          [
+            1,
+            16777232,
+            27033600
+          ],
+          [
+            2,
+            15028548,
+            5406720
+          ],
+          [
+            4,
+            4198404,
+            6186009
+          ],
+          [
+            6,
+            12865540,
+            5406720
+          ],
+          [
+            8,
+            28115776,
+            5248005
+          ],
+          [
+            10,
+            2162688,
+            160
+          ],
+          [
+            10,
+            2163520,
+            5248005
+          ],
+          [
+            12,
+            8650752,
+            5406720
+          ],
+          [
+            25,
+            16777216,
+            5248005
+          ],
+          [
+            320,
+            749916,
+            65600
+          ],
+          [
+            800,
+            524800,
+            2099202
+          ],
+          [
+            864,
+            524824,
+            10485760
+          ],
+          [
+            960,
+            159876,
+            10250
+          ],
+          [
+            1024,
+            16404,
+            4194308
+          ],
+          [
+            5124,
+            16384,
+            30277632
+          ],
+          [
+            16392,
+            11469760,
+            136196
+          ],
+          [
+            16394,
+            2163648,
+            136324
+          ],
+          [
+            16401,
+            16777220,
+            4199428
+          ],
+          [
+            24576,
+            994250,
+            131076
+          ],
+          [
+            26624,
+            68546,
+            131204
+          ],
+          [
+            65792,
+            65792,
+            262208
+          ],
+          [
+            66400,
+            524800,
+            29388828
+          ],
+          [
+            67650,
+            656000,
+            161796
+          ],
+          [
+            68450,
+            524804,
+            4225028
+          ],
+          [
+            75850,
+            656320,
+            159748
+          ],
+          [
+            262400,
+            327680,
+            327936
+          ],
+          [
+            524288,
+            29388828,
+            885600
+          ],
+          [
+            524289,
+            16777240,
+            11371360
+          ],
+          [
+            524292,
+            4222980,
+            895850
+          ],
+          [
+            524312,
+            10551360,
+            557920
+          ],
+          [
+            524314,
+            2162752,
+            557600
+          ],
+          [
+            524801,
+            16777242,
+            2163552
+          ]
+        ]
+      },
+      "initial_profile": {
+        "fixed_cubes": 2,
+        "three_cycles": 32
+      },
+      "initial_rank": 98,
+      "max_rank": 101,
+      "note": "C3 closure and exactly two fixed cubes enforced; cube factors may change",
+      "phase": 1,
+      "plus_every": 50000,
+      "profile": "fixed-cubes-long-v1",
+      "required_fixed_cubes": 2,
+      "restart_every": 100000000,
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed2-profile-1-2/seeds/a124186b54e4fa007e61ffa703afacad1a7113a885ca89f801eb4ab0e804407b.json",
+      "source_sha256": "2d44de8537e49051bb0bc88466eeaffad03a8901bb222eb4b345328bfc9d74ea",
+      "verified": {
+        "best_record": null,
+        "buckets": {
+          "93-95": 65,
+          "96-98": 6
+        },
+        "verified": 71,
+        "winner": false
+      },
+      "wrapper_sha256": "d3a2a1bf2591e4672db25797c79b6091a8cf37a861ecd4e279895af5a72ee8a3"
+    },
+    {
+      "binary_sha256": "d6d136e1b4539de619da2e7a6358a8425927218ecc2cc46b52e44ca4197211ab",
+      "command": [
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/frozen/fixed-cubes-worker-v1/native/flip_worker_fixed_cubes",
+        "--input",
+        "artifacts/rl_campaign_20261102T210735Z/fixed2-long2/phase-002/input.txt",
+        "--output",
+        "artifacts/rl_campaign_20261102T210735Z/fixed2-long2/phase-002/walk",
+        "--n",
+        "5",
+        "--target",
+        "92",
+        "--max-rank",
+        "101",
+        "--seed",
+        "202615059",
+        "--steps",
+        "1000000000000",
+        "--seconds",
+        "599.7465519610014",
+        "--checkpoint-seconds",
+        "15",
+        "--archive-size",
+        "16",
+        "--archive-every",
+        "1000",
+        "--plus-every",
+        "50000",
+        "--restart-every",
+        "100000000",
+        "--cyclic",
+        "--fixed-cubes",
+        "2"
+      ],
+      "exit_code": 0,
+      "final_stats": {
+        "accepted_moves": 107528982,
+        "archive_additions": 100477,
+        "archive_every": 1000,
+        "archive_size": 16,
+        "best_fixed_cubes": 2,
+        "best_rank": 95,
+        "current_fixed_cubes": 2,
+        "current_rank": 95,
+        "cyclic": true,
+        "dimension": 5,
+        "elapsed_seconds": 599.749,
+        "engine": "native_f2_flips_fixed_cubes_v1",
+        "exact": true,
+        "flip_attempts": 137419758,
+        "history": [
+          {
+            "rank": 98,
+            "step": 0
+          },
+          {
+            "rank": 95,
+            "step": 7760
+          }
+        ],
+        "input": "artifacts/rl_campaign_20261102T210735Z/fixed2-long2/phase-002/input.txt",
+        "max_rank": 101,
+        "plus_attempts": 2748,
+        "plus_every": 50000,
+        "reduction_attempts": 100452182,
+        "rejected_moves": 130345706,
+        "required_fixed_cubes": 2,
+        "restart_every": 100000000,
+        "restarts": 2,
+        "seconds_budget": 599.747,
+        "seed": 202615059,
+        "step_budget": 1000000000000,
+        "steps": 237874688,
+        "stopped_by_signal": false,
+        "target_rank": 92,
+        "target_reached": false,
+        "tensor_invariant_checked": true
+      },
+      "headroom": 3,
+      "initial_inventory": {
+        "fixed_cube_masks": [
+          4096,
+          16777217
+        ],
+        "three_cycle_representatives": [
+          [
+            1,
+            16777232,
+            27033600
+          ],
+          [
+            2,
+            15028548,
+            5406720
+          ],
+          [
+            4,
+            4198404,
+            6186009
+          ],
+          [
+            6,
+            12865540,
+            5406720
+          ],
+          [
+            8,
+            28115776,
+            5248005
+          ],
+          [
+            10,
+            2162688,
+            160
+          ],
+          [
+            10,
+            2163520,
+            5248005
+          ],
+          [
+            12,
+            8650752,
+            5406720
+          ],
+          [
+            25,
+            16777216,
+            5248005
+          ],
+          [
+            320,
+            749916,
+            65600
+          ],
+          [
+            800,
+            524800,
+            2099202
+          ],
+          [
+            864,
+            524824,
+            10485760
+          ],
+          [
+            960,
+            159876,
+            10250
+          ],
+          [
+            1024,
+            16404,
+            4194308
+          ],
+          [
+            5124,
+            16384,
+            30277632
+          ],
+          [
+            16392,
+            11469760,
+            136196
+          ],
+          [
+            16394,
+            2163648,
+            136324
+          ],
+          [
+            16401,
+            16777220,
+            4199428
+          ],
+          [
+            24576,
+            994250,
+            131076
+          ],
+          [
+            26624,
+            68546,
+            131204
+          ],
+          [
+            65792,
+            65792,
+            262208
+          ],
+          [
+            66400,
+            524800,
+            29388828
+          ],
+          [
+            67650,
+            656000,
+            161796
+          ],
+          [
+            68450,
+            524804,
+            4225028
+          ],
+          [
+            75850,
+            656320,
+            159748
+          ],
+          [
+            262400,
+            327680,
+            327936
+          ],
+          [
+            524288,
+            29388828,
+            885600
+          ],
+          [
+            524289,
+            16777240,
+            11371360
+          ],
+          [
+            524292,
+            4222980,
+            895850
+          ],
+          [
+            524312,
+            10551360,
+            557920
+          ],
+          [
+            524314,
+            2162752,
+            557600
+          ],
+          [
+            524801,
+            16777242,
+            2163552
+          ]
+        ]
+      },
+      "initial_profile": {
+        "fixed_cubes": 2,
+        "three_cycles": 32
+      },
+      "initial_rank": 98,
+      "max_rank": 101,
+      "note": "C3 closure and exactly two fixed cubes enforced; cube factors may change",
+      "phase": 2,
+      "plus_every": 50000,
+      "profile": "fixed-cubes-long-v1",
+      "required_fixed_cubes": 2,
+      "restart_every": 100000000,
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/fixed2-profile-1-2/seeds/a124186b54e4fa007e61ffa703afacad1a7113a885ca89f801eb4ab0e804407b.json",
+      "source_sha256": "2d44de8537e49051bb0bc88466eeaffad03a8901bb222eb4b345328bfc9d74ea",
+      "verified": {
+        "best_record": null,
+        "buckets": {
+          "93-95": 66,
+          "96-98": 8
+        },
+        "verified": 74,
+        "winner": false
+      },
+      "wrapper_sha256": "d3a2a1bf2591e4672db25797c79b6091a8cf37a861ecd4e279895af5a72ee8a3"
+    }
+  ],
+  "verified": 74,
+  "winner": false
+}

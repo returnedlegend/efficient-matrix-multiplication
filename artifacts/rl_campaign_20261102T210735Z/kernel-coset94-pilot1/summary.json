@@ -1,0 +1,22 @@
+{
+  "attempted_moves": 3634561024,
+  "best_rank": 94,
+  "best_verified_rank": 94,
+  "current_rank": 98,
+  "derived_best_rank": 95,
+  "elapsed_seconds": 298.4028396740032,
+  "exit_code": 0,
+  "primary_candidate_path": null,
+  "primary_candidate_rank": null,
+  "raw_best_rank": 94,
+  "retained_per_rank": {
+    "100": 7,
+    "94": 1,
+    "97": 1,
+    "98": 5,
+    "99": 7
+  },
+  "scope": "Finite known kernel-circuit walk only; no global or restricted UNSAT claim.",
+  "verified": 21,
+  "winner": false
+}

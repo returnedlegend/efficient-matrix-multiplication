@@ -1,0 +1,542 @@
+{
+  "buckets": {
+    "93-95": 65,
+    "96-98": 16
+  },
+  "phases": [
+    {
+      "binary_sha256": "5f24facddefaeac03436dba1fc85bdfbb4273f676f946bfbe43661fb12a5e7cb",
+      "command": [
+        "/workspace/efficient-matrix-multiplication/native/flip_worker_cyclic",
+        "--input",
+        "artifacts/rl_campaign_20261102T210735Z/polarized1/phase-000/input.txt",
+        "--output",
+        "artifacts/rl_campaign_20261102T210735Z/polarized1/phase-000/walk",
+        "--n",
+        "5",
+        "--target",
+        "92",
+        "--max-rank",
+        "101",
+        "--seed",
+        "202611021",
+        "--steps",
+        "1000000000000",
+        "--seconds",
+        "600.0",
+        "--checkpoint-seconds",
+        "15",
+        "--archive-size",
+        "16",
+        "--archive-every",
+        "1000",
+        "--plus-every",
+        "100",
+        "--restart-every",
+        "50000",
+        "--cyclic"
+      ],
+      "exit_code": 0,
+      "final_stats": {
+        "accepted_moves": 164569879,
+        "archive_additions": 437,
+        "archive_every": 1000,
+        "archive_size": 16,
+        "best_rank": 93,
+        "current_rank": 93,
+        "cyclic": true,
+        "dimension": 5,
+        "elapsed_seconds": 600.002,
+        "engine": "native_f2_flips_v1",
+        "exact": true,
+        "flip_attempts": 166864520,
+        "history": [
+          {
+            "rank": 98,
+            "step": 0
+          },
+          {
+            "rank": 95,
+            "step": 1
+          },
+          {
+            "rank": 93,
+            "step": 840401
+          }
+        ],
+        "input": "artifacts/rl_campaign_20261102T210735Z/polarized1/phase-000/input.txt",
+        "max_rank": 101,
+        "plus_attempts": 1700264,
+        "plus_every": 100,
+        "reduction_attempts": 1535440,
+        "rejected_moves": 5530345,
+        "restart_every": 50000,
+        "restarts": 3402,
+        "seconds_budget": 600,
+        "seed": 202611021,
+        "step_budget": 1000000000000,
+        "steps": 170100224,
+        "stopped_by_signal": false,
+        "target_rank": 92,
+        "target_reached": false,
+        "tensor_invariant_checked": true
+      },
+      "initial_inventory": {
+        "fixed_cube_masks": [
+          262208,
+          16781313
+        ],
+        "three_cycle_representatives": [
+          [
+            4,
+            4198404,
+            844825
+          ],
+          [
+            7,
+            16793936,
+            27033600
+          ],
+          [
+            8,
+            11338560,
+            168965
+          ],
+          [
+            10,
+            832,
+            26240025
+          ],
+          [
+            10,
+            2162688,
+            169125
+          ],
+          [
+            17,
+            16777216,
+            5248005
+          ],
+          [
+            64,
+            262400,
+            327680
+          ],
+          [
+            800,
+            524800,
+            31488030
+          ],
+          [
+            864,
+            524824,
+            10485760
+          ],
+          [
+            960,
+            159876,
+            10250
+          ],
+          [
+            1024,
+            16404,
+            4194308
+          ],
+          [
+            4096,
+            4096,
+            16777217
+          ],
+          [
+            4096,
+            16777217,
+            16777217
+          ],
+          [
+            16384,
+            30277632,
+            70722
+          ],
+          [
+            16392,
+            11469760,
+            136196
+          ],
+          [
+            16394,
+            2163648,
+            136324
+          ],
+          [
+            16401,
+            16777220,
+            4199428
+          ],
+          [
+            24576,
+            994250,
+            131076
+          ],
+          [
+            26624,
+            68546,
+            131204
+          ],
+          [
+            65601,
+            16793616,
+            27033600
+          ],
+          [
+            65602,
+            541184,
+            5406720
+          ],
+          [
+            65607,
+            16777552,
+            27033600
+          ],
+          [
+            65610,
+            525120,
+            26406940
+          ],
+          [
+            67650,
+            656000,
+            161796
+          ],
+          [
+            68450,
+            524804,
+            4225028
+          ],
+          [
+            75850,
+            656320,
+            159748
+          ],
+          [
+            524288,
+            29388828,
+            885610
+          ],
+          [
+            524289,
+            16777240,
+            11371360
+          ],
+          [
+            524292,
+            4222980,
+            895850
+          ],
+          [
+            524312,
+            10551360,
+            557920
+          ],
+          [
+            524314,
+            2162752,
+            557600
+          ],
+          [
+            524801,
+            16777242,
+            2163552
+          ]
+        ]
+      },
+      "initial_profile": {
+        "fixed_cubes": 2,
+        "three_cycles": 32
+      },
+      "initial_rank": 98,
+      "max_rank": 101,
+      "note": "C3 closure enforced; fixed cube inventory is not constrained",
+      "phase": 0,
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/polarized/seeds/b9d23692f77058006ee9d5cd5856827223a058eb65f43be142946ed4adb4a2ad.json",
+      "source_sha256": "ebcd46053feaf1a8e4874440dfe97e65d6adfb654b9f072ea25ff6f9821ef797",
+      "verified": {
+        "best_record": null,
+        "buckets": {
+          "93-95": 64,
+          "96-98": 14
+        },
+        "verified": 78,
+        "winner": false
+      },
+      "wrapper_sha256": "97f48ff0d704df944806f9f65d7db3c1466bcefeafd5c96deef578c89d9c06dd"
+    },
+    {
+      "binary_sha256": "5f24facddefaeac03436dba1fc85bdfbb4273f676f946bfbe43661fb12a5e7cb",
+      "command": [
+        "/workspace/efficient-matrix-multiplication/native/flip_worker_cyclic",
+        "--input",
+        "artifacts/rl_campaign_20261102T210735Z/polarized1/phase-001/input.txt",
+        "--output",
+        "artifacts/rl_campaign_20261102T210735Z/polarized1/phase-001/walk",
+        "--n",
+        "5",
+        "--target",
+        "92",
+        "--max-rank",
+        "104",
+        "--seed",
+        "202612030",
+        "--steps",
+        "1000000000000",
+        "--seconds",
+        "600.0",
+        "--checkpoint-seconds",
+        "15",
+        "--archive-size",
+        "16",
+        "--archive-every",
+        "1000",
+        "--plus-every",
+        "250",
+        "--restart-every",
+        "200000",
+        "--cyclic"
+      ],
+      "exit_code": 0,
+      "final_stats": {
+        "accepted_moves": 24151416,
+        "archive_additions": 68,
+        "archive_every": 1000,
+        "archive_size": 16,
+        "best_rank": 93,
+        "current_rank": 93,
+        "cyclic": true,
+        "dimension": 5,
+        "elapsed_seconds": 85.4111,
+        "engine": "native_f2_flips_v1",
+        "exact": true,
+        "flip_attempts": 25492852,
+        "history": [
+          {
+            "rank": 98,
+            "step": 0
+          },
+          {
+            "rank": 95,
+            "step": 1
+          },
+          {
+            "rank": 93,
+            "step": 1622751
+          }
+        ],
+        "input": "artifacts/rl_campaign_20261102T210735Z/polarized1/phase-001/input.txt",
+        "max_rank": 104,
+        "plus_attempts": 102773,
+        "plus_every": 250,
+        "reduction_attempts": 98914,
+        "rejected_moves": 1543123,
+        "restart_every": 200000,
+        "restarts": 128,
+        "seconds_budget": 600,
+        "seed": 202612030,
+        "step_budget": 1000000000000,
+        "steps": 25694539,
+        "stopped_by_signal": true,
+        "target_rank": 92,
+        "target_reached": false,
+        "tensor_invariant_checked": true
+      },
+      "initial_inventory": {
+        "fixed_cube_masks": [
+          4096,
+          17039425
+        ],
+        "three_cycle_representatives": [
+          [
+            4,
+            4198404,
+            844825
+          ],
+          [
+            7,
+            16793936,
+            27033600
+          ],
+          [
+            8,
+            11338560,
+            168965
+          ],
+          [
+            10,
+            832,
+            26240025
+          ],
+          [
+            10,
+            2162688,
+            169125
+          ],
+          [
+            17,
+            16777216,
+            5248005
+          ],
+          [
+            64,
+            262400,
+            327680
+          ],
+          [
+            800,
+            524800,
+            31488030
+          ],
+          [
+            864,
+            524824,
+            10485760
+          ],
+          [
+            960,
+            159876,
+            10250
+          ],
+          [
+            1024,
+            16404,
+            4194308
+          ],
+          [
+            16384,
+            30277632,
+            70722
+          ],
+          [
+            16392,
+            11469760,
+            136196
+          ],
+          [
+            16394,
+            2163648,
+            136324
+          ],
+          [
+            16401,
+            16777220,
+            4199428
+          ],
+          [
+            24576,
+            994250,
+            131076
+          ],
+          [
+            26624,
+            68546,
+            131204
+          ],
+          [
+            65601,
+            16793616,
+            27033600
+          ],
+          [
+            65602,
+            541184,
+            5406720
+          ],
+          [
+            65607,
+            16777552,
+            27033600
+          ],
+          [
+            65610,
+            525120,
+            26406940
+          ],
+          [
+            67650,
+            656000,
+            161796
+          ],
+          [
+            68450,
+            524804,
+            4225028
+          ],
+          [
+            75850,
+            656320,
+            159748
+          ],
+          [
+            262208,
+            262208,
+            16777217
+          ],
+          [
+            262208,
+            16777217,
+            16777217
+          ],
+          [
+            524288,
+            29388828,
+            885610
+          ],
+          [
+            524289,
+            16777240,
+            11371360
+          ],
+          [
+            524292,
+            4222980,
+            895850
+          ],
+          [
+            524312,
+            10551360,
+            557920
+          ],
+          [
+            524314,
+            2162752,
+            557600
+          ],
+          [
+            524801,
+            16777242,
+            2163552
+          ]
+        ]
+      },
+      "initial_profile": {
+        "fixed_cubes": 2,
+        "three_cycles": 32
+      },
+      "initial_rank": 98,
+      "max_rank": 104,
+      "note": "C3 closure enforced; fixed cube inventory is not constrained",
+      "phase": 1,
+      "source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/polarized/seeds/e1f657392e55e3f844319e466dd71ce2f365a003b1e557c193d0b04b3cc78ab2.json",
+      "source_sha256": "b4aeae81f6524c5b407c0c04b23d3283fbc3100ecf006164f3b2bfff5848d25a",
+      "verified": {
+        "best_record": null,
+        "buckets": {
+          "93-95": 65,
+          "96-98": 16
+        },
+        "verified": 81,
+        "winner": false
+      },
+      "wrapper_sha256": "97f48ff0d704df944806f9f65d7db3c1466bcefeafd5c96deef578c89d9c06dd"
+    }
+  ],
+  "verified": 81,
+  "winner": false
+}

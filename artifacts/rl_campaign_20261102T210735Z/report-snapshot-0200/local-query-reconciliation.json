@@ -1,0 +1,64 @@
+{
+  "local-fixed-pair1": {
+    "planned_unique_neighborhoods": 156,
+    "resolved_unique_unsat": 149,
+    "unresolved_unique": 7,
+    "solver_queries": 170,
+    "query_status_counts": {
+      "LOCAL_UNSAT": 149,
+      "UNKNOWN": 21
+    },
+    "derivation": "The frozen runner skips terminal neighborhoods on later passes; only unresolved UNKNOWN neighborhoods retry. Counts of terminal UNSAT are unique; UNKNOWN counts are queries.",
+    "evidence": [
+      {
+        "path": "artifacts/rl_campaign_20261102T210735Z/local-fixed-pair1/result.json",
+        "sha256": "e428adffec1da067ade625afc634bf8e1ebf4c0a609bf3d5a3335e31851ea2ad"
+      },
+      {
+        "path": "artifacts/rl_campaign_20261102T210735Z/local-fixed-pair1/neighborhoods.json",
+        "sha256": "171ef12e3738c07e11247412e8f2d2bd1742e03db650b49bdac57e02283f3150"
+      }
+    ]
+  },
+  "local-fixed-pair-ae931": {
+    "planned_unique_neighborhoods": 153,
+    "resolved_unique_unsat": 153,
+    "unresolved_unique": 0,
+    "solver_queries": 153,
+    "query_status_counts": {
+      "LOCAL_UNSAT": 153
+    },
+    "derivation": "The frozen runner skips terminal neighborhoods on later passes; only unresolved UNKNOWN neighborhoods retry. Counts of terminal UNSAT are unique; UNKNOWN counts are queries.",
+    "evidence": [
+      {
+        "path": "artifacts/rl_campaign_20261102T210735Z/local-fixed-pair-ae931/result.json",
+        "sha256": "d943cbbddaacb41d1c4c275573b6365d8159725f9d46eac4662dd5418c9ee632"
+      },
+      {
+        "path": "artifacts/rl_campaign_20261102T210735Z/local-fixed-pair-ae931/neighborhoods.json",
+        "sha256": "53cbc7c4d839a7582e3c9672693cc2db270249641bab01e324f9ccedb0626ff5"
+      }
+    ]
+  },
+  "local-fixed-pair-public0151": {
+    "planned_unique_neighborhoods": 157,
+    "resolved_unique_unsat": 156,
+    "unresolved_unique": 1,
+    "solver_queries": 159,
+    "query_status_counts": {
+      "LOCAL_UNSAT": 156,
+      "UNKNOWN": 3
+    },
+    "derivation": "The frozen runner skips terminal neighborhoods on later passes; only unresolved UNKNOWN neighborhoods retry. Counts of terminal UNSAT are unique; UNKNOWN counts are queries.",
+    "evidence": [
+      {
+        "path": "artifacts/rl_campaign_20261102T210735Z/local-fixed-pair-public0151/result.json",
+        "sha256": "d7df216d4bafc7079a76ee9f4c6d6b23c67ab89fec75ca3de8a9e05832f951b3"
+      },
+      {
+        "path": "artifacts/rl_campaign_20261102T210735Z/local-fixed-pair-public0151/neighborhoods.json",
+        "sha256": "bde07b8151a3ed43d484ed84fea9535b5ca033a07fcc954ce1d003c0cebb6f48"
+      }
+    ]
+  }
+}

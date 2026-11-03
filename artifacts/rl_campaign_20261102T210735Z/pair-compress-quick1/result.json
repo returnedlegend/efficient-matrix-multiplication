@@ -1,0 +1,18 @@
+{
+  "best_rank": 93,
+  "claim": "exact F2 active-column reductions only; rank93 is not novel; full column rank is not a global negative or minimality proof",
+  "counts": {
+    "DUPLICATE_RAW_INPUT": 1,
+    "ERROR": 15,
+    "NONCERTIFICATE": 32,
+    "VERIFIED": 58
+  },
+  "discovered_paths": 155,
+  "elapsed_seconds": 20.036390390003362,
+  "fresh_sources": 58,
+  "implementation_sha256": "3e0e48f5dc8c93f9492fe33f48ce91c0e5c7b8577759a472fd2d952d3dbe5e91",
+  "recorded_paths": 106,
+  "status": "ERROR",
+  "stop_reason": "time budget reached",
+  "winner": false
+}

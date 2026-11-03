@@ -1,0 +1,28 @@
+{
+  "elapsed_seconds": 1798.166634868001,
+  "phases": [
+    {
+      "exit_code": 0,
+      "global_best_rank": 93,
+      "phase": 0,
+      "residual_best_rank": 90
+    },
+    {
+      "exit_code": 0,
+      "global_best_rank": 93,
+      "phase": 1,
+      "residual_best_rank": 90
+    },
+    {
+      "exit_code": 0,
+      "global_best_rank": 93,
+      "phase": 2,
+      "residual_best_rank": 90
+    }
+  ],
+  "retained_per_rank": {
+    "93": 32
+  },
+  "stopped": false,
+  "winner": false
+}

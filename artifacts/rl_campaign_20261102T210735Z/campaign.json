@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-11-02T21:07:35Z",
+  "deadline_utc": "2026-11-03T03:07:35Z",
+  "state": "completed",
+  "max_cpu_cores": 4,
+  "max_ram_gib": 8,
+  "target_rank": 92,
+  "field": 2,
+  "goal": "exact5x5F2multiplication belowbestaccessibleverified93; any lowercountqualifies",
+  "publication_authorized": false,
+  "external_paid_compute_authorized": false,
+  "initial_slots": {
+    "0": "learnednativeoperatorpolicy",
+    "1": "randomoperatorcontrol",
+    "2": "cyclicnativebaseline",
+    "3": "exactSAT/dictionaryportfolio"
+  },
+  "stop_reason": "budget_exhausted",
+  "completed_utc": "2026-11-03T03:08:38.311173+00:00",
+  "best_verified_products": 93,
+  "record_beating_candidate_found": false
+}

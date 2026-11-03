@@ -1,0 +1,27 @@
+{
+  "command": [
+    "env",
+    "OMP_NUM_THREADS=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "MKL_NUM_THREADS=1",
+    "PYTHONPATH=.xor-deps:.",
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-q"
+  ],
+  "started_utc": "2026-11-03T02:33:51.199158+00:00",
+  "pid": 150927,
+  "cpu": 3,
+  "memory_mb": 2048,
+  "wall_seconds": 300,
+  "exit_code": 0,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 14.013802335997752,
+  "cpu_seconds": 11.687874,
+  "max_rss_kib": 204452
+}

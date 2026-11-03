@@ -1,0 +1,10 @@
+{
+  "best_derived_rank": null,
+  "events": [],
+  "matches": 0,
+  "method": "inverse exact binary cubic polarization",
+  "scope": "Only explicit cube plus paired repeated-factor cyclic-orbit patterns; failure is not rank lower bound",
+  "sources_considered": 65,
+  "utc": "2026-11-03T01:55:31.731723+00:00",
+  "winner": false
+}

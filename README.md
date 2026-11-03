@@ -1,5 +1,12 @@
 # Exact 5×5 matrix multiplication research
 
+The completed [six-hour adaptive search campaign](research/rl/SIX_HOUR_REPORT_20261103.md)
+used a NumPy actor-critic to select exact native moves, with independent exact
+verification. Best verified count remained **93 over F₂**; no rank-92 result
+was found, and the final suite passed **390 tests**. See the
+[RL requirements](requirements-rl.txt), [reproduction instructions](research/rl/REPRODUCING.md)
+and [publication bundle notes](research/rl/PUBLISHING.md).
+
 The complete historical outputs are supplied in a checksum-verified archive.
 Run `python3 scripts/results_archive.py restore` before replaying campaign
 reports or using the full seed portfolio. See [archive instructions](research/RESULTS_ARCHIVE.md).

@@ -1,0 +1,11 @@
+{
+  "bucket": "93-95",
+  "orbit_profile": {
+    "fixed_cubes": 2,
+    "three_cycles": 31
+  },
+  "path": "artifacts/rl_campaign_20261102T210735Z/fixed2-long3/verified/8295667e6104543bb3c855727e9c460a85cbdfda00f4bc29d04721c387746f4b.json",
+  "rank": 95,
+  "sha256": "decc049cb05f08690d4e253805db3b20998c328e6b05605df660623f61ec5ac8",
+  "verification_path": "artifacts/rl_campaign_20261102T210735Z/fixed2-long3/verification/8295667e6104543bb3c855727e9c460a85cbdfda00f4bc29d04721c387746f4b.verification.json"
+}

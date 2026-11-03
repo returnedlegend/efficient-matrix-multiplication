@@ -1,0 +1,27 @@
+{
+  "attempts": 129,
+  "counters": {
+    "UNKNOWN": 129,
+    "duplicate_cnfs": 3,
+    "flattening_rejected": 30,
+    "koszul_checked": 248,
+    "koszul_passed": 132,
+    "koszul_preprocessing_seconds": 6.7318330770067405,
+    "koszul_rejected": 116,
+    "orientation_evaluations": 166,
+    "orientation_rejections": 38,
+    "orientation_seconds": 1.3402339260137524,
+    "orientation_skipped_after_original": 78,
+    "p2_all_modes_skipped": 0,
+    "p2_evaluations": 200,
+    "p2_rejections": 34,
+    "p2_seconds": 1.071378360993549,
+    "p2_skipped_after_p1": 44,
+    "proposals": 257
+  },
+  "elapsed_seconds": 1800.1145895629998,
+  "event": "summary",
+  "found": null,
+  "scope": "local frozen neighborhood only; UNSAT is not a global rank lower bound",
+  "sources": 130
+}

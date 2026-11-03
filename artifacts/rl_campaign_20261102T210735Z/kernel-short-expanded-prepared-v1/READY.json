@@ -1,0 +1,23 @@
+{
+  "added": 254,
+  "added_dimensions": 87,
+  "baseline_rank": 93,
+  "binary_sha256": "5372babc2b28eb8adb8912b2fbf8586127770752aa67c4a8cba3e7d2deb65fdf",
+  "elapsed_seconds": 6.1010511400018,
+  "frozen_v2_prepared_compatibility": "PASS",
+  "full_kernel_dimension": 1165,
+  "full_tensor_entries_checked": 15625,
+  "initial_headroom6_admissible_added_moves": 181,
+  "job_path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/kernel-short-expanded-prepared-v1/job.json",
+  "math_source_changed": false,
+  "native_source_or_binary_changed": false,
+  "new_circuits": 9262,
+  "new_span": 1096,
+  "old_circuits": 9008,
+  "old_span": 1009,
+  "preparation_sha256": "5e7f7eb578cac08e9d07842c5c58818c93af640ba92876c542fa8611ef839add",
+  "scope": "Known kernel moves with 87 measured new dimensions; residual deficiency69; failure is never UNSAT.",
+  "status": "READY",
+  "wrapper_sha256": "874784cb9b3e44d5a5ea67075f8c864751aebdd7a1918eecc0990659b1601125",
+  "zero_step_native_control": "PASS"
+}

@@ -1,0 +1,423 @@
+{
+  "arms": {
+    "frozenwarm": {
+      "attempted_moves": 3634918,
+      "censored": 9,
+      "cpu_seconds": 12.241856826000001,
+      "matched_episodes": 64,
+      "successes": 55
+    },
+    "learned": {
+      "attempted_moves": 4385680,
+      "censored": 11,
+      "cpu_seconds": 13.896054911000002,
+      "matched_episodes": 64,
+      "successes": 53
+    },
+    "random": {
+      "attempted_moves": 4141940,
+      "censored": 13,
+      "cpu_seconds": 12.951811525000005,
+      "matched_episodes": 64,
+      "successes": 51
+    }
+  },
+  "base_seed": 721101,
+  "buckets": {
+    "delayed_control": {
+      "frozenwarm": {
+        "attempted_moves": 402438,
+        "cpu_seconds": 3.1991170160000024,
+        "matched_episodes": 32,
+        "successes": 32
+      },
+      "learned": {
+        "attempted_moves": 864582,
+        "cpu_seconds": 4.008197476000004,
+        "matched_episodes": 32,
+        "successes": 31
+      },
+      "random": {
+        "attempted_moves": 492562,
+        "cpu_seconds": 3.3650692580000023,
+        "matched_episodes": 32,
+        "successes": 32
+      }
+    },
+    "hard_unknown": {
+      "frozenwarm": {
+        "attempted_moves": 3232480,
+        "cpu_seconds": 9.042739809999999,
+        "matched_episodes": 32,
+        "successes": 23
+      },
+      "learned": {
+        "attempted_moves": 3521098,
+        "cpu_seconds": 9.887857434999999,
+        "matched_episodes": 32,
+        "successes": 22
+      },
+      "random": {
+        "attempted_moves": 3649378,
+        "cpu_seconds": 9.586742267000004,
+        "matched_episodes": 32,
+        "successes": 19
+      }
+    }
+  },
+  "comparison_with_previous_v4_audit": {
+    "final_minus_prior": {
+      "frozenwarm": {
+        "attempted_moves_difference": 0,
+        "both_censored": 9,
+        "both_success": 55,
+        "cpu_seconds_difference": 0.010735315000019341,
+        "left_only_success": 0,
+        "matched_episodes": 64,
+        "mean_paired_attempts_difference": 0,
+        "mean_paired_cpu_difference": 0.00016773929687530394,
+        "right_only_success": 0,
+        "success_difference": 0
+      },
+      "learned": {
+        "attempted_moves_difference": 373531,
+        "both_censored": 3,
+        "both_success": 45,
+        "cpu_seconds_difference": 0.5627467980000134,
+        "left_only_success": 8,
+        "matched_episodes": 64,
+        "mean_paired_attempts_difference": 5836.421875,
+        "mean_paired_cpu_difference": 0.008792918718750212,
+        "right_only_success": 8,
+        "success_difference": 0
+      },
+      "random": {
+        "attempted_moves_difference": 0,
+        "both_censored": 13,
+        "both_success": 51,
+        "cpu_seconds_difference": -0.5775991719999976,
+        "left_only_success": 0,
+        "matched_episodes": 64,
+        "mean_paired_attempts_difference": 0,
+        "mean_paired_cpu_difference": -0.009024987062499946,
+        "right_only_success": 0,
+        "success_difference": 0
+      }
+    },
+    "prior_arms": {
+      "frozenwarm": {
+        "attempted_moves": 3634918,
+        "censored": 9,
+        "cpu_seconds": 12.231121510999982,
+        "matched_episodes": 64,
+        "successes": 55
+      },
+      "learned": {
+        "attempted_moves": 4012149,
+        "censored": 11,
+        "cpu_seconds": 13.333308112999989,
+        "matched_episodes": 64,
+        "successes": 53
+      },
+      "random": {
+        "attempted_moves": 4141940,
+        "censored": 13,
+        "cpu_seconds": 13.529410697000003,
+        "matched_episodes": 64,
+        "successes": 51
+      }
+    },
+    "prior_buckets": {
+      "delayed_control": {
+        "frozenwarm": {
+          "attempted_moves": 402438,
+          "cpu_seconds": 3.3708770479999886,
+          "matched_episodes": 32,
+          "successes": 32
+        },
+        "learned": {
+          "attempted_moves": 536982,
+          "cpu_seconds": 3.6705755219999934,
+          "matched_episodes": 32,
+          "successes": 32
+        },
+        "random": {
+          "attempted_moves": 492562,
+          "cpu_seconds": 3.6751042790000006,
+          "matched_episodes": 32,
+          "successes": 32
+        }
+      },
+      "hard_unknown": {
+        "frozenwarm": {
+          "attempted_moves": 3232480,
+          "cpu_seconds": 8.860244462999994,
+          "matched_episodes": 32,
+          "successes": 23
+        },
+        "learned": {
+          "attempted_moves": 3475167,
+          "cpu_seconds": 9.662732590999996,
+          "matched_episodes": 32,
+          "successes": 21
+        },
+        "random": {
+          "attempted_moves": 3649378,
+          "cpu_seconds": 9.854306418000002,
+          "matched_episodes": 32,
+          "successes": 19
+        }
+      }
+    },
+    "same_64_task_seed_budget_pairs": true
+  },
+  "complete_triplets": 64,
+  "created_utc": "2026-11-03T03:01:03.936274+00:00",
+  "evaluated_snapshot_asof_utc": "2026-11-03T02:54:24Z",
+  "format": "final-frozen-policy-evaluation-analysis-v1",
+  "heldout_hashes": [
+    "009ae6f1a6d0540fca8e58a28f27aeeed820cc2f9f89c3d38efd6a96baf0292e",
+    "9d471b33455fa936526407133a0195a75f1f610b0e60ca520fbff66874c2b418",
+    "e7d96d2a6e0b0d5510aa6309dc17a80e214cdd38f7e4f90d80223884bb363880",
+    "fa022e0f1258e46d22c2c93b7c9e07e23838d3522f767f657e53cbdd592fa44f"
+  ],
+  "heldout_tasks": 4,
+  "identities": {
+    "frozenwarm": {
+      "all_episode_training_flags_false": true,
+      "all_episode_weight_hashes_match_and_unchanged": true,
+      "checkpoint_bytes_match": true,
+      "checkpoint_sha256": "0374e03c8ae92edd3eaed31193d1a437a92dc3a67430550ce91cfdf04776f23b",
+      "checkpoint_steps": 0,
+      "contextual_weight_sha256": "97f4523e4e6cc9cd2b5facb5335fe0bc10a3ebf48357971bbf7eaee20f7dfc2d",
+      "updates_before_after": 686,
+      "warm_context_rows_appended": true
+    },
+    "learned": {
+      "all_episode_training_flags_false": true,
+      "all_episode_weight_hashes_match_and_unchanged": true,
+      "checkpoint_bytes_match": true,
+      "checkpoint_sha256": "dc3ef6139dc997472bc28eb47f71406c5549617e23d1316ac8694880c7a104eb",
+      "checkpoint_steps": 6612,
+      "contextual_weight_sha256": "4477d17450eb04afce47212451c66ec014debc7d49f66716b028e232a0d27182",
+      "updates_before_after": 22861,
+      "warm_context_rows_appended": false
+    },
+    "random": {
+      "all_episode_training_flags_false": true,
+      "all_episode_weight_hashes_match_and_unchanged": true,
+      "checkpoint_bytes_match": true,
+      "checkpoint_sha256": "0374e03c8ae92edd3eaed31193d1a437a92dc3a67430550ce91cfdf04776f23b",
+      "checkpoint_steps": 0,
+      "contextual_weight_sha256": "97f4523e4e6cc9cd2b5facb5335fe0bc10a3ebf48357971bbf7eaee20f7dfc2d",
+      "updates_before_after": 686,
+      "warm_context_rows_appended": true
+    }
+  },
+  "inputs": {
+    "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/final-policy-evaluation-inputs/checkpoint.snapshot.json": {
+      "bytes": 5438560,
+      "sha256": "dc3ef6139dc997472bc28eb47f71406c5549617e23d1316ac8694880c7a104eb"
+    },
+    "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/warm/checkpoint.json": {
+      "bytes": 91583,
+      "sha256": "0374e03c8ae92edd3eaed31193d1a437a92dc3a67430550ce91cfdf04776f23b"
+    },
+    "artifacts/rl_campaign_20261102T210735Z/eval-final/results.json": {
+      "bytes": 162625,
+      "sha256": "b246bf0d2963e97ae381ef6f71b3afe5e5ea1c77a12cc3e0dd2889ad2c24e42b"
+    },
+    "artifacts/rl_campaign_20261102T210735Z/eval-final/summary.json": {
+      "bytes": 3474,
+      "sha256": "1d06499d84e21ccd7f79f7c9a137bc6e5048a5d7863d7e2e1ea0f4661d0027c5"
+    },
+    "artifacts/rl_campaign_20261102T210735Z/eval-v4-audit-0100/results.json": {
+      "bytes": 162573,
+      "sha256": "a6507412eef5daf3be647cd0017ec2b7a5f3ba55392f8a713c505654774323f0"
+    },
+    "artifacts/rl_campaign_20261102T210735Z/eval-v4-audit-0100/summary.json": {
+      "bytes": 3473,
+      "sha256": "40c21e074ff75573d6609cfa07e6c9f53f3ab474f6dedba5bcec27eeb722d367"
+    },
+    "artifacts/rl_campaign_20261102T210735Z/queue.json": {
+      "bytes": 134654,
+      "sha256": "0cf5a1c48fb2f9b07af89b071a07509f5e3ca83543948a35f41b1dc3477f8c0a"
+    }
+  },
+  "learned_vs_random": {
+    "attempted_moves_difference": 243740,
+    "both_censored": 4,
+    "both_success": 44,
+    "cpu_seconds_difference": 0.9442433859999966,
+    "left_only_success": 9,
+    "matched_episodes": 64,
+    "mean_paired_attempts_difference": 3808.4375,
+    "mean_paired_cpu_difference": 0.014753802906249938,
+    "right_only_success": 7,
+    "success_difference": 2
+  },
+  "learned_vs_warm": {
+    "attempted_moves_difference": 750762,
+    "both_censored": 5,
+    "both_success": 49,
+    "cpu_seconds_difference": 1.6541980850000009,
+    "left_only_success": 4,
+    "matched_episodes": 64,
+    "mean_paired_attempts_difference": 11730.65625,
+    "mean_paired_cpu_difference": 0.025846845078125017,
+    "right_only_success": 6,
+    "success_difference": -2
+  },
+  "methods": {
+    "budget": "Same maximum 4 actions x 50000 native attempts/action, early stop on success. Actual attempts and CPU may differ.",
+    "identity": "Independently recomputed file and contextual-parameter SHA256. Warm 18-feature checkpoint is padded with two zero-weight rows exactly as evaluator does. All per-episode before/after weights and training=false checked; summary before/after update counts checked. No replay or fitting.",
+    "pairs": "Complete three-arm triplets only. Verify same task_hash/repeat/seed/input rank/known rank/action cap/native-step cap within and across evaluations. Includes both successes and capped failures; no success-only cost conditioning.",
+    "timing": "CPU totals describe matched episodes within each evaluation; cross-run wall/CPU changes are not causal runtime comparisons."
+  },
+  "per_task": {
+    "009ae6f1a6d0540fca8e58a28f27aeeed820cc2f9f89c3d38efd6a96baf0292e": {
+      "bucket": "delayed_control",
+      "learned_vs_random": {
+        "attempted_moves_difference": 267499,
+        "both_censored": 0,
+        "both_success": 15,
+        "cpu_seconds_difference": 0.4704371490000012,
+        "left_only_success": 0,
+        "matched_episodes": 16,
+        "mean_paired_attempts_difference": 16718.6875,
+        "mean_paired_cpu_difference": 0.02940232181250007,
+        "right_only_success": 1,
+        "success_difference": -1
+      },
+      "learned_vs_warm": {
+        "attempted_moves_difference": 297885,
+        "both_censored": 0,
+        "both_success": 15,
+        "cpu_seconds_difference": 0.5619967540000013,
+        "left_only_success": 0,
+        "matched_episodes": 16,
+        "mean_paired_attempts_difference": 18617.8125,
+        "mean_paired_cpu_difference": 0.035124797125000065,
+        "right_only_success": 1,
+        "success_difference": -1
+      },
+      "successes": {
+        "frozenwarm": 16,
+        "learned": 15,
+        "random": 16
+      }
+    },
+    "9d471b33455fa936526407133a0195a75f1f610b0e60ca520fbff66874c2b418": {
+      "bucket": "delayed_control",
+      "learned_vs_random": {
+        "attempted_moves_difference": 104521,
+        "both_censored": 0,
+        "both_success": 16,
+        "cpu_seconds_difference": 0.17269106899999986,
+        "left_only_success": 0,
+        "matched_episodes": 16,
+        "mean_paired_attempts_difference": 6532.5625,
+        "mean_paired_cpu_difference": 0.01079319181249999,
+        "right_only_success": 0,
+        "success_difference": 0
+      },
+      "learned_vs_warm": {
+        "attempted_moves_difference": 164259,
+        "both_censored": 0,
+        "both_success": 16,
+        "cpu_seconds_difference": 0.24708370600000018,
+        "left_only_success": 0,
+        "matched_episodes": 16,
+        "mean_paired_attempts_difference": 10266.1875,
+        "mean_paired_cpu_difference": 0.015442731625000011,
+        "right_only_success": 0,
+        "success_difference": 0
+      },
+      "successes": {
+        "frozenwarm": 16,
+        "learned": 16,
+        "random": 16
+      }
+    },
+    "e7d96d2a6e0b0d5510aa6309dc17a80e214cdd38f7e4f90d80223884bb363880": {
+      "bucket": "hard_unknown",
+      "learned_vs_random": {
+        "attempted_moves_difference": 67224,
+        "both_censored": 2,
+        "both_success": 6,
+        "cpu_seconds_difference": 0.6506357989999998,
+        "left_only_success": 4,
+        "matched_episodes": 16,
+        "mean_paired_attempts_difference": 4201.5,
+        "mean_paired_cpu_difference": 0.040664737437499945,
+        "right_only_success": 4,
+        "success_difference": 0
+      },
+      "learned_vs_warm": {
+        "attempted_moves_difference": 143862,
+        "both_censored": 3,
+        "both_success": 8,
+        "cpu_seconds_difference": 0.4960032450000078,
+        "left_only_success": 2,
+        "matched_episodes": 16,
+        "mean_paired_attempts_difference": 8991.375,
+        "mean_paired_cpu_difference": 0.031000202812500457,
+        "right_only_success": 3,
+        "success_difference": -1
+      },
+      "successes": {
+        "frozenwarm": 11,
+        "learned": 10,
+        "random": 10
+      }
+    },
+    "fa022e0f1258e46d22c2c93b7c9e07e23838d3522f767f657e53cbdd592fa44f": {
+      "bucket": "hard_unknown",
+      "learned_vs_random": {
+        "attempted_moves_difference": -195504,
+        "both_censored": 2,
+        "both_success": 7,
+        "cpu_seconds_difference": -0.3495206310000043,
+        "left_only_success": 5,
+        "matched_episodes": 16,
+        "mean_paired_attempts_difference": -12219,
+        "mean_paired_cpu_difference": -0.02184503943750025,
+        "right_only_success": 2,
+        "success_difference": 3
+      },
+      "learned_vs_warm": {
+        "attempted_moves_difference": 144756,
+        "both_censored": 2,
+        "both_success": 10,
+        "cpu_seconds_difference": 0.3491143799999925,
+        "left_only_success": 2,
+        "matched_episodes": 16,
+        "mean_paired_attempts_difference": 9047.25,
+        "mean_paired_cpu_difference": 0.02181964874999954,
+        "right_only_success": 2,
+        "success_difference": 0
+      },
+      "successes": {
+        "frozenwarm": 12,
+        "learned": 12,
+        "random": 9
+      }
+    }
+  },
+  "pool_sha256": "4c407ce12d57274a150860a1ea6e4a113721a9707ebad54f12b8fd024f2b4a0e",
+  "record": null,
+  "record_target_reports": 0,
+  "rows": 192,
+  "scope_limits": [
+    "This evaluates the frozen 02:54:24 snapshot only: 22861 updates/6612 main steps. Training continued separately; later/final training weights were not assessed here.",
+    "Same 4 filtered held-out tasks repeated 16 seeds, including only 2 hard tasks; repeated diagnostics do not supply a broad independent generalization sample.",
+    "Final 53/55/51 equals prior aggregate counts, but success identities and bucket split can differ. A few paired changes establish neither causal gain nor reliable regression.",
+    "These are recoveries of known rank 93. No record reported, no winner, no inferred improvement toward rank 92.",
+    "Current live random-record allocation differs from learned, but this matched frozen evaluator uses equal recovery episode budgets across arms."
+  ],
+  "validation": {
+    "cpu_total_tolerance": 1e-09,
+    "record_and_winner_rechecked_absent": true,
+    "summary_totals_recomputed_from_complete_rows": true
+  }
+}

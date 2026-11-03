@@ -1,0 +1,115 @@
+{
+  "all_rows": 12,
+  "arms": {
+    "frozenwarm": {
+      "attempted_moves": 300619,
+      "censored": 1,
+      "cpu_seconds": 0.827862514,
+      "matched_episodes": 4,
+      "successes": 3
+    },
+    "learned": {
+      "attempted_moves": 305600,
+      "censored": 1,
+      "cpu_seconds": 0.8586017100000001,
+      "matched_episodes": 4,
+      "successes": 3
+    },
+    "random": {
+      "attempted_moves": 440452,
+      "censored": 2,
+      "cpu_seconds": 1.081982054,
+      "matched_episodes": 4,
+      "successes": 2
+    }
+  },
+  "buckets": {
+    "delayed_control": {
+      "frozenwarm": {
+        "attempted_moves": 17641,
+        "cpu_seconds": 0.17807205800000003,
+        "matched_episodes": 2,
+        "successes": 2
+      },
+      "learned": {
+        "attempted_moves": 52872,
+        "cpu_seconds": 0.22537598600000006,
+        "matched_episodes": 2,
+        "successes": 2
+      },
+      "random": {
+        "attempted_moves": 40452,
+        "cpu_seconds": 0.20077948199999993,
+        "matched_episodes": 2,
+        "successes": 2
+      }
+    },
+    "hard_unknown": {
+      "frozenwarm": {
+        "attempted_moves": 282978,
+        "cpu_seconds": 0.6497904560000001,
+        "matched_episodes": 2,
+        "successes": 1
+      },
+      "learned": {
+        "attempted_moves": 252728,
+        "cpu_seconds": 0.633225724,
+        "matched_episodes": 2,
+        "successes": 1
+      },
+      "random": {
+        "attempted_moves": 400000,
+        "cpu_seconds": 0.8812025720000001,
+        "matched_episodes": 2,
+        "successes": 0
+      }
+    }
+  },
+  "claim": "descriptive matched finite-budget held-out results; no statistical or generalization claim",
+  "complete_pairs": 4,
+  "format": "matched-heldout-policy-evaluation-v1",
+  "heldout_hashes": [
+    "009ae6f1a6d0540fca8e58a28f27aeeed820cc2f9f89c3d38efd6a96baf0292e",
+    "9d471b33455fa936526407133a0195a75f1f610b0e60ca520fbff66874c2b418",
+    "e7d96d2a6e0b0d5510aa6309dc17a80e214cdd38f7e4f90d80223884bb363880",
+    "fa022e0f1258e46d22c2c93b7c9e07e23838d3522f767f657e53cbdd592fa44f"
+  ],
+  "heldout_tasks": 4,
+  "max_actions": 4,
+  "policy_identities": {
+    "frozenwarm": {
+      "checkpoint_sha256": "0374e03c8ae92edd3eaed31193d1a437a92dc3a67430550ce91cfdf04776f23b",
+      "path": "/tmp/mm-publication-checkout/artifacts/rl_campaign_20261102T210735Z/warm/checkpoint.json",
+      "unchanged": true,
+      "updates_after": 686,
+      "updates_before": 686,
+      "weight_sha256_after": "97f4523e4e6cc9cd2b5facb5335fe0bc10a3ebf48357971bbf7eaee20f7dfc2d",
+      "weight_sha256_before": "97f4523e4e6cc9cd2b5facb5335fe0bc10a3ebf48357971bbf7eaee20f7dfc2d"
+    },
+    "learned": {
+      "checkpoint_sha256": "dc3ef6139dc997472bc28eb47f71406c5549617e23d1316ac8694880c7a104eb",
+      "path": "/tmp/mm-publication-checkout/artifacts/rl_campaign_20261102T210735Z/final-policy-evaluation-inputs/checkpoint.snapshot.json",
+      "unchanged": true,
+      "updates_after": 22861,
+      "updates_before": 22861,
+      "weight_sha256_after": "4477d17450eb04afce47212451c66ec014debc7d49f66716b028e232a0d27182",
+      "weight_sha256_before": "4477d17450eb04afce47212451c66ec014debc7d49f66716b028e232a0d27182"
+    },
+    "random": {
+      "checkpoint_sha256": "0374e03c8ae92edd3eaed31193d1a437a92dc3a67430550ce91cfdf04776f23b",
+      "path": "/tmp/mm-publication-checkout/artifacts/rl_campaign_20261102T210735Z/warm/checkpoint.json",
+      "unchanged": true,
+      "updates_after": 686,
+      "updates_before": 686,
+      "weight_sha256_after": "97f4523e4e6cc9cd2b5facb5335fe0bc10a3ebf48357971bbf7eaee20f7dfc2d",
+      "weight_sha256_before": "97f4523e4e6cc9cd2b5facb5335fe0bc10a3ebf48357971bbf7eaee20f7dfc2d"
+    }
+  },
+  "pool_path": "/tmp/mm-publication-checkout/artifacts/rl_campaign_20261102T210735Z/hard-pool-frozen-v3-1",
+  "pool_sha256": "4c407ce12d57274a150860a1ea6e4a113721a9707ebad54f12b8fd024f2b4a0e",
+  "record": null,
+  "small_pool": true,
+  "step_limit_per_action": 50000,
+  "training_tasks_evaluated": 0,
+  "wall_seconds": 3.0424101239987067
+}

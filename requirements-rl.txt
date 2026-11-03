@@ -1,0 +1,10 @@
+# Actual CPU campaign stack, observed on CPython 3.12 / Linux x86_64.
+-r requirements-research.txt
+-r requirements-xor.txt
+dm-env==1.6
+# Pin the installed dm_env/dm-tree and python-sat dependency closure.
+absl-py==2.5.1
+dm-tree==0.1.10
+attrs==26.1.0
+wrapt==2.5.2
+six==1.17.0

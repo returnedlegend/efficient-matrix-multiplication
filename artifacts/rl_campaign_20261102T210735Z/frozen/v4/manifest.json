@@ -1,0 +1,58 @@
+{
+  "claim": "known rank 93 recovery is not a new record; record target <=92; external restart earns zero reward",
+  "files": {
+    "mmsearch/dm_tensor_env.py": "b80d9a0b0c7f584220333a0f1c30227e87fc9b7442c6432c542278f18c36c079",
+    "mmsearch/native_bridge.py": "b3231ef1346a71758780fcd570585c83114e50fa510f9b0ac5ec1cc7a2486fb8",
+    "mmsearch/recovery_pool.py": "6f1c508cbca951375e20093d5a98d12e3ae58e23b4e323e25b9a9e63d0abc07c",
+    "mmsearch/rl_curriculum.py": "bc904fb2b5cae15cf89b13d31be9d3bb6ed1e4a76af3ae826a11ffdb1e1a6954",
+    "mmsearch/rl_pool_curriculum.py": "2c41b308865f9b07bb3f9b3a55a7a39549a419490b5846a2a51e998bb29b2803",
+    "mmsearch/rl_restart_curriculum.py": "53eb1d500cf6f096beffce38b78a2c079dbf39164d4e40bc00451fb9596f8f23",
+    "mmsearch/rl_search.py": "5e7aff366a46afa2295b5cf97ca3fe67b0be6fb4da8c117ee6f1f845a18edd77",
+    "scripts/train_pool_tensor_agent.py": "0baa0efd85eaff74cec96bb85ea8ecdd72159c464c4fc981f63bd04506ef22d4",
+    "scripts/train_restart_tensor_agent.py": "ed333121882370a177463a3903334fceb1175d6699ef9b51b2eb55343d29e5b0",
+    "tests/test_rl_restart_curriculum.py": "3bdc76cfbd280d03bdb7c445a1db553eaa493e31f04c0a838cea6503a1ba0cb4"
+  },
+  "format": "mmsearch-source-freeze-v4",
+  "frozen_at": "2026-11-02T22:18:40.760131+00:00",
+  "immutable_v3_dependencies_verified": [
+    "scripts/train_pool_tensor_agent.py",
+    "mmsearch/rl_pool_curriculum.py",
+    "mmsearch/rl_curriculum.py",
+    "mmsearch/rl_search.py",
+    "mmsearch/native_bridge.py",
+    "mmsearch/dm_tensor_env.py",
+    "mmsearch/recovery_pool.py"
+  ],
+  "migration": "flush main rollout and immediately install CLI seed zero; +300 measured main CPU per subsequent restart",
+  "pool_sha256": "4c407ce12d57274a150860a1ea6e4a113721a9707ebad54f12b8fd024f2b4a0e",
+  "record_seed_order": [
+    {
+      "rank": 93,
+      "sha256": "962b518010483e3a6491fb29a504ceb6c94e447acd804be354e1279abb97c37b",
+      "term_hash": "e83687febada49b63f0fe25fcd2e39fabb77e056adf33ffd9b5d8ed55f8f936e"
+    },
+    {
+      "rank": 93,
+      "sha256": "897eb861a5df9fe79ca8cc875696f5b20afa23800e223e76655e8c437cab583f",
+      "term_hash": "3208a7cbb67d275b26d74136105740d0a8760407b14dcdbbfa40794842b35c3b"
+    },
+    {
+      "rank": 93,
+      "sha256": "590f4968948970268b17b6dafd6a09534c44638db97ce6d80d6c7f66a2588b73",
+      "term_hash": "e467e54c1d538ec9f7763c18dbb5c83395efaca44cbbda8e1be50168bdc8482a"
+    },
+    {
+      "rank": 93,
+      "sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+      "term_hash": "e9995721299b5a326254e32f83b1383448a95080b5e05b42f7197ff62e5ff660"
+    }
+  ],
+  "restart_record_cpu": 300,
+  "validation": {
+    "log": "tests.log",
+    "native_migration_resume_smoke": "/tmp/v4-restart-smoke-m11q8pgn",
+    "seed_essential_rank_each": 93,
+    "seed_exact_entries_each": 15625,
+    "tests": "40 passed: restart, pool, context, base controller"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "source_commit": "4226acbf237ff9ad10ba7673a2af127a2d8a5971",
+  "source_sha256": "2cce2543e48c89aa3e91614272a698a0147dd2548ea11cf92f1292b7435d38ff",
+  "novel": false,
+  "source_integer_term_count": 93,
+  "canonical_F2_term_count": 93,
+  "zero_terms_F2": 0,
+  "distinct_F2_triples_before_cancellation": 93,
+  "integer": {
+    "valid": true,
+    "field_valid": true,
+    "integer_valid": true,
+    "dimension": 5,
+    "field": 0,
+    "rank": 93,
+    "exact_entries_checked": 15625,
+    "errors": [],
+    "mismatch_count": 0,
+    "mismatch_examples": [],
+    "integer_mismatch_count": 0,
+    "random_multiplication": {
+      "passed": true,
+      "trials": 64,
+      "seed": 20261102
+    }
+  },
+  "F2": {
+    "valid": true,
+    "field_valid": true,
+    "integer_valid": false,
+    "dimension": 5,
+    "field": 2,
+    "rank": 93,
+    "exact_entries_checked": 15625,
+    "errors": [],
+    "mismatch_count": 0,
+    "mismatch_examples": [],
+    "integer_mismatch_count": 1381,
+    "random_multiplication": {
+      "passed": true,
+      "trials": 64,
+      "seed": 20261102
+    }
+  },
+  "orientation_check": {
+    "selected": "trace convention, source W unchanged",
+    "transposed_W_valid": false,
+    "transposed_W_mismatches": 200
+  },
+  "scope": "Published reference, no discovery claim. F2 certificate literal coefficients do not establish an integer lift; the separate signed source does."
+}

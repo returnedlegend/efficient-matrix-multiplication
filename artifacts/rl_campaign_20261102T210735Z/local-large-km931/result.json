@@ -1,0 +1,14 @@
+{
+  "control_status": "SAT",
+  "counts": {
+    "LOCAL_UNSAT": 14,
+    "UNKNOWN": 22
+  },
+  "elapsed_seconds": 599.1592695310028,
+  "rank_bound": 92,
+  "reason": "total budget, deadline, or signal",
+  "solver_queries": 36,
+  "status": "UNKNOWN",
+  "stopped_by_signal": false,
+  "target_problem_builds": 1
+}

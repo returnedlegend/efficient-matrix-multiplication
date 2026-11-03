@@ -1,0 +1,19 @@
+{
+  "attempted_sources": 20,
+  "best_verified_rank": 93,
+  "considered_paths": 21,
+  "cpu_seconds": 4.675532182,
+  "discovered_paths": 21,
+  "format": "bounded-h32-active-pair-postprocess-v1",
+  "max_active": 125,
+  "scope": "Exact reductions in each supplied active pair family; no novelty or negative/global minimality claim.",
+  "seed": null,
+  "status_counts": {
+    "DROP": 20,
+    "SKIP_OUTSIDE_R110_125": 1
+  },
+  "stop_reason": "all discovered sources considered",
+  "unconsidered_paths": 0,
+  "wall_seconds": 4.684065592999104,
+  "winner": false
+}

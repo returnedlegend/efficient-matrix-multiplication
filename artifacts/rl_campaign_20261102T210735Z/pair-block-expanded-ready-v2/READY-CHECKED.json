@@ -1,0 +1,116 @@
+{
+  "added_column_span_dimensions": 0,
+  "added_direction_support_lengths": [
+    4,
+    4,
+    9,
+    9,
+    9
+  ],
+  "added_pair_count": 5,
+  "added_pairs": [
+    [
+      4,
+      17216
+    ],
+    [
+      10,
+      16896
+    ],
+    [
+      14,
+      16704
+    ],
+    [
+      524288,
+      5406880
+    ],
+    [
+      2686976,
+      169125
+    ]
+  ],
+  "additional_helper_provenance": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/additional-helper-provenance.json",
+  "catalog_order": "Five new complementary directions first, then old9331 directions in source order",
+  "circuits_sha256": "776c41d6d9385685ed4c758bd44b06994e9afe0d7b5705a46fce714350af3988",
+  "dictionary_sha256": "79b5dbfe7b392f5722b4f23f910f141ec97d59a383dde401bf6cf23f40770165",
+  "elapsed_seconds": 8.024665093995281,
+  "final_kernel_span": 1170,
+  "free_factor_sat_sha256": "eb6803fc5d89909fbb3d14839d5222d37f0e48e2eac664957e254b22448cc6b5",
+  "free_factor_sat_source": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/code/mmsearch/free_factor_sat.py",
+  "helper_provenance": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/helper-provenance.json",
+  "jobs": [
+    "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/jobs/2f5f99aa.json",
+    "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/jobs/329e8555.json",
+    "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/jobs/ddda75c0.json"
+  ],
+  "kernel_span_complete": true,
+  "long_search_launched": false,
+  "native_binary_sha256": "ff8e5e9f31365c5dbcb8f8f0d66ee8046b0a5eb60ac0a5af285c08e33b74002c",
+  "new_catalog": 9336,
+  "new_linear_rank": 371,
+  "new_nullity": 1170,
+  "new_pairs": 1541,
+  "old_catalog": 9331,
+  "old_linear_rank": 371,
+  "old_nullity": 1165,
+  "old_pairs": 1536,
+  "old_remapped_span": 1165,
+  "parent_cpu_seconds": 2.545553917,
+  "preferred_catalog_order": "New5 complementary directions first; old9331 directions follow",
+  "preparation_source_sha256": "26e9718d79cc7da7afea7ed4eebc94bba221420893df10f600b4a5fcb8887bc9",
+  "rank92_query_launched": false,
+  "runtime_checksums": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/runtime-checksums.json",
+  "scope": "Strict fixed-pair data-family enlargement only. Dummy freefactor1 atoms are not algorithms. Added kernel freedom is not existence evidence; failures concern the scanned finite family/model only.",
+  "skipped_complements": [],
+  "source_code_hashes": {
+    "mmsearch/free_factor_kernel.py": "2d9a301a4de8f923d4331a36858725f3c666786e3aef9d272e450136668775a8",
+    "mmsearch/free_factor_kernel_wide.py": "9532e6b697a749db5327c3b13b6db592a137eaff733583ac13e09d6c3e44a0cf",
+    "mmsearch/free_factor_sat.py": "eb6803fc5d89909fbb3d14839d5222d37f0e48e2eac664957e254b22448cc6b5",
+    "mmsearch/kernel_pair_block.py": "3abf8d719032dec620627ec7bdeb96f7bd7346ff3d11390be41bf34ac87812f2",
+    "mmsearch/kernel_pair_block_wide.py": "831581fa4720b20d2e8d224edeb8f7de3a0e3f065c4f4832043da8930b5f42ec",
+    "mmsearch/recombine.py": "3b453d2c50405beb73000a22c82990f7332f8be740a93445634170b0630f94ee",
+    "mmsearch/search.py": "0317550a543d696b4e669f55a15781ed37c5d87ca4bca0420f805351f5558267",
+    "mmsearch/verify.py": "491282f4e940b9969b2a94ee51994d71ceefd9dc5a19167b779b9d2a6098f46f",
+    "native/free_factor_pair_block_worker_wide.cpp": "2a29e5be1911271f30c7e213283052a545f3886de639ceb756fbc15ce8ef5710",
+    "scripts/campaign_kernel_pair_block_wide.py": "b892e68577caf84e9aaa7a0837914a356c831109d901f59cacb282e18cdff0d9",
+    "scripts/campaign_kernel_walk_v2.py": "874784cb9b3e44d5a5ea67075f8c864751aebdd7a1918eecc0990659b1601125",
+    "scripts/scan_slice_compressions.py": "fc496be4fdbad9a6a094144baa699554568627aef441be710d5b194611d13fcf"
+  },
+  "sources": [
+    {
+      "baseline": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/inputs/2f5f99aa15ee2832f6e2ba959dbf1dcd07a503baf8e1068f28d05fcf8b4acdbc.json",
+      "baseline_sha256": "5a8141f8b1339d5cdb7f0321d9396210b507292bbe18982cfb195bcb5b9bb411",
+      "control_dir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/controls/2f5f99aa",
+      "exact_entries_checked": 15625,
+      "initial_PW_valid": true,
+      "label": "2f5f99aa",
+      "native_zero_pairs_considered": 0,
+      "rank": 93
+    },
+    {
+      "baseline": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/inputs/329e85555e6a78938c7c62ccec5609842ce1b6166dd5d2d04afdd41fcd09157f.json",
+      "baseline_sha256": "242f4c5b65a0a963f64111fdc587554784f06fc07cc478d23737f11dc55ea35b",
+      "control_dir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/controls/329e8555",
+      "exact_entries_checked": 15625,
+      "initial_PW_valid": true,
+      "label": "329e8555",
+      "native_zero_pairs_considered": 0,
+      "rank": 93
+    },
+    {
+      "baseline": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/inputs/ddda75c0e5076b393767bdc21966e7dd8c761ccb4c3ef5eb89a2498eb76da03c.json",
+      "baseline_sha256": "2c5bb2d0a5a04a21f52ae30a907928bcc324b5f0dbcdaa4b6cf0953b8b5bf076",
+      "control_dir": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/pair-block-expanded-ready-v2/controls/ddda75c0",
+      "exact_entries_checked": 15625,
+      "initial_PW_valid": true,
+      "label": "ddda75c0",
+      "native_zero_pairs_considered": 0,
+      "rank": 93
+    }
+  ],
+  "status": "READY_NOT_LAUNCHED",
+  "wrapper_prepare_only": "PASS",
+  "wrapper_prepare_only_catalog_count": 9336,
+  "wrapper_prepare_only_pair_count": 1541
+}

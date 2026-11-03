@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-11-03T03:28:14.950312+00:00",
+  "scope": "Publication verification from a clean staged-index export; not a renewed research campaign or new mathematical result.",
+  "clean_checkout": "/tmp/mm-publication-checkout",
+  "generated_workers": "Built from checked-in C++17 sources before testing; ordinary native/ executables are excluded from the commit.",
+  "test_command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 -m unittest discover -s tests -q",
+  "tests": 390,
+  "test_status": "PASS",
+  "policy_replay_smoke": {
+    "status": "PASS",
+    "complete_matched_triplets": 4,
+    "rows": 12,
+    "record": null,
+    "checkpoint_sha256": "dc3ef6139dc997472bc28eb47f71406c5549617e23d1316ac8694880c7a104eb",
+    "checkpoint_unchanged": true
+  },
+  "validation_log_sha256": "f6459466a6ebe47974afb7196c2c4ea035697cfc5056f8db83c4b00412e900b7",
+  "data_checksum_status": "All 542 selected manifest entries matched their staged Git blobs before adding this validation record."
+}

@@ -1,0 +1,192 @@
+{
+  "elapsed_seconds": 0.5633591079968028,
+  "orientations": [
+    {
+      "added_pairs": 377,
+      "dictionary_canonical_sha256": "efa81a289b867e6f8133359b164e698d7944f71785c5876087c707e0022b5c82",
+      "dictionary_path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/factor-pair-closure-v1/uv/dictionary.json",
+      "dictionary_raw_sha256": "98f6f39171934d3bbd7e3e30e203c8adea2b65f42c16652aa86ce2cdc0d1cb80",
+      "generation_rounds": 1,
+      "max_pairs": 1536,
+      "new": {
+        "baseline_merged_rank": 93,
+        "forced_active": 0,
+        "forced_zero": 0,
+        "formula_memory_estimate": {
+          "cardinality_estimate_bytes": 190316544,
+          "estimated_python_formula_bytes": 219703880,
+          "estimated_python_formula_mb": 210,
+          "link_literals": 116736,
+          "policy": "conservative Python formula estimate; solver and inherited process RSS are additional; hard child RLIMIT_AS remains enforced",
+          "xor_literals": 451925
+        },
+        "inconsistent": false,
+        "linear_nullity": 1158,
+        "linear_rank": 378,
+        "pair_count": 1536
+      },
+      "new_column_rank": 378,
+      "new_pair_count": 1536,
+      "new_pairs_sha256": "6bdefa95f5d2acd14057d0cad7bfee5dc7090fd7b4a03355cfde0101e28ed453",
+      "old": {
+        "baseline_merged_rank": 93,
+        "forced_active": 0,
+        "forced_zero": 0,
+        "formula_memory_estimate": {
+          "cardinality_estimate_bytes": 143604736,
+          "estimated_python_formula_bytes": 164507920,
+          "estimated_python_formula_mb": 157,
+          "link_literals": 88084,
+          "policy": "conservative Python formula estimate; solver and inherited process RSS are additional; hard child RLIMIT_AS remains enforced",
+          "xor_literals": 301800
+        },
+        "inconsistent": false,
+        "linear_nullity": 781,
+        "linear_rank": 378,
+        "pair_count": 1159
+      },
+      "old_column_rank": 378,
+      "old_pair_count": 1159,
+      "old_pairs_sha256": "f652a586be645501bd5a298b2a2a1436b17802fef66762574d0b2c2962fffe7e",
+      "orientation": "uv",
+      "parents_policy": "original pairs only",
+      "rejected": {
+        "duplicate": 51,
+        "zero": 0
+      },
+      "seed": 20261102,
+      "selection_policy": "seeded bucket round robin; alternate accepted shared-first/shared-second additions until an axis is exhausted",
+      "shared_first_additions": 189,
+      "shared_second_additions": 188,
+      "target_reached": true,
+      "triple_count": 2363,
+      "width": 25
+    },
+    {
+      "added_pairs": 389,
+      "dictionary_canonical_sha256": "415885295debc4b00beaf9b1096211715557dafda7cef8e600abe497912c406c",
+      "dictionary_path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/factor-pair-closure-v1/vw/dictionary.json",
+      "dictionary_raw_sha256": "59087b22fb98eeaf2f5342d3ab7240fe6e8eab5425dd7497df4dfe0a2e8a27a6",
+      "generation_rounds": 1,
+      "max_pairs": 1536,
+      "new": {
+        "baseline_merged_rank": 93,
+        "forced_active": 0,
+        "forced_zero": 0,
+        "formula_memory_estimate": {
+          "cardinality_estimate_bytes": 190316544,
+          "estimated_python_formula_bytes": 219568280,
+          "estimated_python_formula_mb": 210,
+          "link_literals": 116736,
+          "policy": "conservative Python formula estimate; solver and inherited process RSS are additional; hard child RLIMIT_AS remains enforced",
+          "xor_literals": 449575
+        },
+        "inconsistent": false,
+        "linear_nullity": 1171,
+        "linear_rank": 365,
+        "pair_count": 1536
+      },
+      "new_column_rank": 365,
+      "new_pair_count": 1536,
+      "new_pairs_sha256": "ccecbdc72eaaa4b489f54b7d50ed54ac67dd1c5d9936ba702f73ac412e1091a6",
+      "old": {
+        "baseline_merged_rank": 93,
+        "forced_active": 0,
+        "forced_zero": 0,
+        "formula_memory_estimate": {
+          "cardinality_estimate_bytes": 142117888,
+          "estimated_python_formula_bytes": 162685560,
+          "estimated_python_formula_mb": 156,
+          "link_literals": 87172,
+          "policy": "conservative Python formula estimate; solver and inherited process RSS are additional; hard child RLIMIT_AS remains enforced",
+          "xor_literals": 296425
+        },
+        "inconsistent": false,
+        "linear_nullity": 782,
+        "linear_rank": 365,
+        "pair_count": 1147
+      },
+      "old_column_rank": 365,
+      "old_pair_count": 1147,
+      "old_pairs_sha256": "cb813c2149907fd2f2408b18ae97b0d1dcf11e760c3d105f50e84fe6e66e4d44",
+      "orientation": "vw",
+      "parents_policy": "original pairs only",
+      "rejected": {
+        "duplicate": 53,
+        "zero": 0
+      },
+      "seed": 20261102,
+      "selection_policy": "seeded bucket round robin; alternate accepted shared-first/shared-second additions until an axis is exhausted",
+      "shared_first_additions": 195,
+      "shared_second_additions": 194,
+      "target_reached": true,
+      "triple_count": 2375,
+      "width": 25
+    },
+    {
+      "added_pairs": 402,
+      "dictionary_canonical_sha256": "9fde9b6b3b5ca42db570cc33fdbe967e072de4ef39941491865ac29d7aae4909",
+      "dictionary_path": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign_20261102T210735Z/factor-pair-closure-v1/wu/dictionary.json",
+      "dictionary_raw_sha256": "bed1b6762b2458003ccca3e4ba2a8eaeb5694972d648604517746bc2aba0f671",
+      "generation_rounds": 1,
+      "max_pairs": 1536,
+      "new": {
+        "baseline_merged_rank": 93,
+        "forced_active": 0,
+        "forced_zero": 0,
+        "formula_memory_estimate": {
+          "cardinality_estimate_bytes": 190316544,
+          "estimated_python_formula_bytes": 218019480,
+          "estimated_python_formula_mb": 208,
+          "link_literals": 116736,
+          "policy": "conservative Python formula estimate; solver and inherited process RSS are additional; hard child RLIMIT_AS remains enforced",
+          "xor_literals": 410375
+        },
+        "inconsistent": false,
+        "linear_nullity": 1165,
+        "linear_rank": 371,
+        "pair_count": 1536
+      },
+      "new_column_rank": 371,
+      "new_pair_count": 1536,
+      "new_pairs_sha256": "f311e8c7437ec1c3f84262e52d246aa50345f27c58215d2d77fa200be76c474a",
+      "old": {
+        "baseline_merged_rank": 93,
+        "forced_active": 0,
+        "forced_zero": 0,
+        "formula_memory_estimate": {
+          "cardinality_estimate_bytes": 140507136,
+          "estimated_python_formula_bytes": 159890520,
+          "estimated_python_formula_mb": 153,
+          "link_literals": 86184,
+          "policy": "conservative Python formula estimate; solver and inherited process RSS are additional; hard child RLIMIT_AS remains enforced",
+          "xor_literals": 268475
+        },
+        "inconsistent": false,
+        "linear_nullity": 763,
+        "linear_rank": 371,
+        "pair_count": 1134
+      },
+      "old_column_rank": 371,
+      "old_pair_count": 1134,
+      "old_pairs_sha256": "0cec00d2db3be0f70fa6f4e72b9b3274fdc7257fdd43aafcf3977d1a71a17f08",
+      "orientation": "wu",
+      "parents_policy": "original pairs only",
+      "rejected": {
+        "duplicate": 61,
+        "zero": 0
+      },
+      "seed": 20261102,
+      "selection_policy": "seeded bucket round robin; alternate accepted shared-first/shared-second additions until an axis is exhausted",
+      "shared_first_additions": 201,
+      "shared_second_additions": 201,
+      "target_reached": true,
+      "triple_count": 2388,
+      "width": 25
+    }
+  ],
+  "provenance_sha256": "c2871355cf235fd19c6984155aa76402a54136d583a5db02911327873a0c2579",
+  "scope": "old assignments remain included; each new outer column is the XOR of two old columns; no rank-92 feasibility or integer lift claim",
+  "solver_called": false,
+  "status": "READY"
+}

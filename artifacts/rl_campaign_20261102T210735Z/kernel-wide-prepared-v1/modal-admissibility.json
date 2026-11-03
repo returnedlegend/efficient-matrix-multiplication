@@ -1,0 +1,566 @@
+{
+  "baseline_rank": 93,
+  "counts": {
+    "12": 22,
+    "16": 29,
+    "24": 42,
+    "32": 48,
+    "6": 1,
+    "9": 13
+  },
+  "scope": "Initial modal proposals only; not a graph-connectivity or nonexistence result.",
+  "scores": [
+    {
+      "baseline_active_support": 2,
+      "delta": 6,
+      "modal_frequency": 1,
+      "new_rank": 99,
+      "support_size": 9,
+      "zeros": 7
+    },
+    {
+      "baseline_active_support": 1,
+      "delta": 7,
+      "modal_frequency": 1,
+      "new_rank": 100,
+      "support_size": 9,
+      "zeros": 8
+    },
+    {
+      "baseline_active_support": 1,
+      "delta": 7,
+      "modal_frequency": 1,
+      "new_rank": 100,
+      "support_size": 9,
+      "zeros": 8
+    },
+    {
+      "baseline_active_support": 1,
+      "delta": 7,
+      "modal_frequency": 1,
+      "new_rank": 100,
+      "support_size": 9,
+      "zeros": 8
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 9,
+      "modal_frequency": 0,
+      "new_rank": 102,
+      "support_size": 9,
+      "zeros": 9
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 9,
+      "modal_frequency": 0,
+      "new_rank": 102,
+      "support_size": 9,
+      "zeros": 9
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 9,
+      "modal_frequency": 0,
+      "new_rank": 102,
+      "support_size": 9,
+      "zeros": 9
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 9,
+      "modal_frequency": 0,
+      "new_rank": 102,
+      "support_size": 9,
+      "zeros": 9
+    },
+    {
+      "baseline_active_support": 2,
+      "delta": 7,
+      "modal_frequency": 1,
+      "new_rank": 100,
+      "support_size": 10,
+      "zeros": 8
+    },
+    {
+      "baseline_active_support": 1,
+      "delta": 8,
+      "modal_frequency": 1,
+      "new_rank": 101,
+      "support_size": 10,
+      "zeros": 9
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 10,
+      "modal_frequency": 0,
+      "new_rank": 103,
+      "support_size": 10,
+      "zeros": 10
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 10,
+      "modal_frequency": 0,
+      "new_rank": 103,
+      "support_size": 10,
+      "zeros": 10
+    },
+    {
+      "baseline_active_support": 1,
+      "delta": 9,
+      "modal_frequency": 1,
+      "new_rank": 102,
+      "support_size": 11,
+      "zeros": 10
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 11,
+      "modal_frequency": 0,
+      "new_rank": 104,
+      "support_size": 11,
+      "zeros": 11
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 11,
+      "modal_frequency": 0,
+      "new_rank": 104,
+      "support_size": 11,
+      "zeros": 11
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 11,
+      "modal_frequency": 0,
+      "new_rank": 104,
+      "support_size": 11,
+      "zeros": 11
+    },
+    {
+      "baseline_active_support": 3,
+      "delta": 8,
+      "modal_frequency": 1,
+      "new_rank": 101,
+      "support_size": 12,
+      "zeros": 9
+    },
+    {
+      "baseline_active_support": 2,
+      "delta": 9,
+      "modal_frequency": 1,
+      "new_rank": 102,
+      "support_size": 12,
+      "zeros": 10
+    },
+    {
+      "baseline_active_support": 1,
+      "delta": 10,
+      "modal_frequency": 1,
+      "new_rank": 103,
+      "support_size": 12,
+      "zeros": 11
+    },
+    {
+      "baseline_active_support": 1,
+      "delta": 11,
+      "modal_frequency": 1,
+      "new_rank": 104,
+      "support_size": 13,
+      "zeros": 12
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 13,
+      "modal_frequency": 0,
+      "new_rank": 106,
+      "support_size": 13,
+      "zeros": 13
+    },
+    {
+      "baseline_active_support": 1,
+      "delta": 12,
+      "modal_frequency": 1,
+      "new_rank": 105,
+      "support_size": 14,
+      "zeros": 13
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 14,
+      "modal_frequency": 0,
+      "new_rank": 107,
+      "support_size": 14,
+      "zeros": 14
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 14,
+      "modal_frequency": 0,
+      "new_rank": 107,
+      "support_size": 14,
+      "zeros": 14
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 16,
+      "modal_frequency": 0,
+      "new_rank": 109,
+      "support_size": 16,
+      "zeros": 16
+    },
+    {
+      "baseline_active_support": 3,
+      "delta": 13,
+      "modal_frequency": 1,
+      "new_rank": 106,
+      "support_size": 17,
+      "zeros": 14
+    },
+    {
+      "baseline_active_support": 2,
+      "delta": 15,
+      "modal_frequency": 1,
+      "new_rank": 108,
+      "support_size": 18,
+      "zeros": 16
+    },
+    {
+      "baseline_active_support": 2,
+      "delta": 15,
+      "modal_frequency": 1,
+      "new_rank": 108,
+      "support_size": 18,
+      "zeros": 16
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 18,
+      "modal_frequency": 0,
+      "new_rank": 111,
+      "support_size": 18,
+      "zeros": 18
+    },
+    {
+      "baseline_active_support": 0,
+      "delta": 19,
+      "modal_frequency": 0,
+      "new_rank": 112,
+      "support_size": 19,
+      "zeros": 19
+    },
+    {
+      "baseline_active_support": 2,
+      "delta": 17,
+      "modal_frequency": 1,
+      "new_rank": 110,
+      "support_size": 20,
+      "zeros": 18
+    },
+    {
+      "baseline_active_support": 1,
+      "delta": 19,
+      "modal_frequency": 1,
+      "new_rank": 112,
+      "support_size": 21,
+      "zeros": 20
+    },
+    {
+      "baseline_active_support": 5,
+      "delta": 18,
+      "modal_frequency": 1,
+      "new_rank": 111,
+      "support_size": 24,
+      "zeros": 19
+    },
+    {
+      "baseline_active_support": 3,
+      "delta": 20,
+      "modal_frequency": 1,
+      "new_rank": 113,
+      "support_size": 24,
+      "zeros": 21
+    },
+    {
+      "baseline_active_support": 7,
+      "delta": 17,
+      "modal_frequency": 1,
+      "new_rank": 110,
+      "support_size": 25,
+      "zeros": 18
+    },
+    {
+      "baseline_active_support": 8,
+      "delta": 18,
+      "modal_frequency": 1,
+      "new_rank": 111,
+      "support_size": 27,
+      "zeros": 19
+    },
+    {
+      "baseline_active_support": 15,
+      "delta": 12,
+      "modal_frequency": 1,
+      "new_rank": 105,
+      "support_size": 28,
+      "zeros": 13
+    },
+    {
+      "baseline_active_support": 7,
+      "delta": 20,
+      "modal_frequency": 1,
+      "new_rank": 113,
+      "support_size": 28,
+      "zeros": 21
+    },
+    {
+      "baseline_active_support": 4,
+      "delta": 23,
+      "modal_frequency": 1,
+      "new_rank": 116,
+      "support_size": 28,
+      "zeros": 24
+    },
+    {
+      "baseline_active_support": 6,
+      "delta": 23,
+      "modal_frequency": 1,
+      "new_rank": 116,
+      "support_size": 30,
+      "zeros": 24
+    },
+    {
+      "baseline_active_support": 12,
+      "delta": 18,
+      "modal_frequency": 1,
+      "new_rank": 111,
+      "support_size": 31,
+      "zeros": 19
+    },
+    {
+      "baseline_active_support": 4,
+      "delta": 26,
+      "modal_frequency": 1,
+      "new_rank": 119,
+      "support_size": 31,
+      "zeros": 27
+    },
+    {
+      "baseline_active_support": 3,
+      "delta": 27,
+      "modal_frequency": 1,
+      "new_rank": 120,
+      "support_size": 31,
+      "zeros": 28
+    },
+    {
+      "baseline_active_support": 3,
+      "delta": 28,
+      "modal_frequency": 1,
+      "new_rank": 121,
+      "support_size": 32,
+      "zeros": 29
+    },
+    {
+      "baseline_active_support": 12,
+      "delta": 24,
+      "modal_frequency": 1,
+      "new_rank": 117,
+      "support_size": 37,
+      "zeros": 25
+    },
+    {
+      "baseline_active_support": 4,
+      "delta": 33,
+      "modal_frequency": 1,
+      "new_rank": 126,
+      "support_size": 38,
+      "zeros": 34
+    },
+    {
+      "baseline_active_support": 11,
+      "delta": 29,
+      "modal_frequency": 1,
+      "new_rank": 122,
+      "support_size": 41,
+      "zeros": 30
+    },
+    {
+      "baseline_active_support": 11,
+      "delta": 29,
+      "modal_frequency": 1,
+      "new_rank": 122,
+      "support_size": 41,
+      "zeros": 30
+    },
+    {
+      "baseline_active_support": 9,
+      "delta": 31,
+      "modal_frequency": 1,
+      "new_rank": 124,
+      "support_size": 41,
+      "zeros": 32
+    },
+    {
+      "baseline_active_support": 13,
+      "delta": 40,
+      "modal_frequency": 1,
+      "new_rank": 133,
+      "support_size": 54,
+      "zeros": 41
+    },
+    {
+      "baseline_active_support": 13,
+      "delta": 44,
+      "modal_frequency": 1,
+      "new_rank": 137,
+      "support_size": 58,
+      "zeros": 45
+    },
+    {
+      "baseline_active_support": 11,
+      "delta": 47,
+      "modal_frequency": 1,
+      "new_rank": 140,
+      "support_size": 59,
+      "zeros": 48
+    },
+    {
+      "baseline_active_support": 15,
+      "delta": 44,
+      "modal_frequency": 1,
+      "new_rank": 137,
+      "support_size": 60,
+      "zeros": 45
+    },
+    {
+      "baseline_active_support": 19,
+      "delta": 41,
+      "modal_frequency": 1,
+      "new_rank": 134,
+      "support_size": 61,
+      "zeros": 42
+    },
+    {
+      "baseline_active_support": 16,
+      "delta": 45,
+      "modal_frequency": 1,
+      "new_rank": 138,
+      "support_size": 62,
+      "zeros": 46
+    },
+    {
+      "baseline_active_support": 14,
+      "delta": 48,
+      "modal_frequency": 1,
+      "new_rank": 141,
+      "support_size": 63,
+      "zeros": 49
+    },
+    {
+      "baseline_active_support": 14,
+      "delta": 51,
+      "modal_frequency": 1,
+      "new_rank": 144,
+      "support_size": 66,
+      "zeros": 52
+    },
+    {
+      "baseline_active_support": 14,
+      "delta": 52,
+      "modal_frequency": 1,
+      "new_rank": 145,
+      "support_size": 67,
+      "zeros": 53
+    },
+    {
+      "baseline_active_support": 17,
+      "delta": 55,
+      "modal_frequency": 1,
+      "new_rank": 148,
+      "support_size": 73,
+      "zeros": 56
+    },
+    {
+      "baseline_active_support": 21,
+      "delta": 55,
+      "modal_frequency": 1,
+      "new_rank": 148,
+      "support_size": 77,
+      "zeros": 56
+    },
+    {
+      "baseline_active_support": 15,
+      "delta": 66,
+      "modal_frequency": 1,
+      "new_rank": 159,
+      "support_size": 82,
+      "zeros": 67
+    },
+    {
+      "baseline_active_support": 15,
+      "delta": 68,
+      "modal_frequency": 1,
+      "new_rank": 161,
+      "support_size": 84,
+      "zeros": 69
+    },
+    {
+      "baseline_active_support": 15,
+      "delta": 75,
+      "modal_frequency": 1,
+      "new_rank": 168,
+      "support_size": 91,
+      "zeros": 76
+    },
+    {
+      "baseline_active_support": 23,
+      "delta": 69,
+      "modal_frequency": 1,
+      "new_rank": 162,
+      "support_size": 93,
+      "zeros": 70
+    },
+    {
+      "baseline_active_support": 20,
+      "delta": 74,
+      "modal_frequency": 1,
+      "new_rank": 167,
+      "support_size": 95,
+      "zeros": 75
+    },
+    {
+      "baseline_active_support": 22,
+      "delta": 77,
+      "modal_frequency": 1,
+      "new_rank": 170,
+      "support_size": 100,
+      "zeros": 78
+    },
+    {
+      "baseline_active_support": 21,
+      "delta": 79,
+      "modal_frequency": 1,
+      "new_rank": 172,
+      "support_size": 101,
+      "zeros": 80
+    },
+    {
+      "baseline_active_support": 23,
+      "delta": 80,
+      "modal_frequency": 1,
+      "new_rank": 173,
+      "support_size": 104,
+      "zeros": 81
+    },
+    {
+      "baseline_active_support": 27,
+      "delta": 77,
+      "modal_frequency": 1,
+      "new_rank": 170,
+      "support_size": 105,
+      "zeros": 78
+    }
+  ]
+}

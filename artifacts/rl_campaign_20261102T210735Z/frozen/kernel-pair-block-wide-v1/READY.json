@@ -1,0 +1,34 @@
+{
+  "code_sha256": {
+    "mmsearch/kernel_pair_block_wide.py": "831581fa4720b20d2e8d224edeb8f7de3a0e3f065c4f4832043da8930b5f42ec",
+    "native/free_factor_pair_block_worker_wide": "ff8e5e9f31365c5dbcb8f8f0d66ee8046b0a5eb60ac0a5af285c08e33b74002c",
+    "native/free_factor_pair_block_worker_wide.cpp": "2a29e5be1911271f30c7e213283052a545f3886de639ceb756fbc15ce8ef5710",
+    "research/rl/KERNEL_PAIR_BLOCK_WIDE.md": "d83a86c64791281fc3bd8d8806cc1e5419da95d88abff97263798a9f441fdd8f",
+    "scripts/campaign_kernel_pair_block_wide.py": "b892e68577caf84e9aaa7a0837914a356c831109d901f59cacb282e18cdff0d9",
+    "tests/test_kernel_pair_block_wide.py": "643d5528afd997a1de8ee4473c9650b571ea812c68d09b38df2c03dd5219ec90",
+    "unchanged:mmsearch/kernel_pair_block.py": "3abf8d719032dec620627ec7bdeb96f7bd7346ff3d11390be41bf34ac87812f2",
+    "unchanged:native/free_factor_pair_block_worker": "699b3e7bfd5eb4492d22b1683240e081d1b226acc6f5791cba776b5daeb0bb99",
+    "unchanged:native/free_factor_pair_block_worker.cpp": "0897346f1bb7d9662ec8057fcccb533a8f8d434020f69ccfe43948226ba7fe46",
+    "unchanged:scripts/campaign_kernel_pair_block.py": "2af6d1d4ce5b6e03e4dae69927e1e16f6ee4b7f0632489d4fd75cc1b8122c83f"
+  },
+  "jobs": [
+    {
+      "name": "km93",
+      "path": "artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/jobs/km93.json",
+      "sha256": "0c339c427bfa954817921bfc309f216a0ab879a75620a5e7f51bdb575530a498"
+    },
+    {
+      "name": "ae93",
+      "path": "artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/jobs/ae93.json",
+      "sha256": "b5b22ad4cc15a200792de9fc0483d5f9fd51eca453f572f0466d1cf80130807d"
+    },
+    {
+      "name": "public095",
+      "path": "artifacts/rl_campaign_20261102T210735Z/frozen/kernel-pair-block-wide-v1/jobs/public095.json",
+      "sha256": "b351e76d65b95c3f351f316bb93d406b336efc9dff38e222631e9d5091eee7c6"
+    }
+  ],
+  "long_search_started": false,
+  "tests": "Three tests pass; wide16\u00b2 objective, joint9-support12->8 barrier, changed-label native models, PN/129guards; all3actual5x5sourcepreflights and nativezero/full15625control.",
+  "tie_harvesting_included": false
+}

@@ -10,6 +10,7 @@ import json
 import math
 import multiprocessing as mp
 from pathlib import Path
+import signal
 import time
 import types
 
@@ -96,6 +97,14 @@ def _worker(problem, seconds, conflicts, connection):
         connection.close()
 
 
+def _worker_entry(*args):
+    # Parent campaign stop handlers survive fork but are not worker shutdown
+    # handlers. Reset before imports/solver setup, including patched workers.
+    signal.signal(signal.SIGTERM, signal.SIG_DFL)
+    signal.signal(signal.SIGINT, signal.SIG_DFL)
+    _worker(*args)
+
+
 def solve_local(problem, seconds=10, conflicts=10000):
     """Hard wall bound includes import/load; exact verification follows solving.
 
@@ -106,7 +115,7 @@ def solve_local(problem, seconds=10, conflicts=10000):
         raise ValueError('positive finite seconds and positive integer conflicts required')
     context = mp.get_context('fork')
     receiver, sender = context.Pipe(duplex=False)
-    process = context.Process(target=_worker, args=(problem, seconds, conflicts, sender))
+    process = context.Process(target=_worker_entry, args=(problem, seconds, conflicts, sender))
     started = time.monotonic()
     process.start()
     sender.close()
@@ -122,7 +131,7 @@ def solve_local(problem, seconds=10, conflicts=10000):
     finally:
         if process.is_alive():
             process.terminate()
-        process.join(timeout=2)
+        process.join(timeout=0.1)
         if process.is_alive():
             process.kill()
             process.join()

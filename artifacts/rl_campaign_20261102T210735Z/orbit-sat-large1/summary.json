@@ -1,0 +1,14 @@
+{
+  "attempts": 63,
+  "cached_patches": 63,
+  "counts": {
+    "LOCAL_UNSAT_BOUND": 7,
+    "UNKNOWN": 56,
+    "duplicate_patch_skipped": 2
+  },
+  "elapsed_this_run": 1797.2119053319984,
+  "plan_cursor": 65,
+  "plan_size": 6231,
+  "scope": "Only selected frozen local neighborhoods; no global UNSAT claim.",
+  "status": "WALL_BUDGET"
+}
