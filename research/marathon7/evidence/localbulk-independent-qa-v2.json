@@ -1,0 +1,14 @@
+{
+  "tests_run": 14,
+  "failures": [],
+  "errors": [],
+  "skips": [],
+  "successful": true,
+  "imported_guard": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-local-local10-ready-v2/runtime/mmsearch/marathon7_local.py",
+  "imported_lifecycle_tests": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-local-local10-ready-v2/runtime/tests/test_marathon7_local.py",
+  "bundles": {
+    "local10": "224d6a052b3253edd11077da6edbe8f2ec20856fde6a16ab131531d7b8c462af",
+    "extension8": "1e455dd9439a7e2a4f68ac308de2b87391ae4e15f97ad31ddad9f0972eac3371"
+  },
+  "production_decoder_queries": 0
+}

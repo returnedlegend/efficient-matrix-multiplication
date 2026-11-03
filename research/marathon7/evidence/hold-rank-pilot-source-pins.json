@@ -1,0 +1,169 @@
+{
+  "binary_sha256": "3d20e4539cbd9966353629c396ef91cbc3994a5e88773fa51a3f919da6945244",
+  "code": {
+    "scripts/analyze_marathon7_hold_rank.py": "e5bfb9e61b15d3c7af1ab251d2672ee665c571b54be026e46ae6b8d6289be942",
+    "scripts/audit_burst_long42.py": "4bdfaefca94337d3cbe584c583645f06e849eff1b9462e579c23b218d69f7221",
+    "scripts/verify_record42_independent.py": "499a1409c755d4a551ab6efe0e0520e14aa20a44081cedccc403c9cb7f74e7c6",
+    "tests/fixtures/native_campaign42_rank93.json": "ecdbf98457eed055610f3c6d9c607f2bc1e3b850b73cde256d9feff6f384d8ab",
+    "tests/fixtures/native_campaign42_rank96.json": "5cd6d7a8cdfbe65e2ec847923dda8ad5508e460d93cca0d174686f9d58f7a5ea",
+    "tests/test_audit_burst_long42.py": "ea3b5501b6da25a92209f0bda531974374900d3425d0afe72cbd494c7383062e"
+  },
+  "heldout_declaration_sha256": "d9766c8957710a948a32fbf835c0756c4d8c4da417f33bc7cf9eb8152de89949",
+  "plan": {
+    "path": "artifacts/marathon7_20261103T122417Z/dwell-hold-rank-ready-v1/plan.json",
+    "sha256": "6ba99efce3c5f485dd1c5fc479228a8dc4f1308fb57f7dc773a0b3c98f677aa1"
+  },
+  "run_files": {
+    "hold-rank-pilot-s01-flag0-K4-D128": {
+      "best_snapshot": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag0-K4-D128/native/walk.best.txt",
+        "sha256": "8148625a4ed8825023d94ef3a641cced097b28c3606dfd501f1936b8c8252c0f"
+      },
+      "current_snapshot": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag0-K4-D128/native/walk.current.txt",
+        "sha256": "88e6ba7e15d0520b481eb0d066c61d4daf39560e606d20af434d40b62a8d7b66"
+      },
+      "final_stats": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag0-K4-D128/final_stats.json",
+        "sha256": "e181d6a96c86fce1bd4c819220f1f6879190590c4fd6b00b84c7851cc709c3d1"
+      },
+      "input": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag0-K4-D128/input.json",
+        "sha256": "ecdbf98457eed055610f3c6d9c607f2bc1e3b850b73cde256d9feff6f384d8ab"
+      },
+      "job_result": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag0-K4-D128-job.result.json",
+        "sha256": "417a9e7fcc09f8f503cfcb57f0b64b2142d8bb2a7350f8bd9173d8c11dbea9b3"
+      },
+      "manifest": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag0-K4-D128/manifest.json",
+        "sha256": "8bd76bc259b28e48015df41175afdd41f4de4d7006dd3528fc9e60c811b806e9"
+      },
+      "stats": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag0-K4-D128/native/walk.stats.json",
+        "sha256": "f6945539d6b3ebaa2ab7ed46da114e63d3b54e47f860deeca1916ebf61b96467"
+      },
+      "summary": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag0-K4-D128/summary.json",
+        "sha256": "1f4a297c17368d20fcec50d43bb188c6cc9afb85bb858e6fc67e44d5ba61e2d6"
+      }
+    },
+    "hold-rank-pilot-s01-flag1-K4-D128": {
+      "best_snapshot": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag1-K4-D128/native/walk.best.txt",
+        "sha256": "8148625a4ed8825023d94ef3a641cced097b28c3606dfd501f1936b8c8252c0f"
+      },
+      "current_snapshot": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag1-K4-D128/native/walk.current.txt",
+        "sha256": "1ff5bd6e35bf8e06abef23b343f17be7877c402336164c1a3bed72a7da02fe2c"
+      },
+      "final_stats": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag1-K4-D128/final_stats.json",
+        "sha256": "0a54f5d8c9a01c64c1cb0d66afd519328fa7a2dc84a0516faa98eded58287331"
+      },
+      "input": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag1-K4-D128/input.json",
+        "sha256": "ecdbf98457eed055610f3c6d9c607f2bc1e3b850b73cde256d9feff6f384d8ab"
+      },
+      "job_result": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag1-K4-D128-job.result.json",
+        "sha256": "9b1fe1cb05a9022edf1362ca2f9f1900be40cda79b3b9cb1e680f2db3c78a0e2"
+      },
+      "manifest": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag1-K4-D128/manifest.json",
+        "sha256": "96d4f22386ffecf11d58918d88588bb6d8c1ebe99e8747139ae4cb6f57a719b7"
+      },
+      "stats": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag1-K4-D128/native/walk.stats.json",
+        "sha256": "4a544c0813aec3e70cece4b75ca0490b1740a5b9479710f938f3fc4fd82105f7"
+      },
+      "summary": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s01-flag1-K4-D128/summary.json",
+        "sha256": "d4dea72674d05deb7a98da13137fd6e30c8d00f6dcf21037d4e47e78731f98f2"
+      }
+    },
+    "hold-rank-pilot-s02-flag0-K4-D128": {
+      "best_snapshot": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag0-K4-D128/native/walk.best.txt",
+        "sha256": "d533ffa9fa7307ecac1c7bb093d9c99120604d59e7860fd67bbf4791610c7085"
+      },
+      "current_snapshot": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag0-K4-D128/native/walk.current.txt",
+        "sha256": "8c66776b2efd5a32e3cdd4983d8c0c76d4e6e759fb660c60c46a2e9165770468"
+      },
+      "final_stats": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag0-K4-D128/final_stats.json",
+        "sha256": "ce8ac6331b771311262e65ac5ee1d54baeec09174228d35555a45edd27d431db"
+      },
+      "input": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag0-K4-D128/input.json",
+        "sha256": "eb7a22fe82208e44a155a01536c5ec228095cfcc78fac45902c44e0c636e5918"
+      },
+      "job_result": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag0-K4-D128-job.result.json",
+        "sha256": "e5f2a794336723136414a7d19671117378248b8a9b5f52f4b0f35fbb44055213"
+      },
+      "manifest": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag0-K4-D128/manifest.json",
+        "sha256": "d230fcf56db29ab4ee0accbf0ab9fc6d1be20e7e1d164efe53bbf30c82b22654"
+      },
+      "stats": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag0-K4-D128/native/walk.stats.json",
+        "sha256": "2bcae2e5444de83a90f31b5535909dd3e9b3390d7ba38fa3a1de9f98ea2cbb1d"
+      },
+      "summary": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag0-K4-D128/summary.json",
+        "sha256": "18588100da9506248826055debf61ccbde6b196ab528aa5c4c724bc500f1f2bf"
+      }
+    },
+    "hold-rank-pilot-s02-flag1-K4-D128": {
+      "best_snapshot": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag1-K4-D128/native/walk.best.txt",
+        "sha256": "d533ffa9fa7307ecac1c7bb093d9c99120604d59e7860fd67bbf4791610c7085"
+      },
+      "current_snapshot": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag1-K4-D128/native/walk.current.txt",
+        "sha256": "3439c0860fa3f17bf8abd26079afda6a16b70dd3cc217d79305c2515a5a903d2"
+      },
+      "final_stats": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag1-K4-D128/final_stats.json",
+        "sha256": "d4816268052cd9ec61fc3fdd4eb23f349b157362a2ccf1b834840e565316b621"
+      },
+      "input": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag1-K4-D128/input.json",
+        "sha256": "eb7a22fe82208e44a155a01536c5ec228095cfcc78fac45902c44e0c636e5918"
+      },
+      "job_result": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag1-K4-D128-job.result.json",
+        "sha256": "5c0e23b394142fa20d12261d8f402696673c6614c7a9bf56a36fc01cff8e1cc3"
+      },
+      "manifest": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag1-K4-D128/manifest.json",
+        "sha256": "f861161ca52a41f13ba6920fc049caf894804bb9242a41190cbb58758e02daf3"
+      },
+      "stats": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag1-K4-D128/native/walk.stats.json",
+        "sha256": "6a7ea78550bd3e3b2691c3a533890ea5d9a91536973eff3c0bbb34ee6e4fb781"
+      },
+      "summary": {
+        "path": "artifacts/marathon7_20261103T122417Z/hold-rank-pilot-s02-flag1-K4-D128/summary.json",
+        "sha256": "a70ea6f1b65288e30dd3ef4b214d9b5c5b03198ccc358cad487ac6e424e63b04"
+      }
+    }
+  },
+  "runtime_sha256": "db5e663e80567ba8f526a158da9d8f44d1d980f4c28f0797485c650868ad1f61",
+  "source_training_identities": [
+    {
+      "raw_sha256": "ecdbf98457eed055610f3c6d9c607f2bc1e3b850b73cde256d9feff6f384d8ab",
+      "source": "s01",
+      "source_term_hash": "e5cc852c8613ca143e887507688af9bbac53eca0b447ead24315fc8f896ba6c6",
+      "term_set_sha256": "8148625a4ed8825023d94ef3a641cced097b28c3606dfd501f1936b8c8252c0f"
+    },
+    {
+      "raw_sha256": "eb7a22fe82208e44a155a01536c5ec228095cfcc78fac45902c44e0c636e5918",
+      "source": "s02",
+      "source_term_hash": "f0132923a5286052cb8107777dbba65226306ac7639d7526345626b6d69d4eff",
+      "term_set_sha256": "d533ffa9fa7307ecac1c7bb093d9c99120604d59e7860fd67bbf4791610c7085"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# Dwell hold-rank pilot
+
+The rank floor worked and increased the fraction of selected steps in higher-rank states, but **all four arms finished at best/current rank 93 and peak rank 98; none reached at most 92**. This is a mechanics result from two source/seed pairs, not evidence of a general search advantage.
+
+The new, separate worker was tested against its flag0 baseline with K4, D128, maximum rank 105 (12 above the starting rank), archive size 16, plus cadence 20,000 and restart cadence 50,000,000. Each arm received 30 native wall seconds on CPU3 with a 768 MiB reservation and a 45-second outer limit. The same exact approved training-source bytes and fresh paired seed were used within each source pair. The dispatch order was s01 flag0, s02 flag1, s01 flag1, s02 flag0. Runtime, binary, input and actual queued command hashes were checked against the frozen plan and completed job records.
+
+The seeds were 20261103123001 for s01 and 20261103123002 for s02. A flag1 attempt rejects a downward canonical flip only while the dwell clock is active, before changing any indices or fingerprints. Rejection still consumes one selected step and one dwell tick. This also defers improving flips. Accepted plus moves renew the clock; forced plus moves pause the mixing clock. Restarts retain the original behavior, although no restart occurred in these runs.
+
+| Source / flag | Native CPU / wall (s) | Steps | Above-best steps | Mean excess | Peak | Steps / CPU s |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| s01 / 0 | 28.540 / 30.002 | 24,366,848 | 2.225% | 0.02761 | 98 | 853,776 |
+| s01 / 1 | 28.527 / 30.002 | 23,739,392 | 4.176% | 0.06361 | 98 | 832,181 |
+| s02 / 0 | 28.525 / 30.003 | 24,750,592 | 2.303% | 0.02879 | 98 | 867,695 |
+| s02 / 1 | 28.437 / 30.002 | 22,698,496 | 9.474% | 0.11946 | 98 | 798,191 |
+
+Residency is sampled **before each selected step**, including rejected attempts; it is not a measurement of wall-clock time at each rank. Histogram totals reconstruct every selected step. The above-best fraction rose by 1.951 percentage points on s01 (1.88 times baseline) and 7.171 points on s02 (4.11 times baseline). The fraction at ranks 97–98 rose from 0.0745% to 0.6385% on s01 and from 0.0759% to 0.6416% on s02. Neither pair increased peak rank beyond 98. At the measured CPU totals, flag1 completed about 2.5% fewer steps per CPU second on s01 and 8.0% fewer on s02. These are descriptive outcomes from differing trajectories, not an estimate of a general slowdown or speedup. Including wrapper preparation, the four outer jobs used 30.19–30.29 CPU seconds and about 31.01 wall seconds each; exact values are retained in the evidence.
+
+| Source / flag | Accepted / rejected flips | Accepted downward flips | Explicit reductions | Dwell steps | Accepted pluses / forced pluses | Completed bursts |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| s01 / 0 | 24,361,534 / 0 | 4,392 | 442 | 155,904 | 4,872 / 3,654 | 1,218 |
+| s01 / 1 | 23,706,397 / 23,525 | 0 | 4,726 | 151,808 | 4,744 / 3,558 | 1,186 |
+| s02 / 0 | 24,745,230 / 0 | 4,503 | 414 | 158,336 | 4,948 / 3,711 | 1,237 |
+| s02 / 1 | 22,667,771 / 21,671 | 0 | 4,518 | 145,152 | 4,536 / 3,402 | 1,134 |
+
+Flag1 rejected 23,525 downward flips on s01 and 21,671 on s02, with zero accepted rank loss during active dwell steps. The corresponding summed prospective losses were 23,578 and 21,735 products. These are attempt counters: a rejected state can be reconsidered, so those totals are not distinct improvements or cumulative rank saved. Baseline accepted downward flips supplied 4,406 and 4,518 products of rank loss, in addition to its explicit reductions. With the floor enabled, all accepted flip rank changes were neutral; explicit reductions after dwell expiration supplied the rank decrease instead.
+
+Every burst completed four accepted plus moves. Baseline s01/s02 completed 1,218/1,237 bursts; flag1 completed 1,186/1,134. In each arm, exactly three forced pluses followed each ordinary plus, with no failed forced attempt, attempt cap, rank cap or restart cancellation. Thus the floor did not cause extra forced-plus injection: the measured burst rates were 42.68 versus 41.58 per native CPU second on s01 and 43.37 versus 39.88 on s02. The enabled dwell clocks expired 1,186 and 1,134 times after exactly 128 mixing steps each. Their 3,558 and 3,402 renewals were the three forced-plus renewals per burst. Baseline renewal counts were 3,654 and 3,711. No arm reached rank cap 105.
+
+All **684 exported certificates** passed a fresh independent full F2 tensor evaluation, totaling **10,687,500 checked entries**. There were 682 distinct termsets across arms, because each source itself appeared in both paired runs. Four existing packed-versus-scalar controls passed, covering a positive exact tensor, corruption, transpose convention, parity/zero cancellation, false rank92, strict types and a higher-rank export; seven actual export samples, covering every observed rank in each arm, were additionally cross-checked by the scalar independent evaluator. Every export was rank 93 or 94: 681 rank93 and three rank94. No record marker was published. This audit started no new search.
+
+Each arm yielded 171 sampled certificates, with a 16-state rolling archive and periodic exports. The sampled mean source Jaccard distances were s01 0.3925→0.4293 and s02 0.4243→0.4154; sampled novel product counts were 573→770 and 735→725. The mixed direction and export censoring do not support a claim of improved diversity. High-rank states visible in the complete residency histogram need not survive to a checkpoint, so the small exported rank range does not contradict the peak of 98.
+
+A longer run or larger dwell window is not justified by these data: the intended higher-rank residence appears, but peak and best rank do not improve, and rejected attempts can count repeated proposals. If root elects to test reproducibility, the next bounded probe should hold K4/D128/H12 fixed and compare flag0/1 on two additional approved training sources with fresh paired seeds and a common 20-million-attempt budget, retaining a 30-second native and 45-second outer cap per arm. An arm that hits the wall cap first must be labeled censored. That proposal would use four bounded arms (at most 120 native wall seconds total), not a dwell-length sweep or promotion. No follow-up is launched or authorized by this report.
+
+Reproduction: `taskset -c 1 nice -n 10 python -B scripts/analyze_marathon7_hold_rank.py --campaign artifacts/marathon7_20261103T122417Z --output-dir <new-audit-directory>`. Analysis outputs and actual-job snapshots are in `artifacts/marathon7_20261103T122417Z/dwell-hold-rank-analysis-v1`. Small tracked evidence and all certificate byte hashes are in [evidence/hold-rank-pilot.json](evidence/hold-rank-pilot.json), [source pins](evidence/hold-rank-pilot-source-pins.json), and [certificate pins](evidence/hold-rank-pilot-certificate-pins.json). The fresh RL proposal remains disabled pending its separate root review. No Git operation was performed by this analysis.

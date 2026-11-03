@@ -1,0 +1,15 @@
+{
+  "exact_entries_checked": 10687500,
+  "files_sha256": {
+    "research/marathon7/HOLD_RANK_PILOT.md": "6c11b11deaa304426b0fb6496b84379cdaf8144c4e31a48de76aaff5dce48b40",
+    "research/marathon7/evidence/hold-rank-pilot-certificate-pins.json": "e51d3550384fa01bb00151fd1e897edce71516a6a8ea738479c9006473940d53",
+    "research/marathon7/evidence/hold-rank-pilot-source-pins.json": "63d908901d7414e1585e864fd91135611735114ced0e77d6f8c33291a532704c",
+    "research/marathon7/evidence/hold-rank-pilot.json": "1f30ef6e6861ceb8f24055d4deb3dab98ee5b13f154c2096d91124607f5b7056",
+    "scripts/analyze_marathon7_hold_rank.py": "e5bfb9e61b15d3c7af1ab251d2672ee665c571b54be026e46ae6b8d6289be942"
+  },
+  "format": "marathon7-hold-rank-pilot-milestone-v1",
+  "git_operations_by_analysis": 0,
+  "new_search_queries_started_by_analysis": 0,
+  "status": "VALIDATED_MECHANICS_NO_RANK92",
+  "verified_exports": 684
+}

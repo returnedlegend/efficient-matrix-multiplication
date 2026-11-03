@@ -1,0 +1,113 @@
+{
+  "conditions": "SerialCPU0/1024MiB,450mainCPU,1200driver/1230outer; root admission enforces complete envelope fits19:24:17UTC and liveguard; no automaticretry,validationorpromotion.",
+  "created_utc": "2026-11-03T12:44:20.928192+00:00",
+  "git_mutations": false,
+  "minimal_diff": [
+    {
+      "changes": [
+        {
+          "argument": "--checkpoint",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-learned44-pilot450/checkpoint.json",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/learned44-pilot450-v1/checkpoint.json"
+        },
+        {
+          "argument": "--output",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-learned44-pilot450/best.json",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/learned44-pilot450-v1/best.json"
+        },
+        {
+          "argument": "--events",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-learned44-pilot450/events.jsonl",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/learned44-pilot450-v1/events.jsonl"
+        },
+        {
+          "argument": "--native-dir",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-learned44-pilot450/native",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/learned44-pilot450-v1/native"
+        }
+      ],
+      "id": "marathon7-learned44-pilot450",
+      "original_id": "learned44-pilot450-v1"
+    },
+    {
+      "changes": [
+        {
+          "argument": "--checkpoint",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-frozen44-pilot450/checkpoint.json",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/frozen44-pilot450-v1/checkpoint.json"
+        },
+        {
+          "argument": "--output",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-frozen44-pilot450/best.json",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/frozen44-pilot450-v1/best.json"
+        },
+        {
+          "argument": "--events",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-frozen44-pilot450/events.jsonl",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/frozen44-pilot450-v1/events.jsonl"
+        },
+        {
+          "argument": "--native-dir",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-frozen44-pilot450/native",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/frozen44-pilot450-v1/native"
+        }
+      ],
+      "id": "marathon7-frozen44-pilot450",
+      "original_id": "frozen44-pilot450-v1"
+    },
+    {
+      "changes": [
+        {
+          "argument": "--checkpoint",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-random44-pilot450/checkpoint.json",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/random44-pilot450-v1/checkpoint.json"
+        },
+        {
+          "argument": "--output",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-random44-pilot450/best.json",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/random44-pilot450-v1/best.json"
+        },
+        {
+          "argument": "--events",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-random44-pilot450/events.jsonl",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/random44-pilot450-v1/events.jsonl"
+        },
+        {
+          "argument": "--native-dir",
+          "new": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/marathon7-random44-pilot450/native",
+          "old": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/random44-pilot450-v1/native"
+        }
+      ],
+      "id": "marathon7-random44-pilot450",
+      "original_id": "random44-pilot450-v1"
+    }
+  ],
+  "new_pack_pins": 12,
+  "original_ready_pins": 213,
+  "original_variant_pins": 10,
+  "partial_accounting": "Pinned37events and missingcheckpoint verified; logged27.2678756mainCPU+1.5203912recoveryCPU is discarded experimental work,not continuation progress;unlogged in-flight usage remains unknown.",
+  "preview_rerun": false,
+  "production_queries_started_by_reviewer": 0,
+  "proposal_jobs_sha256": "ba4e09ade9978c64edabd7a7de595c145aa4bbb307fe0098cb7fdd7f935eb2f1",
+  "proposal_manifest_sha256": "856f749238a0aac3c5fcc16eaa76ed6bd73e710bb53bebd05f2fd143c342fe6a",
+  "reason": "Learned output is already present from root dispatch; no operations were performed against live outputs.",
+  "reviewer": "independent recovery/operations agent",
+  "saved_previews": [
+    {
+      "id": "marathon7-learned44-pilot450",
+      "output_now_exists": true,
+      "saved_preview_pinned": true
+    },
+    {
+      "id": "marathon7-frozen44-pilot450",
+      "output_now_exists": false,
+      "saved_preview_pinned": true
+    },
+    {
+      "id": "marathon7-random44-pilot450",
+      "output_now_exists": false,
+      "saved_preview_pinned": true
+    }
+  ],
+  "status": "PASS_STATIC_PROPOSAL_AUDIT"
+}

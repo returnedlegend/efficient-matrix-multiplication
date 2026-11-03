@@ -1,0 +1,327 @@
+{
+  "arms": [
+    {
+      "above_best_fraction": 0.02224744045680427,
+      "above_best_steps": 542100,
+      "accepted_flips": 24361534,
+      "best_rank": 93,
+      "burst": {
+        "burst_attempt_capped": 0,
+        "burst_failed_attempts": 0,
+        "burst_forced_accepted": 3654,
+        "burst_forced_attempts": 3654,
+        "burst_rank_capped": 0,
+        "burst_windows_completed": 1218,
+        "burst_windows_started": 1218
+      },
+      "bursts_per_child_cpu_second": 42.67681454509932,
+      "child_cpu_seconds": 28.540087,
+      "current_rank": 93,
+      "dwell": {
+        "dwell_reductions_deferred": 33456,
+        "dwell_steps": 155904,
+        "dwell_windows_rearmed": 3654,
+        "dwell_windows_started": 4872
+      },
+      "excess_residency_steps": {
+        "0": 23824748,
+        "1": 468533,
+        "2": 34793,
+        "3": 20621,
+        "4": 18063,
+        "5": 90
+      },
+      "flip_attempts": 24361534,
+      "flip_rank_changes": {
+        "delta_sum": -4406,
+        "down": 4392,
+        "equal": 24357142,
+        "up": 0
+      },
+      "hold": {
+        "hold_active_rank_loss": 0,
+        "hold_prevented_rank_loss": 0,
+        "hold_rank_cap_rejections": 0,
+        "hold_rejected_downward_flips": 0,
+        "hold_restart_events": 0,
+        "hold_window_expirations": 0
+      },
+      "hold_rank": 0,
+      "independent_exports_checked": 171,
+      "job_id": "hold-rank-pilot-s01-flag0-K4-D128",
+      "max_sampled_source_jaccard_distance": 0.5,
+      "mean_rank_excess": 0.02760652506224851,
+      "mean_sampled_source_jaccard_distance": 0.3924541584570024,
+      "native_wall_seconds": 30.0024,
+      "outer_job_cpu_seconds": 30.288407,
+      "outer_job_elapsed_seconds": 31.01403613399998,
+      "peak_excess": 5,
+      "peak_rank": 98,
+      "per_rank": {
+        "93": 171
+      },
+      "plus_attempts": 4872,
+      "rank_at_least97_fraction": 0.0007449876159608334,
+      "reductions": 442,
+      "rejected_flips": 0,
+      "sampled_novel_full_terms": 573,
+      "seed": 20261103123001,
+      "source": "s01",
+      "steps": 24366848,
+      "steps_per_child_cpu_second": 853776.2341088869
+    },
+    {
+      "above_best_fraction": 0.041757935502307775,
+      "above_best_steps": 991308,
+      "accepted_flips": 23706397,
+      "best_rank": 93,
+      "burst": {
+        "burst_attempt_capped": 0,
+        "burst_failed_attempts": 0,
+        "burst_forced_accepted": 3558,
+        "burst_forced_attempts": 3558,
+        "burst_rank_capped": 0,
+        "burst_windows_completed": 1186,
+        "burst_windows_started": 1186
+      },
+      "bursts_per_child_cpu_second": 41.57508288199596,
+      "child_cpu_seconds": 28.526702,
+      "current_rank": 93,
+      "dwell": {
+        "dwell_reductions_deferred": 128697,
+        "dwell_steps": 151808,
+        "dwell_windows_rearmed": 3558,
+        "dwell_windows_started": 4744
+      },
+      "excess_residency_steps": {
+        "0": 22748084,
+        "1": 787543,
+        "2": 42276,
+        "3": 9904,
+        "4": 149779,
+        "5": 1806
+      },
+      "flip_attempts": 23729922,
+      "flip_rank_changes": {
+        "delta_sum": 0,
+        "down": 0,
+        "equal": 23706397,
+        "up": 0
+      },
+      "hold": {
+        "hold_active_rank_loss": 0,
+        "hold_prevented_rank_loss": 23578,
+        "hold_rank_cap_rejections": 0,
+        "hold_rejected_downward_flips": 23525,
+        "hold_restart_events": 0,
+        "hold_window_expirations": 1186
+      },
+      "hold_rank": 1,
+      "independent_exports_checked": 171,
+      "job_id": "hold-rank-pilot-s01-flag1-K4-D128",
+      "max_sampled_source_jaccard_distance": 0.5354330708661417,
+      "mean_rank_excess": 0.06360537793048786,
+      "mean_sampled_source_jaccard_distance": 0.4292558002875639,
+      "native_wall_seconds": 30.002,
+      "outer_job_cpu_seconds": 30.201613,
+      "outer_job_elapsed_seconds": 31.016849276000016,
+      "peak_excess": 5,
+      "peak_rank": 98,
+      "per_rank": {
+        "93": 170,
+        "94": 1
+      },
+      "plus_attempts": 4744,
+      "rank_at_least97_fraction": 0.006385378361838416,
+      "reductions": 4726,
+      "rejected_flips": 23525,
+      "sampled_novel_full_terms": 770,
+      "seed": 20261103123001,
+      "source": "s01",
+      "steps": 23739392,
+      "steps_per_child_cpu_second": 832181.4417944283
+    },
+    {
+      "above_best_fraction": 0.023029388549574925,
+      "above_best_steps": 569991,
+      "accepted_flips": 24745230,
+      "best_rank": 93,
+      "burst": {
+        "burst_attempt_capped": 0,
+        "burst_failed_attempts": 0,
+        "burst_forced_accepted": 3711,
+        "burst_forced_attempts": 3711,
+        "burst_rank_capped": 0,
+        "burst_windows_completed": 1237,
+        "burst_windows_started": 1237
+      },
+      "bursts_per_child_cpu_second": 43.36618342177768,
+      "child_cpu_seconds": 28.524530000000002,
+      "current_rank": 93,
+      "dwell": {
+        "dwell_reductions_deferred": 34588,
+        "dwell_steps": 158336,
+        "dwell_windows_rearmed": 3711,
+        "dwell_windows_started": 4948
+      },
+      "excess_residency_steps": {
+        "0": 24180601,
+        "1": 486132,
+        "2": 44104,
+        "3": 20968,
+        "4": 18640,
+        "5": 147
+      },
+      "flip_attempts": 24745230,
+      "flip_rank_changes": {
+        "delta_sum": -4518,
+        "down": 4503,
+        "equal": 24740727,
+        "up": 0
+      },
+      "hold": {
+        "hold_active_rank_loss": 0,
+        "hold_prevented_rank_loss": 0,
+        "hold_rank_cap_rejections": 0,
+        "hold_rejected_downward_flips": 0,
+        "hold_restart_events": 0,
+        "hold_window_expirations": 0
+      },
+      "hold_rank": 0,
+      "independent_exports_checked": 171,
+      "job_id": "hold-rank-pilot-s02-flag0-K4-D128",
+      "max_sampled_source_jaccard_distance": 0.5275590551181102,
+      "mean_rank_excess": 0.028788765941436877,
+      "mean_sampled_source_jaccard_distance": 0.4242561818876089,
+      "native_wall_seconds": 30.0027,
+      "outer_job_cpu_seconds": 30.19397,
+      "outer_job_elapsed_seconds": 31.007075612999984,
+      "peak_excess": 5,
+      "peak_rank": 98,
+      "per_rank": {
+        "93": 170,
+        "94": 1
+      },
+      "plus_attempts": 4948,
+      "rank_at_least97_fraction": 0.0007590525511470594,
+      "reductions": 414,
+      "rejected_flips": 0,
+      "sampled_novel_full_terms": 735,
+      "seed": 20261103123002,
+      "source": "s02",
+      "steps": 24750592,
+      "steps_per_child_cpu_second": 867694.9979543922
+    },
+    {
+      "above_best_fraction": 0.09473830336600275,
+      "above_best_steps": 2150417,
+      "accepted_flips": 22667771,
+      "best_rank": 93,
+      "burst": {
+        "burst_attempt_capped": 0,
+        "burst_failed_attempts": 0,
+        "burst_forced_accepted": 3402,
+        "burst_forced_attempts": 3402,
+        "burst_rank_capped": 0,
+        "burst_windows_completed": 1134,
+        "burst_windows_started": 1134
+      },
+      "bursts_per_child_cpu_second": 39.877053488034264,
+      "child_cpu_seconds": 28.437407,
+      "current_rank": 93,
+      "dwell": {
+        "dwell_reductions_deferred": 122428,
+        "dwell_steps": 145152,
+        "dwell_windows_rearmed": 3402,
+        "dwell_windows_started": 4536
+      },
+      "excess_residency_steps": {
+        "0": 20548079,
+        "1": 1901481,
+        "2": 92043,
+        "3": 11258,
+        "4": 135905,
+        "5": 9730
+      },
+      "flip_attempts": 22689442,
+      "flip_rank_changes": {
+        "delta_sum": 0,
+        "down": 0,
+        "equal": 22667771,
+        "up": 0
+      },
+      "hold": {
+        "hold_active_rank_loss": 0,
+        "hold_prevented_rank_loss": 21735,
+        "hold_rank_cap_rejections": 0,
+        "hold_rejected_downward_flips": 21671,
+        "hold_restart_events": 0,
+        "hold_window_expirations": 1134
+      },
+      "hold_rank": 1,
+      "independent_exports_checked": 171,
+      "job_id": "hold-rank-pilot-s02-flag1-K4-D128",
+      "max_sampled_source_jaccard_distance": 0.4878048780487805,
+      "mean_rank_excess": 0.11946214409976767,
+      "mean_sampled_source_jaccard_distance": 0.41539390104086166,
+      "native_wall_seconds": 30.0019,
+      "outer_job_cpu_seconds": 30.22218,
+      "outer_job_elapsed_seconds": 31.006629507999946,
+      "peak_excess": 5,
+      "peak_rank": 98,
+      "per_rank": {
+        "93": 170,
+        "94": 1
+      },
+      "plus_attempts": 4536,
+      "rank_at_least97_fraction": 0.0064160638660817,
+      "reductions": 4518,
+      "rejected_flips": 21671,
+      "sampled_novel_full_terms": 725,
+      "seed": 20261103123002,
+      "source": "s02",
+      "steps": 22698496,
+      "steps_per_child_cpu_second": 798191.4806789522
+    }
+  ],
+  "completed_queries_analyzed": 4,
+  "cross_arm_unique_termsets": 682,
+  "format": "marathon7-hold-rank-pilot-evidence-v1",
+  "independent_exports_checked": 684,
+  "independent_tensor_entries_checked": 10687500,
+  "limits": "Two source/seed pairs, unequal measured CPU and trajectories, step-weighted rather than time-weighted residency, finite checkpoint/archive exports; no broad advantage or rank lower-bound claim.",
+  "new_search_queries_started": 0,
+  "packed_scalar_controls_passed": 4,
+  "paired_descriptive_comparisons": [
+    {
+      "above_best_fraction_flag1_minus_flag0": 0.019510495045503506,
+      "above_best_fraction_ratio": 1.8769770654464801,
+      "mean_excess_ratio": 2.3039979782702606,
+      "peak_rank_change": 0,
+      "sampled_termset_intersection": 1,
+      "seed": 20261103123001,
+      "source": "s01",
+      "steps_per_cpu_flag1_div_flag0": 0.974706730579122
+    },
+    {
+      "above_best_fraction_flag1_minus_flag0": 0.07170891481642783,
+      "above_best_fraction_ratio": 4.113800206291253,
+      "mean_excess_ratio": 4.149609758986605,
+      "peak_rank_change": 0,
+      "sampled_termset_intersection": 1,
+      "seed": 20261103123002,
+      "source": "s02",
+      "steps_per_cpu_flag1_div_flag0": 0.91989867702442
+    }
+  ],
+  "pins": {
+    "artifacts/marathon7_20261103T122417Z/dwell-hold-rank-analysis-v1/actual-jobs.json": "ecf9e6695c6d4eafcbcaa610b1a5fca64e8560f4bfb83a97d6b9b460aa0f7ca6",
+    "artifacts/marathon7_20261103T122417Z/dwell-hold-rank-analysis-v1/analysis.json": "a14f4277cdb3483f41914653c3e6f18f8c30da0cf9b05abbe11fa92fc7297405",
+    "artifacts/marathon7_20261103T122417Z/dwell-hold-rank-analysis-v1/checksums.json": "d398d466604bb3c79f6392202a3329f0ee1404a18cff79fd2ca441bb630e5632",
+    "artifacts/marathon7_20261103T122417Z/dwell-hold-rank-analysis-v1/packed-controls.log": "68859a6b38e03b6550b60298213eacbea41ae772c03f8945dfbbe299aeac575e",
+    "research/marathon7/evidence/hold-rank-pilot-certificate-pins.json": "e51d3550384fa01bb00151fd1e897edce71516a6a8ea738479c9006473940d53",
+    "research/marathon7/evidence/hold-rank-pilot-source-pins.json": "63d908901d7414e1585e864fd91135611735114ced0e77d6f8c33291a532704c"
+  },
+  "scalar_export_spotchecks": 7,
+  "status": "NO_VERIFIED_RANK92_WITHIN_FOUR_ARMS"
+}

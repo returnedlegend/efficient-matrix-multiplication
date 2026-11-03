@@ -1,0 +1,40 @@
+{
+  "all_pinned_files_nonwritable": true,
+  "binary_sha256": "3d20e4539cbd9966353629c396ef91cbc3994a5e88773fa51a3f919da6945244",
+  "created_utc": "2026-11-03T12:33:59.749956+00:00",
+  "existing_tiny_controls_passed": 7,
+  "four_disabled_jobs": [
+    "hold-rank-pilot-s01-flag0-K4-D128",
+    "hold-rank-pilot-s02-flag1-K4-D128",
+    "hold-rank-pilot-s01-flag1-K4-D128",
+    "hold-rank-pilot-s02-flag0-K4-D128"
+  ],
+  "limits": "Pilot mechanics only;no production advantage,matched450CPU or improvedrankclaim. Existing7controls were read and source-pins rechecked;reviewer reran4zero-query previews but no native production search.",
+  "pins_verified": 27,
+  "plan_sha256": "6ba99efce3c5f485dd1c5fc479228a8dc4f1308fb57f7dc773a0b3c98f677aa1",
+  "previews_rerun": [
+    {
+      "job": "hold-rank-pilot-s01-flag0-K4-D128",
+      "zero_mutations": true
+    },
+    {
+      "job": "hold-rank-pilot-s02-flag1-K4-D128",
+      "zero_mutations": true
+    },
+    {
+      "job": "hold-rank-pilot-s01-flag1-K4-D128",
+      "zero_mutations": true
+    },
+    {
+      "job": "hold-rank-pilot-s02-flag0-K4-D128",
+      "zero_mutations": true
+    }
+  ],
+  "production93_queries_started": 0,
+  "reviewer": "independent recovery/operations agent",
+  "runtime_sha256": "db5e663e80567ba8f526a158da9d8f44d1d980f4c28f0797485c650868ad1f61",
+  "source_lineage": "Both actual93sources byte-identical to prior approved training inputs,heldout excluded,primary+independent15625entry checks passed",
+  "source_review": "Only new minimum-rank rejection before mutation;default-1,enabled only for kind=f while dwelling. Tensor move algebra unchanged. Existing exact tensor/fingerprint checks retained. Dwell capped128,plusburst4,maxrank105;restart remains allowed to lower rank.",
+  "status": "PASS",
+  "stop_review": "StopPolicy checks UTC/marker/winner plus guard/queue stop state;unreadable existing state fails closed. Native30second budget plus15second overhead envelope must fit deadline. Stop checked immediately before native child,after verification,and before immutable winner marker. Every export primary exhaustively verified;production winner independently strict-reverified before marker."
+}

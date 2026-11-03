@@ -1,0 +1,153 @@
+{
+  "milestone": "Exact local repair and bounded exploration methods",
+  "utc": "2026-11-03T12:47:24.911847+00:00",
+  "best_verified_products": 93,
+  "new_record": false,
+  "files": [
+    {
+      "path": "mmsearch/backbone7.py",
+      "bytes": 11825,
+      "sha256": "3696d9b169d03666a600d54a740b43ce815fa5823e7f1927e7e1a64603295aff"
+    },
+    {
+      "path": "mmsearch/marathon7_local.py",
+      "bytes": 8486,
+      "sha256": "94834fe263b3bb3f62145a3415e520f8918c366b2f608138df29fb918435ac53"
+    },
+    {
+      "path": "native/flip_worker_dwell_hold_rank.cpp",
+      "bytes": 25220,
+      "sha256": "81388f969701b852b11575392d8734ec40f13d56ba5c7aa5e4a50733d2ed0222"
+    },
+    {
+      "path": "research/marathon7/BACKBONE_DECODER.md",
+      "bytes": 4376,
+      "sha256": "093704a542f633b7b1cf30c0d17333ba58642e9234c066c2d86db97ebe3b8683"
+    },
+    {
+      "path": "research/marathon7/HOLD_RANK_PILOT.md",
+      "bytes": 7084,
+      "sha256": "6c11b11deaa304426b0fb6496b84379cdaf8144c4e31a48de76aaff5dce48b40"
+    },
+    {
+      "path": "research/marathon7/MILESTONE2.md",
+      "bytes": 2247,
+      "sha256": "640b765c1b54e7cc21d7551fda0710bd045646610455c7adbca244e3c6e35f14"
+    },
+    {
+      "path": "research/marathon7/RECOVERY_VALIDATION.md",
+      "bytes": 7909,
+      "sha256": "02ad87bf58c471e79c260e3d87998baf8116a39045cb3f31f8ee358e1e783e7e"
+    },
+    {
+      "path": "research/marathon7/evidence/backbone7-independent-review-v1.json",
+      "bytes": 651,
+      "sha256": "81043d213b6475df5c25cf1a2a449e5771b0e301f3098b52fe8a699544a3024e"
+    },
+    {
+      "path": "research/marathon7/evidence/finetune44-independent-operations-QA.json",
+      "bytes": 5851,
+      "sha256": "6b053e94df6d138dd4ad0909182f4c9563b42e8d38ae8ac90c3bb0f95d027812"
+    },
+    {
+      "path": "research/marathon7/evidence/hold-rank-independent-operations-QA.json",
+      "bytes": 2172,
+      "sha256": "ea86991073d7b239fc71e44dad1bce615ff432fb03dc247ba38f572f783dbe9d"
+    },
+    {
+      "path": "research/marathon7/evidence/hold-rank-pilot-certificate-pins.json",
+      "bytes": 141172,
+      "sha256": "e51d3550384fa01bb00151fd1e897edce71516a6a8ea738479c9006473940d53"
+    },
+    {
+      "path": "research/marathon7/evidence/hold-rank-pilot-milestone.json",
+      "bytes": 900,
+      "sha256": "bf733a9438983705a9f0d9e093341516b402b56f268078afd7909f608e6eb1db"
+    },
+    {
+      "path": "research/marathon7/evidence/hold-rank-pilot-source-pins.json",
+      "bytes": 9163,
+      "sha256": "63d908901d7414e1585e864fd91135611735114ced0e77d6f8c33291a532704c"
+    },
+    {
+      "path": "research/marathon7/evidence/hold-rank-pilot.json",
+      "bytes": 10956,
+      "sha256": "1f30ef6e6861ceb8f24055d4deb3dab98ee5b13f154c2096d91124607f5b7056"
+    },
+    {
+      "path": "research/marathon7/evidence/local10-first500-independent-bindings-audit-v1.json",
+      "bytes": 225934,
+      "sha256": "cb2625955658d3257a1fdccaaf0fc459e73d2f777359ba424ff7cf7cbd88570c"
+    },
+    {
+      "path": "research/marathon7/evidence/localbulk-independent-qa-v2.json",
+      "bytes": 672,
+      "sha256": "934c1fe8797bbdfe484168118d6244668a78561f4a2b8ed02e0278e574aefe4c"
+    },
+    {
+      "path": "scripts/analyze_marathon7_hold_rank.py",
+      "bytes": 12438,
+      "sha256": "e5bfb9e61b15d3c7af1ab251d2672ee665c571b54be026e46ae6b8d6289be942"
+    },
+    {
+      "path": "scripts/campaign_native_dwell_hold_rank.py",
+      "bytes": 8679,
+      "sha256": "adaaa8756c379ab7316bd4191850fcfb972bd6b9e809e7cd94c6e679ad52654f"
+    },
+    {
+      "path": "scripts/marathon7_local_audit_batch.py",
+      "bytes": 6258,
+      "sha256": "d67077503b6b8296cec17fbb97eac8b427054cabd5822d225ce7b5beea091022"
+    },
+    {
+      "path": "scripts/marathon7_local_backbone_review.py",
+      "bytes": 6491,
+      "sha256": "a0340687d694ddc5487a45a12ddc8f51883e802e848c806215a99226a7c8a3ac"
+    },
+    {
+      "path": "scripts/marathon7_local_campaign.py",
+      "bytes": 14408,
+      "sha256": "1123b7d3a5504cfd3fefce84e7e819930698d07bec4e00cbb292ea56d7933843"
+    },
+    {
+      "path": "scripts/marathon7_local_job_overlay.py",
+      "bytes": 2302,
+      "sha256": "be89b87b49a7111102f79cc377c05d961560a95f811767592c2e6dd3f90d0747"
+    },
+    {
+      "path": "scripts/marathon7_local_prepare.py",
+      "bytes": 10611,
+      "sha256": "3e9a7a35e5d8b5df5046c2af8e755ff7f670d04fec364b4043065008c02f6cb8"
+    },
+    {
+      "path": "scripts/prepare_marathon7_v44_pilot.py",
+      "bytes": 11495,
+      "sha256": "d31266509e114ed604daf2ab4b632b6d102c36e691d0d9ca760caa1d6d973633"
+    },
+    {
+      "path": "scripts/prepare_native_dwell_hold_rank.py",
+      "bytes": 6777,
+      "sha256": "8e984b030c870580a1f980e8b0c4c0c64e968d6d86844b8d8786bb126dded6b6"
+    },
+    {
+      "path": "tests/test_backbone7.py",
+      "bytes": 11356,
+      "sha256": "8995c37e4fb1994a6bd464e2e06a4f7efa7306d7ce13a0338515f89322eac073"
+    },
+    {
+      "path": "tests/test_campaign_native_dwell_hold_rank.py",
+      "bytes": 4619,
+      "sha256": "819b7b3cbb4aa4556a2257b6e002fe26391cad2c63f76fcb9b6e97cd2b8356b5"
+    },
+    {
+      "path": "tests/test_marathon7_local.py",
+      "bytes": 9904,
+      "sha256": "339be049519be9ac719c967076f3379a5bc6e42b86605d5d0e9d7b760357c5a7"
+    },
+    {
+      "path": "tests/test_native_dwell_hold_rank.py",
+      "bytes": 8598,
+      "sha256": "cb2dd96d5e808f64a738150607f7ed2c1f6cc9742417951d65b467c2d9d4d333"
+    }
+  ]
+}

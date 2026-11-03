@@ -29,3 +29,20 @@ Pinned SHA256:
 | Resource-isolated `tests/test_local_ten_guard43.py` | `1489a51479f26604946e8902bb44d458d47c8dfe4ebdc19ab059194aea647823` |
 
 No staging, commits, pushes, production search dispatch, or edits to old frozen artifacts were performed by this validation worker.
+
+## Local bulk v2 independent acceptance
+
+Both new frozen `marathon7-local-{local10,extension8}-ready-v2` bundles pass independent validation: **14/14 controls, zero failures/errors/skips, zero production decoder queries**. This includes9 frozen lifecycle controls plus5 independently authored controls. Verified every file in both manifests, pending scope counts111593/5929, the exact decoder pin, the UTC hard clamp, malformed canonical states, incomplete/UNKNOWN journal rejection, changed completed-result rejection, storage holds, and exact negative-census compaction. Read-review confirmed resource freshness and process identity checks, all raw late witnesses retained as UNKNOWN without cursor advance, and full15625-entry plus independent verification before final WINNER publication.
+
+The v1 review identified that resumed WINNER bytes were independently verified but not bound to their immutable proof. The owner preserved v1 and froze v2 with byte/hash bindings through the WINNER proof, immutable candidate, all three report views, core input/math, selected configuration/case, and path confinement. The added tamper control passes. Evidence: `localbulk-independent-qa-v2.{json,log,result.json}`.
+
+| Final v2 artifact | SHA256 |
+|---|---|
+| Runner | `1123b7d3a5504cfd3fefce84e7e819930698d07bec4e00cbb292ea56d7933843` |
+| Guard/metadata module | `94834fe263b3bb3f62145a3415e520f8918c366b2f608138df29fb918435ac53` |
+| Local10 manifest | `224d6a052b3253edd11077da6edbe8f2ec20856fde6a16ab131531d7b8c462af` |
+| Extension8 manifest | `1e455dd9439a7e2a4f68ac308de2b87391ae4e15f97ad31ddad9f0972eac3371` |
+
+This accepts implementation and lifecycle controls; root owns any production launch and resulting scientific claims. No production run was launched by this worker.
+
+The initial v2 runtime acceptance did not exercise the queue's strict six-key job schema. Root caught the extra advisory `nice` field before queue mutation. A separate immutable overlay now removes only `nice:10`; niceness remains inherited from the queue parent. Follow-up independent QA imported the **actual** `scripts.phase_coordinator42_v2.validate_job` and successfully checked every proposal:224 local10 plus12 extension8, with complete overlay-manifest and original-job hash comparisons. No other field changed. Evidence: `localbulk-job-schema-independent-qa.{json,log,result.json}`. Corrected overlay manifest pins: local10 `f773127d8ebc06bb1bd5453e057c5da03c3137396785bf5dd98e1e5943c6bdbd`; extension8 `8deda98e81792a936857222fa175dfc91e3cb1053878e0d3076e0778a86c1a3a`.
