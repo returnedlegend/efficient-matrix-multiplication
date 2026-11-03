@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "artifacts/marathon7_20261103T122417Z/checks-recovered-code-final-runner.py"
+  ],
+  "started_utc": "2026-11-03T12:31:57.459385+00:00",
+  "pid": 5028,
+  "cpu": 1,
+  "memory_mb": 3072,
+  "wall_seconds": 900,
+  "exit_code": 0,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 48.00890544799995,
+  "cpu_seconds": 37.609184,
+  "max_rss_kib": 205696
+}

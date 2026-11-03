@@ -1,0 +1,232 @@
+{
+  "audit_cpu_seconds": 2.415197286,
+  "branch_records": 0,
+  "closed_frozen_catalog": 310788,
+  "coverage_ledger_sha256": "0a608093c86d75af138f6714086d72cede086eabed9c9f89a8e22b3106612276",
+  "cp7_recovery_limit": "Saved CP7 summary integrity and count partition checked; prior21380 archive audit was not repeated in recovery.",
+  "cp7_scope": "All supplied981476 eight-term circuit-union residuals on these four frozen rank93 sources have no at-most7-product replacement while their85 outside products stay fixed. No conclusion for other subsets, changed outside terms, arbitrary local families or global tensor rank.",
+  "cp7_summary_sha256": "4b954674a9161a508f467f9b740e54a8f33a1280e5e40bfe734cdb49b7e59f99",
+  "created_utc": "2026-11-03T12:31:06.881366+00:00",
+  "decoder_calls": 0,
+  "jobs": [
+    {
+      "cases": 6000,
+      "chunks": [
+        {
+          "cases": 2000,
+          "chain_sha256": "d35ae686f3dba5505941b8709adbf0ed8ea3cba6437ba1ff95cd184897692472",
+          "id": "ae93-001"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "baacaaed102441fdfc101e1580bee30ee28ebdb7b996e5a5a9585ef6b8dca839",
+          "id": "current-diverse-001"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "3af4c26a5875318a7e36be1e36944baf1dd0323f85b8e71e4c775f338ecf9fc9",
+          "id": "current-new-001"
+        }
+      ],
+      "report_sha256": "fc30918006ee08c115c1d45078ed63df8a83a8ade65e35a6b44c6d325cf6af04",
+      "result_sha256": "44be9fd1912c70ec660ebf3b6771e0bd88da67297ee5f143f115c2d66bd59846",
+      "sequence": 1
+    },
+    {
+      "cases": 6000,
+      "chunks": [
+        {
+          "cases": 2000,
+          "chain_sha256": "8743b247e66e055958ec1a23c540aba003ac95b4a21e0ac702bb0ccef4f303c0",
+          "id": "ae93-002"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "ce674370dc200752f82be42b8de4eadc23097351784b5ad2b73bd6d7a18baa22",
+          "id": "current-diverse-002"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "066bfdf6bdc467c4244d60095997e1f336e3b6fae48f2d7f5e6a8dd9b2b78e03",
+          "id": "current-new-002"
+        }
+      ],
+      "report_sha256": "8b94aa79e6778efb91be706e2090d6f0b5a736b990284e0e60a0281b6f169ebb",
+      "result_sha256": "46d433bc23da7a37302d72869084aa61f72acf8ac45b80bce1b319b75bba9118",
+      "sequence": 2
+    },
+    {
+      "cases": 6000,
+      "chunks": [
+        {
+          "cases": 2000,
+          "chain_sha256": "2715cd467794600d87602e7e83b86fb3a5354c440e555f9c8814603c08c8c790",
+          "id": "ae93-003"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "e695ea89296713beb08cb78b962ed925609891a5023a7e96694b9221eb1ba26c",
+          "id": "current-diverse-003"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "f76d38b939a73af0bafcab5c5eeb173e2fec9d5f7323c2595cf174559414d955",
+          "id": "current-new-003"
+        }
+      ],
+      "report_sha256": "6466d451ca37050b6646d695abc5d8206bea0ebf317343cab135cce98736af70",
+      "result_sha256": "ac41d6e2ba168337baf9ac2399a08e994e7f4ebfd6bb88bfddd9e007287427a9",
+      "sequence": 3
+    },
+    {
+      "cases": 6000,
+      "chunks": [
+        {
+          "cases": 2000,
+          "chain_sha256": "9eef2f460bb2f36061aa2b20f6bb000600ad94bfe5128c5fa357896b878e52bb",
+          "id": "ae93-004"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "25f391b7b14c0e02c860500d26c3e992137c964d19e803e1eb310c9c296e5a4d",
+          "id": "current-diverse-004"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "a5f7174b7ee1f7dadaee58a270269e28926ab1068577bdb9573e9119d63f0905",
+          "id": "current-new-004"
+        }
+      ],
+      "report_sha256": "6144dd80d7ba33e2e373f006f8511683246961f32e2e52a3fa9d8b2d4442c58f",
+      "result_sha256": "74ef1f3abdd3ded02edc6c3dea2fad789063b103175c7170a60667f1114b6d59",
+      "sequence": 4
+    },
+    {
+      "cases": 4354,
+      "chunks": [
+        {
+          "cases": 2000,
+          "chain_sha256": "0ff9baefe2db074afc2d081cbd3906f037052cc0f5a702a7a1962fe522de36dd",
+          "id": "ae93-005"
+        },
+        {
+          "cases": 354,
+          "chain_sha256": "8bc90314cca099d0d6cd60ebcdbcbc181eb5e529bb4fe87aa66a95f604ae9aea",
+          "id": "current-diverse-005"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "4b5e27c1eb06f834d66fb57cf95aaac88f0b4321419ded625565d808bdf24094",
+          "id": "current-new-005"
+        }
+      ],
+      "report_sha256": "dcfca898886e9f0675480b26e70be2979e8010303b99e45b3f77c35a3afa0a41",
+      "result_sha256": "9311c662b3bf930ea0044624800cccba051fcc6de4fbe73988badad0e9e3c190",
+      "sequence": 5
+    },
+    {
+      "cases": 4000,
+      "chunks": [
+        {
+          "cases": 2000,
+          "chain_sha256": "98f0ae54fb67c2480c37b3dda63acb4a1ecb4c26eeef52779377f5a7d151afc3",
+          "id": "ae93-006"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "37007f9b54e5c2577b3077b1f7629aa0e5f9272251f3fa1a10b31c64c0ae349b",
+          "id": "current-new-006"
+        }
+      ],
+      "report_sha256": "cf93177067e7cc183230a6096a00841cd147cfe88408119b42c6e75ad54d5df8",
+      "result_sha256": "8a604e300c3e2b516a73b337b82c6c026f0025ab7a23e8937a96d003512448d2",
+      "sequence": 6
+    },
+    {
+      "cases": 4000,
+      "chunks": [
+        {
+          "cases": 2000,
+          "chain_sha256": "3e77a9935498a091128c95b8ad9650eb3fe6f289b5eaea6a107ed6ef9e6e1e07",
+          "id": "ae93-007"
+        },
+        {
+          "cases": 2000,
+          "chain_sha256": "fee7a17cd5f9d46c2a1a666ad5fe065c0893933fdec549c7dd30bfde2caee62a",
+          "id": "current-new-007"
+        }
+      ],
+      "report_sha256": "0d7d86a9552c2bc8d15cb25b415711843ddb9ba44b0f2b79ba9a59e5987d02d1",
+      "result_sha256": "3f83f8961fd8c87eb2b3ed2bac654a32b566de182681aac9a6567e4811f4090a",
+      "sequence": 7
+    },
+    {
+      "cases": 2284,
+      "chunks": [
+        {
+          "cases": 2000,
+          "chain_sha256": "d29a14507c0acd92d012185db1f7a29030302a390adb8dc3a98814f3805cbfc1",
+          "id": "ae93-008"
+        },
+        {
+          "cases": 284,
+          "chain_sha256": "082021b5025178f1d78ac326c2d8fb94687eb62de0a9c4112b246419e6293cce",
+          "id": "current-new-008"
+        }
+      ],
+      "report_sha256": "b377fcb0a1733bc63a7e3601e3902a4ec81abac92a3ce670f5a3156939ee5c73",
+      "result_sha256": "731f7fd5bdc666d157facb6663158b82012f48115532a07c6dbf07d7af06d3cc",
+      "sequence": 8
+    },
+    {
+      "cases": 2000,
+      "chunks": [
+        {
+          "cases": 2000,
+          "chain_sha256": "d527c35bbfcdb956a5b655cda0b66c22ed537a96f51f68be55972a927c8a852b",
+          "id": "ae93-009"
+        }
+      ],
+      "report_sha256": "6488dd1a33a0a1ae950e8ff3c6ec6406630c6f2d7bab5456d4095dec24ecf683",
+      "result_sha256": "fdab28827dc648ea4177278aa986146cc0a2b74f3626fa66a457557fc7c2a796",
+      "sequence": 9
+    },
+    {
+      "cases": 1084,
+      "chunks": [
+        {
+          "cases": 1084,
+          "chain_sha256": "6f52f2c40ba916324dc1f1028154e8c3af784ebcd4dcdeff4fb778a35093145c",
+          "id": "ae93-010"
+        }
+      ],
+      "report_sha256": "9a3fc7ba78927a6fce6a484f6b77dec4a4141ea5679270e4ad8ab882bedefc20",
+      "result_sha256": "8ae3f6f013e938cfd50b0d61423a601384ae9087863a5399a4756d0a48c95eca",
+      "sequence": 10
+    }
+  ],
+  "original_catalogued": 310788,
+  "prior_closed_cases_from_frozen_coverage_ledger": 269066,
+  "prior_closed_evidence": {
+    "cheap_k3_rank_bound": 263002,
+    "exact_budget6": 46,
+    "exact_first_continuation": 6000,
+    "exact_pilot18": 18,
+    "exact_total_with_cheap_bound": 269066,
+    "original_catalogued": 310788,
+    "pending": 41722
+  },
+  "prior_cp7_summary_integrity_checked": true,
+  "remaining": 0,
+  "remaining_cases_replayed": 41722,
+  "scope": "Frozen explicit observed3D palette catalog for recorded fixed sources/P/W and requested groupweight<=5 bounds only. Prior269066 closures are carried from frozen coverage ledger; recovery replays all41722 remaining cases. No all-image-rank3 or global-rank claim.",
+  "source_counts": {
+    "ae93": 19084,
+    "current-diverse": 8354,
+    "current-new": 14284
+  },
+  "status": "COMPLETE_REMAINING_FINITE_PALETTE_CHAIN_AUDIT_PASS",
+  "terminal_counts": {
+    "NO_ONE_SUBSPACE_GAIN": 41722
+  }
+}

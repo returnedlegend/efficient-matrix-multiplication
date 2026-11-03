@@ -1,0 +1,27 @@
+{
+  "tests_run": 829,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "successful": true,
+  "elapsed_seconds": 47.45554542600007,
+  "source_hash_count_before": 452,
+  "source_hash_count_after": 453,
+  "source_changes": {
+    "/workspace/efficient-matrix-multiplication/mmsearch/backbone7.py": {
+      "before": "11021fd4cd3fc0da56a9ffe4dc0590c75eb0f11d44688da4e4c23705b6e8205e",
+      "after": "29f47aa91f9ae4fde9dc4105b40e50237e0e16fff540a447dbbcbdee13c3de8b"
+    },
+    "/workspace/efficient-matrix-multiplication/scripts/tensor_code7.py": {
+      "before": "c192216e5f3835c772053e91aa9db9c8125e849d50f1b96109b50e2d03f120f8",
+      "after": "66ab8e0dfa71f30a16c3a942693181aca6272362598ac43595e1c616e329a19d"
+    },
+    "/workspace/efficient-matrix-multiplication/tests/test_backbone7.py": {
+      "before": null,
+      "after": "a78317d2b2baba30ea140bacd925a68e560f3f777b1c02bed3229646e4393667"
+    }
+  },
+  "passes": 829
+}

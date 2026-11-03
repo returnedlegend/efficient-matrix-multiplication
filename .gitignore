@@ -32,3 +32,13 @@ __pycache__/
 /native/free_factor_kernel_worker_longmixed
 /native/free_factor_pair_block_worker
 /native/free_factor_pair_block_worker_wide
+
+# Large campaign working sets stay local; curated evidence lives in research/.
+/artifacts/rl_campaign42_20261103T033116Z/
+/artifacts/marathon7_20261103T122417Z/
+/native/free_factor_quartet_block_worker_wide
+/native/free_factor_quartet_frontier_worker
+/native/free_factor_triple_block_worker_wide
+/native/free_factor_triple_block_worker_wide_v2
+/native/kernel_quartet_catalog_sampler
+/native/kernel_quartet_math_driver

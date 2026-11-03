@@ -1,0 +1,61 @@
+{
+  "also_existing_held_inventory_fixture": [
+    "held_inventory42_rank113.txt",
+    "held_inventory42_rank113.provenance.json"
+  ],
+  "copied_bytes_unchanged": true,
+  "created_utc": "2026-11-03T12:30:24.048569+00:00",
+  "fixtures": [
+    {
+      "bytes": 84171,
+      "essential_rank": 93,
+      "file": "native_campaign42_rank93.json",
+      "purpose": "exact F2 n5 rank93 control",
+      "sha256": "ecdbf98457eed055610f3c6d9c607f2bc1e3b850b73cde256d9feff6f384d8ab",
+      "source_path": "artifacts/rl_campaign42_20261103T033116Z/breadth43-ready-v1/sources/90feb0398e7ee787626aff84bdee638311e6ada128edf8023c1e7d1ef20c2514.json",
+      "verification": {
+        "exact_entries_checked": 15625,
+        "record_eligible": false,
+        "valid": true
+      }
+    },
+    {
+      "bytes": 19312,
+      "essential_rank": 96,
+      "file": "native_campaign42_rank96.json",
+      "purpose": "exact F2 n5 higher-rank burst export",
+      "sha256": "5cd6d7a8cdfbe65e2ec847923dda8ad5508e460d93cca0d174686f9d58f7a5ea",
+      "source_path": "artifacts/rl_campaign42_20261103T033116Z/burst42-pilot-s01-K8-D128/verified/1b5da0b27889d2fa19302fae644f13ecfa95255889f14757c4faf6c74e00da57.json",
+      "verification": {
+        "exact_entries_checked": 15625,
+        "record_eligible": false,
+        "valid": true
+      }
+    },
+    {
+      "bytes": 7150,
+      "file": "compact_rank2_edges43_oracle.py",
+      "purpose": "independent stdlib tiny-control oracle",
+      "sha256": "f9b00ed3873abe61ce4456cfbf51f04bf9fd9342978d04cbd4b804231b4d40e8",
+      "source_path": "artifacts/rl_campaign42_20261103T033116Z/compact-rank2-edge-independent-review-v1/oracle.py"
+    }
+  ],
+  "format": "marathon7-portable-fixtures-v1",
+  "independence": "Oracle copied byte-for-byte from independent review; no production implementation imported. Exact rank93/rank96 fixtures individually reverified through independent exact15625-entry checker.",
+  "original_campaign_read_only": true,
+  "test_edits": {
+    "after_sha256": {
+      "tests/test_audit_burst_long42.py": "ea3b5501b6da25a92209f0bda531974374900d3425d0afe72cbd494c7383062e",
+      "tests/test_campaign_native_dwell42.py": "98895888c596b33b6f9cfbb6c874a00cdd40973b7c68b99e4c9d66ebc2b8df27",
+      "tests/test_campaign_native_plus_burst42.py": "329d61cb244de03d751cceeaad964f6494dd2403320defc28fc86df43e01bd9c",
+      "tests/test_compact_rank2_edges43.py": "71a04e4dcd5f4f2930dcae0721c10998572221ed90d4738e3e1581bfbd5a123d"
+    },
+    "before_sha256": {
+      "tests/test_audit_burst_long42.py": "76149e4c67ecc9def954b28776a2e30912e2dc6546674c66cda94235818571b5",
+      "tests/test_campaign_native_dwell42.py": "f89784d222893a199bdb98af9f475729cd3c60c27d04f853e78560fad781aa6d",
+      "tests/test_campaign_native_plus_burst42.py": "d905a1260cde37a5d4ef64a5b136358fe065ff3c8002052b028462a83e7548f7",
+      "tests/test_compact_rank2_edges43.py": "b10a00afca3cef56e661dee9aeca71b6bdef39af73781028d31fe39d7fa52d61"
+    },
+    "scope": "Only fixture path portability changed; no assertions removed, no optional skips added; EDGE_ORACLE override retained."
+  }
+}

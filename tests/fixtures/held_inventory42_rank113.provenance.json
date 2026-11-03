@@ -1,0 +1,7 @@
+{
+  "source_path": "artifacts/rl_campaign42_20261103T033116Z/held-five42-pilot1/verified/02a393688a5b8c4b3b5cd7e8c5bc4aea4907b1f7c4d8a18a2262a6f58737c1a9.json",
+  "source_sha256": "f73da707ae53dcd86cf568916d0dbc963aac0c295ec94b07b277017cace98fbf",
+  "rank": 113,
+  "field": 2,
+  "note": "Verified local held-five pilot checkpoint, derived from classic125. Test fixture; no novelty or improved bound claimed."
+}

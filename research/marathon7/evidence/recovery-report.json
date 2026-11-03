@@ -1,0 +1,152 @@
+{
+  "created_utc": "2026-11-03T12:27:53.528470+00:00",
+  "decoder_calls": 0,
+  "evidence": {
+    "campaign.json": {
+      "bytes": 630,
+      "sha256": "e1e4cf55580823f4815f4231903ac04295a716a4635fb37b717d704f2e85269e"
+    },
+    "finetune44-ready-v1/initial/checkpoint.json": {
+      "bytes": 9888399,
+      "sha256": "587a09d7e12f5608052f51a6da41a93347a6057ea586265f2f4536206a92ec9c"
+    },
+    "learned44-pilot450-v1/events.jsonl": {
+      "bytes": 52530,
+      "sha256": "f1913e7e09ae1c51478fe9442ad5878156010e679ac2e358f213a068ee51edfc"
+    },
+    "observed-rank3-lazy-ready-v2/plan.json": {
+      "bytes": 11415,
+      "sha256": "10e9e9d5cab08cd15eb00735af8d1cc1011c5401959cd85fc33356104ee8cd27"
+    },
+    "observed-rank3-remaining-010-job.result.json": {
+      "bytes": 1044,
+      "sha256": "8ae3f6f013e938cfd50b0d61423a601384ae9087863a5399a4756d0a48c95eca"
+    },
+    "observed-rank3-remaining-010/chunks/ae93-010/cursor.json": {
+      "bytes": 325,
+      "sha256": "5baf3e3df9c2560d405219776bf390596c5547a0a6046786d0133550411fc93c"
+    },
+    "observed-rank3-remaining-010/chunks/ae93-010/results.jsonl": {
+      "bytes": 1788193,
+      "sha256": "b51381ea01bb94a07cc3c1d40124bd4e122a6f8db7da68e8461d7f128e3f651a"
+    },
+    "observed-rank3-remaining-010/config.json": {
+      "bytes": 351,
+      "sha256": "36e8a058153783c479037f29dbb0321a61436e44ba1ce9a78204579c997c6c87"
+    },
+    "observed-rank3-remaining-010/report-launch000.json": {
+      "bytes": 676,
+      "sha256": "9a3fc7ba78927a6fce6a484f6b77dec4a4141ea5679270e4ad8ab882bedefc20"
+    },
+    "queue.json": {
+      "bytes": 322154,
+      "sha256": "604dd461a29af8d3e91c4b59df6c9c3ed7ed7a0d4ba649d24416be981ff8067f"
+    },
+    "queue_state.json": {
+      "bytes": 967264,
+      "sha256": "3687fd362a6a8cf0838bf94ee4904608787bae653634574d856c0fe074df8d05"
+    }
+  },
+  "format": "marathon7-read-only-recovery-v1",
+  "old_campaign": "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z",
+  "old_campaign_modified": false,
+  "rank3_batch010": {
+    "branch_records": 0,
+    "queries": 1084,
+    "result": {
+      "command": [
+        "python3",
+        "-B",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/observed-rank3-lazy-ready-v2/code/scripts/campaign_observed_rank3_lazy42.py",
+        "--prepared-dir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/observed-rank3-lazy-ready-v2",
+        "--output-dir",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/observed-rank3-remaining-010",
+        "--seconds",
+        "840",
+        "--per-case-seconds",
+        "20",
+        "--memory-mb",
+        "1024",
+        "--guard-state",
+        "/workspace/efficient-matrix-multiplication/artifacts/rl_campaign42_20261103T033116Z/operations-v3/state.json",
+        "--chunk-id",
+        "ae93-010"
+      ],
+      "cpu": 1,
+      "cpu_seconds": 94.762325,
+      "elapsed_seconds": 97.04520331899403,
+      "exit_code": 0,
+      "interrupted": false,
+      "max_rss_kib": 27520,
+      "memory_mb": 1024,
+      "pid": 313554,
+      "started_utc": "2026-11-03T11:08:27.456656+00:00",
+      "timed_out": false,
+      "wall_seconds": 900
+    },
+    "result_chain_sha256": "6f52f2c40ba916324dc1f1028154e8c3af784ebcd4dcdeff4fb778a35093145c",
+    "scope": "Only ae93-010 explicit observed3D palettes at recorded bounds on the frozen source; no unrestricted tensor-rank conclusion.",
+    "status": "READ_ONLY_CHAIN_AUDIT_PASS",
+    "terminal_counts": {
+      "NO_ONE_SUBSPACE_GAIN": 1084
+    }
+  },
+  "v44_pilots": [
+    {
+      "budget_main_cpu_seconds": 450,
+      "checkpoint_present": false,
+      "event_counts": {
+        "record_restart": 1,
+        "recovery_end": 5,
+        "recovery_start": 5,
+        "start": 1,
+        "transition": 25
+      },
+      "event_lines": 37,
+      "id": "learned44-pilot450-v1",
+      "last_logged_best_rank": 93,
+      "last_logged_elapsed_seconds": 30.75134704601078,
+      "last_logged_step": 16542,
+      "last_logged_updates": 39524,
+      "logged_main_cpu_lower_bound_seconds": 27.26787563499238,
+      "persisted_queue_status": "running",
+      "result_present": false,
+      "status": "INTERRUPTED_NO_COMPLETION_RESULT",
+      "warning": "Unlogged in-flight work may add CPU; missing checkpoint means logged learner state is not a resumable checkpoint. No completed matched-budget comparison or learning advantage is established."
+    },
+    {
+      "budget_main_cpu_seconds": 450,
+      "checkpoint_present": false,
+      "event_counts": {},
+      "event_lines": 0,
+      "id": "frozen44-pilot450-v1",
+      "last_logged_best_rank": null,
+      "last_logged_elapsed_seconds": null,
+      "last_logged_step": null,
+      "last_logged_updates": null,
+      "logged_main_cpu_lower_bound_seconds": null,
+      "persisted_queue_status": "absent",
+      "result_present": false,
+      "status": "NOT_LAUNCHED",
+      "warning": "Unlogged in-flight work may add CPU; missing checkpoint means logged learner state is not a resumable checkpoint. No completed matched-budget comparison or learning advantage is established."
+    },
+    {
+      "budget_main_cpu_seconds": 450,
+      "checkpoint_present": false,
+      "event_counts": {},
+      "event_lines": 0,
+      "id": "random44-pilot450-v1",
+      "last_logged_best_rank": null,
+      "last_logged_elapsed_seconds": null,
+      "last_logged_step": null,
+      "last_logged_updates": null,
+      "logged_main_cpu_lower_bound_seconds": null,
+      "persisted_queue_status": "absent",
+      "result_present": false,
+      "status": "NOT_LAUNCHED",
+      "warning": "Unlogged in-flight work may add CPU; missing checkpoint means logged learner state is not a resumable checkpoint. No completed matched-budget comparison or learning advantage is established."
+    }
+  ],
+  "worker_relaunches": 0
+}

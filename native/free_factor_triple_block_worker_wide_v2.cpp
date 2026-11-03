@@ -1,0 +1,78 @@
+// Wide3..128 exact three-kernel-direction blocks; explicit finite catalog.
+#include <algorithm>
+#include <array>
+#include <chrono>
+#include <cmath>
+#include <csignal>
+#include <cstdint>
+#include <filesystem>
+#include <fstream>
+#include <iostream>
+#include <sstream>
+#include <stdexcept>
+#include <string>
+#include <sys/resource.h>
+#include <unordered_set>
+#include <utility>
+#include <vector>
+using U=uint64_t;using V=std::vector<uint32_t>;using Column=std::array<U,10>;
+static volatile std::sig_atomic_t stopped=0;static void stop_handler(int){stopped=1;}
+static void atomic_text(const std::string&path,const std::string&data){auto p=std::filesystem::path(path);if(p.has_parent_path())std::filesystem::create_directories(p.parent_path());std::ofstream f(path+".tmp");if(!f)throw std::runtime_error("cannot write");f<<data;f.close();if(!f)throw std::runtime_error("write failed");std::filesystem::rename(path+".tmp",path);}
+static void write_vectors(const std::string&path,const V&v){std::ostringstream s;for(auto x:v)s<<x<<'\n';atomic_text(path,s.str());}
+#include <unordered_map>
+#include <set>
+struct Options {std::string input,output,catalog,input_sha,baseline_sha,catalog_sha;double seconds=600,checkpoint=15;int target=92;U start=0,max_triples=0;};
+static Options options(int argc,char**argv){Options o;for(int k=1;k<argc;++k){std::string key=argv[k];if(k+1==argc)throw std::runtime_error("missing option value");std::string v=argv[++k];
+if(key=="--input")o.input=v;else if(key=="--output")o.output=v;else if(key=="--catalog")o.catalog=v;else if(key=="--seconds")o.seconds=std::stod(v);else if(key=="--target")o.target=std::stoi(v);else if(key=="--start-row")o.start=std::stoull(v);else if(key=="--max-triples")o.max_triples=std::stoull(v);else if(key=="--checkpoint-seconds")o.checkpoint=std::stod(v);else if(key=="--input-sha256")o.input_sha=v;else if(key=="--baseline-sha256")o.baseline_sha=v;else if(key=="--catalog-sha256")o.catalog_sha=v;else throw std::runtime_error("unknown option "+key);}
+if(o.input.empty()||o.output.empty()||o.catalog.empty()||!std::isfinite(o.seconds)||o.seconds<0||!std::isfinite(o.checkpoint)||o.checkpoint<=0||o.target<0)throw std::runtime_error("invalid options");
+for(auto&s:{o.input_sha,o.baseline_sha,o.catalog_sha})if(!s.empty()&&(s.size()!=64||s.find_first_not_of("0123456789abcdef")!=std::string::npos))throw std::runtime_error("invalid hash");
+return o;}
+struct Bag {std::vector<uint32_t> values;std::unordered_map<uint32_t,int> frequency;int zeros=0,maximum=0;void add(uint32_t w){if(values.size()>=128&&!frequency.count(w))throw std::runtime_error("partition size cap");auto found=frequency.find(w);if(found==frequency.end())values.push_back(w);maximum=std::max(maximum,++frequency[w]);zeros+=w==0;}int count(uint32_t w)const{auto it=frequency.find(w);return it==frequency.end()?0:it->second;}};
+struct Basis {std::array<int,3> classes{},transform{};int size=0;};
+static std::vector<Basis> bases(){std::vector<Basis> out;for(int mask=1;mask<128;++mask){if(__builtin_popcount(unsigned(mask))>3)continue;Basis b;for(int s=1;s<8;++s)if(mask>>(s-1)&1)b.classes[b.size++]=s;std::array<int,3> row{},rhs{};for(int i=0;i<b.size;++i){row[i]=b.classes[i];rhs[i]=1<<i;}int p=0;for(int bit=0;bit<3;++bit){int k=p;while(k<b.size&&!(row[k]>>bit&1))++k;if(k==b.size)continue;std::swap(row[k],row[p]);std::swap(rhs[k],rhs[p]);for(int j=0;j<b.size;++j)if(j!=p&&(row[j]>>bit&1)){row[j]^=row[p];rhs[j]^=rhs[p];}++p;}if(p!=b.size)continue;for(int j=0;j<p;++j)b.transform[__builtin_ctz(unsigned(row[j]))]=rhs[j];out.push_back(b);}return out;}
+struct Opt {std::array<uint32_t,3> move{};int score=0,zeros=0,upper=0;bool complete=true;U candidates=0;};
+static Opt optimize(const std::array<Bag,8>& bags,const std::vector<Basis>& all,const std::chrono::steady_clock::time_point& deadline){Opt out;for(int s=1;s<8;++s){out.zeros+=bags[s].zeros;out.upper+=bags[s].maximum;}out.score=out.zeros;
+auto consider=[&](const Basis&b,const std::array<uint32_t,3>& value){std::array<uint32_t,3> x{};for(int v=0;v<3;++v)for(int t=0;t<b.size;++t)if(b.transform[v]>>t&1)x[v]^=value[t];int score=0;for(int s=1;s<8;++s)score+=bags[s].count((s&1?x[0]:0)^(s&2?x[1]:0)^(s&4?x[2]:0));++out.candidates;if(score>out.score||(score==out.score&&x<out.move)){out.score=score;out.move=x;}};
+for(const auto&b:all){bool empty=false;for(int t=0;t<b.size;++t)empty|=bags[b.classes[t]].values.empty();if(empty)continue;std::array<uint32_t,3> v{};auto&a=bags[b.classes[0]].values;const auto&bb=b.size>1?bags[b.classes[1]].values:std::vector<uint32_t>{0};const auto&cc=b.size>2?bags[b.classes[2]].values:std::vector<uint32_t>{0};for(auto x:a)for(auto y:bb)for(auto z:cc){if((out.candidates&1023)==0&&(stopped||std::chrono::steady_clock::now()>=deadline)){out.complete=false;return out;}v={x,y,z};consider(b,v);if(out.score==out.upper)return out;}}return out;}
+static U choose3(U n){return n<3?0:n*(n-1)*(n-2)/6;}
+struct Catalog {
+ bool stream=false;int count=0,first_begin=0,first_end=0;U total=0,base_total=0,row=0,base=0,excluded_pos=0;
+ std::vector<std::array<int,3>> explicit_rows;std::vector<U> excluded;std::array<int,3> current{{-1,-1,-1}};
+ U ordinal(const std::array<int,3>&t)const{U a=t[0],b=t[1],d=t[2];return choose3(count-first_begin)-choose3(count-a)+(b-a-1)*(2*U(count)-a-b-2)/2+d-b-1;}
+ std::array<int,3> unrank(U position)const{
+  if(position>=base_total)return {-1,-1,-1};
+  int low=first_begin,high=first_end;while(low+1<high){int middle=(low+high)/2;if(choose3(count-first_begin)-choose3(count-middle)<=position)low=middle;else high=middle;}int i=low;
+  U left=position-(choose3(count-first_begin)-choose3(count-i));low=i+1;high=count-1;
+  while(low+1<high){int middle=(low+high)/2;U prefix=U(middle-i-1)*(2*U(count)-i-middle-2)/2;if(prefix<=left)low=middle;else high=middle;}int j=low;
+  U prefix=U(j-i-1)*(2*U(count)-i-j-2)/2;return {i,j,j+1+int(left-prefix)};
+ }
+ void advance_base(){++base;if(base>=base_total){current={-1,-1,-1};return;}++current[2];if(current[2]>=count){++current[1];current[2]=current[1]+1;if(current[1]>=count-1){++current[0];current[1]=current[0]+1;current[2]=current[1]+1;}}}
+ void skip_excluded(){while(excluded_pos<excluded.size()&&excluded[excluded_pos]==base){++excluded_pos;advance_base();}}
+ void seek(U start){if(start>total)throw std::runtime_error("cursor outside finite catalog");row=start;if(!stream){current=row<total?explicit_rows[row]:std::array<int,3>{-1,-1,-1};return;}if(row==total){base=base_total;excluded_pos=excluded.size();current={-1,-1,-1};return;}
+  U low=0,high=base_total;while(low<high){U middle=(low+high)/2;U kept=middle-U(std::lower_bound(excluded.begin(),excluded.end(),middle)-excluded.begin());if(kept<row)low=middle+1;else high=middle;}base=low;current=unrank(base);excluded_pos=std::lower_bound(excluded.begin(),excluded.end(),base)-excluded.begin();skip_excluded();
+ }
+ void advance(){++row;if(!stream){current=row<total?explicit_rows[row]:std::array<int,3>{-1,-1,-1};return;}advance_base();skip_excluded();}
+ Catalog(const std::string&path,int circuits):count(circuits){std::ifstream input(path);std::string magic,extra;if(!(input>>magic))throw std::runtime_error("missing finite catalog");std::set<std::array<int,3>> seen;
+  auto read_row=[&](){std::array<int,3>t;if(!(input>>t[0]>>t[1]>>t[2])||t[0]<0||t[0]>=t[1]||t[1]>=t[2]||t[2]>=count||!seen.insert(t).second)throw std::runtime_error("invalid/duplicate catalog row");return t;};
+  if(magic=="MMKTRIPLES1"){if(!(input>>total)||total>2000000)throw std::runtime_error("invalid explicit catalog size");for(U n=0;n<total;++n)explicit_rows.push_back(read_row());base_total=total;}
+  else if(magic=="MMKTRIPLESTREAM1"){stream=true;int declared;U remove;if(!(input>>declared>>first_begin>>first_end>>remove)||declared!=count||first_begin<0||first_begin>first_end||first_end>count-2||remove>2000000)throw std::runtime_error("invalid stream catalog header");base_total=choose3(count-first_begin)-choose3(count-first_end);for(U n=0;n<remove;++n){auto t=read_row();if(t[0]<first_begin||t[0]>=first_end)throw std::runtime_error("excluded triple outside stream family");excluded.push_back(ordinal(t));}std::sort(excluded.begin(),excluded.end());if(excluded.size()>base_total)throw std::runtime_error("too many exclusions");total=base_total-excluded.size();}
+  else throw std::runtime_error("unknown finite catalog schema");
+  if(input>>extra)throw std::runtime_error("trailing catalog");
+  seek(0);
+ }
+};
+int main(int argc,char**argv){Options o;try{o=options(argc,argv);rlimit limit{768ULL*1024*1024,768ULL*1024*1024};if(setrlimit(RLIMIT_AS,&limit))throw std::runtime_error("memory limit failed");
+std::ifstream in(o.input);std::string magic;int n,p,c;std::array<int,3> perm{};if(!(in>>magic>>n>>p>>c)||magic!="MMKERNELWIDE1"||n<2||n>5||p<1||p>10000||c<3||c>50000)throw std::runtime_error("invalid header");if(!(in>>perm[0]>>perm[1]>>perm[2]))throw std::runtime_error("missing permutation");auto sorted=perm;std::sort(sorted.begin(),sorted.end());if(sorted!=std::array<int,3>{0,1,2})throw std::runtime_error("invalid permutation");
+int width=n*n;U bound=U(1)<<width;V baseline(p);std::vector<Column> columns(p);std::vector<std::vector<int>> rows(p);std::unordered_set<U> unique_pairs;
+for(int g=0;g<p;++g){U a,b,w;if(!(in>>a>>b>>w)||!a||!b||a>=bound||b>=bound||w>=bound)throw std::runtime_error("invalid pair/model");if(!unique_pairs.insert((a<<25)|b).second)throw std::runtime_error("duplicate pair");baseline[g]=w;columns[g].fill(0);for(U x=a;x;x&=x-1)for(U y=b;y;y&=y-1){int r=__builtin_ctzll(x)*width+__builtin_ctzll(y);columns[g][r/64]^=U(1)<<(r%64);rows[g].push_back(r);}}
+std::vector<std::vector<int>> supports(c);std::set<std::vector<int>> unique_supports;for(int k=0;k<c;++k){int kind,size;if(!(in>>kind>>size)||kind<0||kind>2||size<3||size>128||(kind==0&&size!=3)||(kind==1&&size!=4))throw std::runtime_error("invalid wide circuit");Column total{};std::unordered_set<int> distinct;for(int j=0;j<size;++j){int g;if(!(in>>g)||g<0||g>=p||!distinct.insert(g).second)throw std::runtime_error("invalid group");supports[k].push_back(g);for(int x=0;x<10;++x)total[x]^=columns[g][x];}if(std::any_of(total.begin(),total.end(),[](U x){return x;}))throw std::runtime_error("nonkernel circuit rejected");std::sort(supports[k].begin(),supports[k].end());if(!unique_supports.insert(supports[k]).second)throw std::runtime_error("duplicate circuit");}std::string extra;if(in>>extra)throw std::runtime_error("trailing input");
+V target(width*width);for(int i=0;i<n;++i)for(int j=0;j<n;++j)for(int k=0;k<n;++k){std::array<int,3> xyz{i*n+j,j*n+k,k*n+i};target[xyz[perm[0]]*width+xyz[perm[1]]]^=uint32_t(1)<<xyz[perm[2]];}auto check=[&](const V&w){V observed(width*width);for(int g=0;g<p;++g){if(w[g]>=bound)throw std::runtime_error("mask out of range");if(w[g])for(int r:rows[g])observed[r]^=w[g];}if(observed!=target)throw std::runtime_error("original PW=Y failed");};check(baseline);
+Catalog catalog(o.catalog,c);catalog.seek(o.start);U total=catalog.total;
+int baseline_rank=std::count_if(baseline.begin(),baseline.end(),[](uint32_t x){return x;});V best=baseline;int best_rank=baseline_rank;U considered=0,bound_pruned=0,exact=0,disconnected=0,candidates=0,next=o.start;std::string status="RUNNING",reason="";auto all=bases();auto start=std::chrono::steady_clock::now();auto deadline=start+std::chrono::duration_cast<std::chrono::steady_clock::duration>(std::chrono::duration<double>(o.seconds));auto elapsed=[&](){return std::chrono::duration<double>(std::chrono::steady_clock::now()-start).count();};
+auto checkpoint=[&](){check(best);write_vectors(o.output+".best.w.txt",best);write_vectors(o.output+".current.w.txt",best);std::ostringstream s;s<<"{\"engine\":\"exact-three-kernel-block-wide-v2\",\"status\":\""<<status<<"\",\"reason\":\""<<reason<<"\",\"baseline_rank\":"<<baseline_rank<<",\"best_rank\":"<<best_rank<<",\"current_rank\":"<<best_rank<<",\"target_rank\":"<<o.target<<",\"target_reached\":"<<(best_rank<=o.target?"true":"false")<<",\"linear_exact\":true,\"tensor_invariant_checked\":true,\"full_matrix_verified\":false,\"steps\":"<<considered<<",\"triples_total\":"<<total<<",\"triples_considered\":"<<considered<<",\"prefix_rows_skipped\":"<<o.start<<",\"next_row\":"<<next<<",\"next_i\":"<<catalog.current[0]<<",\"next_j\":"<<catalog.current[1]<<",\"next_k\":"<<catalog.current[2]<<",\"next_base_ordinal\":"<<catalog.base<<",\"base_triples_total\":"<<catalog.base_total<<",\"excluded_triples\":"<<catalog.excluded.size()<<",\"bound_pruned\":"<<bound_pruned<<",\"disconnected_evaluated\":"<<disconnected<<",\"exact_evaluated\":"<<exact<<",\"candidate_assignments\":"<<candidates<<",\"elapsed_seconds\":"<<elapsed()<<",\"input_sha256\":\""<<o.input_sha<<"\",\"catalog_sha256\":\""<<o.catalog_sha<<"\",\"baseline_sha256\":\""<<o.baseline_sha<<"\"}\n";atomic_text(o.output+".stats.json",s.str());};
+std::signal(SIGTERM,stop_handler);std::signal(SIGINT,stop_handler);checkpoint();double next_checkpoint=o.checkpoint;
+if(best_rank<=o.target){status="MODEL_FOUND";reason="baseline already meets target";}else for(;next<total;){if(stopped||std::chrono::steady_clock::now()>=deadline||(o.max_triples&&considered>=o.max_triples)){status="UNKNOWN";reason=stopped?"interrupted":"wall or triple budget";break;}auto t=catalog.current;std::array<Bag,8> bags;std::unordered_map<int,int> memberships;for(int j=0;j<3;++j)for(int g:supports[t[j]])memberships[g]|=1<<j;std::array<bool,3> overlap{};for(auto entry:memberships){bags[entry.second].add(baseline[entry.first]);if(__builtin_popcount(unsigned(entry.second))>1)for(int j=0;j<3;++j)if(entry.second>>j&1)overlap[j]=true;}
+int zeros=0,upper=0;for(int s=1;s<8;++s){zeros+=bags[s].zeros;upper+=bags[s].maximum;}Opt opt;bool hit=false;if(baseline_rank+zeros-upper>o.target)++bound_pruned;else{++exact;int isolated=-1;for(int j=0;j<3;++j)if(!overlap[j]){isolated=j;break;}if(isolated>=0){++disconnected;auto component=bags;component[1<<isolated]=Bag{};opt=optimize(component,all,deadline);auto&single=bags[1<<isolated];uint32_t d=0;for(auto v:single.values)if(single.count(v)>single.count(d)||(single.count(v)==single.count(d)&&v<d))d=v;opt.move[isolated]=d;opt.score+=single.count(d);opt.zeros+=single.zeros;}else opt=optimize(bags,all,deadline);candidates+=opt.candidates;if(!opt.complete){status="UNKNOWN";reason="interrupted inside exact triple";break;}hit=baseline_rank+opt.zeros-opt.score<=o.target;}
+++considered;++next;catalog.advance();if(hit){V moved=baseline;for(int j=0;j<3;++j)for(int g:supports[t[j]])moved[g]^=opt.move[j];check(moved);best_rank=std::count_if(moved.begin(),moved.end(),[](uint32_t x){return x;});if(best_rank>o.target)throw std::runtime_error("objective/rank mismatch");best=moved;std::ostringstream proof;proof<<"{\"circuit_i\":"<<t[0]<<",\"circuit_j\":"<<t[1]<<",\"circuit_k\":"<<t[2]<<",\"d\":"<<opt.move[0]<<",\"e\":"<<opt.move[1]<<",\"f\":"<<opt.move[2]<<",\"before_rank\":"<<baseline_rank<<",\"after_rank\":"<<best_rank<<",\"linear_verified\":true}\n";atomic_text(o.output+".solution.json",proof.str());status="MODEL_FOUND";reason="pending independent global verification";break;}if(elapsed()>=next_checkpoint){checkpoint();next_checkpoint=elapsed()+o.checkpoint;}}
+if(status=="RUNNING"){status="NO_TARGET";reason="finite supplied triple suffix exhausted";}checkpoint();std::cout<<status<<" triples="<<considered<<" best_rank="<<best_rank<<'\n';return 0;
+}catch(const std::exception&e){if(!o.output.empty())try{atomic_text(o.output+".stats.json","{\"status\":\"ERROR\",\"reason\":\"native validation or IO failure\"}\n");}catch(...){}std::cerr<<"triple_block_worker_wide: "<<e.what()<<'\n';return 1;}}

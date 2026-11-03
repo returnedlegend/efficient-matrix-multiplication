@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "artifacts/marathon7_20261103T122417Z/rank2-independent-qa-runner.py"
+  ],
+  "started_utc": "2026-11-03T12:28:35.462001+00:00",
+  "pid": 3001,
+  "cpu": 2,
+  "memory_mb": 512,
+  "wall_seconds": 120,
+  "exit_code": 0,
+  "timed_out": false,
+  "interrupted": false,
+  "elapsed_seconds": 2.0032721549999906,
+  "cpu_seconds": 1.347894,
+  "max_rss_kib": 16000
+}
