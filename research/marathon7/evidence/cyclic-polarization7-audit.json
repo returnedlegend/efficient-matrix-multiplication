@@ -1,0 +1,169 @@
+{
+  "audited": {
+    "compressed_rank": 203,
+    "cube_factor_rank": 3,
+    "cube_orbits": 4,
+    "dictionary_independent_entries_checked": 4343750,
+    "dictionary_orbits": 278,
+    "dictionary_projection_inverse_entries_checked": 4343750,
+    "expanded_distinct_products": 826,
+    "forced_all_variables": 0,
+    "forced_cube_variables": 0,
+    "full_rank": 203,
+    "guard": {
+      "canonical": {
+        "checked_utc": "2026-11-03T14:06:24.334563+00:00",
+        "deadline_utc": "2026-11-03T19:24:17+00:00",
+        "elapsed_seconds": 4.720803276999504
+      },
+      "elapsed_seconds": 4.786351489000481,
+      "hard_utc": "2026-11-03T19:24:17+00:00"
+    },
+    "independent_kernel_rank": 75,
+    "joint_complete_kernel_projection": {
+      "exact92_residue_permitted": true,
+      "necessary_cost_residues_mod6": [
+        0,
+        2,
+        3
+      ],
+      "possible_cube_counts": [
+        0,
+        2,
+        3
+      ],
+      "possible_selection_parities": [
+        0,
+        1
+      ],
+      "projected_rank": 2,
+      "projected_states_checked": 4,
+      "scope": "Only the specified known-relation cube/parity image; no tensor-state search or weight feasibility claim."
+    },
+    "kernel_parity": {
+      "all_weights_odd": true,
+      "can_change_cost_parity": true,
+      "interpretation": "Odd kernel vector is necessary to reach exactly even cost92 from odd cost93. If all kernel vectors are even, <=92 may still mean odd cost<=91; this is not an impossibility proof for <=92.",
+      "odd_basis_indices": [
+        71
+      ],
+      "odd_basis_vectors": 1,
+      "seed_cost_parity": 1
+    },
+    "known_zero_relation_expanded_products": 9,
+    "known_zero_relation_hex": "0x30000000000000000000000000000058000000000000000000000000000000000",
+    "known_zero_relation_orbits": 5,
+    "new_column_independent_entries_checked": 46875,
+    "new_column_indices": [
+      257,
+      136,
+      138
+    ],
+    "nonfixed_orbits": 274,
+    "nullity": 75,
+    "polarized_cost": 98,
+    "polarized_cubes": 2,
+    "polarized_nonfixed_orbits": 32,
+    "polarized_selected_orbits": 34,
+    "runtime": {
+      "cpu_affinity": [
+        3
+      ],
+      "max_rss_kib": 34300,
+      "memory_limit_bytes": 1073741824,
+      "nice": 10,
+      "pid": 22702,
+      "utc": "2026-11-03T14:06:24.334527+00:00"
+    },
+    "seed_cubes": 3,
+    "seed_nonfixed_orbits": 30,
+    "seed_orbits": 33,
+    "seed_product_cost": 93
+  },
+  "base_dictionary_sha256": "23ff2b7ef344b79277712731cdc80ecc4b030a82026ca77d9fec32a02ebd047b",
+  "base_manifest_sha256": "eb6337722adaf26ecc3e11795cc94865c2a556db7af70d4efd83b917bb0a392b",
+  "controls_passed": 8,
+  "controls_skipped": 0,
+  "declared_files_verified": 43,
+  "decoder_search_calls": 0,
+  "execution": {
+    "cpu": 3,
+    "elapsed_seconds": 5.107367077000163,
+    "exit_code": 0,
+    "max_rss_kib": 34300,
+    "nice": 10,
+    "optimization_calls": 0,
+    "solver_calls": 0,
+    "system_cpu_seconds": 0.43180999999999997,
+    "total_cpu_seconds": 5.085671,
+    "user_cpu_seconds": 4.653861
+  },
+  "followup_domination_evidence": "research/marathon7/evidence/c3-cube-space7.json",
+  "format": "cyclic-polarization7-production-audit-evidence-v1",
+  "isolated_extension_finite_optimum_unchanged": true,
+  "optimization_calls": 0,
+  "output_bytes": 1868474,
+  "persisted93_and98_primary_and_strict_independent_full_checks": true,
+  "pins": {
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001.execution.json": "c7a27e0c02c0d39a05316acb87815c6723d3cdd96a3cbfee629eabb7dc3c5284",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001.log": "3c02fb82a585345ffa5eae672ce40926684c14360c31355b285eea8bc5d64e17",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001/COMPLETE.json": "f2192d70e63f0fa12287dcb2a60341db11b22bfdfa0f24817ad02c82b1fe5699",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001/checksums.json": "7a95abcd69576c984aba5816cc778a38822838f7673c4b6e1dbe99c85f97cda0",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001/config.json": "2bfd6c9520ee2f6074e9454697da7ebb1235ffc389fa633a1cf9d34da8a08b12",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001/dictionary.json": "4b94540939eaa1f7c06d777729bfb2d2f28312eac81dfb2d7a3beb83098c00fb",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001/manifest.json": "abaf21f4402c02ef0175b98fe90c82dc76c5c7a2b861a291e9c956346eae2dbd",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001/pair-witness.json": "a081ed8355a348891898d0d520a316b644dee44643ad68de85c52174535c1214",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001/state-verifications.json": "a86d268204f0e76e4fba649f1cdb3dc50446841a22d736e9074f283f57b20686",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001/states/polarized98.json": "61fc6b5a4c6168752f6f4ed1370a2a665fa7a7d4ababd16a2becb5f79d6f00ee",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-001/states/seed93.json": "8ebd90c4b36fe60debdb2d0d86d7d296f08327dee8b01b898a2c06570c82bb13",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-ready-v1/checksums.json": "f88bff04636b9a37bed4c03463dced4301da016ec94ffd5a961d71814dd325f3",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-ready-v1/controls.log": "9ccc824fa1f7a461eab8cffd4e44e6e928cd704da8909144f043f85b69857a02",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-audit-ready-v1/preview.json": "842e27b8f623c189c5b05acc0a47eb2c23252f94b96dec1bf26b210cba2b834d"
+  },
+  "private_eval_payloads_read": 0,
+  "report_sha256": "2ba97dc82dafd7cb362940092c6effc3cbae05f8f7424526990dd26dcd78b724",
+  "root_eligibility_sha256": "7354183ab6e9c89f76110e1c916738ced4856499632a2f317508b1d6bea7bb55",
+  "runtime_code_sha256": {
+    "mmsearch/__init__.py": "9738090d64922b0fc198277dc63654f3ac420cef984947916b4e74da3b13a08a",
+    "mmsearch/common_delta42.py": "5b2acf466bc561ff3df7df860ea8d270b3afa03c995bf3b0ca9819f9779fe409",
+    "mmsearch/compact_coset43.py": "3a8ba640784695e1d08f4327e5eaa013f6174a4aa44a5cb319ae31255c0a507a",
+    "mmsearch/compact_eight43.py": "6ca48ecc2904aaed86209395c9785c2493b5fc8448d05b62900ee5ee791fe3e3",
+    "mmsearch/compact_sat.py": "169e16228d6aac8cf6752d7b4630173c566de4851532974e0d71eb6ff394e09c",
+    "mmsearch/cube_polarization.py": "988488ad2992143b872495fde672538c6d03a99b6767e96040e16a5201140d79",
+    "mmsearch/cyclic_tensor_code7.py": "0f8f2127f57f3618b1f15f0d7b2eda86b8cd5e2ced77512666f6abf3eb65bf4c",
+    "mmsearch/cyclic_tensor_polarization7.py": "b9313586f855781aab943c51b88718d4614c39d23530892a86ca6fb223b06687",
+    "mmsearch/extend_eight_bulk43.py": "34c937996c033a7b7905a58471da8d30b21fa0e716022d97a8c4594991c21452",
+    "mmsearch/free_factor_sat.py": "2f7456f11b2d194f33a61ca5c41d99e3a5b4e1378790910ebbca8f5550569761",
+    "mmsearch/local_guard43.py": "0f1d86be46be0990e17f745a5a54336c5ea4117cf9a4d792bc0a2011d3af3657",
+    "mmsearch/marathon7_local.py": "94834fe263b3bb3f62145a3415e520f8918c366b2f608138df29fb918435ac53",
+    "mmsearch/observed_plane42.py": "3f245ee62a4fe0079df898d3644dae027c9cd45878981a00f37c5d4d4c8664a8",
+    "mmsearch/observed_rank342.py": "6869a3633d67e56322560a9ea80e8c44f131ff9cf1a219c9e58d822e7afa2ea3",
+    "mmsearch/observed_rank3_bounded42.py": "6ff4784db2a9aa3954aa0c11ebdcc4b569ee1fc946baaee5a0aa117ad4763b01",
+    "mmsearch/observed_rank3_lazy42.py": "253a083d1f0051164d579341ba48e5a661ab68bf32de5c9ac5919090c0dc12af",
+    "mmsearch/observed_weight442.py": "f21b9fd7c1ba0bcc864cc8dde00db37de032894a5c0028ac8c29b1f31c569324",
+    "mmsearch/recombine.py": "3b453d2c50405beb73000a22c82990f7332f8be740a93445634170b0630f94ee",
+    "mmsearch/recombine_sat.py": "433731a586d0833f891817e9aa8e49c74d5cfa539e19a207936cdcaaa16389df",
+    "mmsearch/sat.py": "1f0718b2238340f5eb10958d0823d7845e03a4e9f96be7d5d7342f73d17aa3d6",
+    "mmsearch/sat_neighborhoods.py": "59540cda1b5afc11dfe2a11b36977062a871450ebcf67c59e9985339b9c01421",
+    "mmsearch/search.py": "0317550a543d696b4e669f55a15781ed37c5d87ca4bca0420f805351f5558267",
+    "mmsearch/tensor.py": "c4b4a7aaa245f09d84d3216af2475c7602473061b7cfbbd9cb4d48d486506198",
+    "mmsearch/tensor_code7.py": "e5fa2a84c00ee5e10076ff3902963cf27dfe86b43fc4d4ad885cef8f3f7291e1",
+    "mmsearch/verify.py": "491282f4e940b9969b2a94ee51994d71ceefd9dc5a19167b779b9d2a6098f46f",
+    "research/tensor_code7.md": "96af2e0e541cd054858dbf2037177811e7bb353f9eb06d7374cea828872045bf",
+    "scripts/audit_cyclic_polarization7.py": "76b864ab262cee0649e22e2c0799442763653570ede3e8e618b2db5d729bdb9e",
+    "scripts/audit_cyclic_tensor_code7.py": "3b8fea54747398e7501d81a869ae2f59ce9b37ebbb70c43d9cc51543b1a5c10e",
+    "scripts/tensor_code7.py": "8f40b6c0b1b58a8efa4a57583dc99c68aa79b7c56965ce93fc3374e95822e2da",
+    "scripts/tensor_code7.schema.json": "b826534eb2c6577b43904071505a7f3e1895de40e370473d704248a8d9bfdfaa",
+    "scripts/verify_record42_independent.py": "499a1409c755d4a551ab6efe0e0520e14aa20a44081cedccc403c9cb7f74e7c6",
+    "tests/test_audit_cyclic_polarization7.py": "c982134c6a4f487c109eb37b9f3d957d873716541a3b72e8ca468fa8cc009e57",
+    "tests/test_cyclic_tensor_polarization7.py": "efd2ccba0cd33c7e65944bde0c7c23b700f520a91fa58f82f49d36b4f5f41809",
+    "tests/test_tensor_code7.py": "16b1c28df8d5294972395b11865eddfc0875803af2550ea70071563c72cf680b",
+    "tests/test_tensor_code7_lifecycle.py": "563727a4d35af6913feee097e6103495b0d5de1f99ffdc915329a91bb9acf56a",
+    "tests/test_tensor_code7_sources.py": "a2dd46317fe51c39903ee779e900e0367bfa1badde0f5a018d1164baabeab787"
+  },
+  "scope": "Exact finite extension audit. Cost92 is congruence-permitted; no weight92 witness, optimization result or global bound.",
+  "solver_calls": 0,
+  "source_manifest_sha256": "26d95607f6379c182b96aa9beaf451d419c7abb20b6185ebf0abf3b9f54eabe8",
+  "status": "PREPARED_EXTENSION_AUDIT_ONLY",
+  "unchanged_helper_sha256": "988488ad2992143b872495fde672538c6d03a99b6767e96040e16a5201140d79"
+}

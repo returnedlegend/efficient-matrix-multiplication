@@ -1,0 +1,585 @@
+{
+  "$defs": {
+    "anchor": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/pinned_file"
+        },
+        {
+          "properties": {
+            "ancestor_ids": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "eligibility": {
+              "enum": [
+                "ELIGIBLE_PENDING_ROOT_REVIEW",
+                "ELIGIBLE_ROOT_APPROVED"
+              ]
+            },
+            "evaluation_excluded": {
+              "const": true
+            },
+            "export_registry": {
+              "type": "string"
+            },
+            "export_selector": {
+              "type": "array"
+            },
+            "heldout_excluded": {
+              "const": true
+            },
+            "id": {
+              "type": "string"
+            },
+            "identity": {
+              "type": "object"
+            },
+            "root_approved_train": {
+              "const": true
+            },
+            "root_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "identity",
+            "ancestor_ids",
+            "eligibility",
+            "root_id",
+            "heldout_excluded",
+            "evaluation_excluded",
+            "root_approved_train",
+            "export_registry",
+            "export_selector"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "checkpoint": {
+      "properties": {
+        "basis_order": {
+          "items": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "code_sha256": {
+          "$ref": "#/$defs/hashes"
+        },
+        "cursor": {
+          "$ref": "#/$defs/cursor"
+        },
+        "lifecycle_config": {
+          "type": "object"
+        },
+        "parameters": {
+          "type": "object"
+        },
+        "prepared_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "publication_eligibility": {
+          "enum": [
+            "pending",
+            "eligible_within_budget",
+            "late_raw_only"
+          ]
+        },
+        "rng_state": {
+          "type": "array"
+        },
+        "runtime": {
+          "$ref": "#/$defs/runtime"
+        },
+        "schema": {
+          "const": "tensor_code7.v1"
+        }
+      },
+      "required": [
+        "schema",
+        "prepared_sha256",
+        "code_sha256",
+        "parameters",
+        "cursor",
+        "basis_order",
+        "rng_state",
+        "runtime",
+        "publication_eligibility",
+        "lifecycle_config"
+      ],
+      "type": "object"
+    },
+    "cursor": {
+      "properties": {
+        "best_hex": {
+          "$ref": "#/$defs/hex"
+        },
+        "moves": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "no_improvement": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "restart": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "state_hex": {
+          "$ref": "#/$defs/hex"
+        },
+        "step": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "state_hex",
+        "best_hex",
+        "restart",
+        "step",
+        "no_improvement",
+        "moves"
+      ],
+      "type": "object"
+    },
+    "hashes": {
+      "additionalProperties": {
+        "$ref": "#/$defs/sha256"
+      },
+      "minProperties": 1,
+      "type": "object"
+    },
+    "hex": {
+      "pattern": "^0x[0-9a-f]+$",
+      "type": "string"
+    },
+    "node": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/pinned_file"
+        },
+        {
+          "properties": {
+            "evaluation_excluded": {
+              "const": true
+            },
+            "heldout_excluded": {
+              "const": true
+            },
+            "id": {
+              "type": "string"
+            },
+            "identity": {
+              "additionalProperties": {
+                "$ref": "#/$defs/sha256"
+              },
+              "required": [
+                "term_set_sha256",
+                "rl_source_sha256"
+              ],
+              "type": "object"
+            },
+            "node_type": {
+              "type": "string"
+            },
+            "parent_files": {
+              "type": "array"
+            },
+            "parent_ids": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "root_approved_train": {
+              "const": true
+            },
+            "root_id": {
+              "type": "string"
+            },
+            "root_training_evidence": {
+              "type": "object"
+            },
+            "split": {
+              "enum": [
+                "train",
+                "train_descendant"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "identity",
+            "parent_ids",
+            "parent_files",
+            "node_type",
+            "split",
+            "root_id",
+            "root_approved_train",
+            "heldout_excluded",
+            "evaluation_excluded",
+            "root_training_evidence"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "pinned_file": {
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "type": "object"
+    },
+    "prepared": {
+      "properties": {
+        "atoms": {
+          "items": {
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "maxItems": 3,
+            "minItems": 3,
+            "type": "array"
+          },
+          "maxItems": 5000,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "code_sha256": {
+          "$ref": "#/$defs/hashes"
+        },
+        "columns_hex": {
+          "items": {
+            "$ref": "#/$defs/hex"
+          },
+          "type": "array"
+        },
+        "columns_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "dictionary_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "dictionary_size": {
+          "maximum": 5000,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "dimension": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "field": {
+          "const": 2
+        },
+        "kernel_hex": {
+          "items": {
+            "$ref": "#/$defs/hex"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "lifecycle_config": {
+          "type": "object"
+        },
+        "nullity": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "rank": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "runtime": {
+          "$ref": "#/$defs/runtime"
+        },
+        "schema": {
+          "const": "tensor_code7.v1"
+        },
+        "seed_states_hex": {
+          "items": {
+            "$ref": "#/$defs/hex"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "seed_weights": {
+          "items": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "target_hex": {
+          "$ref": "#/$defs/hex"
+        },
+        "tensor_entries": {
+          "minimum": 1,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "schema",
+        "dimension",
+        "field",
+        "tensor_entries",
+        "atoms",
+        "columns_hex",
+        "target_hex",
+        "seed_states_hex",
+        "seed_weights",
+        "kernel_hex",
+        "dictionary_size",
+        "rank",
+        "nullity",
+        "dictionary_sha256",
+        "columns_sha256"
+      ],
+      "type": "object"
+    },
+    "provenance": {
+      "properties": {
+        "approved": {
+          "const": true
+        },
+        "evaluation": {
+          "const": false
+        },
+        "heldout": {
+          "const": false
+        },
+        "origin": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "approved",
+        "heldout",
+        "evaluation",
+        "origin"
+      ],
+      "type": "object"
+    },
+    "result": {
+      "properties": {
+        "code_sha256": {
+          "$ref": "#/$defs/hashes"
+        },
+        "complete": {
+          "type": "boolean"
+        },
+        "novelty_claim": {
+          "const": false
+        },
+        "runtime": {
+          "$ref": "#/$defs/runtime"
+        },
+        "schema": {
+          "const": "tensor_code7.v1"
+        },
+        "search_called": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string"
+        },
+        "stop_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "winner": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "schema",
+        "status",
+        "runtime",
+        "code_sha256"
+      ],
+      "type": "object"
+    },
+    "runtime": {
+      "properties": {
+        "cpu_affinity": {
+          "items": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "max_rss_kib": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "memory_limit_bytes": {
+          "type": "integer"
+        },
+        "nice": {
+          "type": "integer"
+        },
+        "pid": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "utc": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pid",
+        "cpu_affinity",
+        "nice",
+        "max_rss_kib",
+        "utc",
+        "memory_limit_bytes"
+      ],
+      "type": "object"
+    },
+    "sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "sources": {
+      "properties": {
+        "anchors": {
+          "items": {
+            "$ref": "#/$defs/anchor"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "format": {
+          "const": "tensor-code-source-anchors-v1"
+        },
+        "known_input_train_states": {
+          "items": {
+            "allOf": [
+              {
+                "$ref": "#/$defs/pinned_file"
+              },
+              {
+                "properties": {
+                  "evaluation_excluded": {
+                    "const": true
+                  },
+                  "heldout_excluded": {
+                    "const": true
+                  },
+                  "id": {
+                    "type": "string"
+                  },
+                  "identity": {
+                    "type": "object"
+                  },
+                  "root_approved_train": {
+                    "const": true
+                  },
+                  "root_id": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "identity",
+                  "root_id",
+                  "root_approved_train",
+                  "heldout_excluded",
+                  "evaluation_excluded"
+                ],
+                "type": "object"
+              }
+            ]
+          },
+          "type": "array"
+        },
+        "nodes": {
+          "additionalProperties": {
+            "$ref": "#/$defs/node"
+          },
+          "minProperties": 1,
+          "type": "object"
+        },
+        "prohibited_identities": {
+          "properties": {
+            "evaluation": {
+              "items": {
+                "$ref": "#/$defs/sha256"
+              },
+              "type": "array"
+            },
+            "heldout": {
+              "items": {
+                "$ref": "#/$defs/sha256"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "heldout",
+            "evaluation"
+          ],
+          "type": "object"
+        },
+        "registries": {
+          "additionalProperties": {
+            "$ref": "#/$defs/pinned_file"
+          },
+          "minProperties": 1,
+          "type": "object"
+        }
+      },
+      "required": [
+        "format",
+        "anchors",
+        "nodes",
+        "registries",
+        "prohibited_identities"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "tensor_code7.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/sources"
+    },
+    {
+      "$ref": "#/$defs/prepared"
+    },
+    {
+      "$ref": "#/$defs/checkpoint"
+    },
+    {
+      "$ref": "#/$defs/result"
+    }
+  ],
+  "title": "tensor_code7 exact full-tensor artifacts"
+}

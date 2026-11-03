@@ -1,0 +1,21 @@
+{
+  "status": "PASS_INDEPENDENT_READ_ONLY_LINEAGE_REPLAY",
+  "manifest_sha256": "26d95607f6379c182b96aa9beaf451d419c7abb20b6185ebf0abf3b9f54eabe8",
+  "groups": {
+    "anchors": 16,
+    "known_input_train_states": 16
+  },
+  "nodes": 42,
+  "registries": 7,
+  "replayed_edges": {
+    "affine_move_exact_replay_no_compression_change": 18,
+    "canonical_terms_preserved_root_copy": 4,
+    "affine_move_exact_replay": 4
+  },
+  "root_count": 16,
+  "checked_file_reads": 81,
+  "checked_read_bytes": 7278232,
+  "production_preparation_called": false,
+  "production_search_called": false,
+  "full_tensor_query_called": false
+}

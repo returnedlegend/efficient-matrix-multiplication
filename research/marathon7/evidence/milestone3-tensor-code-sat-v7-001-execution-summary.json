@@ -1,0 +1,103 @@
+{
+  "actual_native_solve_calls": 1,
+  "actual_native_solve_entry": true,
+  "authorization": "Root explicitly authorized exactly one N5query and queueappendforthisid; no continuation.",
+  "automatic_continuations": 0,
+  "complete": false,
+  "created_utc": "2026-11-03T14:02:51.070344+00:00",
+  "driver_profile_wall_seconds": 30.06153866799923,
+  "evidence": {
+    "root-queue-receipts/tensor-code-sat-v7-001.json": {
+      "bytes": 3049,
+      "sha256": "8a3db2b0519f56226b23580b82a3eb75cfb3b8d294551d7af1d9371037618bad"
+    },
+    "tensor-code-prep-001/prepared.json": {
+      "bytes": 1196900,
+      "sha256": "cf4644cab66d697f05d6724d919973b9884f17def9586c0e1220b9ea67554e2b"
+    },
+    "tensor-code-sat-proposal-v7/manifest.json": {
+      "bytes": 8695,
+      "sha256": "8df899974ce0a9ddf4e370c62246f3ff5522d3e0d7175b014b83f6e239453683"
+    },
+    "tensor-code-sat-proposal-v7/proposed_job.json": {
+      "bytes": 1852,
+      "sha256": "ed82bc8d88d1534a91e7772e15144512f7ea141bcb9faaba09b55bf18040a0b5"
+    },
+    "tensor-code-sat-v7-001-job.result.json": {
+      "bytes": 2036,
+      "sha256": "eff47bb6edd26f57052991d64f2af5bb53c3a60591d8b17320d9f6bd0ccdceb5"
+    },
+    "tensor-code-sat-v7-001/profiler-parent.json": {
+      "bytes": 862,
+      "sha256": "3598febebd7e541a27b19a98c28ecb4811e0ba2c73458bec4542cad1a264fddf"
+    },
+    "tensor-code-sat-v7-001/profiler-worker-22165.json": {
+      "bytes": 157,
+      "sha256": "f6ab4c3debcbed3cdd65c3e32ab969f8633de81950176c40b4d7007d9d4ccb1c"
+    },
+    "tensor-code-sat-v7-001/result.json": {
+      "bytes": 2650,
+      "sha256": "5bdd26011e2a18c3694c0cfb132a696d029d40d120a90e8a89bae357531b4b84"
+    },
+    "tensor-code-source-anchors-v1/manifest.json": {
+      "bytes": 203658,
+      "sha256": "26d95607f6379c182b96aa9beaf451d419c7abb20b6185ebf0abf3b9f54eabe8"
+    }
+  },
+  "format": "tensor-code-sat-v7-single-authorized-execution-v1",
+  "git_mutations": 0,
+  "id": "tensor-code-sat-v7-001",
+  "launched_utc": "2026-11-03T13:59:01.778772+00:00",
+  "mathematical_outcome": "No SATwitness, no dictionaryUNSAT conclusion, no globaltensor-rank conclusion.",
+  "native_child_exitcode": -15,
+  "native_child_reaped": true,
+  "native_worker_pid": 22165,
+  "no_winner": true,
+  "outer_execution": {
+    "cpu": 1,
+    "cpu_seconds": 30.115616000000003,
+    "elapsed_seconds": 31.0205428700001,
+    "exit_code": 0,
+    "interrupted": false,
+    "max_rss_kib": 70416,
+    "memory_mb": 1024,
+    "pid": 22164,
+    "started_utc": "2026-11-03T13:59:01.809944+00:00",
+    "timed_out": false,
+    "wall_seconds": 45
+  },
+  "profiler_last_active_stage": "native_dispatch_or_poll",
+  "queue_job_status": "completed",
+  "queue_receipt": "artifacts/marathon7_20261103T122417Z/root-queue-receipts/tensor-code-sat-v7-001.json",
+  "queue_receipt_status": "COMMITTED",
+  "raw_native_outcome": {
+    "cpu": 1,
+    "elapsed_seconds": 27.010674213999664,
+    "formula_sha256": "d92df52b1eb26fb6dcda4c6d7881819afb021b58de2f1e5baeaf6414ad9b132f",
+    "memory_mib": 1024,
+    "reason": "hard wall limit or cancellation",
+    "scope": "Only this exact whole-atom F2 dictionary and support bound; no global tensor-rank claim.",
+    "solver_called": true,
+    "solver_threads": 1,
+    "status": "UNKNOWN",
+    "wall_seconds": 28.396155453000574,
+    "worker_exitcode": -15,
+    "worker_pid": 22165,
+    "worker_reaped": true
+  },
+  "reason": "bounded_seconds_elapsed:post_native_result",
+  "solver_statistics_limit": "Nativechild was terminated atguarddeadline before backendreply, so per-solverCPU/conflict/restart counters were not returned. OuterCPU/maxRSS are measured, not native-only statistics.",
+  "stage_seconds": {
+    "driver_finished": 1.4230999113351572e-05,
+    "formula_construction": 0.7401150670002608,
+    "input_and_lifecycle": 0.1134022209998875,
+    "native_dispatch_or_poll": 27.018370258000687,
+    "native_result_returned": 0.0013897839999117423,
+    "not_started": 0.01387953399989783,
+    "prepared_validation": 0.8637309119994825,
+    "source_binding": 1.3060810999995738,
+    "source_binding_complete": 0.004555561000415764
+  },
+  "status": "UNKNOWN",
+  "wrapper_pid": 22164
+}

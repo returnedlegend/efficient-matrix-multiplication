@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "tests_run": 10,
+  "failures": [],
+  "errors": [],
+  "skips": [],
+  "new_exact_negatives_checked": 500,
+  "old_pending": 101387,
+  "new_pending": 100887,
+  "exact_ordered_set_difference": true,
+  "first500_disjoint_closed": true,
+  "prepared_jobs": 1,
+  "manifest_sha256": "2733f3da19eef3b845817d7d0f94ccefa1398592fc23f13d20fa3ff6307d0b7b",
+  "proposal_sha256": "ab020f59771091d0e91274cc5958bece23d8643269c3de6d4df6cb82984a93d5",
+  "existing_runtime_changes": [
+    "marathon7_local_campaign.py",
+    "scripts/marathon7_local_campaign.py"
+  ],
+  "poller_sha256": "f96027d9bf8e7ef9489378d71c107924cab94180bcf63cfc7e8a8db6f904b07b",
+  "runner_sha256": "62647f178702200192992095bdf6dd8f00c7db92d68547e193588c1fb1d939d3",
+  "production_decoder_queries": 0
+}

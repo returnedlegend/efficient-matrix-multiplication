@@ -1,0 +1,121 @@
+{
+  "above_best_step_fraction": 0.004703761975345833,
+  "accepted_by_kind": {
+    "flip": 191040133,
+    "plus": 9552,
+    "reduction": 9515
+  },
+  "archive_additions": 180919,
+  "binary_sha256": "6e7d6c63fa262bfc50acfe92fbe9c11adb74426e3868a5a6f7ad8d1bf569ac19",
+  "continuations_launched": 0,
+  "existing_global_guard_controls_passed": [
+    "test_planted_fake_n5_rank92_never_stops_or_freezes",
+    "test_freezer_persists_full_verification_and_checksums"
+  ],
+  "final_best_current_parent_double_full_tensor_checks": true,
+  "final_guard": {
+    "canonical": {
+      "checked_utc": "2026-11-03T13:40:13.645410+00:00",
+      "deadline_utc": "2026-11-03T19:24:17+00:00",
+      "elapsed_seconds": 300.737198758
+    },
+    "elapsed_seconds": 300.78558054599944,
+    "hard_utc": "2026-11-03T19:24:17+00:00"
+  },
+  "format": "marathon7-native-baseline300-evidence-v1",
+  "global_guard_positive_control_scope": "Known exact125 tensor at helper target125, still ineligible at production92.",
+  "global_record_emitted": false,
+  "input_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+  "job_id": "baseline-native300-001",
+  "limits": "One wall-bounded walk; unequal parent/child CPU.1699 raw exports sampled from rolling16-state checkpoints are not all independently verified. Parent double checks input and final best/current, and gates every eligible target. No rank lower bound or advantage claim.",
+  "measured_child_execution": {
+    "child_cpu_seconds": 235.680299,
+    "child_max_rss_kib": 30744,
+    "child_system_seconds": 0.22033999999999998,
+    "child_user_seconds": 235.459959,
+    "elapsed_seconds": 300.1102665119997,
+    "exit_code": 0,
+    "interrupted": false,
+    "timed_out": false,
+    "winner": false
+  },
+  "native_parameters": {
+    "archive_every": 1000,
+    "archive_size": 16,
+    "best_rank": 93,
+    "current_rank": 93,
+    "cyclic": false,
+    "dimension": 5,
+    "elapsed_seconds": 300.002,
+    "max_rank": 105,
+    "max_visited_rank": 95,
+    "plus_burst": 1,
+    "plus_every": 20000,
+    "reduction_dwell": 0,
+    "restart_every": 50000000,
+    "seed": 20261103132901,
+    "steps": 191059200,
+    "target_rank": 92
+  },
+  "one_query_authorized_and_completed": true,
+  "outer_execution": {
+    "cpu_seconds": 300.540173,
+    "elapsed_seconds": 301.1571579349993,
+    "exit_code": 0,
+    "interrupted": false,
+    "max_rss_kib": 34228,
+    "timed_out": false
+  },
+  "parent_adapter_controls_passed": 4,
+  "pins": {
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-001-job.result.json": "f34d8dcd2f0648cbe63eea118ce85ccc280fb4f513c866a65d3cf41c183304e6",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-001/frozen/native-worker": "6e7d6c63fa262bfc50acfe92fbe9c11adb74426e3868a5a6f7ad8d1bf569ac19",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-001/input.json": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-001/manifest.json": "e240df37124258090a1698ee7c44636036b3cf7c4e4425a7096a4d0b85b1ccc1",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-001/native/walk.best.txt": "270f411487d4a6b7e22380ea25cd2f26d699c3fea4095a8a9984dfb2f5d9ad2c",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-001/native/walk.current.txt": "1b6a8fc31b1e6408c1c2c49a9d6ce27de6d38f7e91aa5fa67fd0409075e92afc",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-001/native/walk.stats.json": "277f61d32acf59e4f55ff3b46868d5dd381006882d45cb4ea3f1e77987d506a3",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-001/summary.json": "212fbc52a316aee57698532990175885450739fb6a47fa3f3374df871f7907ba",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-analysis-v1/raw-export-pins.json": "74dc006237e01d67ab112a38393e11c7e8ddc84c2dccc7fa5b2195b7b5176067",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-ready-v1/checksums.json": "2b8ba5a07d579e4c409c1aa2bf4154612be92fcffc8597021542afe6a912e46b",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-ready-v1/controls.log": "00f56e5aeedf43236c8439ecb618848e8dd869ce873c668329949561b6f72492",
+    "artifacts/marathon7_20261103T122417Z/baseline-native300-ready-v1/manifest.json": "cc49d26d75d0795286c5a0096acd03e462360a85efc1dcf0ed8f3af3ca1b64c1",
+    "artifacts/marathon7_20261103T122417Z/root-queue-receipts/baseline-native300-001.json": "0efc77ff0da30f319560bbb662987d2c78d1f66938c26fc847cf7e753987bffa"
+  },
+  "rank_changes_by_kind": {
+    "flip": {
+      "delta_sum": 0,
+      "down": 0,
+      "equal": 191040133,
+      "up": 0
+    },
+    "plus": {
+      "delta_sum": 9518,
+      "down": 0,
+      "equal": 34,
+      "up": 9518
+    },
+    "reduction": {
+      "delta_sum": -9515,
+      "down": 9515,
+      "equal": 0,
+      "up": 0
+    }
+  },
+  "rank_excess_residency_steps": {
+    "0": 190160503,
+    "1": 898614,
+    "2": 83
+  },
+  "raw_export_count": 1699,
+  "raw_export_rank_counts": {
+    "93": 1698,
+    "94": 1
+  },
+  "rejected_moves": 0,
+  "restarts": 3,
+  "source_audit_sha256": "c9d02876c0dc803c3e8447ece4e6c9120c92e9fa52657a28111519c0f531c90d",
+  "status": "UNKNOWN_WITHIN_ONE_BASELINE",
+  "steps_per_measured_child_cpu_second": 810671.0692861095,
+  "stop_reason": null
+}

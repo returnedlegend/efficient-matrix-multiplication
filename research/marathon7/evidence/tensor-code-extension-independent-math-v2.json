@@ -1,0 +1,19 @@
+{
+  "status": "PASS_INDEPENDENT_ODD_IDENTITY_AND_PARENT_PINS",
+  "valid_five_term_relations": 1296,
+  "degenerate_cases_rejected": 3078,
+  "axis_orders": 6,
+  "scalar_entries_per_relation": 64,
+  "base_prepared_sha256": "cf4644cab66d697f05d6724d919973b9884f17def9586c0e1220b9ea67554e2b",
+  "frozen_code_files_checked": 27,
+  "base_atoms": 406,
+  "base_rank": 309,
+  "base_nullity": 97,
+  "all_existing_kernel_basis_vectors_even": true,
+  "original_seed_count": 32,
+  "original_seed_weight": 93,
+  "production_generation_called": false,
+  "production_preparation_called": false,
+  "optimization_called": false,
+  "frozen_preparation_files_checked": 113
+}

@@ -1,0 +1,206 @@
+{
+  "code_sha256": {
+    "mmsearch/cube_polarization.py": "988488ad2992143b872495fde672538c6d03a99b6767e96040e16a5201140d79",
+    "mmsearch/cyclic_tensor_code7.py": "0f8f2127f57f3618b1f15f0d7b2eda86b8cd5e2ced77512666f6abf3eb65bf4c",
+    "mmsearch/cyclic_tensor_polarization7.py": "b9313586f855781aab943c51b88718d4614c39d23530892a86ca6fb223b06687",
+    "scripts/verify_record42_independent.py": "499a1409c755d4a551ab6efe0e0520e14aa20a44081cedccc403c9cb7f74e7c6",
+    "tests/test_cyclic_tensor_polarization7.py": "efd2ccba0cd33c7e65944bde0c7c23b700f520a91fa58f82f49d36b4f5f41809"
+  },
+  "controls_passed": 6,
+  "controls_skipped": 0,
+  "followup_domination_evidence": "research/marathon7/evidence/c3-cube-space7.json",
+  "format": "cyclic-polarization7-prototype-evidence-v1",
+  "pins": {
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-prototype-v1/controls.log": "ff8ee73d8e0a1a2a530e0df913cdd4927fd59622c35061e3b2b29d7d866cf4ca",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-prototype-v1/next-audit-proposal.json": "bd1874d11d57326d458c7b5e16f38fd3ec78348fc60ca84b9879daccfc7b7e60",
+    "artifacts/marathon7_20261103T122417Z/cyclic-polarization7-prototype-v1/static-source-audit.json": "a2dd8133fefb629fea51123bcdc0aac3efa7bb6e962c037c5d0b553228f4b871"
+  },
+  "proposal": {
+    "approved_source_root_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+    "base_cyclic_dictionary_sha256": "23ff2b7ef344b79277712731cdc80ecc4b030a82026ca77d9fec32a02ebd047b",
+    "checks": [
+      "Recheck base completion seal and hashes, approved source closure/root eligibility and code pins.",
+      "Add only cube(a+b),Cyc(a,a,b),Cyc(a,b,b), preserving complete old dictionary. No factor-palette products or new ambient directions.",
+      "Independently check all15625 coefficients of each new column, exact five-orbit zero relation, compression/inverse and complete full/compressed rank-nullity.",
+      "Retain cost93 seed and verify the predicted98-cost excursion through primary plus strict independent full15625 checks on persisted bytes.",
+      "Compute complete extended-kernel parity and joint cube/parity projection. Congruence permission is not actual weight92 feasibility.",
+      "Return immutable audit and measured resources before any optimization or solver proposal."
+    ],
+    "enabled": false,
+    "exact92_congruence_not_excluded": true,
+    "expected_expanded_products": 826,
+    "expected_extended_columns": 278,
+    "format": "cyclic-polarization7-next-audit-proposal-v1",
+    "known_new_odd_relation": true,
+    "known_relation_span_cost_residues_mod6": [
+      0,
+      2,
+      3
+    ],
+    "new_columns": 3,
+    "new_sum_cube_mask": 266304,
+    "next_authorization_requested": "One bounded n5 extension dictionary/rank audit only; no decoder/solver.30s/CPU1nice10/1024MiB/32MiB/<=2000 orbits, strict19:24:17 UTC and fresh canonical guard.",
+    "predicted_polarized_seed_cost": 98,
+    "predicted_polarized_seed_cubes": 2,
+    "predicted_polarized_seed_nonfixed_orbits": 32,
+    "production_n5_generation_authorized": false,
+    "root_eligibility_sha256": "7354183ab6e9c89f76110e1c916738ced4856499632a2f317508b1d6bea7bb55",
+    "selected_cube_pair": [
+      4096,
+      262208
+    ],
+    "solver_or_optimization_authorized": false,
+    "source_manifest_sha256": "26d95607f6379c182b96aa9beaf451d419c7abb20b6185ebf0abf3b9f54eabe8",
+    "status": "PREPARED_DESIGN_TINY_QA_ONLY_REQUIRES_ROOT_AUTHORIZATION"
+  },
+  "report_sha256": "7b2baffa9a5cdd0f47fd7bf062994752a78029939ff5620dfa180053a9c9a364",
+  "static_source_audit": {
+    "audit_manifest_sha256": "eb6337722adaf26ecc3e11795cc94865c2a556db7af70d4efd83b917bb0a392b",
+    "cube_factor_gf2_rank": 3,
+    "cube_factor_xor": 17043521,
+    "cube_masks": [
+      4096,
+      262208,
+      16777217
+    ],
+    "cube_xor_is_rowmajor_identity": true,
+    "dictionary_sha256": "23ff2b7ef344b79277712731cdc80ecc4b030a82026ca77d9fec32a02ebd047b",
+    "format": "cyclic-polarization7-static-source-audit-v1",
+    "n5_generated_candidates": 0,
+    "n5_generated_columns": 0,
+    "old_cube_projection_rank": 1,
+    "old_seed_orbits": 33,
+    "old_seed_product_cost": 93,
+    "pairs": [
+      {
+        "cube_pair_masks": [
+          4096,
+          262208
+        ],
+        "joint_projection_diagnostic": {
+          "exact92_residue_permitted": true,
+          "necessary_cost_residues_mod6": [
+            0,
+            2,
+            3
+          ],
+          "possible_cube_counts": [
+            0,
+            2,
+            3
+          ],
+          "possible_selection_parities": [
+            0,
+            1
+          ],
+          "projected_rank": 2,
+          "projected_states_checked": 4,
+          "scope": "Only the specified known-relation cube/parity image; no tensor-state search or weight feasibility claim."
+        },
+        "known_relation_expanded_products": 9,
+        "known_relation_orbit_popcount": 5,
+        "new_columns_if_approved": 3,
+        "predicted_seed_product_delta": 5,
+        "proposed_new_orbits_already_in_old_dictionary": [
+          false,
+          false,
+          false
+        ],
+        "proposed_new_orbits_selected_in_seed": [
+          false,
+          false,
+          false
+        ],
+        "sum_already_old_cube": false,
+        "sum_mask": 266304
+      },
+      {
+        "cube_pair_masks": [
+          4096,
+          16777217
+        ],
+        "joint_projection_diagnostic": {
+          "exact92_residue_permitted": true,
+          "necessary_cost_residues_mod6": [
+            0,
+            2,
+            3
+          ],
+          "possible_cube_counts": [
+            0,
+            2,
+            3
+          ],
+          "possible_selection_parities": [
+            0,
+            1
+          ],
+          "projected_rank": 2,
+          "projected_states_checked": 4,
+          "scope": "Only the specified known-relation cube/parity image; no tensor-state search or weight feasibility claim."
+        },
+        "known_relation_expanded_products": 9,
+        "known_relation_orbit_popcount": 5,
+        "new_columns_if_approved": 3,
+        "predicted_seed_product_delta": 5,
+        "proposed_new_orbits_already_in_old_dictionary": [
+          false,
+          false,
+          false
+        ],
+        "proposed_new_orbits_selected_in_seed": [
+          false,
+          false,
+          false
+        ],
+        "sum_already_old_cube": false,
+        "sum_mask": 16781313
+      },
+      {
+        "cube_pair_masks": [
+          262208,
+          16777217
+        ],
+        "joint_projection_diagnostic": {
+          "exact92_residue_permitted": true,
+          "necessary_cost_residues_mod6": [
+            0,
+            2,
+            3
+          ],
+          "possible_cube_counts": [
+            0,
+            2,
+            3
+          ],
+          "possible_selection_parities": [
+            0,
+            1
+          ],
+          "projected_rank": 2,
+          "projected_states_checked": 4,
+          "scope": "Only the specified known-relation cube/parity image; no tensor-state search or weight feasibility claim."
+        },
+        "known_relation_expanded_products": 9,
+        "known_relation_orbit_popcount": 5,
+        "new_columns_if_approved": 3,
+        "predicted_seed_product_delta": 5,
+        "proposed_new_orbits_already_in_old_dictionary": [
+          false,
+          false,
+          false
+        ],
+        "proposed_new_orbits_selected_in_seed": [
+          false,
+          false,
+          false
+        ],
+        "sum_already_old_cube": false,
+        "sum_mask": 17039425
+      }
+    ],
+    "scope": "Existing dictionary metadata lookups and <=4-bit joint cube/parity projections only. No n5 extension is materialized.",
+    "solver_or_decoder_calls": 0
+  },
+  "status": "SIX_TINY_CONTROLS_PASS_N5_EXTENSION_NOT_GENERATED"
+}

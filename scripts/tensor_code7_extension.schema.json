@@ -1,0 +1,46 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"tensor_code7_extension.schema.json",
+  "title":"Authenticated odd-cycle whole-atom extension v2",
+  "oneOf":[{"$ref":"#/$defs/witnesses"},{"$ref":"#/$defs/prepared"}],
+  "$defs":{
+    "sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},
+    "hex":{"type":"string","pattern":"^0x[0-9a-f]+$"},
+    "atom":{"type":"array","minItems":3,"maxItems":3,"items":{"type":"integer","minimum":1}},
+    "relation":{
+      "type":"object","additionalProperties":false,"required":["id","parent_atom_ids","axis_permutation","new_atoms"],
+      "properties":{
+        "id":{"type":"string","minLength":1},
+        "parent_atom_ids":{"type":"array","minItems":2,"maxItems":2,"uniqueItems":true,"items":{"type":"integer","minimum":0}},
+        "axis_permutation":{"type":"array","minItems":3,"maxItems":3,"uniqueItems":true,"items":{"type":"integer","minimum":0,"maximum":2}},
+        "new_atoms":{"type":"array","minItems":3,"maxItems":3,"uniqueItems":true,"items":{"$ref":"#/$defs/atom"}}
+      }
+    },
+    "witnesses":{
+      "type":"object","additionalProperties":false,
+      "required":["schema","base_prepared_sha256","base_dictionary_sha256","max_new_atoms","relations"],
+      "properties":{
+        "schema":{"const":"tensor_code7.extension_witnesses.v2"},
+        "base_prepared_sha256":{"$ref":"#/$defs/sha256"},"base_dictionary_sha256":{"$ref":"#/$defs/sha256"},
+        "max_new_atoms":{"type":"integer","minimum":1,"maximum":100},
+        "relations":{"type":"array","minItems":1,"maxItems":16,"items":{"$ref":"#/$defs/relation"}}
+      }
+    },
+    "prepared":{
+      "type":"object",
+      "required":["schema","dimension","field","tensor_entries","base_prepared_sha256","base_dictionary_sha256","extension_witnesses_sha256","atoms","columns_hex","target_hex","seed_states_hex","seed_weights","base_atom_count","new_atom_count","dictionary_size","rank","nullity","kernel_hex","dictionary_sha256","columns_sha256","base_kernel_all_even","parity_broken","odd_kernel_basis_count","odd_relation_certificates","production_receipt"],
+      "properties":{
+        "schema":{"const":"tensor_code7.extension_prepared.v2"},"dimension":{"type":"integer","minimum":1,"maximum":5},"field":{"const":2},
+        "tensor_entries":{"type":"integer","minimum":1},"base_prepared_sha256":{"$ref":"#/$defs/sha256"},"base_dictionary_sha256":{"$ref":"#/$defs/sha256"},"extension_witnesses_sha256":{"$ref":"#/$defs/sha256"},
+        "atoms":{"type":"array","maxItems":5000,"uniqueItems":true,"items":{"$ref":"#/$defs/atom"}},
+        "columns_hex":{"type":"array","items":{"$ref":"#/$defs/hex"}},"target_hex":{"$ref":"#/$defs/hex"},
+        "seed_states_hex":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/hex"}},"seed_weights":{"type":"array","minItems":1,"items":{"type":"integer","minimum":0}},
+        "base_atom_count":{"type":"integer","minimum":1},"new_atom_count":{"type":"integer","minimum":1,"maximum":100},"dictionary_size":{"type":"integer","minimum":1,"maximum":5000},
+        "rank":{"type":"integer","minimum":0},"nullity":{"type":"integer","minimum":1},"kernel_hex":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/hex"}},
+        "dictionary_sha256":{"$ref":"#/$defs/sha256"},"columns_sha256":{"$ref":"#/$defs/sha256"},
+        "base_kernel_all_even":{"type":"boolean"},"parity_broken":{"const":true},"odd_kernel_basis_count":{"type":"integer","minimum":1},
+        "odd_relation_certificates":{"type":"array","minItems":1,"maxItems":16},"production_receipt":{"type":["object","null"]}
+      }
+    }
+  }
+}

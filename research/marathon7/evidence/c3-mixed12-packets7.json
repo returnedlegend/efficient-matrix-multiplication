@@ -1,0 +1,2534 @@
+{
+  "actual_core_checks": 31,
+  "branch_counts": {
+    "CP(d)": 226,
+    "CP(d+1)": 88,
+    "CP(d+2)": 2,
+    "FLATTENING_EXCLUDED": 3744
+  },
+  "checked_core_case_ids": [
+    "c3-mixed12-p00-01-02",
+    "c3-mixed12-p00-01-04",
+    "c3-mixed12-p00-01-05",
+    "c3-mixed12-p00-01-03",
+    "c3-mixed12-p00-01-10",
+    "c3-mixed12-p00-01-17",
+    "c3-mixed12-p00-10-14",
+    "c3-mixed12-p10-14-17",
+    "c3-mixed12-p00-15-23",
+    "c3-mixed12-p00-25-27",
+    "c3-mixed12-p01-06-17",
+    "c3-mixed12-p01-06-19",
+    "c3-mixed12-p01-10-14",
+    "c3-mixed12-p01-11-19",
+    "c3-mixed12-p01-14-17",
+    "c3-mixed12-p01-15-23",
+    "c3-mixed12-p01-17-19",
+    "c3-mixed12-p01-25-27",
+    "c3-mixed12-p02-10-14",
+    "c3-mixed12-p02-15-23",
+    "c3-mixed12-p02-25-27",
+    "c3-mixed12-p03-10-14",
+    "c3-mixed12-p03-15-23",
+    "c3-mixed12-p03-25-27",
+    "c3-mixed12-p04-10-14",
+    "c3-mixed12-p04-15-23",
+    "c3-mixed12-p04-25-27",
+    "c3-mixed12-p05-10-14",
+    "c3-mixed12-p05-15-23",
+    "c3-mixed12-p05-25-27",
+    "c3-mixed12-p06-10-14"
+  ],
+  "core_checks_by_d": {
+    "10": 23,
+    "11": 3,
+    "12": 3,
+    "9": 2
+  },
+  "declared_files_verified": 3,
+  "decoder_calls": 0,
+  "dimension_counts": {
+    "10": 88,
+    "11": 226,
+    "12": 3744,
+    "9": 2
+  },
+  "execution": {
+    "cpu": 0,
+    "decoder_calls": 0,
+    "elapsed_seconds": 1.4338806589985325,
+    "exit_code": 0,
+    "max_rss_kib": 75300,
+    "nice": 10,
+    "solver_calls": 0,
+    "system_cpu_seconds": 0.323851,
+    "total_cpu_seconds": 1.420153,
+    "user_cpu_seconds": 1.096302
+  },
+  "family": {
+    "combinations": 4060,
+    "global_product_target": 92,
+    "local_products": 12,
+    "outside_products": 81,
+    "selected_nonfixed_orbits": 3,
+    "source_cubes": 3,
+    "target_local_products": 11,
+    "target_queries_authorized": false,
+    "total_nonfixed_orbits": 30
+  },
+  "flattening_excluded": 3744,
+  "format": "c3-mixed12-packet-census-evidence-v1",
+  "guard": {
+    "canonical": {
+      "checked_utc": "2026-11-03T15:02:07.229450+00:00",
+      "deadline_utc": "2026-11-03T19:24:17+00:00",
+      "elapsed_seconds": 1.0384249369999452
+    },
+    "elapsed_seconds": 1.0696041419996618,
+    "hard_utc": "2026-11-03T19:24:17+00:00"
+  },
+  "koszul_calls": 0,
+  "output_bytes": 8379302,
+  "pair_column_ranks": [
+    93,
+    93,
+    93
+  ],
+  "pilot_case_count": 25,
+  "pilot_case_ids": [
+    "c3-mixed12-p00-10-14",
+    "c3-mixed12-p10-14-17",
+    "c3-mixed12-p00-15-23",
+    "c3-mixed12-p00-25-27",
+    "c3-mixed12-p01-06-17",
+    "c3-mixed12-p01-06-19",
+    "c3-mixed12-p01-10-14",
+    "c3-mixed12-p01-11-19",
+    "c3-mixed12-p01-14-17",
+    "c3-mixed12-p01-15-23",
+    "c3-mixed12-p01-17-19",
+    "c3-mixed12-p01-25-27",
+    "c3-mixed12-p02-10-14",
+    "c3-mixed12-p02-15-23",
+    "c3-mixed12-p02-25-27",
+    "c3-mixed12-p03-10-14",
+    "c3-mixed12-p03-15-23",
+    "c3-mixed12-p03-25-27",
+    "c3-mixed12-p04-10-14",
+    "c3-mixed12-p04-15-23",
+    "c3-mixed12-p04-25-27",
+    "c3-mixed12-p05-10-14",
+    "c3-mixed12-p05-15-23",
+    "c3-mixed12-p05-25-27",
+    "c3-mixed12-p06-10-14"
+  ],
+  "pilot_cases": [
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          9,
+          9,
+          9
+        ],
+        "actual_core_sha256": "ba2472011fc6babd998f40d882f20a932b482042ed669ceb476276f30a57fcc8",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          9,
+          9,
+          9
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "6ab41165febc4c2d36e19e65ee6e29acb7a7c580b484592f98b3cdacf32cf8ad",
+        "branch": "CP(d+2)",
+        "core_entries_checked": 729,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 9,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10
+          ],
+          "pivot_rows": [
+            22,
+            14,
+            10,
+            2,
+            19,
+            12,
+            24,
+            0,
+            18
+          ],
+          "rank": 9
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REQUIRES_SEPARATE_DECODER_REVIEW",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          9,
+          9,
+          9
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 2,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p00-10-14",
+      "orbit_mask_hex": "0x4401",
+      "shared_mode_basis": [
+        4,
+        1024,
+        4096,
+        16401,
+        1,
+        262208,
+        565320,
+        4194304,
+        16777216
+      ],
+      "source_indices": [
+        6,
+        7,
+        8,
+        39,
+        40,
+        41,
+        84,
+        85,
+        86,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          9,
+          9,
+          9
+        ],
+        "actual_core_sha256": "bd5e58060a292009d19bde4f4731c9f1c1a05f1d871f7c30b138f4d032874192",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          9,
+          9,
+          9
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "67bf532f5181c2bbaa1a033b5d033df64cdc57be0659e40fbf4a0837f20e38af",
+        "branch": "CP(d+2)",
+        "core_entries_checked": 729,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 9,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10
+          ],
+          "pivot_rows": [
+            22,
+            14,
+            10,
+            24,
+            23,
+            16,
+            2,
+            12,
+            18
+          ],
+          "rank": 9
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REQUIRES_SEPARATE_DECODER_REVIEW",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          9,
+          9,
+          9
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 2,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p10-14-17",
+      "orbit_mask_hex": "0x24400",
+      "shared_mode_basis": [
+        1024,
+        4096,
+        16401,
+        5,
+        65601,
+        262208,
+        4194305,
+        16777217,
+        9994305
+      ],
+      "source_indices": [
+        6,
+        7,
+        8,
+        27,
+        28,
+        29,
+        84,
+        85,
+        86,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "dda47e801a2444ce3a21bd0c12d68d17fffe2fbaa94c6d049a07b3d96a7e9e6e",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "34a533a41846c00ccb8f60212e6dd1d42ac427c8f1c027156444795b1da2c663",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "pivot_rows": [
+            16,
+            17,
+            19,
+            2,
+            18,
+            22,
+            14,
+            15,
+            12,
+            24
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p00-15-23",
+      "orbit_mask_hex": "0x808001",
+      "shared_mode_basis": [
+        4,
+        4096,
+        24576,
+        75850,
+        131072,
+        262208,
+        525248,
+        34713,
+        4194304,
+        16777217
+      ],
+      "source_indices": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        75,
+        76,
+        77,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "926d20d45e19b7e7b80747a90729d94ca4f954be53443e12d2b2f5046d02fc93",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "9a0d58da74f8e636d241c7c9a0ec1ae0e2b1b5b6e418d1425daa5687a3e46aaa",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          "pivot_rows": [
+            2,
+            19,
+            22,
+            23,
+            24,
+            18,
+            14,
+            4,
+            15,
+            12
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p00-25-27",
+      "orbit_mask_hex": "0xa000001",
+      "shared_mode_basis": [
+        4,
+        4096,
+        262208,
+        524289,
+        25,
+        33633,
+        26400,
+        4194304,
+        10551360,
+        16777217
+      ],
+      "source_indices": [
+        39,
+        40,
+        41,
+        45,
+        46,
+        47,
+        66,
+        67,
+        68,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "cfeb93bb41d44a162ace82624b8b8e97c76c7f5a8bf58bcfcfb198ed1e651533",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "aff6e2bf82c5086660c9789f51e585eaefe9627e4f30e1f32f857201daf9cbbf",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            11
+          ],
+          "pivot_rows": [
+            18,
+            6,
+            16,
+            24,
+            23,
+            8,
+            0,
+            2,
+            14,
+            12
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p01-06-17",
+      "orbit_mask_hex": "0x20042",
+      "shared_mode_basis": [
+        7,
+        64,
+        4096,
+        65537,
+        262144,
+        256,
+        1,
+        16777216,
+        16400,
+        9994240
+      ],
+      "source_indices": [
+        12,
+        13,
+        14,
+        27,
+        28,
+        29,
+        33,
+        34,
+        35,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "4cab6f077576e5054c4a4b87124a3d8c357ca647d1afcaf49937eff7b1b4bdaf",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "cd3c3030246380b4ad412998116e43c6d2bb1da466cf1aa114c1583a19af5d7f",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            11
+          ],
+          "pivot_rows": [
+            18,
+            6,
+            16,
+            24,
+            23,
+            8,
+            14,
+            2,
+            4,
+            12
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p01-06-19",
+      "orbit_mask_hex": "0x80042",
+      "shared_mode_basis": [
+        7,
+        64,
+        4096,
+        65536,
+        262144,
+        256,
+        16777217,
+        17,
+        16384,
+        9994241
+      ],
+      "source_indices": [
+        12,
+        13,
+        14,
+        18,
+        19,
+        20,
+        33,
+        34,
+        35,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "599d3eed375b27e2107ebcd8e7a50cd9094a87487fb239088e3db3f47522081f",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "076ce45b19e74332e5581c9e7340593715be7e1621644cfd67424c902f63d85a",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+          ],
+          "pivot_rows": [
+            22,
+            14,
+            10,
+            24,
+            23,
+            2,
+            8,
+            1,
+            12,
+            18
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p01-10-14",
+      "orbit_mask_hex": "0x4402",
+      "shared_mode_basis": [
+        7,
+        1024,
+        4096,
+        16401,
+        2,
+        262208,
+        4194305,
+        16777217,
+        320,
+        9994305
+      ],
+      "source_indices": [
+        6,
+        7,
+        8,
+        33,
+        34,
+        35,
+        84,
+        85,
+        86,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "d96b29118bca39f0d29b9a2c770be5c540877f2f91f47c12140598b57b3d9826",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "c202075a70b9e877c0e5458ad5963d817e5203c1a7eb777db64882fb53c32486",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11
+          ],
+          "pivot_rows": [
+            24,
+            23,
+            16,
+            14,
+            2,
+            22,
+            12,
+            8,
+            18,
+            10
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p01-11-19",
+      "orbit_mask_hex": "0x80802",
+      "shared_mode_basis": [
+        7,
+        4096,
+        16384,
+        65600,
+        1026,
+        262208,
+        16777217,
+        337,
+        9994305,
+        5406720
+      ],
+      "source_indices": [
+        18,
+        19,
+        20,
+        33,
+        34,
+        35,
+        42,
+        43,
+        44,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "75e26826b467adf68dd2521b7b69ca273470bf2fcb8cf2a414471e1d2b263916",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "ca2e366fb193f3935e88f9618f537cf8d10d6de6a77fcf99060149aff1fb3917",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11
+          ],
+          "pivot_rows": [
+            24,
+            23,
+            16,
+            8,
+            2,
+            14,
+            1,
+            22,
+            18,
+            12
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p01-14-17",
+      "orbit_mask_hex": "0x24002",
+      "shared_mode_basis": [
+        7,
+        4096,
+        16401,
+        65601,
+        262208,
+        4195331,
+        16777217,
+        2,
+        320,
+        9994305
+      ],
+      "source_indices": [
+        27,
+        28,
+        29,
+        33,
+        34,
+        35,
+        84,
+        85,
+        86,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "7ac8b1ccd70fbdcc17d784e0c73a56781bed7f770f73aa0ae1873d1fdf34d348",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "4c6a3141e0d8ee8c11b8996c16df4a78c53d04a40f1cd963ff7151af761b676f",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "pivot_rows": [
+            24,
+            23,
+            2,
+            16,
+            17,
+            19,
+            14,
+            18,
+            12,
+            13
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p01-15-23",
+      "orbit_mask_hex": "0x808002",
+      "shared_mode_basis": [
+        7,
+        4096,
+        24576,
+        75850,
+        131075,
+        262208,
+        525251,
+        16777217,
+        8529,
+        9470850
+      ],
+      "source_indices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        75,
+        76,
+        77,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "9d3803aadfe859ba2639d7b46b0739937f37ed5551d8f7ccb86e7b6f1ff55300",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "0b2da03afe905ff0f79fd4663439fbc5f6a768ebc8f21332851275127f267597",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "pivot_rows": [
+            24,
+            23,
+            16,
+            14,
+            2,
+            8,
+            0,
+            4,
+            18,
+            12
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p01-17-19",
+      "orbit_mask_hex": "0xa0002",
+      "shared_mode_basis": [
+        7,
+        4096,
+        65601,
+        1,
+        262208,
+        16777216,
+        336,
+        16400,
+        16,
+        9994304
+      ],
+      "source_indices": [
+        18,
+        19,
+        20,
+        27,
+        28,
+        29,
+        33,
+        34,
+        35,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "f5dae7f6f0937cfafb1ed0de0822c1f68649ae8cb7a217aa248d0af53836b904",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "befb837ae8c95cc36cb801c5fc56b54535d117cca142e3d821d52223a96dfe62",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          "pivot_rows": [
+            24,
+            23,
+            2,
+            21,
+            14,
+            19,
+            18,
+            4,
+            15,
+            12
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p01-25-27",
+      "orbit_mask_hex": "0xa000002",
+      "shared_mode_basis": [
+        7,
+        4096,
+        262208,
+        524289,
+        25,
+        33633,
+        10551360,
+        16777217,
+        16712,
+        3212129
+      ],
+      "source_indices": [
+        33,
+        34,
+        35,
+        45,
+        46,
+        47,
+        66,
+        67,
+        68,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "c6b89071af6d94c3a94b3599a54c3fa6e487bedf588c636cdadb407262ff40dc",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "089ba8e24fbf9c3e8cf7c6454f6e9beccc1625452df8bac25cdbfd83af4df1c1",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+          ],
+          "pivot_rows": [
+            22,
+            14,
+            10,
+            17,
+            23,
+            3,
+            24,
+            2,
+            12,
+            18
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p02-10-14",
+      "orbit_mask_hex": "0x4404",
+      "shared_mode_basis": [
+        8,
+        1024,
+        4096,
+        16401,
+        5,
+        163840,
+        262208,
+        4194305,
+        11076352,
+        16777217
+      ],
+      "source_indices": [
+        6,
+        7,
+        8,
+        51,
+        52,
+        53,
+        84,
+        85,
+        86,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "957762d234ea760f9a8cf6bd0124b8c59befa6ef48fa5dfa9fcc35884741b980",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "cdb4b0ff70e16ac50452da46e445475cff0d58f2b0aad44a534ee359cb9f7c14",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "pivot_rows": [
+            16,
+            17,
+            19,
+            15,
+            23,
+            3,
+            14,
+            18,
+            12,
+            24
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p02-15-23",
+      "orbit_mask_hex": "0x808004",
+      "shared_mode_basis": [
+        8,
+        4096,
+        24576,
+        75842,
+        131076,
+        33793,
+        262208,
+        525252,
+        10496134,
+        16777217
+      ],
+      "source_indices": [
+        36,
+        37,
+        38,
+        51,
+        52,
+        53,
+        75,
+        76,
+        77,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "71b79284b539fe36c228d8d029106c066cd222610f723c2a65c5cd60bd0020c0",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "02ad929de61455d0d075e5e723c5a353aee4968ed3091f9beb0304ae3e5082f8",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          "pivot_rows": [
+            23,
+            24,
+            19,
+            17,
+            15,
+            3,
+            18,
+            4,
+            9,
+            12
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p02-25-27",
+      "orbit_mask_hex": "0xa000004",
+      "shared_mode_basis": [
+        8,
+        4096,
+        164869,
+        262208,
+        524289,
+        17,
+        33633,
+        10551360,
+        833,
+        16777217
+      ],
+      "source_indices": [
+        45,
+        46,
+        47,
+        51,
+        52,
+        53,
+        66,
+        67,
+        68,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "e4cf7ab6c5c756bd642dd0f287be079075d15636fc3e01e8fdf06c2b1b70295c",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "d2efa6590619854fca9a74b41e951aa4af9b4892a836ce9d37ce292e79ee918d",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+          ],
+          "pivot_rows": [
+            3,
+            24,
+            9,
+            22,
+            14,
+            10,
+            23,
+            2,
+            12,
+            18
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p03-10-14",
+      "orbit_mask_hex": "0x4408",
+      "shared_mode_basis": [
+        10,
+        832,
+        1024,
+        4096,
+        16401,
+        5,
+        262208,
+        4194305,
+        16777217,
+        9445379
+      ],
+      "source_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        84,
+        85,
+        86,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "f789af7d331ddd669bad3f42429c3e503b21a083570fdf2b99ed87326fa16d7d",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "bd8537a5631b7e4da3f66003c0b18cfc246fb367849483a175777e46068e88c2",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "pivot_rows": [
+            3,
+            24,
+            9,
+            16,
+            17,
+            19,
+            14,
+            18,
+            12,
+            23
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p03-15-23",
+      "orbit_mask_hex": "0x808008",
+      "shared_mode_basis": [
+        10,
+        832,
+        4096,
+        24576,
+        75840,
+        131076,
+        262208,
+        524420,
+        16777217,
+        9438226
+      ],
+      "source_indices": [
+        3,
+        4,
+        5,
+        36,
+        37,
+        38,
+        75,
+        76,
+        77,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "2dfe46067150171677d3cbd43ede2c669f7e0e3e2e7fa0550a65a6bcdb7347ca",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "db8059b52925877c821c3577d711a898c64878ede3056ebf146706f916eac2e7",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          "pivot_rows": [
+            3,
+            24,
+            9,
+            23,
+            21,
+            19,
+            18,
+            4,
+            15,
+            12
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p03-25-27",
+      "orbit_mask_hex": "0xa000008",
+      "shared_mode_basis": [
+        10,
+        832,
+        4096,
+        262208,
+        524289,
+        19,
+        32801,
+        10551360,
+        16777217,
+        3236929
+      ],
+      "source_indices": [
+        3,
+        4,
+        5,
+        45,
+        46,
+        47,
+        66,
+        67,
+        68,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "dc2a09de14897a073571f1810660021b20fb373675e06d6cf7fe42a39fc72b09",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "474bf882dfed191e57476491d063e74a419f8ebcf1c4b2a052eebf69f21457ad",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+          ],
+          "pivot_rows": [
+            22,
+            14,
+            10,
+            21,
+            3,
+            17,
+            24,
+            2,
+            12,
+            18
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p04-10-14",
+      "orbit_mask_hex": "0x4410",
+      "shared_mode_basis": [
+        10,
+        1024,
+        4096,
+        16401,
+        5,
+        164000,
+        262208,
+        2162688,
+        4194305,
+        16777217
+      ],
+      "source_indices": [
+        6,
+        7,
+        8,
+        60,
+        61,
+        62,
+        84,
+        85,
+        86,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "21a9838d27ed61f1c3d81bd8a760fc84e49a2c30046f2da2e4d8e45d24d90e11",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "24a9b19c575e4a0cbae117707b841244b4c4ec563995e64e0df100687b4dc2cf",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "pivot_rows": [
+            16,
+            17,
+            19,
+            21,
+            3,
+            15,
+            14,
+            18,
+            12,
+            24
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p04-15-23",
+      "orbit_mask_hex": "0x808010",
+      "shared_mode_basis": [
+        10,
+        4096,
+        24576,
+        75840,
+        131076,
+        33953,
+        262208,
+        525252,
+        2107456,
+        16777217
+      ],
+      "source_indices": [
+        36,
+        37,
+        38,
+        60,
+        61,
+        62,
+        75,
+        76,
+        77,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "2a9ba74f92d98e554b6a5ca5262ca8105c6e768c7d20c1e7f90199b25cbd0579",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "924e5ce4e2172ab171cf2f432b1ef1d4b59a80a8ddf261ac0faa0cd65582bf58",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          "pivot_rows": [
+            23,
+            24,
+            19,
+            21,
+            3,
+            17,
+            18,
+            4,
+            15,
+            12
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p04-25-27",
+      "orbit_mask_hex": "0xa000010",
+      "shared_mode_basis": [
+        10,
+        4096,
+        165029,
+        262208,
+        524289,
+        19,
+        33633,
+        2162688,
+        8388672,
+        16777217
+      ],
+      "source_indices": [
+        45,
+        46,
+        47,
+        60,
+        61,
+        62,
+        66,
+        67,
+        68,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "a97af99ae046133eed169e058602d2adba095f02d748c09287fc8d4e144d3c4a",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "85b1015193bb7e68b8d0dea6cef446d13bf421671324662671834b743e156b1d",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+          ],
+          "pivot_rows": [
+            22,
+            14,
+            10,
+            4,
+            20,
+            24,
+            2,
+            0,
+            12,
+            18
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p05-10-14",
+      "orbit_mask_hex": "0x4420",
+      "shared_mode_basis": [
+        17,
+        1024,
+        4096,
+        16384,
+        5,
+        262208,
+        4194305,
+        1048577,
+        16777216,
+        1
+      ],
+      "source_indices": [
+        6,
+        7,
+        8,
+        30,
+        31,
+        32,
+        84,
+        85,
+        86,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "36a7b2750ca6497f0ac569fbe3180531003ec6ce3de63f071947e8d974b4663b",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "a7f1c46d644a6ff5ce06be4fbe54aa0e9932cc8d45274ba44dd983a59c134fac",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "pivot_rows": [
+            4,
+            22,
+            24,
+            16,
+            17,
+            19,
+            14,
+            18,
+            12,
+            0
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p05-15-23",
+      "orbit_mask_hex": "0x808020",
+      "shared_mode_basis": [
+        17,
+        4096,
+        24576,
+        75850,
+        131076,
+        262208,
+        525252,
+        5243909,
+        16777216,
+        1
+      ],
+      "source_indices": [
+        30,
+        31,
+        32,
+        36,
+        37,
+        38,
+        75,
+        76,
+        77,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "58714461dc92aa5a3577044c8987e871ab49d3d60079f501acca313310a1854b",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "0c8b064088e65bad9352f9233d3ac6c805279a4dd2de25d2ffde6d8b99dcedd2",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          "pivot_rows": [
+            4,
+            22,
+            24,
+            23,
+            3,
+            19,
+            18,
+            0,
+            15,
+            12
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p05-25-27",
+      "orbit_mask_hex": "0xa000020",
+      "shared_mode_basis": [
+        17,
+        4096,
+        262208,
+        524289,
+        8,
+        33633,
+        5243909,
+        10551360,
+        16777216,
+        1
+      ],
+      "source_indices": [
+        30,
+        31,
+        32,
+        45,
+        46,
+        47,
+        66,
+        67,
+        68,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "branch_metadata": {
+        "actual_core_checked": true,
+        "actual_core_mode_ranks": [
+          10,
+          10,
+          10
+        ],
+        "actual_core_sha256": "8b018f20e0c87ffcf99509cf65d5621256d44ff9654e0a0e5ecb7736ebe38abb",
+        "actual_unfolding_ranks_by_independent_pair_columns": [
+          10,
+          10,
+          10
+        ],
+        "ambient_entries_checked": 15625,
+        "ambient_sha256": "4c21eceeaae44573c15669cfa5ff5c5be10ca1432ea568bc26dc9e40f3057015",
+        "branch": "CP(d+1)",
+        "core_entries_checked": 1000,
+        "core_storage": "Lazy reconstruction only; no core/model stored.",
+        "d": 10,
+        "factor_rank_witness": {
+          "independent_column_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+          ],
+          "pivot_rows": [
+            22,
+            14,
+            10,
+            18,
+            6,
+            16,
+            24,
+            2,
+            12,
+            8
+          ],
+          "rank": 10
+        },
+        "feasibility_status": "NOT_QUERIED_RETAINED",
+        "future_backend_status": "REVIEWED_CP_D_OR_DPLUS1_ROUTE",
+        "lazy_actual_core_required_before_decode": true,
+        "local_products": 12,
+        "mode_shape": [
+          10,
+          10,
+          10
+        ],
+        "outside_products": 81,
+        "rank2_span_filter_called": false,
+        "rank2_span_filter_status": "DEFERRED_IMPLEMENTATION_REVIEW_NOT_BOUND",
+        "same_factor_span_all_modes": true,
+        "source_pair_independence_reused": true,
+        "surplus": 1,
+        "target_global_products": 92,
+        "target_local_products": 11
+      },
+      "id": "c3-mixed12-p06-10-14",
+      "orbit_mask_hex": "0x4440",
+      "shared_mode_basis": [
+        64,
+        1024,
+        4096,
+        16401,
+        5,
+        262144,
+        256,
+        65536,
+        4194305,
+        16777217
+      ],
+      "source_indices": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        84,
+        85,
+        86,
+        90,
+        91,
+        92
+      ]
+    }
+  ],
+  "pilot_disabled": true,
+  "pins": {
+    "artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-prep-001.execution.json": "98f163468aea122f9351b90107ecba628075a7e8ad60b8cc06f94c895bbb6fbb",
+    "artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-prep-001.log": "91e95486a7d0eb71148cc48704a8cfd5306840b0c1611710aaed28f79ad1da98",
+    "artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-prep-001/COMPLETE.json": "8bdaf6e42324e49ef028b181849cdcfd7579619dc76a551a2b7287d51bd39b9e",
+    "artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-prep-001/catalog.json": "5262849890715c75042d282fcae02d69103b33b51dbe58d54c6b30eceb1d235a",
+    "artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-prep-001/checksums.json": "712c3f0c70395e3dfc259670890d1b4b4f824cdd677fd9c1235af32520a916a9",
+    "artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-prep-001/manifest.json": "475c51b3d5b49d6d24ff5458483cc84e972402a715e4ed133d2b106709982f46",
+    "artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-prep-001/pilot-proposal.json": "27b5007f7dc52fad942ef9e17a6ed4500093f7c1f73a64fbd4c69684663b9a35",
+    "artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-ready-v1/checksums.json": "a21c48a8aa99a0d552386aaf4b1cc0e343d21ca5ddec9257db099f77c940f4b5",
+    "artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-ready-v1/controls.log": "cf06d33e1af10ec3a44509905d041c4fd7071e09a2c3b12b1e74dcd01789b16d",
+    "artifacts/marathon7_20261103T122417Z/c3-mixed12-packets7-ready-v1/preview.json": "0a31bd8463eafb6be1e2de76990ae989460ea148091b37db0108c14be17b5492"
+  },
+  "private_eval_payloads_read": 0,
+  "rank2_span_filter_calls": 0,
+  "rank2_span_filter_deferred": true,
+  "report_sha256": "e8bc0cb45e1a80183f5f848b78624624e80b0fee8daad98b89a993e65d05c5a1",
+  "retained_unqueried": 316,
+  "retained_unsupported_cases_policy": "Never discard or call negative; actual observed minimum d9.",
+  "runtime_code_sha256": {
+    "mmsearch/__init__.py": "9738090d64922b0fc198277dc63654f3ac420cef984947916b4e74da3b13a08a",
+    "mmsearch/common_delta42.py": "5b2acf466bc561ff3df7df860ea8d270b3afa03c995bf3b0ca9819f9779fe409",
+    "mmsearch/compact_coset43.py": "3a8ba640784695e1d08f4327e5eaa013f6174a4aa44a5cb319ae31255c0a507a",
+    "mmsearch/compact_eight43.py": "6ca48ecc2904aaed86209395c9785c2493b5fc8448d05b62900ee5ee791fe3e3",
+    "mmsearch/compact_sat.py": "169e16228d6aac8cf6752d7b4630173c566de4851532974e0d71eb6ff394e09c",
+    "mmsearch/extend_eight_bulk43.py": "34c937996c033a7b7905a58471da8d30b21fa0e716022d97a8c4594991c21452",
+    "mmsearch/free_factor_sat.py": "2f7456f11b2d194f33a61ca5c41d99e3a5b4e1378790910ebbca8f5550569761",
+    "mmsearch/local_guard43.py": "0f1d86be46be0990e17f745a5a54336c5ea4117cf9a4d792bc0a2011d3af3657",
+    "mmsearch/marathon7_local.py": "94834fe263b3bb3f62145a3415e520f8918c366b2f608138df29fb918435ac53",
+    "mmsearch/observed_plane42.py": "3f245ee62a4fe0079df898d3644dae027c9cd45878981a00f37c5d4d4c8664a8",
+    "mmsearch/observed_rank342.py": "6869a3633d67e56322560a9ea80e8c44f131ff9cf1a219c9e58d822e7afa2ea3",
+    "mmsearch/observed_rank3_bounded42.py": "6ff4784db2a9aa3954aa0c11ebdcc4b569ee1fc946baaee5a0aa117ad4763b01",
+    "mmsearch/observed_rank3_lazy42.py": "253a083d1f0051164d579341ba48e5a661ab68bf32de5c9ac5919090c0dc12af",
+    "mmsearch/observed_weight442.py": "f21b9fd7c1ba0bcc864cc8dde00db37de032894a5c0028ac8c29b1f31c569324",
+    "mmsearch/recombine.py": "3b453d2c50405beb73000a22c82990f7332f8be740a93445634170b0630f94ee",
+    "mmsearch/recombine_sat.py": "433731a586d0833f891817e9aa8e49c74d5cfa539e19a207936cdcaaa16389df",
+    "mmsearch/sat.py": "1f0718b2238340f5eb10958d0823d7845e03a4e9f96be7d5d7342f73d17aa3d6",
+    "mmsearch/sat_neighborhoods.py": "59540cda1b5afc11dfe2a11b36977062a871450ebcf67c59e9985339b9c01421",
+    "mmsearch/search.py": "0317550a543d696b4e669f55a15781ed37c5d87ca4bca0420f805351f5558267",
+    "mmsearch/tensor.py": "c4b4a7aaa245f09d84d3216af2475c7602473061b7cfbbd9cb4d48d486506198",
+    "mmsearch/tensor_code7.py": "e5fa2a84c00ee5e10076ff3902963cf27dfe86b43fc4d4ad885cef8f3f7291e1",
+    "mmsearch/verify.py": "491282f4e940b9969b2a94ee51994d71ceefd9dc5a19167b779b9d2a6098f46f",
+    "research/tensor_code7.md": "96af2e0e541cd054858dbf2037177811e7bb353f9eb06d7374cea828872045bf",
+    "scripts/prepare_c3_mixed12_packets7.py": "b9db1f147d3056c92b56eea0f67a1a9d6df9f1e268286de3f3c223c5693c8a7b",
+    "scripts/prepare_c3_mixed_packets7.py": "0cf0e0e5458b1d522fe21205058f57cd2947c30f49520dc6f1bfc121519fb759",
+    "scripts/tensor_code7.py": "8f40b6c0b1b58a8efa4a57583dc99c68aa79b7c56965ce93fc3374e95822e2da",
+    "scripts/tensor_code7.schema.json": "b826534eb2c6577b43904071505a7f3e1895de40e370473d704248a8d9bfdfaa",
+    "scripts/verify_record42_independent.py": "499a1409c755d4a551ab6efe0e0520e14aa20a44081cedccc403c9cb7f74e7c6",
+    "tests/test_prepare_c3_mixed12_packets7.py": "e9df90468a7e0cf53904380b7d963650e062302e1958f67d264a042d44ba19a8",
+    "tests/test_tensor_code7.py": "16b1c28df8d5294972395b11865eddfc0875803af2550ea70071563c72cf680b",
+    "tests/test_tensor_code7_lifecycle.py": "563727a4d35af6913feee097e6103495b0d5de1f99ffdc915329a91bb9acf56a",
+    "tests/test_tensor_code7_sources.py": "a2dd46317fe51c39903ee779e900e0367bfa1badde0f5a018d1164baabeab787"
+  },
+  "scope": "This exact4060 packet source family, local12-to11/outside81. Retained cases are not target-queried; only rank12 packets are excluded by flattening.",
+  "solver_calls": 0,
+  "source": {
+    "essential_products": 93,
+    "path": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/nodes/56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b.json",
+    "raw_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+    "root_eligibility_sha256": "7354183ab6e9c89f76110e1c916738ced4856499632a2f317508b1d6bea7bb55",
+    "source_manifest_sha256": "26d95607f6379c182b96aa9beaf451d419c7abb20b6185ebf0abf3b9f54eabe8"
+  },
+  "status": "PREPARED_METADATA_NO_TARGET_QUERIES"
+}

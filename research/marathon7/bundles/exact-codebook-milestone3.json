@@ -1,0 +1,22 @@
+{
+  "format": "curated-milestone3-bundle-v1",
+  "archive": "research/marathon7/bundles/exact-codebook-milestone3.tar.xz",
+  "archive_sha256": "05d9997e370e7d1156fd8577638c4a8b8f3242dd7f56449c377a00cb066af22b",
+  "files": 608,
+  "uncompressed_bytes": 45324995,
+  "compressed_bytes": 1080908,
+  "roots": [
+    "tensor-code-source-anchors-v1",
+    "tensor-code-prep-001",
+    "tensor-code-witnesses-001",
+    "tensor-code-extension-prep-001",
+    "tensor-code-search-001",
+    "tensor-code-sat-v7-001",
+    "cyclic-orbit-code7-audit-002",
+    "cyclic-polarization7-audit-001",
+    "c3-cube-space7-audit-001",
+    "kernel-projection-dominance-generic-001",
+    "kernel-projection-dominance-c3-001"
+  ],
+  "limits": "Frozen input/proof/experiment bundles only; logs, locks, running markers and bulk local search outputs excluded. Some preserved manifests contain original absolute workspace paths; this is retained evidence, not a claim of path-independent execution."
+}

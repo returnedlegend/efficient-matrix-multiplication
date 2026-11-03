@@ -1,0 +1,60 @@
+{
+  "status": "BOTH_DOMINATED_EXACT_FINITE_DICTIONARIES",
+  "audits": [
+    {
+      "dataset": "generic",
+      "status": "DOMINATED",
+      "complete": true,
+      "base_columns": 406,
+      "extended_columns": 444,
+      "base_rank": 309,
+      "extended_rank": 331,
+      "projection_rank": 16,
+      "states": 65536,
+      "independent_states": 65536,
+      "minimum_margin": 0,
+      "minimum_nonzero_margin": 1,
+      "elapsed_seconds": 1.6780647450004835,
+      "process_cpu_seconds": 1.670485741,
+      "max_rss_kib": 29820,
+      "cpu_affinity": [
+        1
+      ],
+      "nice": 10,
+      "address_space_limit_bytes": 1073741824,
+      "result_sha256": "4e5337451d391558d395779a73256a530df96650c6c72b67ecb90b6abe7cdcbf",
+      "path": "artifacts/marathon7_20261103T122417Z/kernel-projection-dominance-generic-001/result.json"
+    },
+    {
+      "dataset": "c3",
+      "status": "DOMINATED",
+      "complete": true,
+      "base_columns": 275,
+      "extended_columns": 278,
+      "base_rank": 201,
+      "extended_rank": 203,
+      "projection_rank": 1,
+      "states": 2,
+      "independent_states": 2,
+      "minimum_margin": 0,
+      "minimum_nonzero_margin": 5,
+      "elapsed_seconds": 0.10980744599964964,
+      "process_cpu_seconds": 0.10976839000000001,
+      "max_rss_kib": 28596,
+      "cpu_affinity": [
+        1
+      ],
+      "nice": 10,
+      "address_space_limit_bytes": 1073741824,
+      "result_sha256": "02a3dd4db66083aecf102df4b9af2f4ec14ab08b560506e5dcd63d22d3d92fc6",
+      "path": "artifacts/marathon7_20261103T122417Z/kernel-projection-dominance-c3-001/result.json"
+    }
+  ],
+  "optimization_called": false,
+  "target_sat_called": false,
+  "no_base_minimum_or_global_tensor_rank_bound_claim": true,
+  "strict_new_coordinate_cost_gaps": {
+    "generic": 1,
+    "c3": 5
+  }
+}

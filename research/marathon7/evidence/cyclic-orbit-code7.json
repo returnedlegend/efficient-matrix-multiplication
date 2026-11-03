@@ -1,0 +1,131 @@
+{
+  "approval_requested": "Only separately reviewed bounded n5 dictionary/rank audit; no solver/search approval implied",
+  "code_sha256": {
+    "mmsearch/cyclic_tensor_code7.py": "0f8f2127f57f3618b1f15f0d7b2eda86b8cd5e2ced77512666f6abf3eb65bf4c",
+    "mmsearch/search.py": "0317550a543d696b4e669f55a15781ed37c5d87ca4bca0420f805351f5558267",
+    "mmsearch/verify.py": "491282f4e940b9969b2a94ee51994d71ceefd9dc5a19167b779b9d2a6098f46f",
+    "scripts/audit_burst_long42.py": "4bdfaefca94337d3cbe584c583645f06e849eff1b9462e579c23b218d69f7221",
+    "scripts/audit_cyclic_tensor_code7_sources.py": "81649562871a177eaccaa32a19dfce24d8a054ab9041cceade36418b40ed7dde",
+    "scripts/verify_record42_independent.py": "499a1409c755d4a551ab6efe0e0520e14aa20a44081cedccc403c9cb7f74e7c6",
+    "tests/test_cyclic_tensor_code7.py": "f90fbd2ccfd01bb47948c8c9fd631b5b2e8fbd5130a2bd7a6f84e4249e91666f"
+  },
+  "compression": "Inverse linear coordinate restriction on the C3 invariant tensor subspace; width25 count5225, target125 full one-bits/45 invariant one-bits",
+  "exit_code": 0,
+  "format": "cyclic-orbit-code7-prototype-evidence-v1",
+  "max_future_orbit_columns": 2000,
+  "production_decoder_or_search_calls": 0,
+  "production_dictionary_builds": 0,
+  "report_sha256": "3a7f50bf14651b1ea51a7d14c78e053d53b0b14fa55c04cd49400f3302d64c61",
+  "source_audit": {
+    "approved_corpus_atom_count_from_manifest_only": 406,
+    "approved_corpus_payloads_read": 3,
+    "format": "cyclic-tensor-code7-source-audit-v1",
+    "heldout_evaluation_payloads_read": 0,
+    "limits": "This audit replays historical training-root authorization, train membership and prohibited identities for three existing approved roots. Future broader corpus use must replay every approved descendant edge and recheck root/config pins; unknown ancestry defers.",
+    "pins": {
+      "artifacts/marathon7_20261103T122417Z/root-review-decisions/tensor-code-source-anchors-approved.json": "7354183ab6e9c89f76110e1c916738ced4856499632a2f317508b1d6bea7bb55",
+      "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/manifest.json": "26d95607f6379c182b96aa9beaf451d419c7abb20b6185ebf0abf3b9f54eabe8",
+      "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/nodes/56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b.json": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+      "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/nodes/590f4968948970268b17b6dafd6a09534c44638db97ce6d80d6c7f66a2588b73.json": "590f4968948970268b17b6dafd6a09534c44638db97ce6d80d6c7f66a2588b73",
+      "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/nodes/897eb861a5df9fe79ca8cc875696f5b20afa23800e223e76655e8c437cab583f.json": "897eb861a5df9fe79ca8cc875696f5b20afa23800e223e76655e8c437cab583f",
+      "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/registries/heldout_declaration.json": "d9766c8957710a948a32fbf835c0756c4d8c4da417f33bc7cf9eb8152de89949",
+      "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/registries/native_armed.json": "f0d2658efc023b6b4f3251bb53806443e6297995343bc6f2d0b5c89a69c4f989",
+      "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/registries/native_initial_plan.json": "4746983ca35dc44e9dc46fcbe0dc44c8507bb5271e9bf4471c2ca8e920b025f5",
+      "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/registries/v43_split.json": "69498f5eca7cc83c29a4a30eec9831affe5d5e436c0e4f48944105322a63481f",
+      "artifacts/rl_campaign42_20261103T033116Z/native42-cyclic93-001/manifest.json": "ad203c146657f4cd826adaea9de6af290006d8995e4f3e4afca4a51ffe60c30d"
+    },
+    "production_decoder_or_search_calls": 0,
+    "production_dictionary_builds": 0,
+    "selected_seed_raw_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+    "sources": [
+      {
+        "ancestor_ids": [
+          "native:270f411487d4a6b7e22380ea25cd2f26d699c3fea4095a8a9984dfb2f5d9ad2c"
+        ],
+        "cube_masks": [
+          4096,
+          262208,
+          16777217
+        ],
+        "eligibility": "ELIGIBLE_ROOT_APPROVED_TRAIN_NATIVE_ROOT",
+        "fixed_cubes": 3,
+        "heldout_evaluation_ancestors": false,
+        "historical_c3_branch_source": "artifacts/rl_campaign42_20261103T033116Z/cyclic93-ready-v1/seeds/seed00-56e2dc2a4ce5e808.json",
+        "identity": {
+          "rl_source_sha256": "e9995721299b5a326254e32f83b1383448a95080b5e05b42f7197ff62e5ff660",
+          "term_set_sha256": "270f411487d4a6b7e22380ea25cd2f26d699c3fea4095a8a9984dfb2f5d9ad2c"
+        },
+        "independent_full_entries": 15625,
+        "nonfixed_orbits": 30,
+        "path": "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/nodes/56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b.json",
+        "primary_full_entries": 15625,
+        "rank": 93,
+        "raw_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+        "root_id": "native:270f411487d4a6b7e22380ea25cd2f26d699c3fea4095a8a9984dfb2f5d9ad2c",
+        "source_matrix_or_dictionary_built": false,
+        "total_source_orbits": 33
+      },
+      {
+        "ancestor_ids": [
+          "native:775365346f21bd2cce41cb81f0753b31fac9e353b5f3cf2805e07709fda049f2"
+        ],
+        "cube_masks": [
+          4096,
+          262208,
+          16777217
+        ],
+        "eligibility": "ELIGIBLE_ROOT_APPROVED_TRAIN_NATIVE_ROOT",
+        "fixed_cubes": 3,
+        "heldout_evaluation_ancestors": false,
+        "historical_c3_branch_source": "artifacts/rl_campaign42_20261103T033116Z/cyclic93-ready-v1/seeds/seed02-897eb861a5df9fe7.json",
+        "identity": {
+          "rl_source_sha256": "3208a7cbb67d275b26d74136105740d0a8760407b14dcdbbfa40794842b35c3b",
+          "term_set_sha256": "775365346f21bd2cce41cb81f0753b31fac9e353b5f3cf2805e07709fda049f2"
+        },
+        "independent_full_entries": 15625,
+        "nonfixed_orbits": 30,
+        "path": "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/nodes/897eb861a5df9fe79ca8cc875696f5b20afa23800e223e76655e8c437cab583f.json",
+        "primary_full_entries": 15625,
+        "rank": 93,
+        "raw_sha256": "897eb861a5df9fe79ca8cc875696f5b20afa23800e223e76655e8c437cab583f",
+        "root_id": "native:775365346f21bd2cce41cb81f0753b31fac9e353b5f3cf2805e07709fda049f2",
+        "source_matrix_or_dictionary_built": false,
+        "total_source_orbits": 33
+      },
+      {
+        "ancestor_ids": [
+          "native:4395f16a1da236cc86c1833f323f6e6ac23ec26e4d376382e6c493829c17d838"
+        ],
+        "cube_masks": [
+          4096,
+          262208,
+          16777217
+        ],
+        "eligibility": "ELIGIBLE_ROOT_APPROVED_TRAIN_NATIVE_ROOT",
+        "fixed_cubes": 3,
+        "heldout_evaluation_ancestors": false,
+        "historical_c3_branch_source": "artifacts/rl_campaign42_20261103T033116Z/cyclic93-ready-v1/seeds/seed03-590f496894897026.json",
+        "identity": {
+          "rl_source_sha256": "e467e54c1d538ec9f7763c18dbb5c83395efaca44cbbda8e1be50168bdc8482a",
+          "term_set_sha256": "4395f16a1da236cc86c1833f323f6e6ac23ec26e4d376382e6c493829c17d838"
+        },
+        "independent_full_entries": 15625,
+        "nonfixed_orbits": 30,
+        "path": "artifacts/marathon7_20261103T122417Z/tensor-code-source-anchors-v1/nodes/590f4968948970268b17b6dafd6a09534c44638db97ce6d80d6c7f66a2588b73.json",
+        "primary_full_entries": 15625,
+        "rank": 93,
+        "raw_sha256": "590f4968948970268b17b6dafd6a09534c44638db97ce6d80d6c7f66a2588b73",
+        "root_id": "native:4395f16a1da236cc86c1833f323f6e6ac23ec26e4d376382e6c493829c17d838",
+        "source_matrix_or_dictionary_built": false,
+        "total_source_orbits": 33
+      }
+    ],
+    "status": "ELIGIBLE_TRAIN_C3_SEEDS_IDENTIFIED_NO_DICTIONARY"
+  },
+  "status": "TINY_PROTOTYPE_PASS_N5_PREPARATION_PROPOSED_ONLY",
+  "tests_log_sha256": "2d1f7fee9e47b537f743f123e131f1351f4d39d95ac27d25857a3d80494e00e0",
+  "tests_passed": 7,
+  "tests_skipped": 0,
+  "tiny_positive_control": "Exact C3 orbit relation changes product cost11 to8, independently full64 checked",
+  "wall_seconds": 0.2659482629997001
+}

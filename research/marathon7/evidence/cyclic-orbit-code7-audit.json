@@ -1,0 +1,219 @@
+{
+  "affine_analysis": {
+    "affine_clause_upper_bound": 2150,
+    "all_feasible_costs_mod6": 3,
+    "all_kernel_supports_even": true,
+    "audit": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-002",
+    "audit_manifest_sha256": "eb6337722adaf26ecc3e11795cc94865c2a556db7af70d4efd83b917bb0a392b",
+    "cube_all_together": true,
+    "cube_columns": [
+      135,
+      254,
+      274
+    ],
+    "cube_projection_rank": 1,
+    "dependency_incidences": 706,
+    "dependency_support_histogram": {
+      "1": 213,
+      "10": 3,
+      "11": 2,
+      "13": 3,
+      "15": 1,
+      "16": 1,
+      "2": 17,
+      "20": 1,
+      "23": 1,
+      "24": 1,
+      "25": 1,
+      "27": 1,
+      "29": 1,
+      "3": 11,
+      "30": 1,
+      "31": 1,
+      "4": 2,
+      "5": 6,
+      "6": 4,
+      "7": 1,
+      "8": 1,
+      "9": 2
+    },
+    "dictionary_sha256": "23ff2b7ef344b79277712731cdc80ecc4b030a82026ca77d9fec32a02ebd047b",
+    "equivalent_bound_from_mod6": 87,
+    "format": "cyclic-orbit-code7-affine-analysis-v1",
+    "internal_xor_auxiliaries_with_selection_as_outputs": 369,
+    "kernel_cube_projection_masks": [
+      0,
+      7
+    ],
+    "kernel_variables": 74,
+    "maximum_dependency": 31,
+    "one_variable_selection_rows": 213,
+    "orbit_variables": 275,
+    "production_queries_started": 0,
+    "requested_target": 92,
+    "scope": "Assumes the input kernel is the complete independently audited kernel. Counts/projection only; no candidate enumeration, minimum-weight calculation, tensor construction, encoding build or solver call.",
+    "seed_cost": 93,
+    "seed_cube_mask": 7,
+    "solver_calls": 0,
+    "source_sha256": "986d07095f761396be81a706edbb42fdb3f9f025f5539ce9f1d222b3a50f8372",
+    "weighted_literals": 819,
+    "xor_gates_with_selection_as_outputs": 431
+  },
+  "affine_analysis_tiny_controls_passed": 3,
+  "all_declared_files_rechecked": 9,
+  "decoder_search_calls": 0,
+  "format": "cyclic-orbit-code7-production-audit-evidence-v2",
+  "optimization_calls": 0,
+  "pins": {
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-affine-analysis-v1.json": "4bc2bc3a6180d0b3a53909ee313beb28a29b731d64e7ba6f804d6d2cf3b6fda3",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-002.execution.json": "ebc3ea911fa105dd17ed694b6b983a3556b421ab13d9dc201b7223e55bc8d1c5",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-002.log": "9a4a92108f7266dd2a3b062c2f06549da6119b88a4f1523d653dcc7f208f1cfb",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-002/COMPLETE.json": "4d89a75cacfef8ce26d3a17f0d0d2825f55f05efc51d62775231aac890d4e841",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-002/checksums.json": "bf7a1f432a98b73a31176ffa718a01b0fe508f7fc7261947f926fb9cc2c1e606",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-002/dictionary.json": "23ff2b7ef344b79277712731cdc80ecc4b030a82026ca77d9fec32a02ebd047b",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-002/manifest.json": "eb6337722adaf26ecc3e11795cc94865c2a556db7af70d4efd83b917bb0a392b",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-002/seed-verification.json": "3d80406d7053b50476f8420c0e54e3c4750d53f550f989ce8c7a2b0dab92e83c",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-ready-v2/checksums.json": "fd5a38854ad4272e8b18fa91609a5264584d2bbe1395009b54cb6f29433b7f2c",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-ready-v2/proposal.json": "fdd7d3623e51599fc08df8516dc772de858773c2f0f3eb354d79847c7c517791",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-next-proposal-v1.json": "6e25213ce2739642912776e694061627320d1587d8ad004b5fb80c4aacf23cca",
+    "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-next-proposal-v2.json": "76970a6c7035f5331e9917426b7cf30c66fca6bb35a61218b2af8b5045d61c32",
+    "scripts/analyze_cyclic_tensor_code7_affine.py": "986d07095f761396be81a706edbb42fdb3f9f025f5539ce9f1d222b3a50f8372",
+    "tests/test_cyclic_tensor_code7_affine.py": "5e4a50ccccc10806f07f1431782d0d69147d2cc8312ba2639cd6cdcd7d8af05e"
+  },
+  "private_eval_payloads_read": 0,
+  "report_sha256": "70fd118e45ecb9a7b5ed61116042135bc1938dd4bfaea2c1f422511cc59f32ba",
+  "solver_calls": 0,
+  "source_replayed_states": 32,
+  "status": "PREPARED_DICTIONARY_AUDIT_ONLY",
+  "v1_retained_stop": {
+    "columns_or_rank_not_persisted": true,
+    "completed_n5_dictionaries": 0,
+    "diagnostic": {
+      "base_input_bytes": 7494267,
+      "base_input_files": 83,
+      "diagnostic_force_10checks_cpu_seconds": 0.30461142999999996,
+      "loop_10checks_cpu_seconds": 0.0002771599999999985,
+      "operations_state_bytes": 1365618
+    },
+    "execution": {
+      "cpu": 1,
+      "elapsed_seconds": 30.06093491499996,
+      "exit_code": 2,
+      "max_rss_kib": 45008,
+      "nice": 10,
+      "optimization_calls": 0,
+      "solver_calls": 0,
+      "system_cpu_seconds": 5.76815,
+      "total_cpu_seconds": 29.997571999999998,
+      "user_cpu_seconds": 24.229422
+    },
+    "format": "cyclic-orbit-code7-audit-stop-evidence-v1",
+    "pins": {
+      "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-001.command.json": "da7ec09c30477e94badfbfcc4e541f7eaef6ccfce64d8282aaaf42a5f4962dde",
+      "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-001.execution.json": "9a338741b2c3b007a05b110716dd56739d832eeadf48a050002d6f2876b4f60d",
+      "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-001.guard-diagnostic.json": "3eddbfd0e38af128d9794c65c0e1ac951af930e78d2773e0a02e1b71160ebce0",
+      "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-001.preview.json": "f6c953cc5e72897fbdcfe8e1bd5eacd9e4632b56957efd01d03a75a1be492ccf",
+      "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-001/UNKNOWN.json": "10d4b86af63769552a50d00946d8cd96ab860c62d133598d15234f2e0c0ab782",
+      "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-001/code/scripts/audit_cyclic_tensor_code7.py": "455b2ccbe9a92cf2717e1ffe06d17e4478e71741314e1278775aac22ffbd0118",
+      "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-ready-v2/checksums.json": "fd5a38854ad4272e8b18fa91609a5264584d2bbe1395009b54cb6f29433b7f2c",
+      "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-ready-v2/proposal.json": "fdd7d3623e51599fc08df8516dc772de858773c2f0f3eb354d79847c7c517791"
+    },
+    "production_optimization_or_solver_calls": 0,
+    "report_sha256": "597073dbc781b4e509bb60b51c801ba6d8db6a693e3cb91efcb9486f35fdeaef",
+    "retry_prepared_only": "artifacts/marathon7_20261103T122417Z/cyclic-orbit-code7-audit-ready-v2",
+    "status": "UNKNOWN_STOPPED_AUDIT",
+    "unknown": {
+      "decoding_search_calls": 0,
+      "elapsed_seconds": 30.00044201899982,
+      "optimization_calls": 0,
+      "partial_counts": {},
+      "reason": "30s hard audit alarm",
+      "solver_calls": 0,
+      "status": "UNKNOWN_STOPPED_AUDIT"
+    }
+  },
+  "v2_execution": {
+    "cpu": 1,
+    "elapsed_seconds": 5.781516237999767,
+    "exit_code": 0,
+    "max_rss_kib": 42028,
+    "nice": 10,
+    "optimization_calls": 0,
+    "root_authorization": "One corrected v2 dictionary/rank audit; no further unchanged retry.",
+    "solver_calls": 0,
+    "system_cpu_seconds": 0.578446,
+    "total_cpu_seconds": 5.780331,
+    "user_cpu_seconds": 5.201885
+  },
+  "v2_final_output_bytes": 1428180,
+  "v2_result": {
+    "compressed_rank": 201,
+    "cube_orbits": 3,
+    "cube_variables": [
+      {
+        "column": 135,
+        "factor_mask": 4096,
+        "forced": false,
+        "forced_value": null,
+        "seed_selected": true
+      },
+      {
+        "column": 254,
+        "factor_mask": 262208,
+        "forced": false,
+        "forced_value": null,
+        "seed_selected": true
+      },
+      {
+        "column": 274,
+        "factor_mask": 16777217,
+        "forced": false,
+        "forced_value": null,
+        "seed_selected": true
+      }
+    ],
+    "dictionary_independent_entries_checked": 4296875,
+    "dictionary_orbits": 275,
+    "dictionary_projection_inverse_entries_checked": 4296875,
+    "expanded_distinct_products": 819,
+    "forced_all_variables": 0,
+    "full_rank": 201,
+    "guard": {
+      "canonical": {
+        "checked_utc": "2026-11-03T13:21:57.924663+00:00",
+        "deadline_utc": "2026-11-03T19:24:17+00:00",
+        "elapsed_seconds": 5.423724150999988
+      },
+      "elapsed_seconds": 5.468887700999858,
+      "hard_utc": "2026-11-03T19:24:17+00:00"
+    },
+    "independent_kernel_rank": 74,
+    "kernel_parity": {
+      "all_weights_odd": true,
+      "can_change_cost_parity": false,
+      "interpretation": "Odd kernel vector is necessary to reach exactly even cost92 from odd cost93. If all kernel vectors are even, <=92 may still mean odd cost<=91; this is not an impossibility proof for <=92.",
+      "odd_basis_indices": [],
+      "odd_basis_vectors": 0,
+      "seed_cost_parity": 1
+    },
+    "nonfixed_orbits": 272,
+    "nullity": 74,
+    "packed_compressed_columns_bytes": 127768,
+    "packed_full_columns_bytes": 500638,
+    "packed_kernel_bytes": 1485,
+    "runtime": {
+      "cpu_affinity": [
+        1
+      ],
+      "max_rss_kib": 42028,
+      "memory_limit_bytes": 1073741824,
+      "nice": 10,
+      "pid": 16437,
+      "utc": "2026-11-03T13:21:57.924625+00:00"
+    },
+    "seed_cubes": 3,
+    "seed_nonfixed_orbits": 30,
+    "seed_orbits": 33,
+    "seed_product_cost": 93
+  }
+}

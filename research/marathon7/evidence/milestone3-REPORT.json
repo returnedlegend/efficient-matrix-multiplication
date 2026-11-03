@@ -1,0 +1,241 @@
+{
+  "all_exact_negative": true,
+  "all_source_masks_unique_and_disjoint_first500": true,
+  "batch_manifest_sha256": "dfc484fecee161f0e345e1ffb5998a32c9ba2fa57bfc9b9b9fba16d8ebedccff",
+  "bundle_manifest_sha256": "2733f3da19eef3b845817d7d0f94ccefa1398592fc23f13d20fa3ff6307d0b7b",
+  "case_audit_set_sha256": "e3d026fe306ca0a0b99aa9529bfb55f023576b47ad38891047aac9c2c5cd4483",
+  "case_audits": [
+    {
+      "cases": 500,
+      "chain_sha256": "6673d95a37ceec2e36ff4ce433ef500c6b4a500f989d6aa5b44694bd701f72e4",
+      "chunk": "001",
+      "id": "marathon7-local-local10-v5-001",
+      "launcher_sha256": "645677408fad4b1f056504e2b52ac2eea6127633ffc627e5b70d954953ab989d",
+      "report": "chunk-001.json",
+      "report_sha256": "f7a8c0b57fe2283ff6eb99551d4f7832930c003717862cde6930c76353fd5e87",
+      "summary_sha256": "53c367c90ad2e1dc1f99477fa7184dc053686be8daa263f0556d53cff8cd50cc"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "13c23645ca31bf88900479882430658b19ac8512f210a883bb6ada5f7611ecf3",
+      "chunk": "002",
+      "id": "marathon7-local-local10-v5-002",
+      "launcher_sha256": "423b7eae8931e85b18386e146b67f9e733fd17df4456d358d9ea66b0b85a6ab0",
+      "report": "chunk-002.json",
+      "report_sha256": "83265b5dbbb8d6d140a8b0f5fdd08fa8561a8e0548e8cc9db670eb7dd25b2ef9",
+      "summary_sha256": "b9b4a684025cb4a934459c583594aba028ecc897837c29c6de974dbdc061b527"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "59ffd4f0f9618721bde66ef7f522e54911176409ba4aee19ac46d5c2e3221479",
+      "chunk": "003",
+      "id": "marathon7-local-local10-v5-003",
+      "launcher_sha256": "aaf369db00e5bf99cc0be988f3d1ee093553cc0be8817e4094885ae43cb15302",
+      "report": "chunk-003.json",
+      "report_sha256": "3f6b3dc75ce7623799c2a2c80d1674ae7ab408c96a738d69b7e81a4c68ebedbd",
+      "summary_sha256": "fcc94aa289406b40af3dba6b864a4029003128877273b0955411ade0c0cbb97c"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "65555e19eebc086097d0845e0e2769df12fd9f08d2cc792a71d8ebd370183610",
+      "chunk": "004",
+      "id": "marathon7-local-local10-v5-004",
+      "launcher_sha256": "442b3998014ff68d97c000b9dea8bdcfd45fe0148362d4530d7f2dd620d6ad5c",
+      "report": "chunk-004.json",
+      "report_sha256": "98c9bcada235984e4af57b2aea2175324b820725a42c14c5a689c451f8666717",
+      "summary_sha256": "6f1f16220688cb065738044fb8fbc241687331ca963ee0888fd9f396c302bdb8"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "a50001120b2553293f08bbe14be9180c2f393dbef6b646c3bc97c9c17271a9c0",
+      "chunk": "005",
+      "id": "marathon7-local-local10-v5-005",
+      "launcher_sha256": "36f9a60a5e8b4c9f0821120c8d50fdf8909edbcd9f712f23910bcad2a0e9fb32",
+      "report": "chunk-005.json",
+      "report_sha256": "72f99564dbd5fe85793a58f13e3a7993dab3ede6199616c75e7917d0ba27d876",
+      "summary_sha256": "893b12f537288a66c5744b298961110190517cb058f3f28f544de13dfd7dafc3"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "17e5bc9169e8fba4c3fdcbb06a9ce8a41973d37e80702a48e6ac2e63e9ea6301",
+      "chunk": "006",
+      "id": "marathon7-local-local10-v5-006",
+      "launcher_sha256": "f2e57189f87e47ff0c5107558c69920b4a278a6d810106601669d108575fb1ea",
+      "report": "chunk-006.json",
+      "report_sha256": "41f06b16f40f6dde230eeae4aea90892ffa7970c8cac229d2f7df99d4be8cfaf",
+      "summary_sha256": "0c5791aa298628af5c1d7cac73df6cc7dc34a2b20d882e8fac15e18124a81c5b"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "84edb4e05ea310e0e433fc78974e42125c530fb3c21407a8aacec53ec63ffd8a",
+      "chunk": "007",
+      "id": "marathon7-local-local10-v5-007",
+      "launcher_sha256": "f9f001be822e98db3ce7b828bab7de99b5e0caa87119ab7c535883c45904e78e",
+      "report": "chunk-007.json",
+      "report_sha256": "7caf3b76289f99997dddd310e05efa7bd58ea4f3b59415328d65ef1209bf5a22",
+      "summary_sha256": "1dfd247e9a2fd2be8a80f7b45c956783ed700e3c803c53404a8988a80f0e3214"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "717a3c24a882efffdcb8922cf37100c2fcd11f42be6ae0169853e50376481495",
+      "chunk": "008",
+      "id": "marathon7-local-local10-v5-008",
+      "launcher_sha256": "65e243bb45ca65785a0d242a4df82066767dda5a8a23b122e44ff8f2bb25f916",
+      "report": "chunk-008.json",
+      "report_sha256": "0d7096923612521a948c257f1cd1c6e24e5c5ac4a644f3d4b341b35df8f35068",
+      "summary_sha256": "76d74f9ee3957677e2f8c0a87fbda578cb5e0b698cab3e512c960716d2eda155"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "be5c12000ac1ad45421c094afea96f42786e4e93f8e9c1c16e6b865b6458c305",
+      "chunk": "009",
+      "id": "marathon7-local-local10-v5-009",
+      "launcher_sha256": "dd6d6405f79ac1f8988494080c846d3594195e36a5280c9b135de5d0a209b83e",
+      "report": "chunk-009.json",
+      "report_sha256": "adb327bc14470744a99ab33bc9c7a08af7d9f4f4d71f0bdf23f14379e12c8eb7",
+      "summary_sha256": "d62cdf8c5ece73be21a35cf6d6dd1b682f70b68e78dee792e4552d3b90db41f0"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "612db761f2ed8c9226eedf65f538aea332dcb8055dd35a6e90d43d42d5672428",
+      "chunk": "010",
+      "id": "marathon7-local-local10-v5-010",
+      "launcher_sha256": "d32e4ea7cbd8dc9fb9e7e779515df477a24bcdbae810c1692abc35eaf970db52",
+      "report": "chunk-010.json",
+      "report_sha256": "0d982bda277f3c9f9b843ea90561bd082fab869a4e0210abb209682bd18c1234",
+      "summary_sha256": "5d1a75be4748ca84207d92d04228e6f524c64bd3cc9f46d6bf877543a91eceb7"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "e6816d31755c4a841e9d596e66badc3d2959e83e6822f9a1bdf79e386406f82d",
+      "chunk": "011",
+      "id": "marathon7-local-local10-v5-011",
+      "launcher_sha256": "8b30037020ff8997eb2813abb6bb7e3aa44f97fb790a73c763c88a665605904d",
+      "report": "chunk-011.json",
+      "report_sha256": "050278641050c0df2726f8c6d54acb2f4ea544f76f3c4b3e13e4b5190a646284",
+      "summary_sha256": "b40141aee4316d6eddd17d3a423e6b9833f52d8f60aec8e8c9bac23584588449"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "0bf4c6cc3e716ff23041b378c8d341c4ab12100265b50ffaef54ba7dc3e2a820",
+      "chunk": "012",
+      "id": "marathon7-local-local10-v5-012",
+      "launcher_sha256": "5ab789e88d9ae4996fca9866a5ed025754a3af8021bb9b5f64e7474361c7d3d4",
+      "report": "chunk-012.json",
+      "report_sha256": "45b04ecbb0629857f2f1c5b1d52e21e4bf67e6b69d2f8386e605ad4c72012b55",
+      "summary_sha256": "67df91548238d6b46fd91eff23500ad654bb1ca0653dde59679e887d35fca4dd"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "2cfc5f97b2225cc837b665f7ae84e8e5bed08e325d448a4859a6fafe9ea55af9",
+      "chunk": "013",
+      "id": "marathon7-local-local10-v5-013",
+      "launcher_sha256": "976f61dc2da9d7e5f58e6e3ee866690fd4d0438d78adddad3912b57a2e84add6",
+      "report": "chunk-013.json",
+      "report_sha256": "315b3c9ebfc3eec1427fbb1cfa0e16725e1b6981fa1686ac9dd6be56c132cd6c",
+      "summary_sha256": "1368aac2549cb48f397669c3f0e66ded078215d111946e3ff9b42e44c8253625"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "efc90cb617a4874ad8d0ba5e5b53a9575afbe6bcc075cec9cb3f255d7c40d3ed",
+      "chunk": "014",
+      "id": "marathon7-local-local10-v5-014",
+      "launcher_sha256": "bb70629a7ac570751575e021080f536bdb00c041297cc399c0eeebafa738d66b",
+      "report": "chunk-014.json",
+      "report_sha256": "9d1862152db4048161168b8765eefde10db932d09a319e0207d9200308dab842",
+      "summary_sha256": "9beec92ad5d0b42ba2617927f238600d46a76bf2d98387d7ef88e30d371e4007"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "878f4d70e8c6f077d623dc08d01761972db636b45cbd8edba457c8ea1538b24c",
+      "chunk": "015",
+      "id": "marathon7-local-local10-v5-015",
+      "launcher_sha256": "9d413b6766c626dd1a7e795615f2c5068893801e63c30f734cbae27a151fc117",
+      "report": "chunk-015.json",
+      "report_sha256": "a489e4402b01ef25098f73e15fdf6fd6853be33ccd53e4eae974b06f276905b2",
+      "summary_sha256": "ebbb4853b11358914da4bf1f4b0cc8e6c130968ae08fc058f16cca61152c7be4"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "4a53ca60e4921edf7d356c0df55808dbc4c4a73868f6bbd1a9fbad0cf7eb7b79",
+      "chunk": "016",
+      "id": "marathon7-local-local10-v5-016",
+      "launcher_sha256": "750ec4fb64dc10562d5bbb804d1b299a9d4978f5e08e632455c2bc9dac692f57",
+      "report": "chunk-016.json",
+      "report_sha256": "3cc2c3c3fc4183612ca1903fbe78ef428f8ed185e06a2c6ea889787a2893e4a8",
+      "summary_sha256": "bad490ca756eae55c9aa713f24785e4e8d3f1b347b0897f6ced739f9e84a7ec9"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "c37a1e760101297b390915ff3ebbc7efff0175589f94b245c623beb76819d6ec",
+      "chunk": "017",
+      "id": "marathon7-local-local10-v5-017",
+      "launcher_sha256": "b30a05bdeeddc6f93360cb7efbfccc5254668c47761ef61dbe18b6d92e5edf6c",
+      "report": "chunk-017.json",
+      "report_sha256": "14c7a4243f23021a082f238ff73f8f63f1a66d9a23cbe8cf3dd62a877dde43c6",
+      "summary_sha256": "053100ea2aee4b0a7a2a9e83a79a797358db728d0c3a67a35413e7f11aa422de"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "bd3594062e1d2bed03b2f1b2e27a41b9bbe13b987132826292e807c221ca6b7f",
+      "chunk": "018",
+      "id": "marathon7-local-local10-v5-018",
+      "launcher_sha256": "80fb225a9aca3dea1f7eb87707aa9cf3672ae2b6cd6c9a621e06653b45e70cd2",
+      "report": "chunk-018.json",
+      "report_sha256": "fb018bbcbf3ac80683e28c7f98c9da458cb55c653501247997f1692d7fb751e0",
+      "summary_sha256": "61f62b0ee16d96fdbd8d9e357829af9edc6af74869e0d6fafff2f84816e066af"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "d47c5975cbe55862058480eb7cbd301777c00058384e433bf88b6c155bd55b0e",
+      "chunk": "019",
+      "id": "marathon7-local-local10-v5-019",
+      "launcher_sha256": "8fa537a2c1a04bc0d761531c810529c82bdd95a421c1eedcce25cd8af9002937",
+      "report": "chunk-019.json",
+      "report_sha256": "9ea4c137f2d7503938ebdc7a440281ee0ea030ddf4bd5b52f196f9330c95aa20",
+      "summary_sha256": "407298ada704d223ee2f4169358983ef42a80dfd45186cfd703e691ac886d98e"
+    },
+    {
+      "cases": 500,
+      "chain_sha256": "597de35d08362b41636588e16bab052fc53840063cd1a96b20cca8e15deab56c",
+      "chunk": "020",
+      "id": "marathon7-local-local10-v5-020",
+      "launcher_sha256": "1dbbdbc5537716c13f322eb64b39faa5d8a1a1699458610c23f948c91cb0bd86",
+      "report": "chunk-020.json",
+      "report_sha256": "fec315527c2063da6d68d3d8fa7f5fdf2beca5360c417ad9d3de178d2135ebd0",
+      "summary_sha256": "b211bd9fed1e58a4324968c8e720d1b06c184317db86c8c34a813a56b6c20407"
+    }
+  ],
+  "cases": 10000,
+  "claim": "Experimental exact negatives only for these fixed-source/mask residuals. No new decomposition or global rank lower bound; root decision required for further queries.",
+  "errors": 0,
+  "jobs": 20,
+  "limits": {
+    "hard_cutoff_utc": "2026-11-03T19:24:17Z",
+    "inner_wall_seconds_each": 300,
+    "job_cpu": 2,
+    "jobs": 20,
+    "memory_mb_each": 1024,
+    "outer_wall_seconds_each": 330,
+    "per_case_seconds": 2
+  },
+  "measured": {
+    "inner_callbacks": 2888774,
+    "inner_filesystem_polls": 4014,
+    "max_launcher_wall_seconds": 15.026646710999557,
+    "max_peak_rss_kib": 29588,
+    "queue_phase_wall_seconds": 358.474791,
+    "sum_cpu_seconds": 172.423563,
+    "sum_launcher_wall_seconds": 264.30352254100217
+  },
+  "new_decoder_calls": 0,
+  "no_continuation": true,
+  "queue_receipt_sha256": "1585c9ded118c5625cf93036c7304dcde591059e9b5eacffe11b315e2b72ba86",
+  "status": "ALL10000_EXACT_FIXED_RESIDUAL_NEGATIVES_AUDITED",
+  "storage": {
+    "audit_logical_bytes": 4518718,
+    "outputs_allocated_bytes": 50380800,
+    "outputs_logical_bytes": 26865930
+  },
+  "unknowns": 0
+}

@@ -1,0 +1,47 @@
+{
+  "cpu_affinity": [
+    1
+  ],
+  "live_campaign_inputs_read": false,
+  "measured_utc": "2026-11-03T13:23:53.454481+00:00",
+  "nice": 10,
+  "observations": {
+    "cached": {
+      "cache": {
+        "cached_paths": 2,
+        "hits": 478,
+        "parses": 2,
+        "reads": 2,
+        "retries": 0,
+        "signature_checks": 962
+      },
+      "first_seconds": 0.006533387000217772,
+      "iterations": 80,
+      "max_seconds": 0.006533387000217772,
+      "median_seconds": 0.00014496300013888685,
+      "total_seconds": 0.019242805001795205,
+      "warm_median_seconds": 0.00014495300001726719
+    },
+    "original": {
+      "cache": null,
+      "first_seconds": 0.026704826999775833,
+      "iterations": 80,
+      "max_seconds": 0.036885227000311716,
+      "median_seconds": 0.018526191000091785,
+      "total_seconds": 1.5531001400004243,
+      "warm_median_seconds": 0.018516417000228103
+    }
+  },
+  "production_integration": false,
+  "prototype_sha256": "b995d4a3ac668e2da3fc37482782eb86d5d11a0ae00165c52b32500b09d1bd2d",
+  "state_bytes": 1400000,
+  "status": "PASS_SYNTHETIC_BENCHMARK",
+  "total_speedup": 80.71069367774251,
+  "unchanged_source_pins": {
+    "mmsearch/local_guard43.py": "0f1d86be46be0990e17f745a5a54336c5ea4117cf9a4d792bc0a2011d3af3657",
+    "mmsearch/marathon7_local.py": "94834fe263b3bb3f62145a3415e520f8918c366b2f608138df29fb918435ac53",
+    "mmsearch/observed_rank3_lazy42.py": "253a083d1f0051164d579341ba48e5a661ab68bf32de5c9ac5919090c0dc12af",
+    "mmsearch/tensor_code7.py": "e5fa2a84c00ee5e10076ff3902963cf27dfe86b43fc4d4ad885cef8f3f7291e1",
+    "scripts/tensor_code7.py": "b15bf99affff1ca9cad431ce481aa1f4d8043f23ca07f55b6ad365fbc9f3bef9"
+  }
+}

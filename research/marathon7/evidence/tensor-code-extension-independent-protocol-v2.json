@@ -1,0 +1,33 @@
+{
+  "status": "PASS_INDEPENDENT_TINY_CLI_LIFECYCLE",
+  "controls": [
+    {
+      "mode": "expired_dispatch",
+      "status": "UNKNOWN",
+      "complete": false,
+      "prepared_publication_absent": true,
+      "search_called": false,
+      "sat_called": false
+    },
+    {
+      "mode": "late_after_build",
+      "status": "UNKNOWN",
+      "complete": false,
+      "prepared_publication_absent": true,
+      "search_called": false,
+      "sat_called": false
+    },
+    {
+      "mode": "late_after_publication",
+      "status": "UNKNOWN",
+      "complete": false,
+      "prepared_publication_absent": true,
+      "search_called": false,
+      "sat_called": false
+    }
+  ],
+  "fixture": "exact known n2 schoolbook8 and one certified5cycle; ancestry mocked",
+  "production_source_files_opened": false,
+  "n5_generation_called": false,
+  "prototype_sha256": "a610093c88ed6439b4d4de71d249593d1ff48c506e96798a6f6ae6b77ae95f61"
+}

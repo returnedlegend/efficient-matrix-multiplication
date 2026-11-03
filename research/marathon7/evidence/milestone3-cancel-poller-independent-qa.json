@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tests_run": 15,
+  "owner_poller_tests": 7,
+  "concrete_v5_N2_integration_tests": 3,
+  "independent_tests": 5,
+  "failures": [],
+  "errors": [],
+  "skips": [],
+  "poller_sha256": "f96027d9bf8e7ef9489378d71c107924cab94180bcf63cfc7e8a8db6f904b07b",
+  "runner_sha256": "62647f178702200192992095bdf6dd8f00c7db92d68547e193588c1fb1d939d3",
+  "global_stop_phases_checked": 49,
+  "force_barriers_checked": 7,
+  "production_decoder_queries": 0,
+  "scope": "Inner filesystem polling only. Signal/UTC/invocation/case checked each callback; completed results/publication require unchanged fresh guards.50ms bounds coalescing at callback opportunities, not arbitrary synchronous filesystem latency."
+}
