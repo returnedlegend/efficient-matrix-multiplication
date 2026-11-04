@@ -1,0 +1,238 @@
+{
+  "mmsearch/binary_small_slot_repair7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "1657f0aed3646a99e9c1afb88265f45d52b24fb8c2c79210960c3af1f78fdf31"
+  },
+  "mmsearch/compact_xor3_seed7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "44804739cf7b7e9366e970cd4480d17c2b0bfcf3a28e4eae9744c7e72e705708"
+  },
+  "mmsearch/conditional_surplus_three7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "36850c3a74b7bc2d448e223f4567cf84689ca64e4df07b2226d6e64abe13cf7e"
+  },
+  "mmsearch/cyclic_code_sat7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "b3d0bced1469de82d70778162825ea28f26490add89edeff8c8146549ff6046d"
+  },
+  "mmsearch/cyclic_code_worker7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "ef79c6b98f552626af7db2e6bb438e372a4102e47918fc74ce1d3d5d87a5c14b"
+  },
+  "mmsearch/cyclic_native_corpus7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "7db6334ce83bf76534d8a6a7e324f7f1e109b4804ed69bc82ef137babfbabe59"
+  },
+  "mmsearch/cyclic_native_orbit7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "02f4aedd75c19fcef9a33bbd6c0e62c71ac0cefe60e9f1b63e3b29e93faec9c5"
+  },
+  "mmsearch/fano_quotient_adapter7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "c3fcceb8f0787fdbd1b2af7cbc433a6cdbdeccd1e0bc3b51a4656b2704f4264f"
+  },
+  "mmsearch/fano_quotient_sat7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "7e032e058f8f44bba30c384bfff3678efc22fecc3a9682804ea289f095598c01"
+  },
+  "mmsearch/fano_quotient_worker7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "0816da1ff096b25ef50fc65be06ae99d220670df3bf8ee121bc615db41630364"
+  },
+  "mmsearch/native_xor3_source7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "edd85e8ee9dd4805afea7e5c6def73126ccda7af6a4f979129e6d2df22acc227"
+  },
+  "mmsearch/tensor_code7_component_sat.py": {
+    "m4_sha256": null,
+    "tested_sha256": "df4a96694b55302d954b48cdf6c4fb4c456691fd3ede66de48ce6455615a15a4"
+  },
+  "mmsearch/tensor_code7_even_components.py": {
+    "m4_sha256": null,
+    "tested_sha256": "376df8d3ce3ab22e11137f95a7be4bea57324f1554782af715192d2268aab777"
+  },
+  "mmsearch/tensor_code7_even_walk.py": {
+    "m4_sha256": null,
+    "tested_sha256": "e242a43bed8befeb9cc59dd97b4994f2c340615e16f10f87316ad73273d82e1c"
+  },
+  "mmsearch/tensor_code7_sparse_cycles.py": {
+    "m4_sha256": "909d7d2f3d8fca2bb642fb46ebb9691016fe30300620362699d058ef835eed8c",
+    "tested_sha256": "546d397aa38da98ad7f5b0149b710280f14744ea7a019cbaf3b3047f8898c254"
+  },
+  "scripts/audit_binary_small_slot_pilot7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "d77aecf91e784487ae06b7f54c588be6a8a32d7997736f76b8e1007ef3c379b2"
+  },
+  "scripts/audit_conditional_c3_pilot7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "ea0a7e0c5dc5a61287ec142b94415e7b34f7e2fd431217876ac1c7c3914d1f22"
+  },
+  "scripts/audit_cyclic_code_sat_independent7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "632eb5e50890a91550743d8da451a2f63488c784595a0332f099bbd8699216f9"
+  },
+  "scripts/benchmark_binary_small_slot_repair7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "257096ed80518b360c2f7186f5fcac971cb4b53383d6c8a923f87b6f15d92adf"
+  },
+  "scripts/campaign_native_xor3_7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "d6331edbe71b49842d56da544ce544259619d533c7d753630f57f35412836d79"
+  },
+  "scripts/fano_quotient_sat7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "d87f9dd5dbc07173b231d401748f6c707d2b447ace31cc2043a8e9d851375416"
+  },
+  "scripts/native_bandit7_controller.py": {
+    "m4_sha256": null,
+    "tested_sha256": "eef247302578789ddd085f77f1e0cab3da70936e0574dd312fa5839afd64b311"
+  },
+  "scripts/prepare_cyclic_native_orbit7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "d97913ff0dc615e54ed60f1e002099b23e1e150e2f50496be8953bad27a2b3dc"
+  },
+  "scripts/prepare_cyclic_native_orbit7_v2.py": {
+    "m4_sha256": null,
+    "tested_sha256": "dbd05a61c49d046628b97654619febdc6f6b8bbe995541ccebd20a44026ae60a"
+  },
+  "scripts/prepare_native_bandit7.py": {
+    "m4_sha256": "ae4bd6e9f8832df3dc14d3be85ab06b998af4cdb6f154a1d80eae43988c39602",
+    "tested_sha256": "c228ffdde57fcaac3ed40a94382015f1ed48c005ee0669e0d1aca952b419fded"
+  },
+  "scripts/prepare_native_xor3_7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "5bb812f34402b86313f131318140a78e0150e524b773c2b143f255655a529fe6"
+  },
+  "scripts/run_binary_small_slot_packets7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "45575fd8685d11a2a5083c1a81dc2ecc7e4282cb1c881602460ab12b5ab16e7a"
+  },
+  "scripts/run_conditional_c3_packets7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "45e06903b64b9d592e9285f78a43d387a3f20993c94d18d2601935963cd28f57"
+  },
+  "scripts/run_cyclic_code_sat7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "9853a41a9eeec11401e37fc62f2ed0ad6ad402cc5caa14db106fedb670311e1d"
+  },
+  "scripts/run_fano_two_b7_7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "9452f9606d3edcb1680049edf218dfad74be10053e7abc11f47afb85b3d25f26"
+  },
+  "scripts/scan_native_xor3_seeds7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "b267238899e75e41b484cebcfa583971581e6ad25d8e974375c5bbe2e0fdb5da"
+  },
+  "scripts/summarize_native_bandit7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "30ef46f4537185eac010c6d26a88984f94c9ad0b645119dbafd31e48218ae0ec"
+  },
+  "scripts/summarize_native_xor3_7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "f851fdc026c97911ef4f259974d5eb5efdd19ab4f57b4ff6ca22626bfcb467c4"
+  },
+  "scripts/tensor_code7_even_components.py": {
+    "m4_sha256": null,
+    "tested_sha256": "7cb9d64813815f658badf43c34fdb9846821d0349a4c12b822c3589a67c9d3f3"
+  },
+  "scripts/tensor_code7_sparse_cycle_run.py": {
+    "m4_sha256": null,
+    "tested_sha256": "5d5d8888cf2b97c37ff0a91d9fd49cc342455dc195b01f8f623a78b57519dcf6"
+  },
+  "tests/fano7_independent_fixture.py": {
+    "m4_sha256": null,
+    "tested_sha256": "bb680c39a34a410ce87c63fcd9d3f6f7eaa2e7ffcab93b1bf08d4a655fabb307"
+  },
+  "tests/test_binary_small_slot_independent7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "b532aaaa896df684784c0b891d8db6a644e20cabd925f241c71461d75be40ed0"
+  },
+  "tests/test_binary_small_slot_repair7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "3fbba63e5ae0672da4ed5b8bf2c9c98bf79dcb7a6ec0f0cbb9b3242b06a61999"
+  },
+  "tests/test_binary_small_slot_runner7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "de39a8800102a93a8fde2fa2bf65a0dec9d87388f201ebe1a5a6c6d189764e3a"
+  },
+  "tests/test_campaign_native_bandit7.py": {
+    "m4_sha256": "58edd8bc3fa686c0f1fd415a0ca2f38976aad7c312074648a5b55cca5abc28fe",
+    "tested_sha256": "4d2fd077ddb7565c3d045eba0dd49f353929e797f91c52a8b67c27f8a319a220"
+  },
+  "tests/test_compact_xor3_seed7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "f98aa2507489e03dd76b4b63bee5125062bc5a90d732355476d98253401b3ef1"
+  },
+  "tests/test_conditional_c3_independent7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "0270f170a839ef7366e088d3619d7519bf1b1234b673017ebc4f6ca358afff6f"
+  },
+  "tests/test_conditional_c3_runner7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "f6fd4ff3661c8f307ba1f83158fbc8aa8fda95539b59c2d8a61203a3b287a906"
+  },
+  "tests/test_conditional_surplus_three7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "d99eab2f496f10dc638676137928a2313c3d462395460fbbdd05c2a100dc481f"
+  },
+  "tests/test_cyclic_code_sat7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "2abf11231350ef8d361387f55cce2e16610d024311b8626edb7427c7ab74fa8f"
+  },
+  "tests/test_cyclic_code_sat_independent7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "ac1be0ee938bd66ae29fe72fbaffc24c92c1fb7de9abb4c53389668a84d78203"
+  },
+  "tests/test_cyclic_native_corpus7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "a41364626b71cea7ad30a25941c272497c84a44e11c54abab5d62766a958a1e0"
+  },
+  "tests/test_cyclic_native_orbit7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "b075400b79f6cb993f282a8eb0bfa2cf721e04aa12c267588734ac4c597895a8"
+  },
+  "tests/test_fano7_independent_controls.py": {
+    "m4_sha256": null,
+    "tested_sha256": "ef4de681b5407220709f0e2d202b4f13cb0ad4778242174ea5c2c8a6d3dbb1fa"
+  },
+  "tests/test_fano7_independent_math.py": {
+    "m4_sha256": null,
+    "tested_sha256": "f030aa84049d93f7f8ed9b49395bbbdaed5f16841bf97865075c2ae41e530c11"
+  },
+  "tests/test_fano_quotient_sat7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "5bc95aea6658f1a4a7cdd23b270650f9913b06007b4a768f8df4fc33656b5c7a"
+  },
+  "tests/test_native_bandit7_controller.py": {
+    "m4_sha256": null,
+    "tested_sha256": "479e0d3b440412927d77906e77ac7405b352d74daf6c67d664b8744cb3a553d4"
+  },
+  "tests/test_native_xor3_source7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "0b981dd80f5c3d2e8fe123abf03d12f8a4bd864813a6c41bbc901381fb59f194"
+  },
+  "tests/test_run_fano_two_b7_7.py": {
+    "m4_sha256": null,
+    "tested_sha256": "83693b03091b2435ae66842ad16131266eef715512d89a2e98ef33064823d2bb"
+  },
+  "tests/test_tensor_code7_component_sat.py": {
+    "m4_sha256": null,
+    "tested_sha256": "e6109c050d0e76f6f596c742eacb27b2219f60b518116e16b71147ac1a1445de"
+  },
+  "tests/test_tensor_code7_even_components.py": {
+    "m4_sha256": null,
+    "tested_sha256": "2851762d42e12570382963d3157a69c24eec368f4443c1e8f28dbb138e5fa462"
+  },
+  "tests/test_tensor_code7_even_components_run.py": {
+    "m4_sha256": null,
+    "tested_sha256": "d3c6884c23a8879c1b662412f957cdabfa34ed0c0efdbb6ceac9d7a52fa5d9fd"
+  },
+  "tests/test_tensor_code7_sparse_cycle_run.py": {
+    "m4_sha256": null,
+    "tested_sha256": "f4b879bcedddee0361171a61281cb31c72c599c1749c37cff94bef94eea54793"
+  },
+  "tests/test_tensor_code7_sparse_cycles_independent.py": {
+    "m4_sha256": null,
+    "tested_sha256": "381d53c86f35648f9282f9d0c32ae1e52ef116bad03540c497e9250557077db7"
+  }
+}

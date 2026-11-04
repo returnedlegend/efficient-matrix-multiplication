@@ -1,0 +1,38 @@
+{
+  "binary_block_descent7": {
+    "no_solver_called": true,
+    "reason": "deadline"
+  },
+  "mmsearch.cyclic_code_sat7": {
+    "algorithm": "cyclic_code_sat7",
+    "assumptions": [],
+    "complete": false,
+    "effective_deadline_utc": "2026-11-03T19:24:17+00:00",
+    "formula_sha256": "a137635d1441335c4ec8038d0c61ebae33630fa552cc700bc9ee9b7c06f375a8",
+    "memory_mb": 128,
+    "reason": "deadline",
+    "scope": "Exact supplied finite whole-C3 dictionary only; UNSAT is not a global bilinear rank lower bound.",
+    "status": "UNKNOWN",
+    "worker_started": false
+  },
+  "mmsearch.fano_quotient_sat7": {
+    "algorithm": "fano_quotient_sat7",
+    "assumptions": [],
+    "complete": false,
+    "effective_deadline_utc": "2026-11-03T19:24:17+00:00",
+    "formula_sha256": "a8c36ad5473faaf10b64cdfcb749ba8f8f6611570bfe307dd2c541baccb6d076",
+    "memory_mb": 128,
+    "reason": "deadline",
+    "scope": "Exact Fano branch for the supplied S and original B0 points only. FANO_BRANCH_UNSAT alone is not a complete CP-rank negative.",
+    "status": "UNKNOWN",
+    "worker_started": false
+  },
+  "surplus_two7": {
+    "no_solver_called": true,
+    "reason": "deadline"
+  },
+  "surplus_two_large7": {
+    "no_solver_called": true,
+    "reason": "deadline"
+  }
+}

@@ -3,3 +3,6 @@
 
 # Keep generated Matplotlib SVG bytes and hashes intact.
 research/marathon7/evidence/binary-block-controller-training-v1/training-curves.svg -whitespace
+
+# Retain the exact bytes of the archived crossover experiment runtime.
+research/marathon7/evidence/seed_crossover36_runtime.py -whitespace

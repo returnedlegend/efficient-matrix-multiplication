@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-03T16:40:03.100087+00:00",
+  "logical_status": "UNKNOWN",
+  "execution_exit_code": 1,
+  "reason": "Invocation20s cutoff from avoidable full filesystem guard check for every cheap crossover. No completed finite census or record.",
+  "code_sha256": "7f3d0e86f51e4f4e990f51d72046e0a5743fe21bcfae26825cfda441e2008bdd",
+  "source_prepared_sha256": "2302ae5e82fe7afd1845dd50ffd5c12f17e1efb56b8f4adf1ed09bd31a71e886",
+  "completed_triples": null,
+  "retry_change": "Use already-reviewed50ms CancelPoller for inner loop; preserve forced pre/post/candidate publication guards."
+}

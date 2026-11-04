@@ -1,0 +1,11 @@
+{
+  "approved_training_sources_only": true,
+  "archive_bytes": 159633,
+  "archive_sha256": "d1e0a717acfc54f712769f8454556a7889472b5e91b071a69949e7b13769ec96",
+  "decoder_calls": 0,
+  "format": "cyclic-native-orbit7-source-bundle-v1",
+  "next_query_design_sha256": "63c94e494a98f4a32bb2a8e4b64d5c5a1591d986e30caabbb1196ba7ac3829a8",
+  "prepared_dictionary_sha256": "12ceaae3e96013a56fb960383f7f34531793977661ce65a47f94f88c838481f5",
+  "prepared_manifest_sha256": "de288ca0881dc283df3a15567d3a1ea28b605800ebeca10f4500f091452045fb",
+  "solver_calls": 0
+}

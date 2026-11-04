@@ -1,0 +1,154 @@
+{
+  "format": "marathon7-final-readonly-metadata-audit-v1",
+  "audit_utc": "2026-11-04T01:06:06.902212+00:00",
+  "scope": "Saved metadata and saved dictionary embedding only; zero new solver/search/test calls; no publication or Git mutation.",
+  "campaign_stop": {
+    "reason": "global campaign deadline reached",
+    "utc": "2026-11-03T19:24:17.257252+00:00",
+    "operations_version": 3,
+    "record_directory": null
+  },
+  "headline": "No eligible <=92 candidate or new algorithm; saved incumbent remains93.",
+  "finite_dictionary": {
+    "status": "FINITE_366_DICTIONARY_UNSAT",
+    "orbits": 366,
+    "budget": 92,
+    "complete": true,
+    "solver_queries": 1,
+    "finite_optimum": 93,
+    "known_feasible_seed_cost": 93,
+    "formal_unsat_certificate_checked": false,
+    "initial_queue_attempt": "ERROR_BEFORE_SOLVER: setpriority PermissionError, zero solver queries",
+    "direct_rerun": "exit0, complete UNSAT, one solver query",
+    "scope": "Exact supplied366 whole-C3 finite dictionary only; not global rank lower bound or general C3 bound.",
+    "evidence": "cyclic-native-orbit7-sat001-seal-v1/evidence.json",
+    "summary": "cyclic-native-orbit7-sat001-001/summary.json"
+  },
+  "mixed15": {
+    "literal_family": 27405,
+    "previously_retired": 27396,
+    "additional_complete_parent_negatives": 4,
+    "total_retired": 27400,
+    "remaining_open": 5,
+    "closed_late": [
+      "c3-mixed15-p00-05-10-14",
+      "c3-mixed15-p00-10-14-17",
+      "c3-mixed15-p01-10-14-17",
+      "c3-mixed15-p10-14-17-19"
+    ],
+    "unknown_wall_cutoff": [
+      "c3-mixed15-p10-14-15-23",
+      "c3-mixed15-p10-14-25-27",
+      "c3-mixed15-p15-23-25-27"
+    ],
+    "fano_only": [
+      {
+        "case": "c3-mixed15-p01-05-17-19",
+        "status": "FANO_BRANCH_UNSAT",
+        "fano_branch_complete": true,
+        "full_CP14_negative": false
+      },
+      {
+        "case": "c3-mixed15-p01-06-17-19",
+        "status": "FANO_BRANCH_UNSAT",
+        "fano_branch_complete": true,
+        "full_CP14_negative": false
+      }
+    ],
+    "scope": "Literal15-to14 repairs of pinned93 source with outside78 fixed; branch-only UNSAT does not close parent.",
+    "conditional_summary": "conditional-c3-seven-pilot-001/summary.json",
+    "prior_count_evidence": "research/marathon7/evidence/c3-mixed15-d12-closure7.json"
+  },
+  "native_xor3": [
+    {
+      "run": "native-xor3-p01",
+      "status": "UNKNOWN_WITHIN_PROFILE",
+      "eligible_target_emitted": false,
+      "best_rank": 93,
+      "final_current_rank": 93,
+      "summary": "native-xor3-p01/summary.json"
+    },
+    {
+      "run": "native-xor3-p02",
+      "status": "UNKNOWN_WITHIN_PROFILE",
+      "eligible_target_emitted": false,
+      "best_rank": 93,
+      "final_current_rank": 93,
+      "summary": "native-xor3-p02/summary.json"
+    },
+    {
+      "run": "native-xor3-p03",
+      "status": "UNKNOWN_WITHIN_PROFILE",
+      "eligible_target_emitted": false,
+      "best_rank": 93,
+      "final_current_rank": 93,
+      "summary": "native-xor3-p03/summary.json"
+    },
+    {
+      "run": "native-xor3-p04",
+      "status": "UNKNOWN_WITHIN_PROFILE",
+      "eligible_target_emitted": false,
+      "best_rank": 93,
+      "final_current_rank": 93,
+      "summary": "native-xor3-p04/summary.json"
+    }
+  ],
+  "component_search": {
+    "status": "UNRUN_PROPOSAL",
+    "proposal_enabled": false,
+    "proposal_status": "AWAITING_REQUIRED_INDEPENDENT_QA",
+    "output_directory_exists": false,
+    "operations_cache_output_entries": 0,
+    "qa_pins": "unfilled placeholders",
+    "proposal": "tensor-code-even-components-proposal-v1/proposal.json"
+  },
+  "old_dictionary_implication": {
+    "old_columns": 275,
+    "new_columns": 366,
+    "embedding_checks": "All275 representatives, full tensor columns and product weights match through old_to_new_column_indices;275 unique indices. Saved seed integer weight93.",
+    "old_finite_optimum": 93,
+    "restricted_extension_consequence": "Existing wedge-zero domination theorem implies optimum93 for old275 dictionary plus arbitrary whole-C3 orbits with dependent factor images modulo old cube-factor span.",
+    "limitations": "Does not transfer wedge-zero domination theorem to arbitrary extensions of new366 dictionary and does not give unrestricted M5 rank lower bound.",
+    "theorem": "research/marathon7/C3_WEDGE_ZERO_EXTENSION_DOMINATION.md"
+  },
+  "saved_regression_checks": {
+    "checks-marathon7-final-summary.json": {
+      "passes": 866,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Historical saved run; source_hash_count463\u2192464 due new review script. Not a rerun against all final code."
+    },
+    "checks-recovered-code-final-summary.json": {
+      "passes": 829,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Earlier historical saved run; source changes recorded in receipt."
+    },
+    "finite366_controls_reported": {
+      "owner": 8,
+      "independent_targeted": 13,
+      "source": "research/marathon7/CYCLIC_NATIVE_ORBIT_SAT.md"
+    }
+  },
+  "limitations": [
+    "Earlier session interruption is parent conversation context, not independently inferable from these saved artifacts.",
+    "Campaign stopped at global deadline2026-11-03T19:24:17Z; no post-deadline target computation authorized or run by this audit.",
+    "Unrun component proposal and other unlaunched proposals provide no negative evidence.",
+    "UNKNOWN and branch-only negatives are not full closure.",
+    "No novelty, superiority, publication, unrestricted rank lower bound, or <=92 candidate claim."
+  ],
+  "source_sha256": {
+    "guard_stopped.json": "612a4561a0516d1f61f2c44553ef9f495fe061a2277597204e4c774256544748",
+    "operations-v3/state.json": "184a2196814ce8522555c9e0dc931159caba733d458f07b41b383fb785cdb5c3",
+    "cyclic-native-orbit7-sat001-seal-v1/evidence.json": "456a25131e93547f3cb5bffed8d000da3af2519123b6c03a15379c03a9f22b39",
+    "cyclic-native-orbit7-sat001-001/summary.json": "d8373c95c2edcb43c3dd392409bd0262a8ca8272bc94a196982912d4104c6a52",
+    "conditional-c3-seven-pilot-001/summary.json": "6817ed5ea03d1be0286c3df4d191e734fc8fe1cf74e6b0c69b498fe517f63f18",
+    "fano-b7-02-v1/branch-receipt.json": "5216697037b3d50f41c6c899c3ae6d34b2c50c1d35193bc694b16ed18b10a75f",
+    "fano-b7-03-v1/branch-receipt.json": "df492585e6e580272be98c881a8e21e68fe78cb69b4e4745e9d0d9469719fc9b",
+    "tensor-code-even-components-proposal-v1/proposal.json": "7555592a537dd30475fd82488d2dc3046bd9a8083db0a88bdf9d1c2a6745d1e3",
+    "cyclic-orbit-code7-audit-002/dictionary.json": "23ff2b7ef344b79277712731cdc80ecc4b030a82026ca77d9fec32a02ebd047b",
+    "cyclic-native-orbit7-prep-001/dictionary.json": "12ceaae3e96013a56fb960383f7f34531793977661ce65a47f94f88c838481f5"
+  }
+}

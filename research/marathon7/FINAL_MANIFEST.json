@@ -1,0 +1,465 @@
+{
+  "milestone": "Final saved campaign results and post-M4 exact search code",
+  "recorded_utc": "2026-11-04T01:12:53.133460+00:00",
+  "best_verified_products": 93,
+  "new_record": false,
+  "search_deadline_utc": "2026-11-03T19:24:17Z",
+  "search_window_ended": true,
+  "new_target_searches_during_cleanup": 0,
+  "validation": {
+    "historical_frozen_M4_tests": 1128,
+    "final_postM4_targeted_tests": 111,
+    "real_expired_deadline_controls": 5,
+    "test_only_module_local_historical_clock_proxies": 6,
+    "extra_real_priority_regression_tests": 1,
+    "note": "Historical source snapshots and actual experiment runtime bytes retained. Test clock proxies do not modify production deadlines. One current launcher-only priority fix separately tested; original failed queued launch remains ERROR."
+  },
+  "scope": "No claim of global rank lower bound, record algorithm, Lean record proof, practical speedup, or literature novelty. Prepared component search never executed. Some searches ended UNKNOWN; branch-only UNSAT is not full-parent UNSAT.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 400,
+      "sha256": "b0c9c7edfe0d65b19bcf0d3edb857de370cef2218001546ad205bdf07891591a"
+    },
+    {
+      "path": "mmsearch/compact_xor3_seed7.py",
+      "bytes": 1839,
+      "sha256": "44804739cf7b7e9366e970cd4480d17c2b0bfcf3a28e4eae9744c7e72e705708"
+    },
+    {
+      "path": "mmsearch/conditional_surplus_three7.py",
+      "bytes": 10039,
+      "sha256": "36850c3a74b7bc2d448e223f4567cf84689ca64e4df07b2226d6e64abe13cf7e"
+    },
+    {
+      "path": "mmsearch/cyclic_code_sat7.py",
+      "bytes": 10284,
+      "sha256": "8b711000e561d496d931d72af6609bb578dd0b6e3fdc6bd9530615c7c7479c7c"
+    },
+    {
+      "path": "mmsearch/cyclic_code_worker7.py",
+      "bytes": 1587,
+      "sha256": "ef79c6b98f552626af7db2e6bb438e372a4102e47918fc74ce1d3d5d87a5c14b"
+    },
+    {
+      "path": "mmsearch/cyclic_native_corpus7.py",
+      "bytes": 12273,
+      "sha256": "7db6334ce83bf76534d8a6a7e324f7f1e109b4804ed69bc82ef137babfbabe59"
+    },
+    {
+      "path": "mmsearch/cyclic_native_orbit7.py",
+      "bytes": 4903,
+      "sha256": "02f4aedd75c19fcef9a33bbd6c0e62c71ac0cefe60e9f1b63e3b29e93faec9c5"
+    },
+    {
+      "path": "mmsearch/fano_quotient_adapter7.py",
+      "bytes": 4225,
+      "sha256": "c3fcceb8f0787fdbd1b2af7cbc433a6cdbdeccd1e0bc3b51a4656b2704f4264f"
+    },
+    {
+      "path": "mmsearch/fano_quotient_sat7.py",
+      "bytes": 16364,
+      "sha256": "7e032e058f8f44bba30c384bfff3678efc22fecc3a9682804ea289f095598c01"
+    },
+    {
+      "path": "mmsearch/fano_quotient_worker7.py",
+      "bytes": 1604,
+      "sha256": "0816da1ff096b25ef50fc65be06ae99d220670df3bf8ee121bc615db41630364"
+    },
+    {
+      "path": "mmsearch/native_xor3_source7.py",
+      "bytes": 9682,
+      "sha256": "edd85e8ee9dd4805afea7e5c6def73126ccda7af6a4f979129e6d2df22acc227"
+    },
+    {
+      "path": "mmsearch/tensor_code7_component_sat.py",
+      "bytes": 6626,
+      "sha256": "df4a96694b55302d954b48cdf6c4fb4c456691fd3ede66de48ce6455615a15a4"
+    },
+    {
+      "path": "mmsearch/tensor_code7_even_components.py",
+      "bytes": 7246,
+      "sha256": "376df8d3ce3ab22e11137f95a7be4bea57324f1554782af715192d2268aab777"
+    },
+    {
+      "path": "mmsearch/tensor_code7_even_walk.py",
+      "bytes": 6783,
+      "sha256": "e242a43bed8befeb9cc59dd97b4994f2c340615e16f10f87316ad73273d82e1c"
+    },
+    {
+      "path": "mmsearch/tensor_code7_sparse_cycles.py",
+      "bytes": 9304,
+      "sha256": "546d397aa38da98ad7f5b0149b710280f14744ea7a019cbaf3b3047f8898c254"
+    },
+    {
+      "path": "research/marathon7/BINARY_SMALL_SLOT_PILOT.md",
+      "bytes": 4317,
+      "sha256": "406d678021199b06a64a939ae29730338432a67ea2f02cbbc34e5e7462578f7c"
+    },
+    {
+      "path": "research/marathon7/CONDITIONAL_SURPLUS_THREE.md",
+      "bytes": 4019,
+      "sha256": "dba0161d84ec57bc27aef9366ff7ad266a34698cf87720dcc20691a1dbd678a7"
+    },
+    {
+      "path": "research/marathon7/CONDITIONAL_SURPLUS_THREE_PILOT.md",
+      "bytes": 3197,
+      "sha256": "4c475d0d4c6fda02411b0aab0a72e4d1e469e662d4c6969c2b7057d6f36c1fb0"
+    },
+    {
+      "path": "research/marathon7/CYCLIC_NATIVE_ORBIT_PREP.md",
+      "bytes": 4716,
+      "sha256": "993420c83fc5ef0fe68810db828827c4c2461ba978fbe7e67ed36f1791b2efa7"
+    },
+    {
+      "path": "research/marathon7/CYCLIC_NATIVE_ORBIT_SAT.md",
+      "bytes": 3557,
+      "sha256": "8f024d62b421af3f5f99fa40cc0db48ea711c14218b6c5fff62a8fa5eba7ecf2"
+    },
+    {
+      "path": "research/marathon7/FANO_QUOTIENT_SAT7.md",
+      "bytes": 5325,
+      "sha256": "b3c9e8aa09995abffc66715f77cfda35f1276bf11323621629ccf0e78e9b5be8"
+    },
+    {
+      "path": "research/marathon7/FANO_TWO_B7_EXECUTION.json",
+      "bytes": 4657,
+      "sha256": "429d761876ca281783dd48954403ae749e9589311b9d5023be536f1f22bec101"
+    },
+    {
+      "path": "research/marathon7/FINAL_REPORT.md",
+      "bytes": 7140,
+      "sha256": "10b5bec1f12861bcef7f1666adaa65b703d07b4c836e92b6a890525039da20a2"
+    },
+    {
+      "path": "research/marathon7/NATIVE_BANDIT_180.md",
+      "bytes": 9413,
+      "sha256": "47a353d324189a065974295b18f9d0d828043fbdc42986b015978cd83e412ab8"
+    },
+    {
+      "path": "research/marathon7/NATIVE_XOR3_180.md",
+      "bytes": 5450,
+      "sha256": "b2aa7ed2dce5fa0ac7841adfde8e26d7a75e4b756114db15e1b5475e85ff39f9"
+    },
+    {
+      "path": "research/marathon7/evidence/cyclic-native-orbit7-sat001-bundle-v1.json",
+      "bytes": 282,
+      "sha256": "385bec87d595c733bcb02aae24c22a6eb8535c5f49424dc97f80747889920bbb"
+    },
+    {
+      "path": "research/marathon7/evidence/cyclic-native-orbit7-sat001-bundle-v1.tar.gz",
+      "bytes": 410856,
+      "sha256": "8050a3dfc29f9c5a4783e858f8c92a1ccc0041472b4f33198ba173c11831e762"
+    },
+    {
+      "path": "research/marathon7/evidence/cyclic-native-orbit7-sat001.json",
+      "bytes": 4863,
+      "sha256": "c0930e1c45a79783301cfbfacf5255bf99b039a1cf42f7eb37f8cb7827231a32"
+    },
+    {
+      "path": "research/marathon7/evidence/cyclic-native-orbit7-source-bundle-v1.json",
+      "bytes": 552,
+      "sha256": "edd9cdc36af9e94bc7a94d3d4a2fdf708342ae6ac92814aff8384e5e699c8496"
+    },
+    {
+      "path": "research/marathon7/evidence/cyclic-native-orbit7-source-bundle-v1.tar.gz",
+      "bytes": 159633,
+      "sha256": "d1e0a717acfc54f712769f8454556a7889472b5e91b071a69949e7b13769ec96"
+    },
+    {
+      "path": "research/marathon7/evidence/cyclic-native-orbit7.json",
+      "bytes": 4406,
+      "sha256": "7c81b8d751b181bac268e6c10c4327e1c8812ce9ed658abcdb24beac2291b72a"
+    },
+    {
+      "path": "research/marathon7/evidence/final-postm4-checks.json",
+      "bytes": 2551,
+      "sha256": "9b422c837e21b9b2d2f0932991019212a1fccf477664992d8a8b17732e54387e"
+    },
+    {
+      "path": "research/marathon7/evidence/final-postm4-checks.log",
+      "bytes": 23966,
+      "sha256": "22ea4c6e9c9f1875c6482742311ea5a86b2a215f628984c1efd1ea66aeaa0013"
+    },
+    {
+      "path": "research/marathon7/evidence/final-postm4-checks.md",
+      "bytes": 1788,
+      "sha256": "efaad795cc3d105d9f5ea46127e3a22a7f2dd6cb3f538978cd7751ee65cc1f2d"
+    },
+    {
+      "path": "research/marathon7/evidence/final-postm4-source-hashes.json",
+      "bytes": 9663,
+      "sha256": "9e5a5d3ac8328d70bd8a1536528398a17fb3bcdee2c543cd99535ff357bbe343"
+    },
+    {
+      "path": "research/marathon7/evidence/final-real-clock-deadline-controls.json",
+      "bytes": 1259,
+      "sha256": "b6d7a86e80138d648f315800f759cfebefda09a3254205811cff06116d2341e1"
+    },
+    {
+      "path": "research/marathon7/evidence/final-result-audit.json",
+      "bytes": 6743,
+      "sha256": "e90baa0b673e17df750382b6255ff56bec1533c8ccc65a569b9a5bd38bf9a53a"
+    },
+    {
+      "path": "research/marathon7/evidence/final_postm4_check_runner.py",
+      "bytes": 7084,
+      "sha256": "25025bf03afb0e6ccf53c172f7b973a6c8555486c4c13fadd657ef81424462c4"
+    },
+    {
+      "path": "research/marathon7/evidence/launcher-priority-regression.json",
+      "bytes": 683,
+      "sha256": "bf731bb6d2f5c27fcb21521827bccebabbb26268d26509e2f5dadf2508e89d6c"
+    },
+    {
+      "path": "research/marathon7/evidence/native-bandit7-eight-complete.json",
+      "bytes": 16664,
+      "sha256": "a97d14549ec35c0c59c827fe5382ded353c1ea9104f84477d45c03539fd01c90"
+    },
+    {
+      "path": "research/marathon7/evidence/native-xor3-four-complete.json",
+      "bytes": 9066,
+      "sha256": "05145a09ccab4b5a6fd63f72aadd75cfecba3563e105f368e4fa4525339f3a65"
+    },
+    {
+      "path": "research/marathon7/evidence/seed-crossover36-attempt001-UNKNOWN.json",
+      "bytes": 591,
+      "sha256": "5c77aba1bb6346befe2e82f3f4d8855f70bda460714059d20e92b8e87d19963c"
+    },
+    {
+      "path": "research/marathon7/evidence/seed-crossover36-triples.json",
+      "bytes": 1966,
+      "sha256": "83d387c386112379bd93f613fff80d8e55e773528ddfe0d209fc78f57bcf1fad"
+    },
+    {
+      "path": "research/marathon7/evidence/seed_crossover36_runtime.py",
+      "bytes": 3773,
+      "sha256": "eb1bb1992b68802e06aaefe583d6511f9fc320f088e50b27589d03b0e1dbb8ea"
+    },
+    {
+      "path": "research/tensor_code7_even_components.md",
+      "bytes": 2483,
+      "sha256": "8aac54ae4269ed0de69f0fe51b21d28ed85eb9d9a7107da0c7a654e1c98efbe1"
+    },
+    {
+      "path": "research/tensor_code7_native_corpus_result.md",
+      "bytes": 3343,
+      "sha256": "335270e5fd4fcaf8e39429837abb1eaf45fcd4fda10665b19378fca71665e793"
+    },
+    {
+      "path": "research/tensor_code7_sparse_cycle_result.md",
+      "bytes": 2762,
+      "sha256": "b8f2d3484babd94a8b56f463092c6899ea38a97183dd975df20574abd6fe7b8b"
+    },
+    {
+      "path": "research/tensor_code7_sparse_cycles.md",
+      "bytes": 3233,
+      "sha256": "a2f7f113dd8d6658ced210fd1ff0a8943854e06c2c0ff041d373e7c9b494081c"
+    },
+    {
+      "path": "scripts/audit_binary_small_slot_pilot7.py",
+      "bytes": 4405,
+      "sha256": "d77aecf91e784487ae06b7f54c588be6a8a32d7997736f76b8e1007ef3c379b2"
+    },
+    {
+      "path": "scripts/audit_conditional_c3_pilot7.py",
+      "bytes": 6242,
+      "sha256": "ea0a7e0c5dc5a61287ec142b94415e7b34f7e2fd431217876ac1c7c3914d1f22"
+    },
+    {
+      "path": "scripts/audit_cyclic_code_sat_independent7.py",
+      "bytes": 3639,
+      "sha256": "632eb5e50890a91550743d8da451a2f63488c784595a0332f099bbd8699216f9"
+    },
+    {
+      "path": "scripts/benchmark_binary_small_slot_repair7.py",
+      "bytes": 2327,
+      "sha256": "257096ed80518b360c2f7186f5fcac971cb4b53383d6c8a923f87b6f15d92adf"
+    },
+    {
+      "path": "scripts/campaign_native_xor3_7.py",
+      "bytes": 7476,
+      "sha256": "d6331edbe71b49842d56da544ce544259619d533c7d753630f57f35412836d79"
+    },
+    {
+      "path": "scripts/fano_quotient_sat7.py",
+      "bytes": 1767,
+      "sha256": "d87f9dd5dbc07173b231d401748f6c707d2b447ace31cc2043a8e9d851375416"
+    },
+    {
+      "path": "scripts/prepare_cyclic_native_orbit7.py",
+      "bytes": 10788,
+      "sha256": "d97913ff0dc615e54ed60f1e002099b23e1e150e2f50496be8953bad27a2b3dc"
+    },
+    {
+      "path": "scripts/prepare_cyclic_native_orbit7_v2.py",
+      "bytes": 10788,
+      "sha256": "dbd05a61c49d046628b97654619febdc6f6b8bbe995541ccebd20a44026ae60a"
+    },
+    {
+      "path": "scripts/prepare_native_xor3_7.py",
+      "bytes": 9900,
+      "sha256": "5bb812f34402b86313f131318140a78e0150e524b773c2b143f255655a529fe6"
+    },
+    {
+      "path": "scripts/run_binary_small_slot_packets7.py",
+      "bytes": 14330,
+      "sha256": "45575fd8685d11a2a5083c1a81dc2ecc7e4282cb1c881602460ab12b5ab16e7a"
+    },
+    {
+      "path": "scripts/run_conditional_c3_packets7.py",
+      "bytes": 14215,
+      "sha256": "45e06903b64b9d592e9285f78a43d387a3f20993c94d18d2601935963cd28f57"
+    },
+    {
+      "path": "scripts/run_cyclic_code_sat7.py",
+      "bytes": 10414,
+      "sha256": "00499d8fe75178f4610fe159161d5656aec37b4588cd122c450b7c090e89a00e"
+    },
+    {
+      "path": "scripts/run_fano_two_b7_7.py",
+      "bytes": 8013,
+      "sha256": "9452f9606d3edcb1680049edf218dfad74be10053e7abc11f47afb85b3d25f26"
+    },
+    {
+      "path": "scripts/scan_native_xor3_seeds7.py",
+      "bytes": 7291,
+      "sha256": "b267238899e75e41b484cebcfa583971581e6ad25d8e974375c5bbe2e0fdb5da"
+    },
+    {
+      "path": "scripts/summarize_native_bandit7.py",
+      "bytes": 4100,
+      "sha256": "30ef46f4537185eac010c6d26a88984f94c9ad0b645119dbafd31e48218ae0ec"
+    },
+    {
+      "path": "scripts/summarize_native_xor3_7.py",
+      "bytes": 3713,
+      "sha256": "f851fdc026c97911ef4f259974d5eb5efdd19ab4f57b4ff6ca22626bfcb467c4"
+    },
+    {
+      "path": "scripts/tensor_code7_even_components.py",
+      "bytes": 13291,
+      "sha256": "7cb9d64813815f658badf43c34fdb9846821d0349a4c12b822c3589a67c9d3f3"
+    },
+    {
+      "path": "scripts/tensor_code7_sparse_cycle_run.py",
+      "bytes": 14239,
+      "sha256": "5d5d8888cf2b97c37ff0a91d9fd49cc342455dc195b01f8f623a78b57519dcf6"
+    },
+    {
+      "path": "tests/fano7_independent_fixture.py",
+      "bytes": 1239,
+      "sha256": "bb680c39a34a410ce87c63fcd9d3f6f7eaa2e7ffcab93b1bf08d4a655fabb307"
+    },
+    {
+      "path": "tests/test_binary_small_slot_independent7.py",
+      "bytes": 3147,
+      "sha256": "b532aaaa896df684784c0b891d8db6a644e20cabd925f241c71461d75be40ed0"
+    },
+    {
+      "path": "tests/test_binary_small_slot_runner7.py",
+      "bytes": 4681,
+      "sha256": "de39a8800102a93a8fde2fa2bf65a0dec9d87388f201ebe1a5a6c6d189764e3a"
+    },
+    {
+      "path": "tests/test_compact_xor3_seed7.py",
+      "bytes": 1736,
+      "sha256": "f98aa2507489e03dd76b4b63bee5125062bc5a90d732355476d98253401b3ef1"
+    },
+    {
+      "path": "tests/test_conditional_c3_independent7.py",
+      "bytes": 3894,
+      "sha256": "0270f170a839ef7366e088d3619d7519bf1b1234b673017ebc4f6ca358afff6f"
+    },
+    {
+      "path": "tests/test_conditional_c3_runner7.py",
+      "bytes": 5661,
+      "sha256": "f6fd4ff3661c8f307ba1f83158fbc8aa8fda95539b59c2d8a61203a3b287a906"
+    },
+    {
+      "path": "tests/test_conditional_surplus_three7.py",
+      "bytes": 6446,
+      "sha256": "d99eab2f496f10dc638676137928a2313c3d462395460fbbdd05c2a100dc481f"
+    },
+    {
+      "path": "tests/test_cyclic_code_launcher_priority7.py",
+      "bytes": 1033,
+      "sha256": "6db9f4d6e0738833a44cefd4720930db77adc2802a62b9893728612566255e6d"
+    },
+    {
+      "path": "tests/test_cyclic_code_sat7.py",
+      "bytes": 5931,
+      "sha256": "2abf11231350ef8d361387f55cce2e16610d024311b8626edb7427c7ab74fa8f"
+    },
+    {
+      "path": "tests/test_cyclic_code_sat_independent7.py",
+      "bytes": 4096,
+      "sha256": "ac1be0ee938bd66ae29fe72fbaffc24c92c1fb7de9abb4c53389668a84d78203"
+    },
+    {
+      "path": "tests/test_cyclic_native_corpus7.py",
+      "bytes": 3901,
+      "sha256": "a41364626b71cea7ad30a25941c272497c84a44e11c54abab5d62766a958a1e0"
+    },
+    {
+      "path": "tests/test_cyclic_native_orbit7.py",
+      "bytes": 1795,
+      "sha256": "b075400b79f6cb993f282a8eb0bfa2cf721e04aa12c267588734ac4c597895a8"
+    },
+    {
+      "path": "tests/test_fano7_independent_controls.py",
+      "bytes": 4384,
+      "sha256": "ef4de681b5407220709f0e2d202b4f13cb0ad4778242174ea5c2c8a6d3dbb1fa"
+    },
+    {
+      "path": "tests/test_fano7_independent_math.py",
+      "bytes": 2215,
+      "sha256": "f030aa84049d93f7f8ed9b49395bbbdaed5f16841bf97865075c2ae41e530c11"
+    },
+    {
+      "path": "tests/test_fano_quotient_sat7.py",
+      "bytes": 10739,
+      "sha256": "5bc95aea6658f1a4a7cdd23b270650f9913b06007b4a768f8df4fc33656b5c7a"
+    },
+    {
+      "path": "tests/test_native_xor3_source7.py",
+      "bytes": 6044,
+      "sha256": "0b981dd80f5c3d2e8fe123abf03d12f8a4bd864813a6c41bbc901381fb59f194"
+    },
+    {
+      "path": "tests/test_run_fano_two_b7_7.py",
+      "bytes": 3171,
+      "sha256": "83693b03091b2435ae66842ad16131266eef715512d89a2e98ef33064823d2bb"
+    },
+    {
+      "path": "tests/test_tensor_code7_component_sat.py",
+      "bytes": 2800,
+      "sha256": "e6109c050d0e76f6f596c742eacb27b2219f60b518116e16b71147ac1a1445de"
+    },
+    {
+      "path": "tests/test_tensor_code7_even_components.py",
+      "bytes": 3211,
+      "sha256": "2851762d42e12570382963d3157a69c24eec368f4443c1e8f28dbb138e5fa462"
+    },
+    {
+      "path": "tests/test_tensor_code7_even_components_run.py",
+      "bytes": 4569,
+      "sha256": "d3c6884c23a8879c1b662412f957cdabfa34ed0c0efdbb6ceac9d7a52fa5d9fd"
+    },
+    {
+      "path": "tests/test_tensor_code7_sparse_cycle_run.py",
+      "bytes": 5786,
+      "sha256": "f4b879bcedddee0361171a61281cb31c72c599c1749c37cff94bef94eea54793"
+    },
+    {
+      "path": "tests/test_tensor_code7_sparse_cycles.py",
+      "bytes": 4064,
+      "sha256": "56c546b918b503b230cee7723a7fe5509af17cb4647a538954f7f6ca6e6a6cae"
+    },
+    {
+      "path": "tests/test_tensor_code7_sparse_cycles_independent.py",
+      "bytes": 4093,
+      "sha256": "381d53c86f35648f9282f9d0c32ae1e52ef116bad03540c497e9250557077db7"
+    }
+  ]
+}

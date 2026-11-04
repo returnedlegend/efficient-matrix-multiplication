@@ -1,0 +1,96 @@
+{
+  "CMS": {
+    "binary_sha256": "16ea39fac9399cd0d143fab7b1c78e42daf6c308639696c2abe4e0c1412f2f5e",
+    "seed_policy": "Default unoverridden CryptoMiniSat seed; PYTHONHASHSEED=0 recorded in launcher environment.",
+    "version": "5.17.0"
+  },
+  "candidates": 0,
+  "cases": [
+    {
+      "branch_receipt_sha256": "5216697037b3d50f41c6c899c3ae6d34b2c50c1d35193bc694b16ed18b10a75f",
+      "case": "c3-mixed15-p01-05-17-19",
+      "config_sha256": "011294054373e6d5adc624bcaf5cbe1de4f7e92212cde5e76f36aa7de5449ace",
+      "cpu": 0,
+      "cpu_seconds": 1.818514,
+      "fano_branch_complete": true,
+      "formula_sha256": "e66ac4f5c599d12bb9187369aa8986c6310d3c32f12ad5e48005aefb5da85677",
+      "full_CP14_negative": false,
+      "input_core_sha256": "3d80a4d859ef48ab50161ad9a78515dafac0dedf1945c64f6bcaa53659c2a9f4",
+      "launcher_result_sha256": "a72517e7f782f39d48fe1f30dc1d294b12f433970f65a10e85a464bc84852ab3",
+      "launcher_seconds": 2.0028741030000674,
+      "legacy_result_sha256": "9ba8336609b11fc68c890c93db0e5864b8db4c404400c75ae5e128ae55544a74",
+      "metadata_case_sha256": "f22129d15d4e4d93baf49ae4de728d9a427c2e6d71ef64986b1e4578c0d4d58c",
+      "ordinal": 2,
+      "peak_rss_kib": 132524,
+      "solver_seed_policy": "CryptoMiniSat 5.17.0 defaults, no explicit seed override; PYTHONHASHSEED=0",
+      "solver_stats": {
+        "max_rss_kib": 132524,
+        "system_seconds": 0.018286999999999998,
+        "user_seconds": 0.596946
+      },
+      "solver_version": "5.17.0",
+      "source_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+      "status": "FANO_BRANCH_UNSAT",
+      "worker_exitcode": 0,
+      "worker_reaped": true,
+      "worker_seconds": 0.7788170439998794
+    },
+    {
+      "branch_receipt_sha256": "df492585e6e580272be98c881a8e21e68fe78cb69b4e4745e9d0d9469719fc9b",
+      "case": "c3-mixed15-p01-06-17-19",
+      "config_sha256": "402c4c997c205e2401176096df2ca6e47d49b739bcf4ec371b5f85e19e40ecde",
+      "cpu": 3,
+      "cpu_seconds": 1.559469,
+      "fano_branch_complete": true,
+      "formula_sha256": "5d8b2fa4b652d6c0c1dac01435ecb07b64b22dd5a1e9b58b75d2cf47b51cdda7",
+      "full_CP14_negative": false,
+      "input_core_sha256": "f2158376e4b0d5af58a8d584550b8beca72952c6900427097cc0af02ae490973",
+      "launcher_result_sha256": "f49e3fc1cc80244bd63036f1dfd978a77d15fc297a3948cf9becb66f46ed20c5",
+      "launcher_seconds": 2.003206429999409,
+      "legacy_result_sha256": "2f67bc78ac458e89e633aca6360e44cacb1a21d793e2e183400bf3d0f15d129d",
+      "metadata_case_sha256": "899cafc0e0a4b86c46f0e04fbcf2d0b3c073f1db5de407235d09820518da3b9d",
+      "ordinal": 3,
+      "peak_rss_kib": 132572,
+      "solver_seed_policy": "CryptoMiniSat 5.17.0 defaults, no explicit seed override; PYTHONHASHSEED=0",
+      "solver_stats": {
+        "max_rss_kib": 132572,
+        "system_seconds": 0.016867999999999998,
+        "user_seconds": 0.5640379999999999
+      },
+      "solver_version": "5.17.0",
+      "source_sha256": "56e2dc2a4ce5e8082c35c9f45543b8325bbf99f68a5a72d935138afab4cdc78b",
+      "status": "FANO_BRANCH_UNSAT",
+      "worker_exitcode": 0,
+      "worker_reaped": true,
+      "worker_seconds": 0.6972025309987657
+    }
+  ],
+  "dispatch_receipt_sha256": "34813363b9d01902833fc588e9cbff4886b77648b1232f5ed466df4a355f5d79",
+  "errors": 0,
+  "execution_manifest_sha256": "7be60115fa277239e92c6f0d36c274f14b7fffadfedb82255fcae86c29ff9f26",
+  "full_CP14_negative": false,
+  "global_rank_lower_bound": false,
+  "independent_runtime_qa_sha256": "4265f4bbca9e76f2a80294949a4cbea737f21c2feda28d30d34e0fb9da50c0ad",
+  "measured": {
+    "cpu_seconds": 3.377983,
+    "peak_rss_kib": 132572,
+    "summed_launcher_wall_seconds": 4.006080532999476,
+    "summed_worker_wall_seconds": 1.4760195749986451
+  },
+  "no_third_query": true,
+  "outer_launcher_sha256": "710e5bdaaee269492dba4002d3bd23918bd5461f560eb71c0e34ec56c96a53bc",
+  "packet_products": 15,
+  "prepared_manifest_sha256": "f3a16987d0104f17133d8bd80c578d30f403780b8729d6b755bd2940b5963562",
+  "prior_CP13_and_repeated_pair_decisions": "Separate; not established by these two Fano queries.",
+  "queries": 2,
+  "query_free_audit": {
+    "all_workers_reaped": true,
+    "new_solver_calls": 0,
+    "source_input_formula_and_runtime_binding_verified": true
+  },
+  "scope": "Only the no-repeated-quotient Fano cover branches for these two exact b7/d11 source residuals. A full CP14 negative requires complete prior CP<=13 and repeated-pair branches. No unrestricted/global lower bound or new rank92 construction.",
+  "source_products": 93,
+  "status": "TWO_PINNED_FANO_BRANCHES_EXACT_NEGATIVE",
+  "target_packet_products": 14,
+  "unknowns": 0
+}

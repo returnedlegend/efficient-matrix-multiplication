@@ -1,0 +1,327 @@
+{
+  "claim": "New refers only to exact source/observed-state hashes. Return to rank93 is not a new record. No mathematical novelty or global rank bound.",
+  "observed_utc": "2026-11-03T17:27:32.847605+00:00",
+  "profiles": [
+    {
+      "best_exact_state_previously_observed": false,
+      "best_rank": 93,
+      "best_term_set_sha256": "3d285a46535de3e2e49bcdf123f95e84c30058d015e0dbade81c500b3e6270f3",
+      "current_rank": 93,
+      "execution": {
+        "child_cpu_seconds": 163.751602,
+        "child_max_rss_kib": 28044,
+        "child_system_seconds": 0.21792,
+        "child_user_seconds": 163.533682,
+        "elapsed_seconds": 180.0087025419998,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "history": [
+        {
+          "rank": 98,
+          "step": 0
+        },
+        {
+          "rank": 97,
+          "step": 7
+        },
+        {
+          "rank": 96,
+          "step": 18
+        },
+        {
+          "rank": 95,
+          "step": 42
+        },
+        {
+          "rank": 94,
+          "step": 12447
+        },
+        {
+          "rank": 93,
+          "step": 1166203
+        }
+      ],
+      "id": "native-xor3-p01",
+      "input_rank": 98,
+      "maximum_visited_rank": 98,
+      "native_steps": 126911232,
+      "native_summary_sha256": "93212a9258e8b8aae6e15f32fb77c5f4b669b050c0b766e2ad2e4a7e3d493216",
+      "outcome_sha256": "ada37c918604da1f1ff333bf089be6e36c25d4a5694e42f39fd593d9cc7b0a5d",
+      "parents": [
+        7,
+        33,
+        35
+      ],
+      "profile": {
+        "cyclic": false,
+        "id": "native-xor3-p01",
+        "plus_burst": 1,
+        "plus_every": 2000,
+        "reduction_dwell": 128,
+        "seed": 6971263274872639560,
+        "source_id": 1
+      },
+      "raw_canonical_unique": 1022,
+      "raw_productcount_histogram": {
+        "93": 1019,
+        "94": 3
+      },
+      "raw_unique_vs_pre_crossover_observed": 1022,
+      "source_index": 1,
+      "status": "COMPLETED_EXPLORATION",
+      "supervisor": {
+        "cpu_seconds": 181.003411,
+        "elapsed_seconds": 181.13193048800167,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 33236,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "09e4d53f8fe814e897a65f05f6fe95282ee5af4d86778e37b72109f41b128b65",
+      "target_emitted": false
+    },
+    {
+      "best_exact_state_previously_observed": false,
+      "best_rank": 93,
+      "best_term_set_sha256": "a32d04ef03a6455bf18dc8359a528d19a4fe306e11f2351b7eb78ca68336a383",
+      "current_rank": 93,
+      "execution": {
+        "child_cpu_seconds": 159.578569,
+        "child_max_rss_kib": 28416,
+        "child_system_seconds": 0.16414299999999998,
+        "child_user_seconds": 159.414426,
+        "elapsed_seconds": 180.12705986199944,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "history": [
+        {
+          "rank": 96,
+          "step": 0
+        },
+        {
+          "rank": 95,
+          "step": 5
+        },
+        {
+          "rank": 94,
+          "step": 82
+        },
+        {
+          "rank": 93,
+          "step": 17340225
+        }
+      ],
+      "id": "native-xor3-p02",
+      "input_rank": 96,
+      "maximum_visited_rank": 100,
+      "native_steps": 120956672,
+      "native_summary_sha256": "8f1872551fc228a644a9d403180f610718115db917c6e462beb953cfd1aedef3",
+      "outcome_sha256": "cb1971542844dd80467315a9bb9155d690f04d50e7828dc41df022b36dcac4a9",
+      "parents": [
+        23,
+        27,
+        35
+      ],
+      "profile": {
+        "cyclic": false,
+        "id": "native-xor3-p02",
+        "plus_burst": 4,
+        "plus_every": 20000,
+        "reduction_dwell": 128,
+        "seed": 6385856502998486454,
+        "source_id": 3
+      },
+      "raw_canonical_unique": 1020,
+      "raw_productcount_histogram": {
+        "93": 866,
+        "94": 153,
+        "95": 1
+      },
+      "raw_unique_vs_pre_crossover_observed": 1020,
+      "source_index": 3,
+      "status": "COMPLETED_EXPLORATION",
+      "supervisor": {
+        "cpu_seconds": 181.654028,
+        "elapsed_seconds": 182.1295268899994,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 33920,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "ba82c35bde8c8423cae3f038aa4b33d8c869bbc1cc171ba3e3992b7e34db1ff1",
+      "target_emitted": false
+    },
+    {
+      "best_exact_state_previously_observed": false,
+      "best_rank": 93,
+      "best_term_set_sha256": "38abad5ba9950c77567653fae1ec2460239c33d3c1acf8e4d874c3f51b9c8c3e",
+      "current_rank": 93,
+      "execution": {
+        "child_cpu_seconds": 157.825919,
+        "child_max_rss_kib": 28044,
+        "child_system_seconds": 0.12992499999999998,
+        "child_user_seconds": 157.695994,
+        "elapsed_seconds": 180.1195889640003,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "history": [
+        {
+          "rank": 97,
+          "step": 0
+        },
+        {
+          "rank": 96,
+          "step": 2
+        },
+        {
+          "rank": 95,
+          "step": 6
+        },
+        {
+          "rank": 94,
+          "step": 13
+        },
+        {
+          "rank": 93,
+          "step": 14
+        }
+      ],
+      "id": "native-xor3-p03",
+      "input_rank": 97,
+      "maximum_visited_rank": 97,
+      "native_steps": 129217024,
+      "native_summary_sha256": "63f606623a3c65c8c09e3c9833b8e517089379c829df3216f521944632e037bb",
+      "outcome_sha256": "8bf191542370748e8cc544fe77162c529de719d0bde27d397c73443ab8e2c62e",
+      "parents": [
+        0,
+        15,
+        23
+      ],
+      "profile": {
+        "cyclic": false,
+        "id": "native-xor3-p03",
+        "plus_burst": 4,
+        "plus_every": 200000,
+        "reduction_dwell": 128,
+        "seed": 7318744532727585920,
+        "source_id": 4
+      },
+      "raw_canonical_unique": 1021,
+      "raw_productcount_histogram": {
+        "93": 1021
+      },
+      "raw_unique_vs_pre_crossover_observed": 1021,
+      "source_index": 4,
+      "status": "COMPLETED_EXPLORATION",
+      "supervisor": {
+        "cpu_seconds": 181.308928,
+        "elapsed_seconds": 182.13002124999912,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 30672,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "8632cf60196237fbe3d006eae760599498b2f1736963522a5b941b2fdd493a90",
+      "target_emitted": false
+    },
+    {
+      "best_exact_state_previously_observed": false,
+      "best_rank": 93,
+      "best_term_set_sha256": "96498e10112f2632e9daf2fbc40aae43ccf7d5178ce874c1aeeb727f36d4302e",
+      "current_rank": 93,
+      "execution": {
+        "child_cpu_seconds": 155.40494800000002,
+        "child_max_rss_kib": 28048,
+        "child_system_seconds": 0.179336,
+        "child_user_seconds": 155.225612,
+        "elapsed_seconds": 180.05837706300008,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "history": [
+        {
+          "rank": 98,
+          "step": 0
+        },
+        {
+          "rank": 97,
+          "step": 13
+        },
+        {
+          "rank": 96,
+          "step": 16
+        },
+        {
+          "rank": 95,
+          "step": 38
+        },
+        {
+          "rank": 94,
+          "step": 48
+        },
+        {
+          "rank": 93,
+          "step": 806
+        }
+      ],
+      "id": "native-xor3-p04",
+      "input_rank": 98,
+      "maximum_visited_rank": 98,
+      "native_steps": 130125568,
+      "native_summary_sha256": "7f16441e57b809eb952763e4d089226aaa78ac996b0a843eda65a3cea23b9632",
+      "outcome_sha256": "6aedb7d459578bd7b7658ad0f81c912a560db45b33b2074efaf08129755d9406",
+      "parents": [
+        1,
+        17,
+        33
+      ],
+      "profile": {
+        "cyclic": false,
+        "id": "native-xor3-p04",
+        "plus_burst": 1,
+        "plus_every": 200000,
+        "reduction_dwell": 128,
+        "seed": 7016042836146977204,
+        "source_id": 7
+      },
+      "raw_canonical_unique": 1021,
+      "raw_productcount_histogram": {
+        "93": 1021
+      },
+      "raw_unique_vs_pre_crossover_observed": 1021,
+      "source_index": 7,
+      "status": "COMPLETED_EXPLORATION",
+      "supervisor": {
+        "cpu_seconds": 181.373353,
+        "elapsed_seconds": 182.1187949539999,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 34452,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "c0c780dd7299fbdd18d3b3f8dfdb391d63b3b16d701e3841d37e9c2cd8e3abda",
+      "target_emitted": false
+    }
+  ],
+  "raw_canonical_union_count": 4084,
+  "raw_union_vs_pre_crossover_observed": 4084,
+  "schema": "native-xor3-plateau7.evidence.v1",
+  "status_counts": {
+    "COMPLETED_EXPLORATION": 4
+  }
+}

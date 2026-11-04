@@ -1,0 +1,515 @@
+{
+  "claim": "Online bandit policy updates; no gradient training. Hash/reward novelty is relative to the frozen comparison and observed ledger, not mathematical novelty. No global tensor rank bound.",
+  "doubleverified_reward_state_union_count": 256,
+  "epochs": [
+    {
+      "above_best_steps": 31639374,
+      "arm_name": "c3-K1-D0-C2000",
+      "best_rank": 93,
+      "checkpoint_sha256": "108a0dca9908cca9e83c2758561e0835d59a4536266d5b1484e426b8e38c1246",
+      "context": "cyclic_source",
+      "current_rank": 99,
+      "doubleverified_samples": 32,
+      "epoch": 1,
+      "execution": {
+        "child_cpu_seconds": 117.129741,
+        "child_max_rss_kib": 26528,
+        "child_system_seconds": 0.12422799999999999,
+        "child_user_seconds": 117.005513,
+        "elapsed_seconds": 180.09785124700102,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "max_visited_rank": 105,
+      "native_summary_sha256": "1b34bd37e23cc0ebfefc9c95dd20837f435e430aef4749196d8bd9094ec58b23",
+      "new_atom_count": 0,
+      "outcome_sha256": "7f67658c1a489a2791f7d9ee43b9c71cb8fd563770c2674bbb8cff3ec307a6fc",
+      "profile": {
+        "cyclic": true,
+        "id": "native-bandit7-e01",
+        "plus_burst": 1,
+        "plus_every": 2000,
+        "reduction_dwell": 0,
+        "seed": 8476781491151793479,
+        "source_id": 2
+      },
+      "raw_canonical_unique": 154,
+      "raw_productcount_histogram": {
+        "100": 1,
+        "102": 4,
+        "93": 99,
+        "97": 11,
+        "99": 39
+      },
+      "reward": 0.5,
+      "status": "COMPLETED_EXPLORATION",
+      "steps": 34510336,
+      "steps_per_child_cpu_second": 294633.4185098215,
+      "supervisor": {
+        "cpu_seconds": 134.160078,
+        "elapsed_seconds": 188.06997439099905,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 35132,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "129a9e192d932f7d433349f817a365c0f617c71b75fe2e94efa5b5f3ee471500"
+    },
+    {
+      "above_best_steps": 6988261,
+      "arm_name": "free-K1-D128-C2000",
+      "best_rank": 93,
+      "checkpoint_sha256": "f7158beb47d3c7798e00ab7c3deefe9a5633f3a464bd22858fbc0b4ac7677de1",
+      "context": "noncyclic_source",
+      "current_rank": 93,
+      "doubleverified_samples": 32,
+      "epoch": 2,
+      "execution": {
+        "child_cpu_seconds": 129.352341,
+        "child_max_rss_kib": 27964,
+        "child_system_seconds": 0.121749,
+        "child_user_seconds": 129.230592,
+        "elapsed_seconds": 180.11121322799954,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "max_visited_rank": 96,
+      "native_summary_sha256": "7e423856b5ba57ca096f8f90c62fc0f330fb2cb581f8883b1f7f081a3c7e746f",
+      "new_atom_count": 13,
+      "outcome_sha256": "bff3938a73606e4cab598941451b86bcf53cfb011879177253e94627f395f0f8",
+      "profile": {
+        "cyclic": false,
+        "id": "native-bandit7-e02",
+        "plus_burst": 1,
+        "plus_every": 2000,
+        "reduction_dwell": 128,
+        "seed": 9137856254441097714,
+        "source_id": 1
+      },
+      "raw_canonical_unique": 1021,
+      "raw_productcount_histogram": {
+        "93": 1019,
+        "94": 2
+      },
+      "reward": 0.5126953125,
+      "status": "COMPLETED_EXPLORATION",
+      "steps": 106492928,
+      "steps_per_child_cpu_second": 823277.9335628723,
+      "supervisor": {
+        "cpu_seconds": 152.237991,
+        "elapsed_seconds": 191.0674091460005,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 33844,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "26e2d8ce274623a7bd27ae6e7492f977722c618cea0dc5c7a53f4f28c7a8d29d"
+    },
+    {
+      "above_best_steps": 6617177,
+      "arm_name": "free-K1-D128-C2000",
+      "best_rank": 93,
+      "checkpoint_sha256": "3a88a963158ec202ce8ef14c9998657347e238bf039693a062d4a0cf37bdb976",
+      "context": "cyclic_source",
+      "current_rank": 93,
+      "doubleverified_samples": 32,
+      "epoch": 3,
+      "execution": {
+        "child_cpu_seconds": 122.391728,
+        "child_max_rss_kib": 27688,
+        "child_system_seconds": 0.096264,
+        "child_user_seconds": 122.295464,
+        "elapsed_seconds": 180.1123325569988,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "max_visited_rank": 96,
+      "native_summary_sha256": "01b5d47d8e344b5f0f329dd3d30319a01812b1076d7ce78011044a7f2f23f904",
+      "new_atom_count": 10,
+      "outcome_sha256": "23c5c4ffd5030302faf9167652136d911f6b492a39b88613d1a73263c13a4e3b",
+      "profile": {
+        "cyclic": false,
+        "id": "native-bandit7-e03",
+        "plus_burst": 1,
+        "plus_every": 2000,
+        "reduction_dwell": 128,
+        "seed": 5186492167381370536,
+        "source_id": 2
+      },
+      "raw_canonical_unique": 1021,
+      "raw_productcount_histogram": {
+        "93": 1014,
+        "94": 7
+      },
+      "reward": 0.509765625,
+      "status": "COMPLETED_EXPLORATION",
+      "steps": 96627712,
+      "steps_per_child_cpu_second": 789495.446947199,
+      "supervisor": {
+        "cpu_seconds": 151.61392,
+        "elapsed_seconds": 194.11778268300077,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 34400,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "c33e9d92f96e9b4bd356aa007d2e4b1f621386c94f787b858da76b6e13d446e4"
+    },
+    {
+      "above_best_steps": 253858,
+      "arm_name": "free-K4-D128-C200000",
+      "best_rank": 93,
+      "checkpoint_sha256": "8eb4778fbf2b0f54499016ba86cf8b7997069064a8c3be1e4f6f40c5f257dea8",
+      "context": "noncyclic_source",
+      "current_rank": 93,
+      "doubleverified_samples": 32,
+      "epoch": 4,
+      "execution": {
+        "child_cpu_seconds": 125.897899,
+        "child_max_rss_kib": 26876,
+        "child_system_seconds": 0.177011,
+        "child_user_seconds": 125.720888,
+        "elapsed_seconds": 180.1496859180006,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "max_visited_rank": 97,
+      "native_summary_sha256": "78123a3116bf06660640b8b8f0132f54df4143196e28016ff29478bb6cff2c0e",
+      "new_atom_count": 2,
+      "outcome_sha256": "ee96d1bd4428e27552af25668a42800f0d10405c822782cca49059565f5de058",
+      "profile": {
+        "cyclic": false,
+        "id": "native-bandit7-e04",
+        "plus_burst": 4,
+        "plus_every": 200000,
+        "reduction_dwell": 128,
+        "seed": 7335989368512916458,
+        "source_id": 6
+      },
+      "raw_canonical_unique": 1020,
+      "raw_productcount_histogram": {
+        "93": 1020
+      },
+      "reward": 0.501953125,
+      "status": "COMPLETED_EXPLORATION",
+      "steps": 99053824,
+      "steps_per_child_cpu_second": 786779.0073287879,
+      "supervisor": {
+        "cpu_seconds": 160.551489,
+        "elapsed_seconds": 193.0718903750003,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 34652,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "7f9d811306db172d4473137030530b3917be74064a1eac626f7966b308626e45"
+    },
+    {
+      "above_best_steps": 58465,
+      "arm_name": "c3-K4-D0-C200000",
+      "best_rank": 93,
+      "checkpoint_sha256": "77ef215e815b9d4211618d0129ce08f0036333101cb19ecf0977bc8d4c9faed8",
+      "context": "cyclic_source",
+      "current_rank": 93,
+      "doubleverified_samples": 32,
+      "epoch": 5,
+      "execution": {
+        "child_cpu_seconds": 153.701494,
+        "child_max_rss_kib": 27060,
+        "child_system_seconds": 0.15609099999999998,
+        "child_user_seconds": 153.545403,
+        "elapsed_seconds": 180.05267738200018,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "max_visited_rank": 105,
+      "native_summary_sha256": "fc8c4b039f8c16b16a254d25b064676be940ec3d382cfa938e63e1a2b23902c4",
+      "new_atom_count": 3,
+      "outcome_sha256": "aa3c5f39063995e6e5505442c8e99a4cf67fb63cf95ef86b77b206bab0f63fe7",
+      "profile": {
+        "cyclic": true,
+        "id": "native-bandit7-e05",
+        "plus_burst": 4,
+        "plus_every": 200000,
+        "reduction_dwell": 0,
+        "seed": 7045180550023830766,
+        "source_id": 0
+      },
+      "raw_canonical_unique": 869,
+      "raw_productcount_histogram": {
+        "93": 869
+      },
+      "reward": 0.5029296875,
+      "status": "COMPLETED_EXPLORATION",
+      "steps": 40906496,
+      "steps_per_child_cpu_second": 266142.47484152624,
+      "supervisor": {
+        "cpu_seconds": 194.231617,
+        "elapsed_seconds": 195.2558151430003,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 33928,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "47918ecadb14fb9f876bfbb67ea6b8e158aceffbe552854df2135d2046b20c97"
+    },
+    {
+      "above_best_steps": 447923,
+      "arm_name": "free-K4-D128-C200000",
+      "best_rank": 93,
+      "checkpoint_sha256": "577dd1fa8d5755a139797a7f0f8b089eb45b2c21314dad0be2944d89ea3317d4",
+      "context": "cyclic_source",
+      "current_rank": 93,
+      "doubleverified_samples": 32,
+      "epoch": 6,
+      "execution": {
+        "child_cpu_seconds": 150.59587199999999,
+        "child_max_rss_kib": 27584,
+        "child_system_seconds": 0.17387999999999998,
+        "child_user_seconds": 150.421992,
+        "elapsed_seconds": 180.14338914399923,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "max_visited_rank": 97,
+      "native_summary_sha256": "f912a27b3e78631910598339718d2d52bac86d7e0f6690f72c56d96fa6ea801c",
+      "new_atom_count": 3,
+      "outcome_sha256": "21e46b7c7f36d552cf4d34e02082ac07450bb4e00fc959926b17d04ccda7a773",
+      "profile": {
+        "cyclic": false,
+        "id": "native-bandit7-e06",
+        "plus_burst": 4,
+        "plus_every": 200000,
+        "reduction_dwell": 128,
+        "seed": 6395362269524228101,
+        "source_id": 0
+      },
+      "raw_canonical_unique": 1021,
+      "raw_productcount_histogram": {
+        "93": 1021
+      },
+      "reward": 0.5029296875,
+      "status": "COMPLETED_EXPLORATION",
+      "steps": 119149312,
+      "steps_per_child_cpu_second": 791185.7769912845,
+      "supervisor": {
+        "cpu_seconds": 195.46223600000002,
+        "elapsed_seconds": 196.13361564200022,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 34048,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "a45e75b95bedfebe1aa25b50533127d6baf14e012cf76ebc987b43bbc9e50666"
+    },
+    {
+      "above_best_steps": 7154130,
+      "arm_name": "free-K1-D128-C2000",
+      "best_rank": 93,
+      "checkpoint_sha256": "b19e225129fd2550b3dc5d7a9c35cd523a06ab1279d3ab7d74a08a7719d7dfbe",
+      "context": "noncyclic_source",
+      "current_rank": 93,
+      "doubleverified_samples": 32,
+      "epoch": 7,
+      "execution": {
+        "child_cpu_seconds": 146.67276999999999,
+        "child_max_rss_kib": 27304,
+        "child_system_seconds": 0.11080699999999999,
+        "child_user_seconds": 146.561963,
+        "elapsed_seconds": 180.11737366000125,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "max_visited_rank": 96,
+      "native_summary_sha256": "42ff0b9bac8969d58d89c13f9cf8a326117dfad997457da6d707e0ae1804f635",
+      "new_atom_count": 4,
+      "outcome_sha256": "0c82868c29408d28a84e252d821c8226a17d9406d4d9335b8d1d5cb9c41414d6",
+      "profile": {
+        "cyclic": false,
+        "id": "native-bandit7-e07",
+        "plus_burst": 1,
+        "plus_every": 2000,
+        "reduction_dwell": 128,
+        "seed": 7792439397605991776,
+        "source_id": 11
+      },
+      "raw_canonical_unique": 1021,
+      "raw_productcount_histogram": {
+        "93": 1020,
+        "95": 1
+      },
+      "reward": 0.50390625,
+      "status": "COMPLETED_EXPLORATION",
+      "steps": 114170368,
+      "steps_per_child_cpu_second": 778401.9351376537,
+      "supervisor": {
+        "cpu_seconds": 197.06542499999998,
+        "elapsed_seconds": 197.36850226299975,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 37260,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "2485e7bf9834e8fa0fd3919f9d99229431727bdf81aea324bcea68434389a4bf"
+    },
+    {
+      "above_best_steps": 1579348,
+      "arm_name": "free-K4-D0-C20000",
+      "best_rank": 93,
+      "checkpoint_sha256": "8e6c295a045a8bc9158b2e6206d4c00624389f6dfc2ae87bf64cd5f6515c37d9",
+      "context": "noncyclic_source",
+      "current_rank": 93,
+      "doubleverified_samples": 32,
+      "epoch": 8,
+      "execution": {
+        "child_cpu_seconds": 143.150975,
+        "child_max_rss_kib": 30136,
+        "child_system_seconds": 0.17798,
+        "child_user_seconds": 142.972995,
+        "elapsed_seconds": 180.1006686740002,
+        "exit_code": 0,
+        "interrupted": false,
+        "timed_out": false,
+        "winner": false
+      },
+      "final_checks_complete": true,
+      "max_visited_rank": 98,
+      "native_summary_sha256": "7e2eb1d84d2918fd500ca4a2e8844b3949ecc39851cb5566a083106959763200",
+      "new_atom_count": 2,
+      "outcome_sha256": "bb0cf88ea2edbb23421676f6230c71a975cf77cc1865735dca957201e8d9052c",
+      "profile": {
+        "cyclic": false,
+        "id": "native-bandit7-e08",
+        "plus_burst": 4,
+        "plus_every": 20000,
+        "reduction_dwell": 0,
+        "seed": 7585539505526827336,
+        "source_id": 11
+      },
+      "raw_canonical_unique": 1021,
+      "raw_productcount_histogram": {
+        "93": 1021
+      },
+      "reward": 0.501953125,
+      "status": "COMPLETED_EXPLORATION",
+      "steps": 112510976,
+      "steps_per_child_cpu_second": 785960.2493102126,
+      "supervisor": {
+        "cpu_seconds": 200.10060600000003,
+        "elapsed_seconds": 201.20850450500075,
+        "exit_code": 0,
+        "interrupted": false,
+        "max_rss_kib": 37044,
+        "timed_out": false
+      },
+      "supervisor_result_sha256": "2a4559f8f80f80d65e51474869b50c5aaa44230eb406cf53bca079a9a6ff96c2"
+    }
+  ],
+  "final_policy": {
+    "completed_epochs": 8,
+    "contexts": {
+      "cyclic_source": {
+        "counts": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "reward_sums": [
+          0.5,
+          0,
+          0.5029296875,
+          0.509765625,
+          0.5029296875,
+          0
+        ]
+      },
+      "noncyclic_source": {
+        "counts": [
+          0,
+          0,
+          0,
+          2,
+          1,
+          1
+        ],
+        "reward_sums": [
+          0,
+          0,
+          0,
+          1.0166015625,
+          0.501953125,
+          0.501953125
+        ]
+      }
+    },
+    "counts": [
+      1,
+      0,
+      1,
+      3,
+      2,
+      1
+    ],
+    "manifest_sha256": "33efd2afe53a71584eea107dc3b0a6e252ee6668579e91e00ded4f816696c41a",
+    "reward_sums": [
+      0.5,
+      0,
+      0.5029296875,
+      1.5263671875,
+      1.0048828125,
+      0.501953125
+    ],
+    "used_seeds": [
+      8476781491151793479,
+      9137856254441097714,
+      5186492167381370536,
+      7335989368512916458,
+      7045180550023830766,
+      6395362269524228101,
+      7792439397605991776,
+      7585539505526827336
+    ]
+  },
+  "new_verified_atom_count": 37,
+  "observed_utc": "2026-11-03T16:45:59.313391+00:00",
+  "operational_context_pins": [
+    {
+      "path": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/supervisor-affinity-change-v1.json",
+      "sha256": "d39971d5f5b760b4da2f7ffdd0fab19bbd7765ef97d7a940f286f7e73fb89a1b"
+    },
+    {
+      "path": "/workspace/efficient-matrix-multiplication/artifacts/marathon7_20261103T122417Z/native-bandit7-v5-root-final-metadata-allowance.json",
+      "sha256": "21b7b288b20fcee9fcfcf9069277da0aba38ef1558db976404f7391155999dc6"
+    }
+  ],
+  "raw_canonical_union_count": 7112,
+  "scheduling_context": "Root moved supervisors3790/5156 fromCPU2 toCPU1 at16:30:52UTC. E4 spans change; E5..8 have less CPU2 competition. No causal profile or throughput superiority claim.",
+  "schema": "native-bandit7.evidence.v1",
+  "status_counts": {
+    "COMPLETED_EXPLORATION": 8
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "F_rank": 222,
+  "F_rank_added": 27,
+  "all_cube_variables_movable": true,
+  "analysis_seal_sha256": "6740b4be3cb4ec4e258d7bc7839fd020c642882f23f2d84bf21d640f55871a22",
+  "claim": "NewnativeC3finitecode metadataonly.57neworbits have3independentfactorsmodoldcubeK;Fspanadded27. Exact93seedpreserved.No finiteoptimumor<=92/globalrankclaim.",
+  "compressed_rank": 243,
+  "cube_factor_rank": 3,
+  "cube_factor_rank_added_mod_old_K": 0,
+  "cube_orbits": 5,
+  "decoder_calls": 0,
+  "dictionary_orbits": 366,
+  "exact_checks": {
+    "column_independent_coefficients": 5718750,
+    "column_projection_inverse_coefficients": 5718750,
+    "full_tensor_F_columns_independent": 8,
+    "kernel_independent_rank": 123,
+    "selected_schema_coefficient_checks": 750000,
+    "selected_source_schemas": 24
+  },
+  "expanded_distinct_products": 1088,
+  "format": "cyclic-native-orbit7-preparation-evidence-v1",
+  "frozen_producer_files": 50,
+  "full_rank": 243,
+  "hashes": {
+    "COMPLETE.json": "498cfc536808140f1de48ac893a074a34d286b5855fb12ad071283c350f91567",
+    "diagnostics.json": "a9fb40532db8a5adf554eae798c808ae514980acdd14aebc9ae0c00e430f25ee",
+    "dictionary.json": "12ceaae3e96013a56fb960383f7f34531793977661ce65a47f94f88c838481f5",
+    "manifest.json": "de288ca0881dc283df3a15567d3a1ea28b605800ebeca10f4500f091452045fb",
+    "source-provenance.json": "95a4eb4b37b12aee60636682343a2911edf896935cf0eb0427590be83d69a6d9"
+  },
+  "independent_preparation_QA_sha256": "0bd31265b4ff95b6e11d5cb4b41eba00d2ccba49ef73952333a4188467a17737",
+  "joint_cube_parity_projection": {
+    "cube_variables": 5,
+    "decoder_calls": 0,
+    "existence_or_bound_claim": false,
+    "format": "cyclic-native-orbit7-cube-parity-projection-v1",
+    "interpretation": "Exact affineprojection ofcubevariablebits andnonfixedorbitparity only; no weightedcost optimization or<=92 existence proof.",
+    "kernel_joint_cube_nonfixed_parity_rank": 6,
+    "reachable_projected_affine_states": 64,
+    "solver_calls": 0,
+    "target92_mod6_admitted": true,
+    "weighted_cost_mod6_residues": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "kernel_cube_coordinate_projection_rank": 5,
+  "kernel_parity": {
+    "all_weights_odd": true,
+    "can_change_cost_parity": true,
+    "interpretation": "Odd kernel vector is necessary to reach exactly even cost92 from odd cost93. If all kernel vectors are even, <=92 may still mean odd cost<=91; this is not an impossibility proof for <=92.",
+    "odd_basis_indices": [
+      70,
+      98,
+      99,
+      101,
+      103,
+      106,
+      110,
+      113,
+      116
+    ],
+    "odd_basis_vectors": 9,
+    "seed_cost_parity": 1
+  },
+  "logical_output_bytes": 4212141,
+  "new_F_kernel_dim": 21,
+  "new_nonzero_F_orbits": 57,
+  "new_orbits": 91,
+  "next_proposal_sha256": "cf049f4189d5084fa3ee2e875b3b7a00f5f0cae752a4df2be2a52c5664a96fee",
+  "nonfixed_orbits": 361,
+  "nullity": 123,
+  "old_F_kernel_dim": 6,
+  "old_F_rank": 195,
+  "old_rank": 201,
+  "optimization_calls": 0,
+  "private_eval_payloads_read": 0,
+  "resources": {
+    "cpu": 3,
+    "cpu_seconds": 8.94187,
+    "decoder_calls": 0,
+    "elapsed_seconds": 9.19421016600063,
+    "exit_code": 0,
+    "inner_seconds": 120,
+    "max_rss_kib": 49900,
+    "memory_mib": 1024,
+    "nice": 10,
+    "optimization_calls": 0,
+    "outer_seconds": 150,
+    "solver_calls": 0
+  },
+  "seed": {
+    "cubes": 3,
+    "nonfixed": 30,
+    "old275_columns_embedded_unchanged": true,
+    "product_cost": 93,
+    "selected_orbits": 33
+  },
+  "solver_calls": 0,
+  "source_qa_sha256": "df1d7b92d9d6d80be024ed16709c4ce946ce07e38145f0bffc63ee5c9c0e302d",
+  "source_root_ids": [
+    "native:270f411487d4a6b7e22380ea25cd2f26d699c3fea4095a8a9984dfb2f5d9ad2c",
+    "native:775365346f21bd2cce41cb81f0753b31fac9e353b5f3cf2805e07709fda049f2",
+    "native:4395f16a1da236cc86c1833f323f6e6ac23ec26e4d376382e6c493829c17d838"
+  ],
+  "source_selection": {
+    "by_rank": {
+      "100": 1,
+      "102": 1,
+      "93": 7,
+      "95": 2,
+      "97": 7,
+      "99": 6
+    },
+    "by_run": {
+      "native-portfolio7-p01": 14,
+      "native-portfolio7-p02": 6,
+      "native-portfolio7-p03": 4
+    },
+    "optimization_called": false,
+    "policy": "Cover3producer rank93 strata andp01r95/97/100; then farthest-first orbit-set diversity. No tensor objective/decoder.",
+    "selected": 24,
+    "selected_orbit_union": 192
+  },
+  "status": "SEALED_METADATA_NO_SEARCH"
+}
